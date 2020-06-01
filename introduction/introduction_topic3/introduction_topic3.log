@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.9)  1 JUN 2020 01:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.9)  1 JUN 2020 01:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**introduction_topic1.tex
-(./introduction_topic1.tex
+**introduction_topic3.tex
+(./introduction_topic3.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
@@ -722,8 +722,8 @@ Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \colbreak@box=\box80
 \mc@col@check@num=\count170
 )
-(./introduction_topic1.aux)
-\openout1 = `introduction_topic1.aux'.
+(./introduction_topic3.aux)
+\openout1 = `introduction_topic3.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
 LaTeX Font Info:    ... okay on input line 65.
@@ -820,9 +820,9 @@ LaTeX Info: Redefining \ref on input line 65.
 LaTeX Info: Redefining \pageref on input line 65.
 LaTeX Info: Redefining \nameref on input line 65.
 
-(./introduction_topic1.out) (./introduction_topic1.out)
+(./introduction_topic3.out) (./introduction_topic3.out)
 \@outlinefile=\write5
-\openout5 = `introduction_topic1.out'.
+\openout5 = `introduction_topic3.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 65.
@@ -902,135 +902,48 @@ ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 \c@lstlisting=\count178
- (./introduction_topic1.nav)
+ (./introduction_topic3.nav)
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ] [2
 
-]
-LaTeX Font Info:    Try loading font information for U+msa on input line 103.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 103.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 103.
-
-(/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
-File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
-thkerncmss.
-)
-[3
-
-] [4
+] [3
 
 ]
-<measurement_stages.png, id=167, 911.65594pt x 516.42938pt>
-File: measurement_stages.png Graphic file (type png)
-<use measurement_stages.png>
-Package pdftex.def Info: measurement_stages.png  used on input line 124.
-(pdftex.def)             Requested size: 273.49889pt x 154.93001pt.
- [5
-
- <./measurement_stages.png>]
-<sensor_stage.png, id=199, 481.8pt x 167.62625pt>
-File: sensor_stage.png Graphic file (type png)
-<use sensor_stage.png>
-Package pdftex.def Info: sensor_stage.png  used on input line 132.
-(pdftex.def)             Requested size: 120.44969pt x 41.90645pt.
-<sensor_transducer_stage.png, id=201, 509.905pt x 473.77pt>
-File: sensor_transducer_stage.png Graphic file (type png)
-<use sensor_transducer_stage.png>
-Package pdftex.def Info: sensor_transducer_stage.png  used on input line 132.
-(pdftex.def)             Requested size: 127.47594pt x 118.4422pt.
- [6
-
- <./sensor_stage.png> <./sensor_transducer_stage.png>]
-<signal_noise.png, id=234, 821.0675pt x 674.52pt>
-File: signal_noise.png Graphic file (type png)
-<use signal_noise.png>
-Package pdftex.def Info: signal_noise.png  used on input line 155.
-(pdftex.def)             Requested size: 147.78577pt x 121.40836pt.
- [7
-
- <./signal_noise.png>]
-<bulb_thermometer.png, id=267, 441.65pt x 547.04375pt>
-File: bulb_thermometer.png Graphic file (type png)
-<use bulb_thermometer.png>
-Package pdftex.def Info: bulb_thermometer.png  used on input line 163.
-(pdftex.def)             Requested size: 132.49602pt x 164.11438pt.
-<thermocouple.jpg, id=268, 228.855pt x 289.08pt>
-File: thermocouple.jpg Graphic file (type jpg)
-<use thermocouple.jpg>
-Package pdftex.def Info: thermocouple.jpg  used on input line 163.
-(pdftex.def)             Requested size: 91.54037pt x 115.62994pt.
- [8
-
- <./bulb_thermometer.png> <./thermocouple.jpg>]
-<makethemask.jpg, id=300, 3276.24pt x 2457.18pt>
-File: makethemask.jpg Graphic file (type jpg)
-<use makethemask.jpg>
-Package pdftex.def Info: makethemask.jpg  used on input line 180.
-(pdftex.def)             Requested size: 131.02728pt x 98.27046pt.
- [9
-
- <./makethemask.jpg>]
-<filament_dryer_fig2.jpg, id=330, 2734.215pt x 2340.745pt>
-File: filament_dryer_fig2.jpg Graphic file (type jpg)
-<use filament_dryer_fig2.jpg>
-Package pdftex.def Info: filament_dryer_fig2.jpg  used on input line 204.
-(pdftex.def)             Requested size: 150.36142pt x 128.72351pt.
-
-Overfull \hbox (1.71649pt too wide) in paragraph at lines 204--204
-[][]  
- []
-
-[10
-
- <./filament_dryer_fig2.jpg>]
 \tf@nav=\write6
-\openout6 = `introduction_topic1.nav'.
+\openout6 = `introduction_topic3.nav'.
 
 \tf@toc=\write7
-\openout7 = `introduction_topic1.toc'.
+\openout7 = `introduction_topic3.toc'.
 
 \tf@snm=\write8
-\openout8 = `introduction_topic1.snm'.
+\openout8 = `introduction_topic3.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 206.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 206.
- (./introduction_topic1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 206.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 206.
-Package rerunfilecheck Info: File `introduction_topic1.out' has not changed.
-(rerunfilecheck)             Checksum: 39D500C1E8E0895C0B3F306884A89520;224.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 106.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 106.
+ (./introduction_topic3.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 106.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 106.
+Package rerunfilecheck Info: File `introduction_topic3.out' has not changed.
+(rerunfilecheck)             Checksum: EF4BF1D1BD899594459C749D95F0FCCE;57.
  ) 
 Here is how much of TeX's memory you used:
- 18373 strings out of 492982
- 344569 string characters out of 6134897
- 448697 words of memory out of 5000000
- 21501 multiletter control sequences out of 15000+600000
- 12895 words of font info for 46 fonts, out of 8000000 for 9000
+ 18211 strings out of 492982
+ 341520 string characters out of 6134897
+ 445941 words of memory out of 5000000
+ 21390 multiletter control sequences out of 15000+600000
+ 6935 words of font info for 25 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,19n,57p,815b,559s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on introduction_topic1.pdf (10 pages, 3692144 bytes).
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
+Output written on introduction_topic3.pdf (3 pages, 38842 bytes).
 PDF statistics:
- 394 PDF objects out of 1000 (max. 8388607)
- 347 compressed objects within 4 object streams
- 25 named destinations out of 1000 (max. 500000)
- 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 123 PDF objects out of 1000 (max. 8388607)
+ 104 compressed objects within 2 object streams
+ 8 named destinations out of 1000 (max. 500000)
+ 57 words of extra memory for PDF output out of 10000 (max. 10000000)
 
