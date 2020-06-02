@@ -32,6 +32,7 @@
 \definecolor{mygreen}{rgb}{0, .39, 0}
 
 % color commands
+\newcommand{\OR}{\color{orange}}
 \newcommand{\R}{\color{red}}
 \newcommand{\B}{\color{blue}}
 \newcommand{\BR}{\color{mybrown}}
@@ -54,7 +55,7 @@
 
 \author{ME3023 - Measurements in Mechanical Systems} % original formatting from Mike Renfro, September 21, 2004
 
-\newcommand{\TNUM}{1\hspace{2mm}} % topic Number 
+\newcommand{\TNUM}{2\hspace{2mm}} % topic Number 
 \newcommand{\sectiontitle}{Introduction }% second line of the title of this presentation (used by TWH)
 \newcommand{\topictitle}{Types of Variables} % first line of title (used by beamer)
 
@@ -78,8 +79,11 @@
 %Topics : \vspace{3mm}\\ % ' topics' are beamer 'sections' - TWH
 
 \begin{itemize}
-	\item Measured Variable \vspace{3mm}\\ % Section 1
-	\item % Section 2
+	\item Measured Variable \vspc % Section 1
+	\item Independent and Dependent Variables  \vspc % Section 2
+	\item Controlled Variables and Parameters  \vspc % Section 3
+	\item Extraneous Variables  \vspc % Section 3
+	\item Engineering Example   \vspc % Section 4
 \end{itemize}
 
 }
@@ -89,8 +93,79 @@
 \frame{
 \frametitle{Measured Variable}
 
+\large{``A {\B measurement} is an act of assigning a specific value to a physical variable. That physical variable
+is the {\G measured variable}.''} \vspc
+{\tiny Text: Theory and Design of Mech. Meas.}
+
 }
 
+% Section 2
+\section{Independent and Dependent Variables}
+\frame{
+\frametitle{Independent and Dependent Variables}
+
+{``If a change in one variable will not affect the value of some other variable, the
+two are considered independent of each other. A variable that can be changed independently of other
+variables is known as an {\PR independent variable}. A variable that is affected by changes in one or more
+other variables is known as a {\BR dependent variable}. Normally, the variable that we measure depends on
+the value of the variables that control the process.''} \vspc
+{\tiny Text: Theory and Design of Mech. Meas.}
+
+}
+
+% Section 3
+\section{Controlled Variable}
+\frame{
+\frametitle{Controlled Variables and Parameters}
+
+{``A variable is {\B controlled} if it can be held at a constant value
+or at some prescribed condition during a measurement... ...complete control of a variable is not usually
+possible. We use the adjective {\B controlled} to refer to a variable that can be held as prescribed, at
+least in a nominal sense... \vspc
+...we define a {\G parameter} as a functional grouping of variables. For example, a moment of inertia or a Reynolds number... ...A {\G parameter} that has an effect on the behavior of the measured variable is called a control parameter....''} \vspc
+{\tiny Text: Theory and Design of Mech. Meas.}
+
+}
+
+% Section 4
+\section{Extraneous Variables}
+\frame{
+\frametitle{Extraneous Variables}
+
+{``Variables that are not or cannot be controlled during measurement but that affect the value of the
+variable measured are called {\R extraneous variables}. Their influence can confuse the clear relation
+between cause and effect in a measurement... ...The effects due to {\R extraneous variables} can take the form of signals superimposed
+onto the measured signal with such forms as {\PR noise} and drift.''} \vspc
+{\tiny Text: Theory and Design of Mech. Meas.}
+
+}
+% Section 5
+\section{Engineering Example}
+\frame{
+\frametitle{Engineering Example}
+
+
+	\textbf{ SHARP I.R. Ranger - Distance Sensor} \vspc
+	\includegraphics[scale=0.5]{proximity_sensor.jpg} \hspace{20mm}\includegraphics[scale=0.20]{sharp_ranger_circuit.png} \vspc
+  {\tiny Image, More Info: \href{https://en.wikipedia.org/wiki/Proximity_sensor}{Wikipedia} }\hspace{40mm} {\tiny Image, More Info: \href{https://en.wikipedia.org/wiki/Position_sensitive_device}{Wikipedia} }
+
+}
+
+\frame{
+\frametitle{Engineering Example}
+
+
+Consider the IR distance ranger, name at least one physical variable for each of the following categories. 
+
+\begin{itemize}
+	\item Measured Variable \vspc 
+	\item Independent Variable \vspc
+	\item Dependent Variables  \vspc 
+	\item Controlled Variables  \vspc 
+	\item Extraneous Variables  \vspc 
+\end{itemize}
+
+}
 
 \end{document}
 

@@ -56,7 +56,7 @@
 
 \newcommand{\TNUM}{3\hspace{2mm}} % topic Number 
 \newcommand{\sectiontitle}{Introduction }% second line of the title of this presentation (used by TWH)
-\newcommand{\topictitle}{Experimental Test Plan} % first line of title (used by beamer)
+\newcommand{\topictitle}{Measurement Test Plan} % first line of title (used by beamer)
 
 \title{\sectiontitle - \topictitle}
 
@@ -69,8 +69,6 @@
 \frame{\titlepage \center\textbf{Topic \TNUM - \topictitle}\vspace{5mm}\\}
 
 % Section 0: Outline
-
-
 \frame{
 
 \large \textbf{Topic \TNUM - \topictitle} \vspace{3mm}\\
@@ -78,29 +76,67 @@
 %Topics : \vspace{3mm}\\ % ' topics' are beamer 'sections' - TWH
 
 \begin{itemize}
-	\item Experimental Test Plan\vspace{3mm}\\ % Section 1
-	\item Definition of a Measurement\vspace{3mm}\\% Section 2
-	\item Measurement System Stages\vspace{3mm}\\ %Section 3
-	\item Examples in Mechanical Engineering \vspace{3mm}\\ %Section 4
-
-	%\item Example\vspace{3mm}\\ % Section 5 - 5 is almost too many...
+	\item Parameter Design Plan \vspc% Section 1
+	\item System and Tolerance Design Plan\vspc% Section 2
+	\item Data Reduction Design Plan \vspc%Section 3
+	\item Experimental Design Strategies \vspc%Section 4
 \end{itemize}
+
 }
 
 % Section 1
-\section{Experimental Test Plan}
+\section{Parameter design plan}
 
 \frame{
-\frametitle{Experimental Test Plan}
+\frametitle{Parameter design plan}
+
+{\B Parameter Design Plan}: Determine the test objective and identify the process variables and
+parameters and a means for their control. \vspc
+\underline{Ask}: ‘‘What question am I trying to answer? What needs to be measured?’’ ‘‘What variables and parameters will affect my results?’’
+
+{\tiny Text: Theory and Design of Mech. Meas.}
+}
+
+% Section 2
+\section{System and tolerance design plan.}
+
+\frame{
+\frametitle{System and tolerance design plan}
+
+
+{\PR System and Tolerance Design Plan}: Select a measurement technique, equipment, and
+test procedure based on some preconceived tolerance limits for error. \vspc
+\underline{Ask}: ‘‘In what ways can I do the measurement and how good do the results need to be to answer my
+question?’’
+
+{\tiny Text: Theory and Design of Mech. Meas.}
+}
+% Section 3
+\section{Data reduction design plan}
+
+\frame{
+\frametitle{Data reduction design plan}
+
+{\G Data Reduction Design Plan}: Plan how to analyze, present, and use the anticipated data.\vspc
+\underline{Ask}: ‘‘How will I interpret the resulting data? How will I use the data to answer my question?
+How good is my answer? Does my answer make sense?’’
+
+{\tiny Text: Theory and Design of Mech. Meas.}
+}
+% Section 4
+\section{Experimental Design Strategies}
+
+\frame{
+\frametitle{Experimental Design Strategies}
 
 
 \begin{itemize}
-\item Things are 
-\item
+	\item {\B Randomized} Tests \vspccc% Section 1
+	\item {\G Repetition} and {\PR Replication}. \vspccc% Section 1
+	\item {\BR Concomitant} Methods \vspccc
 \end{itemize}
 
 }
-
 
 
 \end{document}
