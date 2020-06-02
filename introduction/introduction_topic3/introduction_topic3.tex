@@ -12,6 +12,7 @@
 \usepackage{amsmath}
 \usepackage{listings}
 \usepackage{multicol}
+\usepackage{framed}
 
 \beamertemplateballitem
 
@@ -54,11 +55,12 @@
 
 \author{ME3023 - Measurements in Mechanical Systems} % original formatting from Mike Renfro, September 21, 2004
 
-\newcommand{\TNUM}{3\hspace{2mm}} % topic Number 
-\newcommand{\sectiontitle}{Introduction }% second line of the title of this presentation (used by TWH)
-\newcommand{\topictitle}{Measurement Test Plan} % first line of title (used by beamer)
+\newcommand{\MNUM}{1\hspace{2mm}} % Module number
+\newcommand{\TNUM}{3\hspace{2mm}} % Topic number 
+\newcommand{\moduletitle}{Introduction }
+\newcommand{\topictitle}{Experimental Test Plan } 
 
-\title{\sectiontitle - \topictitle}
+\title{Module \MNUM - \moduletitle}
 
 \date{May 29, 2020}
 
@@ -66,14 +68,13 @@
 
 \lstset{language=MATLAB,basicstyle=\ttfamily\small,showstringspaces=false}
 
-\frame{\titlepage \center\textbf{Topic \TNUM - \topictitle}\vspace{5mm}\\}
+\frame{\titlepage \center\begin{framed}\Large \textbf{Topic \TNUM - \topictitle}\end{framed} \vspace{5mm}}
 
 % Section 0: Outline
+
 \frame{
 
 \large \textbf{Topic \TNUM - \topictitle} \vspace{3mm}\\
-
-%Topics : \vspace{3mm}\\ % ' topics' are beamer 'sections' - TWH
 
 \begin{itemize}
 	\item Parameter Design Plan \vspc% Section 1

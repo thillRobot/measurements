@@ -12,6 +12,7 @@
 \usepackage{amsmath}
 \usepackage{listings}
 \usepackage{multicol}
+\usepackage{framed}
 
 \beamertemplateballitem
 
@@ -52,14 +53,14 @@
 \newcommand{\hspcc}{\hspace{4mm}}   % medium horizontal space
 \newcommand{\hspc}{\hspace{2mm}}     % small horizontal space
 
-
 \author{ME3023 - Measurements in Mechanical Systems} % original formatting from Mike Renfro, September 21, 2004
 
-\newcommand{\TNUM}{2\hspace{2mm}} % topic Number 
-\newcommand{\sectiontitle}{Introduction }% second line of the title of this presentation (used by TWH)
-\newcommand{\topictitle}{Types of Variables} % first line of title (used by beamer)
+\newcommand{\MNUM}{1\hspace{2mm}} % Module number
+\newcommand{\TNUM}{2\hspace{2mm}} % Topic number 
+\newcommand{\moduletitle}{Introduction }
+\newcommand{\topictitle}{Types of Variables } 
 
-\title{\sectiontitle - \topictitle}
+\title{Module \MNUM - \moduletitle}
 
 \date{May 29, 2020}
 
@@ -67,16 +68,13 @@
 
 \lstset{language=MATLAB,basicstyle=\ttfamily\small,showstringspaces=false}
 
-\frame{\titlepage \center\textbf{Topic \TNUM - \topictitle}\vspace{5mm}\\}
+\frame{\titlepage \center\begin{framed}\Large \textbf{Topic \TNUM - \topictitle}\end{framed} \vspace{5mm}}
 
 % Section 0: Outline
-
 
 \frame{
 
 \large \textbf{Topic \TNUM - \topictitle} \vspace{3mm}\\
-
-%Topics : \vspace{3mm}\\ % ' topics' are beamer 'sections' - TWH
 
 \begin{itemize}
 	\item Measured Variable \vspc % Section 1
