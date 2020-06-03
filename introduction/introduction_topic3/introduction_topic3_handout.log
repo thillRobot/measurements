@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.9)  2 JUN 2020 23:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.9)  2 JUN 2020 21:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**introduction_topic5.tex
-(./introduction_topic5.tex
+**introduction_topic3_handout.tex
+(./introduction_topic3_handout.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
@@ -730,8 +730,8 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \FrameRule=\dimen261
 \FrameSep=\dimen262
 )
-(./introduction_topic5.aux)
-\openout1 = `introduction_topic5.aux'.
+(./introduction_topic3_handout.aux)
+\openout1 = `introduction_topic3_handout.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
 LaTeX Font Info:    ... okay on input line 67.
@@ -828,9 +828,9 @@ LaTeX Info: Redefining \ref on input line 67.
 LaTeX Info: Redefining \pageref on input line 67.
 LaTeX Info: Redefining \nameref on input line 67.
 
-(./introduction_topic5.out) (./introduction_topic5.out)
+(./introduction_topic3_handout.out) (./introduction_topic3_handout.out)
 \@outlinefile=\write5
-\openout5 = `introduction_topic5.out'.
+\openout5 = `introduction_topic3_handout.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 67.
@@ -910,7 +910,7 @@ ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 \c@lstlisting=\count178
- (./introduction_topic5.nav)
+ (./introduction_topic3_handout.nav)
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
@@ -935,99 +935,49 @@ line 99.
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-Missing character: There is no â in font cmss10!
-Missing character: There is no € in font cmss10!
-Missing character: There is no ˜ in font cmss10!
-Missing character: There is no â in font cmss10!
-Missing character: There is no € in font cmss10!
-Missing character: There is no ˜ in font cmss10!
-Missing character: There is no â in font cmss10!
-Missing character: There is no € in font cmss10!
-Missing character: There is no ™ in font cmss10!
-Missing character: There is no â in font cmss10!
-Missing character: There is no € in font cmss10!
-Missing character: There is no ™ in font cmss10!
-Missing character: There is no â in font cmss10!
-Missing character: There is no € in font cmss10!
-Missing character: There is no ˜ in font cmss10!
-Missing character: There is no â in font cmss10!
-Missing character: There is no € in font cmss10!
-Missing character: There is no ˜ in font cmss10!
-Missing character: There is no â in font cmss10!
-Missing character: There is no € in font cmss10!
-Missing character: There is no ™ in font cmss10!
-Missing character: There is no â in font cmss10!
-Missing character: There is no € in font cmss10!
-Missing character: There is no ™ in font cmss10!
-
 [3
 
-]
-Missing character: There is no â in font cmss10!
-Missing character: There is no € in font cmss10!
-Missing character: There is no ˜ in font cmss10!
-Missing character: There is no â in font cmss10!
-Missing character: There is no € in font cmss10!
-Missing character: There is no ˜ in font cmss10!
-Missing character: There is no â in font cmss10!
-Missing character: There is no € in font cmss10!
-Missing character: There is no ™ in font cmss10!
-Missing character: There is no â in font cmss10!
-Missing character: There is no € in font cmss10!
-Missing character: There is no ™ in font cmss10!
- [4
+] [4
 
-]
-Missing character: There is no â in font cmss10!
-Missing character: There is no € in font cmss10!
-Missing character: There is no ˜ in font cmss10!
-Missing character: There is no â in font cmss10!
-Missing character: There is no € in font cmss10!
-Missing character: There is no ˜ in font cmss10!
-Missing character: There is no â in font cmss10!
-Missing character: There is no € in font cmss10!
-Missing character: There is no ™ in font cmss10!
-Missing character: There is no â in font cmss10!
-Missing character: There is no € in font cmss10!
-Missing character: There is no ™ in font cmss10!
- [5
+] [5
 
 ] [6
 
 ]
 \tf@nav=\write6
-\openout6 = `introduction_topic5.nav'.
+\openout6 = `introduction_topic3_handout.nav'.
 
 \tf@toc=\write7
-\openout7 = `introduction_topic5.toc'.
+\openout7 = `introduction_topic3_handout.toc'.
 
 \tf@snm=\write8
-\openout8 = `introduction_topic5.snm'.
+\openout8 = `introduction_topic3_handout.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 143.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 143.
- (./introduction_topic5.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 143.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 143.
-Package rerunfilecheck Info: File `introduction_topic5.out' has not changed.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 141.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 141.
+ (./introduction_topic3_handout.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 141.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 141.
+Package rerunfilecheck Info: File `introduction_topic3_handout.out' has not cha
+nged.
 (rerunfilecheck)             Checksum: 1C8ADAE6B20249F00D532BCB11A7BF23;250.
  ) 
 Here is how much of TeX's memory you used:
- 18351 strings out of 492982
- 343885 string characters out of 6134897
- 448027 words of memory out of 5000000
- 21496 multiletter control sequences out of 15000+600000
+ 18336 strings out of 492982
+ 343428 string characters out of 6134897
+ 447012 words of memory out of 5000000
+ 21481 multiletter control sequences out of 15000+600000
  11873 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,19n,57p,815b,559s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,19n,57p,823b,533s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on introduction_topic5.pdf (6 pages, 58957 bytes).
+Output written on introduction_topic3_handout.pdf (6 pages, 51695 bytes).
 PDF statistics:
- 243 PDF objects out of 1000 (max. 8388607)
- 216 compressed objects within 3 object streams
+ 121 PDF objects out of 1000 (max. 8388607)
+ 96 compressed objects within 1 object stream
  17 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
