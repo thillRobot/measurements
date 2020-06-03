@@ -9,7 +9,7 @@
 \headcommand {\beamer@framepages {3}{3}}
 \headcommand {\beamer@sectionpages {3}{3}}
 \headcommand {\beamer@subsectionpages {3}{3}}
-\headcommand {\sectionentry {2}{True and Measured Value}{4}{True and Measured Value}{0}}
+\headcommand {\sectionentry {2}{Accuracy and Error}{4}{Accuracy and Error}{0}}
 \headcommand {\slideentry {2}{0}{1}{4/4}{}{0}}
 \headcommand {\beamer@framepages {4}{4}}
 \headcommand {\beamer@sectionpages {4}{4}}
@@ -19,16 +19,11 @@
 \headcommand {\beamer@framepages {5}{5}}
 \headcommand {\beamer@sectionpages {5}{5}}
 \headcommand {\beamer@subsectionpages {5}{5}}
-\headcommand {\sectionentry {4}{Random and Systematic Errors}{6}{Random and Systematic Errors}{0}}
+\headcommand {\sectionentry {4}{Uncertainty Interval}{6}{Uncertainty Interval}{0}}
 \headcommand {\slideentry {4}{0}{1}{6/6}{}{0}}
 \headcommand {\beamer@framepages {6}{6}}
-\headcommand {\beamer@sectionpages {6}{6}}
+\headcommand {\beamer@partpages {1}{6}}
 \headcommand {\beamer@subsectionpages {6}{6}}
-\headcommand {\sectionentry {5}{Dart Board Example}{7}{Dart Board Example}{0}}
-\headcommand {\slideentry {5}{0}{1}{7/7}{}{0}}
-\headcommand {\beamer@framepages {7}{7}}
-\headcommand {\beamer@partpages {1}{7}}
-\headcommand {\beamer@subsectionpages {7}{7}}
-\headcommand {\beamer@sectionpages {7}{7}}
-\headcommand {\beamer@documentpages {7}}
-\headcommand {\gdef \inserttotalframenumber {7}}
+\headcommand {\beamer@sectionpages {6}{6}}
+\headcommand {\beamer@documentpages {6}}
+\headcommand {\gdef \inserttotalframenumber {6}}

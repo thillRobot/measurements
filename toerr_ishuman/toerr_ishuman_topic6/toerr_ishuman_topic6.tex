@@ -32,6 +32,7 @@
 \definecolor{mypurple}{rgb}{0.6,0.1961,0.8}
 \definecolor{mybrown}{rgb}{0.5451,0.2706,0.0745}
 \definecolor{mygreen}{rgb}{0, .39, 0}
+\definecolor{mypink}{rgb}{0.9960, 0, 0.9960}
 
 % color commands
 \newcommand{\R}{\color{red}}
@@ -40,7 +41,7 @@
 \newcommand{\K}{\color{black}}
 \newcommand{\G}{\color{mygreen}}
 \newcommand{\PR}{\color{mypurple}}
-%\usefonttheme{professionalfonts}
+\newcommand{\PN}{\color{mypink}}
 
 \newcommand{\Lagr}{\mathcal{L}} % lagrangian
 
@@ -63,7 +64,7 @@
 
 \title{Module \MNUM - \moduletitle}
 
-\date{May 29, 2020}
+\date{June 03, 2020}
 
 \begin{document}
 
@@ -78,67 +79,71 @@
 \large \textbf{Topic \TNUM - \topictitle} \vspace{3mm}\\
 
 \begin{itemize}
-	\item Repeatability \vspc% Section 1
-	\item Reproducibility \vspc%Section 2
-	\item Instrument Uncertainty \vspc%Section 3
-	\item Example Instrument Data %section 4
+	\item Instrument Repeatability \vspc% Section 1
+	\item Conditions for Repeatability \vspc %Section 2
+	\item Reproducibility and Instrument Uncertainty \vspc %Section 3
+
 \end{itemize}
 
 }
 
 % Section 1
-\section{Parameter design plan}
+\section{Instrument Repeatability}
 
 \frame{
-\frametitle{Parameter design plan}
+\frametitle{Instrument Repeatability}
 
-{\B Parameter Design Plan}: Determine the test objective and identify the process variables and
-parameters and a means for their control. \vspc
-\underline{Ask}: ‘‘What question am I trying to answer? What needs to be measured?’’ ‘‘What variables and parameters will affect my results?’’
+``The ability of a measurement system to indicate the same value on repeated but independent
+application of the same input provides a measure of the instrument {\PN repeatability}. Specific claims of
+{\PN repeatability} are based on multiple calibration tests (replication) performed within a given lab on the
+particular unit.'' \vspc
+
+\begin{framed}\hspace{10mm}\scalebox{1}{$\%u_{R_{max}}=\frac{2s_x}{r_0}\times100$}\end{framed}
+
+\vspace{10mm}
 
 {\tiny Text: Theory and Design of Mech. Meas.}
 }
 
-% Section 2
-\section{System and tolerance design plan.}
+% Section 1
+\section{Conditions for Repeatability}
 
 \frame{
-\frametitle{System and tolerance design plan}
+\frametitle{Conditions for Repeatability}
 
-
-{\PR System and Tolerance Design Plan}: Select a measurement technique, equipment, and
-test procedure based on some preconceived tolerance limits for error. \vspc
-\underline{Ask}: ‘‘In what ways can I do the measurement and how good do the results need to be to answer my
-question?’’
-
-{\tiny Text: Theory and Design of Mech. Meas.}
-}
-% Section 3
-\section{Data reduction design plan}
-
-\frame{
-\frametitle{Data reduction design plan}
-
-{\G Data Reduction Design Plan}: Plan how to analyze, present, and use the anticipated data.\vspc
-\underline{Ask}: ‘‘How will I interpret the resulting data? How will I use the data to answer my question?
-How good is my answer? Does my answer make sense?’’
-
-{\tiny Text: Theory and Design of Mech. Meas.}
-}
-% Section 4
-\section{Experimental Design Strategies}
-
-\frame{
-\frametitle{Experimental Design Strategies}
-
-
+The following conditions need to be fulfilled in the establishment of repeatability:
 \begin{itemize}
-	\item {\B Randomized} Tests \vspccc% Section 1
-	\item {\G Repetition} and {\PR Replication}. \vspccc% Section 1
-	\item {\BR Concomitant} Methods \vspccc
-\end{itemize}
 
+\item the same experimental tools
+\item the same observer
+\item the same measuring instrument, used under the same conditions
+\item the same location
+\item repetition over a short period of time.
+\item same objectives
+
+
+\end{itemize}
+\vspace{5mm}
+{\tiny Text: \href{https://en.wikipedia.org/wiki/Repeatability}{Wikipedia(NIST)} }
 }
+
+% Section 3
+\section{Reproducibility and Instrument Uncertainty}
+
+\frame{
+\frametitle{Reproducibility and Instrument Uncertainty}
+
+``The term {\G reproducibility}, when reported in instrument specifications, refers to the closeness of
+agreement in results obtained from duplicate tests carried out under similar conditions of
+measurement ... \vspcc
+
+... The term {\PR instrument precision}, when reported in instrument specifications, refers to a random
+uncertainty based on the results of separate repeatability tests.'' \vspace{10mm} \\
+
+{\tiny Text: Theory and Design of Mech. Meas.}
+}
+
+%Section 3
 
 
 \end{document}

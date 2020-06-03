@@ -32,6 +32,7 @@
 \definecolor{mypurple}{rgb}{0.6,0.1961,0.8}
 \definecolor{mybrown}{rgb}{0.5451,0.2706,0.0745}
 \definecolor{mygreen}{rgb}{0, .39, 0}
+\definecolor{mypink}{rgb}{0.9960, 0, 0.9960}
 
 % color commands
 \newcommand{\R}{\color{red}}
@@ -40,7 +41,7 @@
 \newcommand{\K}{\color{black}}
 \newcommand{\G}{\color{mygreen}}
 \newcommand{\PR}{\color{mypurple}}
-%\usefonttheme{professionalfonts}
+\newcommand{\PN}{\color{mypink}}
 
 \newcommand{\Lagr}{\mathcal{L}} % lagrangian
 
@@ -78,70 +79,83 @@
 \large \textbf{Topic \TNUM - \topictitle} \vspace{3mm}\\
 
 \begin{itemize}
-	\item Types of Errors  \vspc% Section1
-	\item Sources  of Errors \vspc%Section 2
-	\item Uncertainty Interval \vspc %Section 3 
-	\item Error Mitigation\vspc   %Section 4
+
+
+	
+	\item Random and Systematic Errors \vspc%Section 1
+	\item Dart Board Example \vspc%Section 2
+	\item Types of Errors  \vspc% Section 3
+	\item Sample Uncertainty Data \vspc % Section 4
+
 	
 \end{itemize}
 
 }
 
 % Section 1
-\section{Parameter design plan}
+\section{Random and Systematic Errors}
 
 \frame{
-\frametitle{Parameter design plan}
+\frametitle{Random and Systematic Errors}
 
-{\B Parameter Design Plan}: Determine the test objective and identify the process variables and
-parameters and a means for their control. \vspc
-\underline{Ask}: ‘‘What question am I trying to answer? What needs to be measured?’’ ‘‘What variables and parameters will affect my results?’’
+``Errors are effects that cause a  measured value to differ from its true value. {\PN Random} error causes a
+{\PN random} variation in measured values found during repeated measurements of a variable. \vspc
+ {\PR Systematic} error causes an offset between the mean value of the data set and its true value. Both {\PN random} and
+{\PR systematic} errors affect a system’s accuracy.''
 
+\vspace{10mm}
 {\tiny Text: Theory and Design of Mech. Meas.}
 }
-
 % Section 2
-\section{System and tolerance design plan.}
+\section{Dart Board Example}
 
 \frame{
-\frametitle{System and tolerance design plan}
+\frametitle{Dart Board Example}
 
+``The concept of accuracy and the effects of {\PR systematic} and {\PN random} errors in instruments
+and measurement systems can be illustrated by the throw of darts.''
 
-{\PR System and Tolerance Design Plan}: Select a measurement technique, equipment, and
-test procedure based on some preconceived tolerance limits for error. \vspc
-\underline{Ask}: ‘‘In what ways can I do the measurement and how good do the results need to be to answer my
-question?’’
+\includegraphics[scale=.20]{dart_throw.png}
 
-{\tiny Text: Theory and Design of Mech. Meas.}
+``The ability of a measurement system to indicate the same value on repeated but independent
+application of the same input provides a measure of the instrument {\B repeatability}.''
+
+{\tiny Text, Image: Theory and Design of Mech. Meas.}
 }
+
+
 % Section 3
-\section{Data reduction design plan}
+\section{Types of Errors}
 
 \frame{
-\frametitle{Data reduction design plan}
+\frametitle{Types of Errors}
 
-{\G Data Reduction Design Plan}: Plan how to analyze, present, and use the anticipated data.\vspc
-\underline{Ask}: ‘‘How will I interpret the resulting data? How will I use the data to answer my question?
-How good is my answer? Does my answer make sense?’’
-
-{\tiny Text: Theory and Design of Mech. Meas.}
-}
-% Section 4
-\section{Experimental Design Strategies}
-
-\frame{
-\frametitle{Experimental Design Strategies}
-
+Common categories of errors in measurements are shown below. This is not an exhaustive list.  
 
 \begin{itemize}
-	\item {\B Randomized} Tests \vspccc% Section 1
-	\item {\G Repetition} and {\PR Replication}. \vspccc% Section 1
-	\item {\BR Concomitant} Methods \vspccc
+	
+	\item Linearity Error \vspc
+	\item Sensitivity \vspc
+	\item Zero (offset) Error \vspc
+	\item Hysteresis Error \vspc
+	\item Overall Instrument Error \vspc
 \end{itemize}
+
+\scalebox{1}{$u_c=\sqrt{u_1^2+u_2^2+...+u_M^2}$}
+
 
 }
 
+% Section 4
+\section{Sample Uncertainty Data}
 
+\frame{
+\frametitle{Sample Uncertainty Data}
+
+\includegraphics[scale=.2]{sample_uncertainties.png}
+
+{\tiny Text, Image, Data: Theory and Design of Mech. Meas.}
+}
 \end{document}
 
 

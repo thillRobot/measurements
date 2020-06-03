@@ -41,9 +41,7 @@
 \newcommand{\K}{\color{black}}
 \newcommand{\G}{\color{mygreen}}
 \newcommand{\PR}{\color{mypurple}}
-
 \newcommand{\PN}{\color{mypink}}
-%\usefonttheme{professionalfonts}
 
 \newcommand{\Lagr}{\mathcal{L}} % lagrangian
 
@@ -84,13 +82,12 @@
 	\item Thought Experiment \vspc % Section 1
 	\item Accuracy and Error \vspc% Section 2
 	\item Estimating Error\vspc% Section 3
-	\item Random and Systematic Errors \vspc%Section 4
-	\item Dart Board Example \vspc%Section 5
+     \item Uncertainty Interval \vspc %Section 1 
 \end{itemize}
 
 }
 
-% Section 2
+% Section 1
 \section{Thought Experiment}
 
 \frame{
@@ -107,11 +104,11 @@
 {\tiny Image: T.Hill}
 }
 
-% Section 1
-\section{True and Measured Value}
+% Section 2
+\section{Accuracy and Error}
 
 \frame{
-\frametitle{True and Measured Value}
+\frametitle{Accuracy and Error}
 
 The exact value of a variable is called the {\G true value}. The value of the variables as indicated by a
 measurement system is called the {\B measured value}. The {\PR accuracy} of a measurement refers to the
@@ -138,39 +135,21 @@ The {\bf \G true value} can be estimated but cannot not be known  {\it exactly}.
 
 An estimate of error based using this value is sometimes referred to as {\B relative accuracy}. \vspc
 
-
-%{\tiny Text: Theory and Design of Mech. Meas.}
-}
-% Section 3
-\section{Random and Systematic Errors}
-
-\frame{
-\frametitle{Random and Systematic Errors}
-
-``Errors are effects that cause a  measured value to differ from its true value. {\PN Random} error causes a
-{\PN random} variation in measured values found during repeated measurements of a variable. {\PR Systematic}
-error causes an offset between the mean value of the data set and its true value. Both {\PN random} and
-{\PR systematic} errors affect a system’s accuracy.''
-
-\vspace{10mm}
-{\tiny Text: Theory and Design of Mech. Meas.}
 }
 
 % Section 4
-\section{Dart Board Example}
+\section{Uncertainty Interval}
 
 \frame{
-\frametitle{Dart Board Example}
+\frametitle{Uncertainty Interval}
 
-``The concept of accuracy and the effects of {\PR systematic} and {\PN random} errors in instruments
-and measurement systems can be illustrated by the throw of darts.''
+``The {\B uncertainty} is a numerical estimate of the possible range of the error in a measurement. In any
+measurement, the {\R error} is not known exactly since the true value is rarely known exactly. But based on
+available information, the operator might feel confident that the error is within certain bounds, a plus
+or minus range of the indicated reading. This is the assigned {\B uncertainty}.''\vspace{5mm}\\
+We will discuss this again the the {\it Uncertainty Module}.\vspace{10mm}\\
 
-\includegraphics[scale=.20]{dart_throw.png}
-
-``The ability of a measurement system to indicate the same value on repeated but independent
-application of the same input provides a measure of the instrument {\B repeatability}.''
-
-{\tiny Text, Image: Theory and Design of Mech. Meas.}
+{\tiny Text: Theory and Design of Mech. Meas.}
 }
 
 
