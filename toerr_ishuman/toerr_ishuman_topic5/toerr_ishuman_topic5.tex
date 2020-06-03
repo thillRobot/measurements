@@ -3,7 +3,8 @@
 %
 % Spring 2020 - Summer 2020
 % Tristan Hill, May 31, 2020
-% Introduction - Topic 4 - Calibration
+% Module 2 - To Err is Human
+% Topic 5 - Errors and Uncertainty
 %
 
 \documentclass{beamer}                         % for presentation (has nav buttons at bottom)
@@ -55,15 +56,15 @@
 
 \author{ME3023 - Measurements in Mechanical Systems} % original formatting from Mike Renfro, September 21, 2004
 
-\newcommand{\MNUM}{1\hspace{2mm}} % Module number
-\newcommand{\TNUM}{4\hspace{2mm}} % Topic number 
-\newcommand{\moduletitle}{Introduction }
-\newcommand{\topictitle}{Calibration } 
+\newcommand{\MNUM}{2\hspace{2mm}} % Module number
+\newcommand{\TNUM}{5\hspace{2mm}} % Topic number 
+\newcommand{\moduletitle}{To Err is Human }
+\newcommand{\topictitle}{Errors and Uncertainty } 
 
 \title{Module \MNUM - \moduletitle}
 
-\date{June 02, 2020}
 
+\date{June 02, 2020}
 \begin{document}
 
 \lstset{language=MATLAB,basicstyle=\ttfamily\small,showstringspaces=false}
@@ -77,19 +78,20 @@
 \large \textbf{Topic \TNUM - \topictitle} \vspace{3mm}\\
 
 \begin{itemize}
-	\item Static Calibration \vspc% Section 1
-	\item Dynamic Calibration\vspc% Section 2
-	\item The Calibration Curve \vspc%Section 3
-	\item Example \vspc%Section 4
+	\item Types of Errors  \vspc% Section1
+	\item Sources  of Errors \vspc%Section 2
+	\item Uncertainty Interval \vspc %Section 3 
+	\item Error Mitigation\vspc   %Section 4
+	
 \end{itemize}
 
 }
 
 % Section 1
-\section{Static Calibration}
+\section{Parameter design plan}
 
 \frame{
-\frametitle{Static Calibration}
+\frametitle{Parameter design plan}
 
 {\B Parameter Design Plan}: Determine the test objective and identify the process variables and
 parameters and a means for their control. \vspc

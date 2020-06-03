@@ -1,0 +1,5 @@
+\beamer@sectionintoc {1}{Thought Experiment}{3}{0}{1}
+\beamer@sectionintoc {2}{True and Measured Value}{4}{0}{2}
+\beamer@sectionintoc {3}{Estimating Error}{5}{0}{3}
+\beamer@sectionintoc {4}{Random and Systematic Errors}{6}{0}{4}
+\beamer@sectionintoc {5}{Dart Board Example}{7}{0}{5}
