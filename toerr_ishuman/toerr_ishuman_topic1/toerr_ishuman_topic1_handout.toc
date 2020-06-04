@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Thought Experiment}{3}{0}{1}
+\beamer@sectionintoc {2}{Accuracy and Error}{4}{0}{2}
+\beamer@sectionintoc {3}{Estimating Error}{5}{0}{3}
+\beamer@sectionintoc {4}{Uncertainty Interval}{6}{0}{4}

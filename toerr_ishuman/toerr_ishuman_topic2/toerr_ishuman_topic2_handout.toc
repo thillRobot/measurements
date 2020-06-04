@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Random and Systematic Errors}{3}{0}{1}
+\beamer@sectionintoc {2}{Dart Board Example}{4}{0}{2}
+\beamer@sectionintoc {3}{Types of Errors}{5}{0}{3}
+\beamer@sectionintoc {4}{Sample Uncertainty Data}{6}{0}{4}

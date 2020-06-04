@@ -3,8 +3,8 @@
 %
 % Spring 2020 - Summer 2020
 % Tristan Hill, May 31, 2020
-% Module 2 - To Err is Human
-% Topic 5 - Errors and Uncertainty
+% Module 2 - To Err is Human 
+% Topic 6 - Repeatability and Testing
 %
 
 \documentclass{beamer}                         % for presentation (has nav buttons at bottom)
@@ -58,14 +58,14 @@
 \author{ME3023 - Measurements in Mechanical Systems} % original formatting from Mike Renfro, September 21, 2004
 
 \newcommand{\MNUM}{2\hspace{2mm}} % Module number
-\newcommand{\TNUM}{5\hspace{2mm}} % Topic number 
-\newcommand{\moduletitle}{To Err is Human }
-\newcommand{\topictitle}{Errors and Uncertainty } 
+\newcommand{\TNUM}{3\hspace{2mm}} % Topic number 
+\newcommand{\moduletitle}{To Err is Human  }
+\newcommand{\topictitle}{Repeatability and Testing} 
 
 \title{Module \MNUM - \moduletitle}
 
+\date{June 03, 2020}
 
-\date{June 02, 2020}
 \begin{document}
 
 \lstset{language=MATLAB,basicstyle=\ttfamily\small,showstringspaces=false}
@@ -79,83 +79,73 @@
 \large \textbf{Topic \TNUM - \topictitle} \vspace{3mm}\\
 
 \begin{itemize}
+	\item Instrument Repeatability \vspc% Section 1
+	\item Conditions for Repeatability \vspc %Section 2
+	\item Reproducibility and Instrument Uncertainty \vspc %Section 3
 
-
-	
-	\item Random and Systematic Errors \vspc%Section 1
-	\item Dart Board Example \vspc%Section 2
-	\item Types of Errors  \vspc% Section 3
-	\item Sample Uncertainty Data \vspc % Section 4
-
-	
 \end{itemize}
 
 }
 
 % Section 1
-\section{Random and Systematic Errors}
+\section{Instrument Repeatability}
 
 \frame{
-\frametitle{Random and Systematic Errors}
-
-``Errors are effects that cause a  measured value to differ from its true value. {\PN Random} error causes a
-{\PN random} variation in measured values found during repeated measurements of a variable. \vspc
- {\PR Systematic} error causes an offset between the mean value of the data set and its true value. Both {\PN random} and
-{\PR systematic} errors affect a system’s accuracy.''
-
-\vspace{10mm}
-{\tiny Text: Theory and Design of Mech. Meas.}
-}
-% Section 2
-\section{Dart Board Example}
-
-\frame{
-\frametitle{Dart Board Example}
-
-``The concept of accuracy and the effects of {\PR systematic} and {\PN random} errors in instruments
-and measurement systems can be illustrated by the throw of darts.''
-
-\includegraphics[scale=.20]{dart_throw.png}
+\frametitle{Instrument Repeatability}
 
 ``The ability of a measurement system to indicate the same value on repeated but independent
-application of the same input provides a measure of the instrument {\B repeatability}.''
+application of the same input provides a measure of the instrument {\PN repeatability}. Specific claims of
+{\PN repeatability} are based on multiple calibration tests (replication) performed within a given lab on the
+particular unit.'' \vspc
 
-{\tiny Text, Image: Theory and Design of Mech. Meas.}
+\begin{framed}\hspace{10mm}\scalebox{1}{$\%u_{R_{max}}=\frac{2s_x}{r_0}\times100$}\end{framed}
+
+\vspace{10mm}
+
+{\tiny Text: Theory and Design of Mech. Meas.}
 }
 
+% Section 1
+\section{Conditions for Repeatability}
+
+\frame{
+\frametitle{Conditions for Repeatability}
+
+The following conditions need to be fulfilled in the establishment of repeatability:
+\begin{itemize}
+
+\item the same experimental tools
+\item the same observer
+\item the same measuring instrument, used under the same conditions
+\item the same location
+\item repetition over a short period of time.
+\item same objectives
+
+
+\end{itemize}
+\vspace{5mm}
+{\tiny Text: \href{https://en.wikipedia.org/wiki/Repeatability}{Wikipedia(NIST)} }
+}
 
 % Section 3
-\section{Types of Errors}
+\section{Reproducibility and Instrument Uncertainty}
 
 \frame{
-\frametitle{Types of Errors}
+\frametitle{Reproducibility and Instrument Uncertainty}
 
-Common categories of errors in measurements are shown below. This is not an exhaustive list.  
+``The term {\G reproducibility}, when reported in instrument specifications, refers to the closeness of
+agreement in results obtained from duplicate tests carried out under similar conditions of
+measurement ... \vspcc
 
-\begin{itemize}
-	
-	\item Linearity Error \vspc
-	\item Sensitivity \vspc
-	\item Zero (offset) Error \vspc
-	\item Hysteresis Error \vspc
-	\item Overall Instrument Error \vspc
-\end{itemize}
+... The term {\PR instrument precision}, when reported in instrument specifications, refers to a random
+uncertainty based on the results of separate repeatability tests.'' \vspace{10mm} \\
 
-\scalebox{1}{$u_c=\sqrt{u_1^2+u_2^2+...+u_M^2}$}
-
-
+{\tiny Text: Theory and Design of Mech. Meas.}
 }
 
-% Section 4
-\section{Sample Uncertainty Data}
+%Section 3
 
-\frame{
-\frametitle{Sample Uncertainty Data}
 
-\includegraphics[scale=.2]{sample_uncertainties.png}
-
-{\tiny Text, Image, Data: Theory and Design of Mech. Meas.}
-}
 \end{document}
 
 
