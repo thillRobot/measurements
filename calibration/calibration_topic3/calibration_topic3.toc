@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Enter Section Title}{3}{0}{1}
+\beamer@sectionintoc {2}{Enter Section Title}{4}{0}{2}
+\beamer@sectionintoc {3}{Enter Section Title}{5}{0}{3}
+\beamer@sectionintoc {4}{Enter Section Title}{6}{0}{4}

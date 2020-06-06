@@ -3,8 +3,8 @@
 %
 % Spring 2020 - Summer 2020
 % Tristan Hill, May 31, 2020
-% Module 2 - To Err is Human
-% Topic 2 - Errors and Uncertainty
+% Module 3 - Calibration
+% Topic 1 - Accuracy and Precesion   ->  (4th Topic)
 %
 
 \documentclass{beamer}                         % for presentation (has nav buttons at bottom)
@@ -57,15 +57,20 @@
 
 \author{ME3023 - Measurements in Mechanical Systems} % original formatting from Mike Renfro, September 21, 2004
 
-\newcommand{\MNUM}{2\hspace{2mm}} % Module number
-\newcommand{\TNUM}{2\hspace{2mm}} % Topic number 
-\newcommand{\moduletitle}{To Err is Human }
-\newcommand{\topictitle}{Errors and Uncertainty } 
+\newcommand{\MNUM}{3\hspace{2mm}} % Module number
+\newcommand{\TNUM}{1\hspace{2mm}} % Topic number  ->  (4th Topic)
+\newcommand{\moduletitle}{Calibration }
+\newcommand{\topictitle}{Units and Standards } 
+
+\newcommand{\sectiontitleI}{Enter Section Title}
+\newcommand{\sectiontitleII}{Enter Section Title}
+\newcommand{\sectiontitleIII}{Enter Section Title}
+\newcommand{\sectiontitleIV}{Enter Section Title}
 
 \title{Module \MNUM - \moduletitle}
 
+\date{Mechanical Engineering\vspc Tennessee Technological University}
 
-\date{Mechanical Engineering\\Tennessee Technological University}
 \begin{document}
 
 \lstset{language=MATLAB,basicstyle=\ttfamily\small,showstringspaces=false}
@@ -73,89 +78,57 @@
 \frame{\titlepage \center\begin{framed}\Large \textbf{Topic \TNUM - \topictitle}\end{framed} \vspace{5mm}}
 
 % Section 0: Outline
-
 \frame{
 
 \large \textbf{Topic \TNUM - \topictitle} \vspace{3mm}\\
 
 \begin{itemize}
-
-
-	
-	\item Random and Systematic Errors \vspc%Section 1
-	\item Dart Board Example \vspc%Section 2
-	\item Types of Errors  \vspc% Section 3
-	\item Sample Uncertainty Data \vspc % Section 4
-
-	
+	\item \sectiontitleI		\vspc % Section I
+	\item \sectiontitleII 	\vspc % Section II
+	\item \sectiontitleIII 	\vspc %Section III
+	\item \sectiontitleIV 	\vspc %Section IV
 \end{itemize}
 
 }
 
-% Section 1
-\section{Random and Systematic Errors}
+% Section I:
+\section{\sectiontitleI}
 
 \frame{
-\frametitle{Random and Systematic Errors}
-
-``Errors are effects that cause a  measured value to differ from its true value. {\PN Random} error causes a
-{\PN random} variation in measured values found during repeated measurements of a variable. \vspc
- {\PR Systematic} error causes an offset between the mean value of the data set and its true value. Both {\PN random} and
-{\PR systematic} errors affect a system’s accuracy.''
-
-\vspace{10mm}
-{\tiny Text: Theory and Design of Mech. Meas.}
-}
-% Section 2
-\section{Dart Board Example}
-
-\frame{
-\frametitle{Dart Board Example}
-
-``The concept of accuracy and the effects of {\PR systematic} and {\PN random} errors in instruments
-and measurement systems can be illustrated by the throw of darts.''
-
-\includegraphics[scale=.20]{dart_throw.png}
-
-``The ability of a measurement system to indicate the same value on repeated but independent
-application of the same input provides a measure of the instrument {\B repeatability}.''
-
-{\tiny Text, Image: Theory and Design of Mech. Meas.}
-}
-
-
-% Section 3
-\section{Types of Errors}
-
-\frame{
-\frametitle{Types of Errors}
-
-Common categories of errors in measurements are shown below. This is not an exhaustive list.  
-
-\begin{itemize}
-	
-	\item Linearity Error \vspc
-	\item Sensitivity \vspc
-	\item Zero (offset) Error \vspc
-	\item Hysteresis Error \vspc
-	\item Overall Instrument Error \vspc
-\end{itemize}
-
-\scalebox{1}{$u_c=\sqrt{u_1^2+u_2^2+...+u_M^2}$}
+\frametitle{\sectiontitleI}
 
 
 }
 
-% Section 4
-\section{Sample Uncertainty Data}
+
+
+% Section II:
+\section{\sectiontitleII}
 
 \frame{
-\frametitle{Sample Uncertainty Data}
+\frametitle{\sectiontitleII}
 
-\includegraphics[scale=.22]{sample_uncertainties.png}
-
-{\tiny Text, Image, Data: Theory and Design of Mech. Meas.}
 }
+
+% Section III:
+\section{\sectiontitleIII}
+
+\frame{
+\frametitle{\sectiontitleIII}
+
+
+}
+
+% Section IV:
+\section{\sectiontitleIV}
+
+\frame{
+\frametitle{\sectiontitleIV}
+
+
+}
+
+
 \end{document}
 
 
