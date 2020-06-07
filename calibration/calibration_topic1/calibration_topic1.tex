@@ -42,6 +42,8 @@
 \newcommand{\G}{\color{mygreen}}
 \newcommand{\PR}{\color{mypurple}}
 \newcommand{\PN}{\color{mypink}}
+\newcommand{\GD}{\color{TTUgold}}
+\newcommand{\OR}{\color{orange}}
 
 \newcommand{\Lagr}{\mathcal{L}} % lagrangian
 
@@ -60,12 +62,12 @@
 \newcommand{\MNUM}{3\hspace{2mm}} % Module number
 \newcommand{\TNUM}{1\hspace{2mm}} % Topic number  ->  (4th Topic)
 \newcommand{\moduletitle}{Calibration }
-\newcommand{\topictitle}{Units and Standards } 
+\newcommand{\topictitle}{ Standards and Units} 
 
-\newcommand{\sectiontitleI}{Enter Section Title}
-\newcommand{\sectiontitleII}{Enter Section Title}
-\newcommand{\sectiontitleIII}{Enter Section Title}
-\newcommand{\sectiontitleIV}{Enter Section Title}
+\newcommand{\sectiontitleI}{Thought Experiment Continued}
+\newcommand{\sectiontitleII}{Standards and Calibration}
+\newcommand{\sectiontitleIII}{Base Dimensions and Unit}
+\newcommand{\sectiontitleIV}{Hierarchy of Standards}
 
 \title{Module \MNUM - \moduletitle}
 
@@ -97,9 +99,16 @@
 \frame{
 \frametitle{\sectiontitleI}
 
+{\bf Thought Experiment}: Look around the room and choose an object. It can be anything. Ask yourself the following questions. \vspc
+\begin{itemize}
+\item What is the {\bf\G true} length of the object? \vspc
+\item What is the physical {\PR meaning} of that number? \vspc
+\item What do the {\B units} relate to?
+\end{itemize}
 
+\includegraphics[scale=.025,angle=-90,origin=c]{vip_harp.jpg}
+{\tiny Image: T.Hill}
 }
-
 
 
 % Section II:
@@ -107,6 +116,23 @@
 
 \frame{
 \frametitle{\sectiontitleII}
+
+When a measurement system is {\PN calibrated}, its indicated value is compared directly with a {\BR reference
+value}. This {\BR  reference value} forms the basis of the comparison and is known as the {\OR standard}. This
+{\OR standard} may be based on the output from a piece of equipment, from an object having a well-
+defined physical attribute to be used as a comparison, or from a well-accepted technique known to
+produce a reliable value.\vspace{5mm}\\
+
+{\tiny Text: \underline{Theory and Design of Mechanical Measurments, 5th Edition}}
+}
+
+\frame{
+\frametitle{\sectiontitleII}
+
+A {\G dimension} defines a physical variable that is used to describe some aspect of a physical system. A
+{\PN unit} defines a quantitative measure of a dimension.\vspace{15mm}\\
+
+{\tiny Text: \underline{Theory and Design of Mechanical Measurments, 5th Edition}}
 
 }
 
@@ -116,6 +142,57 @@
 \frame{
 \frametitle{\sectiontitleIII}
 
+The dimension of mass is defined by the kilogram. Originally, the unit of the kilogram was defined
+by the mass of one liter of water at room temperature. But today an equivalent yet more consistent
+definition defines the kilogram exactly as the mass of a particular platinum-iridium cylindrical bar
+that is maintained under very specific conditions at the International Bureau of Weights and
+Measures located in Sevres, France. This particular bar (consisting of 90\% platinum and 10\%
+iridium by mass) forms the primary standard for the kilogram. It remains today as the only basic unit
+still defined in terms of a material object.
+
+{\tiny Text: \underline{Theory and Design of Mechanical Measurments, 5th Edition}}
+}
+
+\section{\sectiontitleIII}
+
+\frame{
+\frametitle{\sectiontitleIII}
+
+The {\B base units} relate directly to a standard (historically).\vspc
+
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|cc|cc|} \hline
+\textbf{Unit}&\textbf{SI}&&\textbf{I-P}&\\ \hline\hline
+Length&meter&$(m)$&foot&$(ft)$\\ \hline
+Mass&kilogram&$(kg)$&slug&$(?)$ \\\hline
+Time&second&$(s)$&second&$(sec)$\\ \hline
+Temperature&degrees&$(^\circ C$, $^\circ K)$&degrees&$(^\circ F$, $^\circ R)$ \\ \hline
+Current&ampere&$(A)$&ampere&$(A)$\\ \hline
+Substance&mole&$(mol)$&mole&$(mol)$\\ \hline
+Light Intensity&candela&$(cd)$&candela&$(cd)$\\ \hline
+%force&newton&(N)&pound&(lb)\\ \hline
+%energy&joule&(J)&foot-pound&(ft-lb)\\ \hline
+%power&watt&(W)&?&(ft-lb/sec)\\ \hline
+\end{tabular}
+
+}
+
+\frame{
+\frametitle{\sectiontitleIII}
+
+Common {\PN derived units} are defined in terms of the the base units. \vspc
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|cc|cc|} \hline
+\textbf{Unit}&\textbf{SI} &&\textbf{I-P}&\\ \hline\hline
+Force&newton&$(N)$&pound-force&$(lb_f)$\\ \hline
+Voltage&meter&$(m)$&foot&$(ft)$\\ \hline
+Resistance&ohm&$(\Omega)$&ohm&$(\Omega)$\\ \hline
+Capacitance&farah&$(F)$&farah&$(F)$ \\ \hline 
+Inductance&henry&(H)&henry&(H)\\ \hline
+Energy&joule&$(J)$&foot-pound&$(ft-lb)$\\ \hline
+Power&watt&$(W)$&foot-pound per second&$(ft-lb/sec)$\\ \hline
+
+\end{tabular}
 
 }
 
@@ -125,7 +202,18 @@
 \frame{
 \frametitle{\sectiontitleIV}
 
+The known value applied to a measurement system during calibration becomes the standard on which the calibration is based. \vspc 
+So how do we pick this standard, and how good is it? \vspc
+... primary standards are impractical as standards for normal calibration use ... there exists a hierarchy of reference and secondary standards used to duplicate the primary standards. \vspc
+\begin{tabular}{|lcl|}\hline\hline
+{\OR Primary} standard&---&Maintained as absolute unit standard\\ \hline
+{\PN Transfer} standard&---&Used to calibrate local standards\\ \hline
+{\PR Local} standard&---&Used to calibrate working standards\\ \hline
+{\B Working} standard&---&Used to calibrate local instruments\\ \hline 
+\end{tabular}
 
+\vspace{2mm}
+{\tiny Text: \underline{Theory and Design of Mechanical Measurments, 5th Edition}}
 }
 
 

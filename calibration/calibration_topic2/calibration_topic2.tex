@@ -42,6 +42,8 @@
 \newcommand{\G}{\color{mygreen}}
 \newcommand{\PR}{\color{mypurple}}
 \newcommand{\PN}{\color{mypink}}
+\newcommand{\GD}{\color{TTUgold}}
+\newcommand{\OR}{\color{orange}}
 
 \newcommand{\Lagr}{\mathcal{L}} % lagrangian
 
@@ -62,10 +64,10 @@
 \newcommand{\moduletitle}{Calibration }
 \newcommand{\topictitle}{The Calibration Curve }
 
-\newcommand{\sectiontitleI}{Enter Section Title}
-\newcommand{\sectiontitleII}{Enter Section Title}
-\newcommand{\sectiontitleIII}{Enter Section Title}
-\newcommand{\sectiontitleIV}{Enter Section Title}
+\newcommand{\sectiontitleI}{What is Calibration?}
+\newcommand{\sectiontitleII}{Generalized Curve}
+\newcommand{\sectiontitleIII}{Static Sensitivity and Zero Offet}
+\newcommand{\sectiontitleIV}{Example: IR Distance Sensor}
 
 \title{Module \MNUM - \moduletitle}
 
@@ -97,7 +99,18 @@
 \frame{
 \frametitle{\sectiontitleI}
 
+A {\B calibration} applies a known {\PN input value} to a measurement system for the purpose of observing the
+system {\PR output value}. It establishes the relationship between the input and output values. The known
+value used for the {\B calibration} is called the {\OR standard}. \vspc
 
+\begin{itemize}
+\item A range of input values can be used to form a calibration curve.
+\item The calibration curve describes the input-output relationship of
+the measurement system.
+\end{itemize}
+
+\vspace{10mm}
+{\tiny Text: \underline{Theory and Design of Mechanical Measurments, 5th Edition}, }
 }
 
 
@@ -107,7 +120,18 @@
 
 \frame{
 \frametitle{\sectiontitleII}
+\begin{multicols}{2}
 
+\includegraphics[scale=0.165]{calibration_curve.png}
+
+\hspace{20mm} {\bf y}: measured signal\vspc 
+\hspace{25mm} (output) \vspcc
+\hspace{20mm} {\bf x}: known standard\vspc
+\hspace{25mm} (input) \\
+\end{multicols}
+
+\textbf{Question:} How many values are needed for a calibration? Why?\vspc
+{\tiny Image: \underline{Theory and Design of Mechanical Measurments, 5th Edition}, }
 }
 
 % Section III:
@@ -115,6 +139,14 @@
 
 \frame{
 \frametitle{\sectiontitleIII}
+
+You have learned about these by a a different name. \vspcc
+
+Static Sensitivity - The Slope of the Calibration Curve \vspc
+
+Zero Offset - Y-Intercept of Calibration Curve \vspccc
+
+\textbf{Question:} How many parameters or variables are neededto describe the curve?
 
 
 }
@@ -125,6 +157,7 @@
 \frame{
 \frametitle{\sectiontitleIV}
 
+\includegraphics[scale=0.165]{sharp_ranger.jpg}
 
 }
 
