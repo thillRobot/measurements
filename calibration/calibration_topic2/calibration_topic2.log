@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.30)  7 JUN 2020 14:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.9)  8 JUN 2020 11:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -960,11 +960,22 @@ Overfull \vbox (0.60907pt too high) detected at line 135
 <sharp_ranger.jpg, id=196, 818.30719pt x 332.74312pt>
 File: sharp_ranger.jpg Graphic file (type jpg)
 <use sharp_ranger.jpg>
-Package pdftex.def Info: sharp_ranger.jpg  used on input line 162.
+Package pdftex.def Info: sharp_ranger.jpg  used on input line 163.
 (pdftex.def)             Requested size: 135.01486pt x 54.90024pt.
+<sharp_calibration_fig1.png, id=197, 954.56625pt x 742.775pt>
+File: sharp_calibration_fig1.png Graphic file (type png)
+<use sharp_calibration_fig1.png>
+Package pdftex.def Info: sharp_calibration_fig1.png  used on input line 163.
+(pdftex.def)             Requested size: 143.17876pt x 111.41144pt.
+<sharp_calibration_fig2.png, id=198, 967.615pt x 754.82pt>
+File: sharp_calibration_fig2.png Graphic file (type png)
+<use sharp_calibration_fig2.png>
+Package pdftex.def Info: sharp_calibration_fig2.png  used on input line 163.
+(pdftex.def)             Requested size: 145.13599pt x 113.21811pt.
  [6
 
- <./sharp_ranger.jpg>]
+ <./sharp_ranger.jpg> <./sharp_calibration_fig1.png> <./sharp_calibration_fig2.
+png>]
 \tf@nav=\write6
 \openout6 = `calibration_topic2.nav'.
 
@@ -974,20 +985,19 @@ Package pdftex.def Info: sharp_ranger.jpg  used on input line 162.
 \tf@snm=\write8
 \openout8 = `calibration_topic2.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 165.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 165.
-
-(./calibration_topic2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 165.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 165.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 166.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
+ (./calibration_topic2.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 166.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 166.
 Package rerunfilecheck Info: File `calibration_topic2.out' has not changed.
 (rerunfilecheck)             Checksum: 5B8E5E3B1692AE97C3D95A4D5842C8A1;237.
  ) 
 Here is how much of TeX's memory you used:
- 18361 strings out of 492982
- 344038 string characters out of 6134896
- 449276 words of memory out of 5000000
- 21506 multiletter control sequences out of 15000+600000
+ 18371 strings out of 492982
+ 344336 string characters out of 6134897
+ 449272 words of memory out of 5000000
+ 21514 multiletter control sequences out of 15000+600000
  10220 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,19n,57p,814b,559s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -995,10 +1005,10 @@ Here is how much of TeX's memory you used:
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on calibration_topic2.pdf (6 pages, 207328 bytes).
+Output written on calibration_topic2.pdf (6 pages, 314030 bytes).
 PDF statistics:
- 247 PDF objects out of 1000 (max. 8388607)
+ 251 PDF objects out of 1000 (max. 8388607)
  217 compressed objects within 3 object streams
  17 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

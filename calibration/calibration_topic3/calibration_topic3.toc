@@ -1,4 +1,4 @@
-\beamer@sectionintoc {1}{Enter Section Title}{3}{0}{1}
-\beamer@sectionintoc {2}{Enter Section Title}{4}{0}{2}
-\beamer@sectionintoc {3}{Enter Section Title}{5}{0}{3}
-\beamer@sectionintoc {4}{Enter Section Title}{6}{0}{4}
+\beamer@sectionintoc {1}{Motivation - Functional Relationship}{3}{0}{1}
+\beamer@sectionintoc {2}{Least Squares Regression}{5}{0}{2}
+\beamer@sectionintoc {3}{Using Software Packages}{6}{0}{3}
+\beamer@sectionintoc {4}{Example: IR Sensor Calibration}{7}{0}{4}

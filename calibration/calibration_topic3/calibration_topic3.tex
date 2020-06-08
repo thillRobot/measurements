@@ -1,3 +1,4 @@
+
 % 
 % topic Template for ME3023 - Measurements in Mechanincal Systems - Tennessee Technological University
 %
@@ -14,6 +15,10 @@
 \usepackage{listings}
 \usepackage{multicol}
 \usepackage{framed}
+
+\usepackage{soul}
+
+%\usepackage{lrbox}
 
 \beamertemplateballitem
 
@@ -62,10 +67,13 @@
 \newcommand{\moduletitle}{Calibration }
 \newcommand{\topictitle}{Linear Regression} 
 
-\newcommand{\sectiontitleI}{Enter Section Title}
-\newcommand{\sectiontitleII}{Enter Section Title}
-\newcommand{\sectiontitleIII}{Enter Section Title}
-\newcommand{\sectiontitleIV}{Enter Section Title}
+\newcommand{\sectiontitleI}{Motivation - Functional Relationship}
+\newcommand{\sectiontitleII}{Least Squares Regression}
+\newcommand{\sectiontitleIII}{Using Software Packages}
+\newcommand{\sectiontitleIV}{Example: IR Sensor Calibration}
+
+
+\newsavebox{\mybox}
 
 \title{Module \MNUM - \moduletitle}
 
@@ -97,16 +105,48 @@
 \frame{
 \frametitle{\sectiontitleI}
 
+A measured variable is often a function of one or more independent variables that are controlled during the measurement. ... This is a common procedure used to document the relationship between the measured variable and an independent process variable. ... \vspccc
+
+We can use {\G regression} analysis to establish a {\B functional relationship} between the {\PN dependent} variable and the {\PR independent} variable. This discussion pertains directly to polynomial curve fits.\vspcc
+
+Other functions such as exponential and log fits can also be used.
+
+\vspace{10mm}
+{\tiny Text: T.HIll, \underline{Theory and Design of Mechanical Measurements, 5th Edition} }
 
 }
 
+\frame{
+\frametitle{\sectiontitleII}
+
+
+		Consider the graphs below. This is a calibration curve.
+ 		\includegraphics[scale=0.40]{lecture4_fig1.png}
+ 		{\tiny Image: \underline{Theory and Design of Mechanical Measurements, 5th Edition} }
+
+
+}
 
 
 % Section II:
 \section{\sectiontitleII}
 
 \frame{
-\frametitle{\sectiontitleII}
+\frametitle{\sectiontitleIII}
+
+	\begin{itemize}
+		
+		\item We are trying to find a polynomial of best fit for the data. \vspc
+		\scalebox{1.0}{$y_c(x)=a_0+a_1x+a_2x^2+\dots+a_mx^m\hspace{10mm}m\leq(n-1)$} \vspc
+
+		\item This is done by minimizing the quantity below.\vspc
+		\scalebox{1.0}{$D=\Sigma_{i=1}^N(y_i-y_{ci})^2=\Sigma_{i=1}^N(y_i-a_0+a_1x+a_2x^2+\dots+a_mx^m)^2$} \vspc
+
+		\item For a first order curve the coefficients become: \vspcc
+		
+		\scalebox{1.0}{$a_0=\frac{\Sigma x_i\Sigma x_i y_i-\Sigma x_i^2\Sigma y_i}{(\Sigma x_i)^2-N\Sigma x_i^2}$} \hspc, \scalebox{1.0}{$a_1=\frac{\Sigma x_i\Sigma y_i-N\Sigma x_i y_i }{(\Sigma x_i)^2-N\Sigma x_i^2}$}
+
+	\end{itemize}	
 
 }
 
@@ -116,18 +156,113 @@
 \frame{
 \frametitle{\sectiontitleIII}
 
+ Most spreadsheet and engineering software packages can perform a {\G regression analysis} on a
+data set. Examples will be shown throughout the course in MATLAB and EXCEL.\vspcc
+	\begin{itemize}
+	
+	\item MATLAB - curve fitting toolbox - {\it polyfit()}
+	\item Excel - {\it linest()}
+	\item Python - {\it numpy.linalg.lstsq() }
+	\item Labview - {\it Linear Fit VI, Exponential Fit VI, etc.}
+	\item and many more...
+	
+	\end{itemize}
 
 }
+
 
 % Section IV:
 \section{\sectiontitleIV}
 
 \frame{
-\frametitle{\sectiontitleIV}
+\frametitle{Sample Calibration Data}
 
+\begin{tabular}{|c|c|c|}\hline
+Sample \# & Known Distance $x_i (m)$ & Measured Voltage $y_i (V)$ \\ \hline \hline
+1&6	&1.67 \\ \hline
+2&9	&1.17 \\ \hline
+3&12&0.89 \\ \hline
+4&15&0.72 \\ \hline
+5&18&0.61 \\ \hline
+\end{tabular}
+
+\vspace{5mm}
+Linear Least Squares Regression Coefficients: 
+\scalebox{1}{$a_0=1.5640\hspc,\hspc a_1=1.5640$} \vspc
+
+Functional Relationship: \\
+\scalebox{1}{$y=a_1*x+a_0$}
 
 }
 
+\frame[containsverbatim]{
+\frametitle{ Linear Regression in MATLAB - Manual}
+
+\begin{lrbox}{\mybox}
+\begin{lstlisting}
+clear variables;close all;clc
+
+x=[9 12 15 18 21];
+y=[1.17 0.89 0.72 0.61 0.53];
+n=length(x);
+
+% perform Linear Least Squares Regression 
+a0=(sum(x)*sum(x.*y)-sum(x.^2)*sum(y))/(sum(x)^2-n*sum(x.^2));
+a1=(sum(x)*sum(y)-n*sum(x.*y))/(sum(x)^2-n*sum(x.^2));
+
+x_f=5.0:1.0:25;
+y_f=a1*x_f+a0;
+
+% generate 1st order curve fit with polyfit()
+P1=polyfit(x,y,1);
+
+x_f1=5.0:1.0:25;
+y_f1=P1(1)*x_f1+P1(2);
+\end{lstlisting}
+\end{lrbox}
+
+\scalebox{0.8}{\usebox{\mybox}}
+
+}
+
+\frame[containsverbatim]{
+\frametitle{ Linear Regression in MATLAB - Manual}
+
+\begin{lrbox}{\mybox}
+\begin{lstlisting}
+figure(1);hold on
+
+plot(x,y,'r*')
+plot(x_f,y_f,'m-')
+plot(x_f1,y_f1,'b--')
+
+title('First Order Calibration')
+xlabel('Known Distance (m)')
+ylabel('Measured Voltage (V)')
+legend('Raw Data','Linear Fit (T.Hill)','Linear Fit (polyfit)')
+grid on
+\end{lstlisting}
+\end{lrbox}
+
+\scalebox{0.8}{\usebox{\mybox}}
+
+}
+
+\frame{
+\frametitle{ First Order Calibration Curve}
+
+		\includegraphics[scale=0.4]{calibration_fig2.png} 
+ 		{\tiny Images: T.Hill }
+
+}
+
+\frame{
+\frametitle{ Fourth Order Calibration Curve}
+		
+		\includegraphics[scale=0.29]{calibration_fig1.png} \hspc  \includegraphics[scale=0.15]{sharp_calibration_fig1.png}\vspc
+ 		{\tiny Images: T.Hill, Sharp }
+
+}
 
 \end{document}
 
