@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{What is Calibration?}{3}{0}{1}
+\beamer@sectionintoc {2}{Generalized Curve}{4}{0}{2}
+\beamer@sectionintoc {3}{Static Sensitivity and Zero Offet}{5}{0}{3}
+\beamer@sectionintoc {4}{Example: IR Distance Sensor}{6}{0}{4}
