@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Resistive Gauges}{3}{0}{1}
+\beamer@sectionintoc {2}{The Bridge Circuit}{5}{0}{2}
+\beamer@sectionintoc {3}{Balancing the Bridge}{7}{0}{3}
+\beamer@sectionintoc {4}{Gauge Sensitivity}{8}{0}{4}
