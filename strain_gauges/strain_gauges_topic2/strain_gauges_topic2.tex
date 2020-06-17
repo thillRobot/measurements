@@ -61,8 +61,7 @@
 
 \newcommand{\eqscl}{0.9}     % small horizontal space
 
-
-\author{ME3050 - Dynamics Modeling and Controls} % original formatting from Mike Renfro, September 21, 2004
+\author{ME3023 - Measurements in Mechanical Systems} 
 
 \newcommand{\MNUM}{4\hspace{2mm}} % Module number
 \newcommand{\TNUM}{2\hspace{2mm}} % Topic number 
@@ -71,8 +70,8 @@
 
 \newcommand{\sectiontitleI}{Resistive Gauges}
 \newcommand{\sectiontitleII}{The Bridge Circuit}
-\newcommand{\sectiontitleIII}{Quarter, Half and Full Bridges}
-\newcommand{\sectiontitleIV}{Gauge Configuration Benefits}
+\newcommand{\sectiontitleIII}{Balancing the Bridge}
+\newcommand{\sectiontitleIV}{Gauge Sensitivity}
 
 % custom box
 \newsavebox{\mybox}
@@ -110,7 +109,7 @@
 \frame{
 \frametitle{\sectiontitleI}
 
-The resistive strain gauge is bonded to the surface so that is deforms with the specimen. The change in length of the bonded gauge causes a change in resitance which is used as a measure of strain. \vspccc
+The resistive strain gauge, aka {\it metallic gauge}, is bonded to the surface so that is deforms with the specimen. The change in length of the bonded gauge causes a change in resistance which is used as a measure of strain. \vspccc
 
 \scalebox{1}{$R=\rho_eL/A_c=fn(L, ...)$}
 
@@ -118,11 +117,11 @@ The resistive strain gauge is bonded to the surface so that is deforms with the 
 
 \includegraphics[scale=0.5]{stretched_gauge.png}
 
-This is an exagerated picture so the change is  very small...
+This is an exaggerated picture so the change is  very small...
 
 \end{multicols}
 
-
+{\tiny Images: T.Hill}
 }
 
 
@@ -134,8 +133,11 @@ The {\PN Gauge Factor} is typically used instead of the physical parameters. \vs
 
 \scalebox{1}{$GF \equiv \frac{\delta R/R}{\delta L/L}=\frac{\delta R/R}{\epsilon_a}$}\vspcc
 
-This number relates the relative change in resistance to the meausured strain. \vspc
+This number relates the relative change in resistance to the measured strain. \vspc
 
+\includegraphics[scale=.25]{strain_fig2.png}
+
+{\tiny Images: \href{https://www.ni.com/en-us/innovations/white-papers/07/measuring-strain-with-strain-gages.html}{NI}}
 }
 
 % Section II:
@@ -155,6 +157,7 @@ A {\PR transducer} converts the sensed information into a detectable signal. The
 
 \end{multicols}
 
+{\tiny Text. Images: Theory and Design for Mechanical Measurements}
 }
 
 % Section II - Frame II:
@@ -173,6 +176,7 @@ How does the bridge circuit work as a transducer? \vspc Use KVL and the voltage 
 
 \end{multicols}
  
+{\tiny Images: T.Hill}
 }
 
 
@@ -183,24 +187,47 @@ How does the bridge circuit work as a transducer? \vspc Use KVL and the voltage 
 \frame{
 \frametitle{\sectiontitleIII}
 
+If all four resistors are equal the bridge voltage will equal zero and the bridge is said it be {\B balanced}. 
+One or more resistors in the circuit is replaced by a strain gauge and bridge voltage is used as a measure of change in resistance and therefore strain. \vspc
 \includegraphics[scale=.2]{gauge_in_bridge_quarter.png} 
-\includegraphics[scale=.2]{gauge_in_bridge_half.png} 
-\includegraphics[scale=.2]{gauge_in_bridge_full.png}
 
+This gives a linear {\PR calibration curve} with a convenient {\R zero offset}. \vspc 
+{\tiny Text. Images: Theory and Design for Mechanical Measurements}
 }
 
 % Section IV:
 \section{\sectiontitleIV}
 
-% Section I - Frame IV:
+% Section IV - Frame I:
 \frame{
 \frametitle{\sectiontitleIV}
 
-\includegraphics[scale=.3]{gauge_configurations.png}
+\begin{multicols}{2}
 
+\includegraphics[scale=.14]{calibration_curve.png} 
+
+\small
+Assume $R=120\Omega$ for all resistors and the bridge is balanced in a condition of zero strain. What is the {\PN static sensitivity} of the gauge and bridge circuit described? \vspc
+
+\scalebox{1}{K=}\vspc
+
+\end{multicols}
+
+
+{\tiny Text. Images: Theory and Design for Mechanical Measurements}
+}
+
+% Section IV - Frame II:
+\frame{
+\frametitle{\sectiontitleIV}
 
 }
 	
+% Section IV - Frame III:
+\frame{
+\frametitle{\sectiontitleIV}
+
+}
 \end{document}
 
 

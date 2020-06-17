@@ -61,18 +61,18 @@
 
 \newcommand{\eqscl}{0.9}     % small horizontal space
 
-
-\author{ME3050 - Dynamics Modeling and Controls} % original formatting from Mike Renfro, September 21, 2004
+\author{ME3023 - Measurements in Mechanical Systems} 
 
 \newcommand{\MNUM}{4\hspace{2mm}} % Module number
 \newcommand{\TNUM}{3\hspace{2mm}} % Topic number 
 \newcommand{\moduletitle}{Strain Gauges}
 \newcommand{\topictitle}{P3500 Strain Indicator} 
 
-\newcommand{\sectiontitleI}{Mechcanical Strain}
-\newcommand{\sectiontitleII}{Stress and Strain}
-\newcommand{\sectiontitleIII}{The Strain Gauge}
-\newcommand{\sectiontitleIV}{Engineering Applications}
+\newcommand{\sectiontitleI}{Units of Microstrain}
+\newcommand{\sectiontitleII}{Quarter, Half, and Full Configurations}
+\newcommand{\sectiontitleIII}{Wiring the P3500}
+\newcommand{\sectiontitleIV}{Operating the P3500}
+\newcommand{\sectiontitleV}{Modern Solution}
 
 % custom box
 \newsavebox{\mybox}
@@ -100,6 +100,7 @@
 	\item \sectiontitleII 	\vspc % Section II
 	\item \sectiontitleIII 	\vspc %Section III
 	\item \sectiontitleIV 	\vspc %Section IV
+	\item \sectiontitleV 	\vspc %Section V
 
 \end{itemize}
 
@@ -115,6 +116,7 @@
 \frame{
 \frametitle{\sectiontitleI}
 
+\includegraphics[scale=.25]{strain_fig1.png}
 
 }
 
@@ -126,6 +128,16 @@
 \frame{
 \frametitle{\sectiontitleII}
 
+\includegraphics[scale=.2]{gauge_in_bridge_quarter.png} 
+\includegraphics[scale=.2]{gauge_in_bridge_half.png} 
+\includegraphics[scale=.16]{gauge_in_bridge_full.png}
+
+}
+
+\frame{
+\frametitle{\sectiontitleII}
+
+\includegraphics[scale=.3]{gauge_configurations.png}
 
 
 }
@@ -133,21 +145,59 @@
 % Section III:
 \section{\sectiontitleIII}
 
-% Section I - Frame III:
+% Section I - Frame I:
 \frame{
 \frametitle{\sectiontitleIII}
+
+\includegraphics[scale=.22]{quarter_half_full.png}
 
 
 }
 
+
+
 % Section IV:
 \section{\sectiontitleIV}
 
-% Section I - Frame IV:
+% Section I - Frame I:
 \frame{
 \frametitle{\sectiontitleIV}
 
+\begin{itemize}
 
+\item The instructions are on the unit. 
+
+\item The balancing process is completed after changing any wiring. 
+
+\end{itemize}
+
+\includegraphics[scale=.228]{p3500_fig1.png}
+
+}
+
+% Section IV:
+\section{\sectiontitleV}
+
+% Section I - Frame I:
+\frame{
+\frametitle{\sectiontitleV}
+
+\begin{itemize}
+
+\item The P3500 is old technology, but still does not mean it is bad.  I have used them myself and they work great. \vspc
+
+\item The manufacturer {\it Vishay Group} has a {\it more} modern solution with DAQ and multiple channels. \vspc
+
+\item There are a variety of low cost options available but be careful.
+
+\begin{itemize}
+\item \href{https://learn.sparkfun.com/tutorials/getting-started-with-load-cells/strain-gauge-basics}{Sparkfun - strain gauge basics}
+\item \href{https://www.robotshop.com/en/strain-gauge-load-cell-amplifier-shield-2ch.html}{Robot Shop}
+
+\item \href{https://www.elecrow.com/strain-gauge-module-p-735.html}{elecrow}
+\end{itemize}
+
+\end{itemize}
 
 }
 	
