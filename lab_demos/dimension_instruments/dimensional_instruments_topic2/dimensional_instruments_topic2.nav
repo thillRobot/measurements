@@ -17,13 +17,17 @@
 \headcommand {\sectionentry {3}{Vernier Micrometer}{5}{Vernier Micrometer}{0}}
 \headcommand {\slideentry {3}{0}{1}{5/5}{}{0}}
 \headcommand {\beamer@framepages {5}{5}}
-\headcommand {\beamer@sectionpages {5}{5}}
-\headcommand {\beamer@subsectionpages {5}{5}}
-\headcommand {\sectionentry {4}{Digital Micrometer}{6}{Digital Micrometer}{0}}
-\headcommand {\slideentry {4}{0}{1}{6/6}{}{0}}
+\headcommand {\slideentry {3}{0}{2}{6/6}{}{0}}
 \headcommand {\beamer@framepages {6}{6}}
-\headcommand {\beamer@partpages {1}{6}}
-\headcommand {\beamer@subsectionpages {6}{6}}
-\headcommand {\beamer@sectionpages {6}{6}}
-\headcommand {\beamer@documentpages {6}}
-\headcommand {\gdef \inserttotalframenumber {6}}
+\headcommand {\beamer@sectionpages {5}{6}}
+\headcommand {\beamer@subsectionpages {5}{6}}
+\headcommand {\sectionentry {4}{Digital Micrometer}{7}{Digital Micrometer}{0}}
+\headcommand {\slideentry {4}{0}{1}{7/7}{}{0}}
+\headcommand {\beamer@framepages {7}{7}}
+\headcommand {\slideentry {4}{0}{2}{8/8}{}{0}}
+\headcommand {\beamer@framepages {8}{8}}
+\headcommand {\beamer@partpages {1}{8}}
+\headcommand {\beamer@subsectionpages {7}{8}}
+\headcommand {\beamer@sectionpages {7}{8}}
+\headcommand {\beamer@documentpages {8}}
+\headcommand {\gdef \inserttotalframenumber {8}}

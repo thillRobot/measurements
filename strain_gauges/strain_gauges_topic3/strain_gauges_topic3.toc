@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Mechcanical Strain}{3}{0}{1}
+\beamer@sectionintoc {2}{Stress and Strain}{4}{0}{2}
+\beamer@sectionintoc {3}{The Strain Gauge}{5}{0}{3}
+\beamer@sectionintoc {4}{Engineering Applications}{6}{0}{4}
