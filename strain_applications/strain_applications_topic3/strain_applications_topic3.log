@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.13)  22 JUN 2020 18:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.13)  22 JUN 2020 19:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -765,7 +765,7 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count329
 \l__pdf_internal_box=\box122
 )
-No file strain_applications_topic3.aux.
+(./strain_applications_topic3.aux)
 \openout1 = `strain_applications_topic3.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
@@ -784,6 +784,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
 LaTeX Font Info:    ... okay on input line 84.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
 LaTeX Font Info:    ... okay on input line 84.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -858,6 +859,8 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 84.
 LaTeX Info: Redefining \pageref on input line 84.
 LaTeX Info: Redefining \nameref on input line 84.
+
+(./strain_applications_topic3.out) (./strain_applications_topic3.out)
 \@outlinefile=\write5
 \openout5 = `strain_applications_topic3.out'.
 
@@ -939,13 +942,12 @@ ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 \c@lstlisting=\count337
-
-No file strain_applications_topic3.nav.
+ (./strain_applications_topic3.nav)
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
-) [1
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
+] [2
 
 ] [3
 
@@ -983,25 +985,25 @@ ed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `strain_applications_topic3.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  9FA539CEE2411F35F64CC25B718377A4;217.
+(rerunfilecheck)             Before: 9FA539CEE2411F35F64CC25B718377A4;217
+(rerunfilecheck)             After:  0DE02E886542FF414F7B5C1761FA99DA;221.
  ) 
 Here is how much of TeX's memory you used:
- 19354 strings out of 481239
- 363552 string characters out of 5920377
- 801748 words of memory out of 5000000
- 34166 multiletter control sequences out of 15000+600000
+ 19417 strings out of 481239
+ 364691 string characters out of 5920377
+ 803905 words of memory out of 5000000
+ 34221 multiletter control sequences out of 15000+600000
  535633 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,15n,67p,822b,566s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,19n,67p,822b,566s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on strain_applications_topic3.pdf (8 pages, 55985 bytes).
+Output written on strain_applications_topic3.pdf (8 pages, 59744 bytes).
 PDF statistics:
- 257 PDF objects out of 1000 (max. 8388607)
- 232 compressed objects within 3 object streams
+ 306 PDF objects out of 1000 (max. 8388607)
+ 277 compressed objects within 3 object streams
  21 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

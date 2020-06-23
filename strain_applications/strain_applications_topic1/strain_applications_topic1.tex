@@ -69,10 +69,10 @@
 \newcommand{\moduletitle}{Strain Applications}
 \newcommand{\topictitle}{Beam Models} 
 
-\newcommand{\sectiontitleI}{Euler Beams}
+\newcommand{\sectiontitleI}{Euler–Bernoulli Beam Theory}
 \newcommand{\sectiontitleII}{Force-Deflection Model}
-\newcommand{\sectiontitleIII}{Strain Applications}
-\newcommand{\sectiontitleIV}{Example: Mass from strain}
+\newcommand{\sectiontitleIII}{Cantilevered Beam}
+\newcommand{\sectiontitleIV}{Deflection and Strain}
 
 % custom box
 \newsavebox{\mybox}
@@ -92,14 +92,20 @@
 
 \large \textbf{Topic \TNUM - \topictitle} \vspace{3mm}\\
 
+\begin{multicols}{2}
 \begin{itemize}
 
-	\item \sectiontitleI		\vspc % Section I
+	\item \sectiontitleI    \vspc % Section I
 	\item \sectiontitleII 	\vspc % Section II
 	\item \sectiontitleIII 	\vspc %Section III
 	\item \sectiontitleIV 	\vspc %Section IV
 
 \end{itemize}
+
+\includegraphics[scale=0.28]{leonhard_euler.jpg}
+\includegraphics[scale=1.7]{daniel_bernoulli.jpg}
+
+\end{multicols}
 
 }
 
@@ -109,10 +115,23 @@
 % Section I - Frame I:
 \frame{
 \frametitle{\sectiontitleI}
+\small
 
+Euler–Bernoulli beam theory (also known as engineer's beam theory or classical beam theory)[1] is a simplification of the linear theory of elasticity which provides a means of calculating the load-carrying and deflection characteristics of beams. It covers the case for small deflections of a beam that are subjected to lateral loads only. 
 
+{\tiny Text: \href{https://en.wikipedia.org/wiki/Euler\%E2\%80\%93Bernoulli_beam_theory}{Wikipedia}}
+}
 
-{\tiny Text: Theory and Design of Mechanical Measurements}
+% Section I - Frame II:
+\frame{
+\frametitle{\sectiontitleI}
+\small
+
+It is thus a special case of Timoshenko beam theory. It was first enunciated circa 1750,[2] but was not applied on a large scale until the development of the Eiffel Tower and the Ferris wheel in the late 19th century. Following these successful demonstrations, it quickly became a cornerstone of engineering and an enabler of the Second Industrial Revolution.\vspc
+
+Additional mathematical models have been developed such as plate theory, but the simplicity of beam theory makes it an important tool in the sciences, especially structural and mechanical engineering. 
+
+{\tiny Text: \href{https://en.wikipedia.org/wiki/Euler\%E2\%80\%93Bernoulli_beam_theory}{Wikipedia}}
 }
 
 
@@ -123,12 +142,37 @@
 \frame{
 \frametitle{\sectiontitleII}
 
+\begin{multicols}{2}
+	\includegraphics[scale=.4]{diving_board_cut.png}
+	\small
+	These stiffness equations come from the beam deflection equations you have and will study.\vspc 
+	You can see them \href{https://mechanicalc.com/reference/beam-deflection-tables}{{\B here}} or look in your copy of Shigleys, and here is a good section on beam analysis \href{https://mechanicalc.com/reference/beam-analysis}{\B analysis}.
+
+
+	\includegraphics[scale=.2]{types_of_springs.png}
+\end{multicols}
+
+
+
 }
 
 % Section II - Frame II:
 \frame{
 \frametitle{\sectiontitleII}
 
+The beam equations relate internal moment and shear as well as deflection along the length of the beam to the given beam geometry and loading.  
+
+\begin{multicols}{2}
+
+\includegraphics[scale=.50]{cantelever_deflection.png}
+
+\vspace{10mm}
+\hspccc\scalebox{1}{$\delta(x)=-\frac{Fx^2}{6EI}(3L-x)$} \vspc
+\hspccc\scalebox{1}{$\delta_{max}=\delta|_{x=L}=-\frac{FL^3}{3EI}$} \vspccc
+\hspccc\scalebox{1}{$\theta(x)=-\frac{Fx}{2EI}(2L-x)$} \vspc
+\hspccc\scalebox{1}{$\theta_{max}=\theta|_{x=L}=-\frac{FL^2}{2EI}$}
+
+\end{multicols}
 
 }
 
@@ -139,29 +183,51 @@
 % Section III - Frame I:
 \frame{
 \frametitle{\sectiontitleIII}
+\small
+
+The shear and moment are both given as a function of x, the direction along the beam. 
+
+\begin{multicols}{2}
+
+\includegraphics[scale=.5]{cantelever_beam.png}
+
+\scalebox{1}{$M(x)=-F(L-x)$}\vspcc
+\scalebox{1}{$M_max=M|_{x=0}=-FL$}
+
+\end{multicols}
 
 
-\vspace{20mm}
-{\tiny Text: Theory and Design of Mechanical Measurements}
 }
 
 % Section III - Frame II:
 \frame{
 \frametitle{\sectiontitleIII}
+\small
 
+The internal stress is given as a function of y, the distance from the neutral axis. \vspccc
+
+\begin{multicols}{2}
+
+\includegraphics[scale=.75]{internal_stress.png}
+
+\scalebox{1}{$\sigma=\frac{Mc}{I}$}\vspc
+
+\end{multicols}
 
 \vspace{20mm}
 {\tiny Text: Theory and Design of Mechanical Measurements}
 }
 
-% Section IV:
+%% Section IV:
 \section{\sectiontitleIV}
 
 % Section IV - Frame I:
 \frame{
 \frametitle{\sectiontitleIV}
+\small
+Now, with the beam equations you can relate measured strain at a known location to deflection at the end of the beam.These equations are available for many different beam types and loading conditions. {\tiny \href{https://mechanicalc.com/reference/beam-deflection-tables}{{\B Beam Eq's}}}  \vspc
 
-
+\includegraphics[scale=.4]{axial_gaged_beam.png}
 
 
 }
