@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.13)  22 JUN 2020 19:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.13)  23 JUN 2020 11:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -977,16 +977,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
 (./strain_applications_topic3.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 169.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 169.
-
-
-Package rerunfilecheck Warning: File `strain_applications_topic3.out' has chang
-ed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `strain_applications_topic3.out':
-(rerunfilecheck)             Before: 9FA539CEE2411F35F64CC25B718377A4;217
-(rerunfilecheck)             After:  0DE02E886542FF414F7B5C1761FA99DA;221.
+Package rerunfilecheck Info: File `strain_applications_topic3.out' has not chan
+ged.
+(rerunfilecheck)             Checksum: 7FC282E0F87F78A759AD0A3BBC58245C;221.
  ) 
 Here is how much of TeX's memory you used:
  19417 strings out of 481239
@@ -1000,7 +993,7 @@ Here is how much of TeX's memory you used:
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on strain_applications_topic3.pdf (8 pages, 59744 bytes).
+Output written on strain_applications_topic3.pdf (8 pages, 59477 bytes).
 PDF statistics:
  306 PDF objects out of 1000 (max. 8388607)
  277 compressed objects within 3 object streams

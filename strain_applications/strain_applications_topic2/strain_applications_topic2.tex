@@ -64,15 +64,15 @@
 
 \author{ME3023 - Measurements in Mechanical Systems} % original formatting from Mike Renfro, September 21, 2004
 
-\newcommand{\MNUM}{4\hspace{2mm}} % Module number
-\newcommand{\TNUM}{1\hspace{2mm}} % Topic number 
+\newcommand{\MNUM}{5\hspace{2mm}} % Module number
+\newcommand{\TNUM}{2\hspace{2mm}} % Topic number 
 \newcommand{\moduletitle}{Strain Applications}
-\newcommand{\topictitle}{Apparent Strain} 
+\newcommand{\topictitle}{The Bridge Factor} 
 
-\newcommand{\sectiontitleI}{---}
-\newcommand{\sectiontitleII}{---}
-\newcommand{\sectiontitleIII}{---}
-\newcommand{\sectiontitleIV}{---}
+\newcommand{\sectiontitleI}{The Quarter Bridge}
+\newcommand{\sectiontitleII}{Using Multiple Gauges}
+\newcommand{\sectiontitleIII}{Apparent Strain and Temperature}
+\newcommand{\sectiontitleIV}{Example: Digital Scale}
 
 % custom box
 \newsavebox{\mybox}
@@ -109,10 +109,45 @@
 % Section I - Frame I:
 \frame{
 \frametitle{\sectiontitleI}
+\small
 
+Hooke's law describes the linear relationship between stress and strain of an elastic member with modulus of elasticity E.\vspc
+\scalebox{1}{$\sigma=E\epsilon$} \vspc
+\begin{multicols}{2}
+If the loading is known the beam models can be applied. \vspc
+\includegraphics[scale=.30]{simple_loading.png} \includegraphics[scale=.18]{gauged_beam_bridge.png} \vspace{15mm} 
+\end{multicols}
 
+}
 
-{\tiny Text: Theory and Design of Mechanical Measurements}
+% Section I - Frame II:
+\frame{
+\frametitle{\sectiontitleI}
+\small
+\begin{multicols}{2}
+Consider the quarter bridge case in which the gauge is $R_1$ and $R_1=R_2=R_3=R_4$ in a condition of zero strain. \vspcc
+
+\includegraphics[scale=.18]{bridge_circuit_fig2.png}
+\end{multicols}
+
+\scalebox{1}{$E_{out}=E_{in}\times\left( \frac{R_1}{R_1+R_2}-\frac{R_3}{R_3+R_4}\right)\implies E_{out}=E_{in}\frac{\left(R_1R_4-R_2R_3\right)}{\left(R_1+R_2\right)\left(R_3+R_4\right)}$}\vspcc
+Now, $R_1$ changes by $\delta R$ causing $E_{out}$ to change by $\delta E_{out}$. \vspcc
+\scalebox{1}{$E_{out}+\delta E_{out}=E_{in}\frac{\left(\left(R_1+\delta R\right)R_4-R_2R_3\right)}{\left(\left(R_1+\delta R\right)+R_2\right)\left(R_3+R_4\right)}$}\vspc
+
+}
+
+% Section I - Frame III:
+\frame{
+\frametitle{\sectiontitleI}
+\small
+
+In practice the bridge is balanced in a condition of zero strain which gives an output voltage of $E_{out}=0v$. Then any additional strain causes a $\delta E_{out}$ which is measured. \vspc
+
+The previous equation is commonly written in the following practical form. \vspcc
+
+\scalebox{1}{$\frac{\delta E_{out}}{E_{in}}=\frac{\delta R/R}{4+2\left(\delta R/R\right)}\approx \frac{\delta R/R}{4}$} \hspc or \hspc \scalebox{1}{$\frac{\delta E_{out}}{E_{in}}=\frac{GF\epsilon}{4+2GF\epsilon}\approx \frac{\delta GF\epsilon}{4}$} \vspcc
+with Gage Factor defined as \hspc \scalebox{1}{$GF\equiv \frac{\delta R/R}{\delta L/L}=\frac{\delta R/R}{\epsilon}$}
+
 }
 
 
@@ -122,13 +157,31 @@
 % Section II - Frame I:
 \frame{
 \frametitle{\sectiontitleII}
+\small
+An improved system uses a set of gauges known as a {\PN rosette} with the wheatstone bridge in a half or full bridge configuration. \vspc
+
+\begin{multicols}{2}
+\includegraphics[scale=.2]{bridge_circuit_fig2.png}
+
+\includegraphics[scale=.2]{delta_rosette.jpg}
+\end{multicols}
+\includegraphics[scale=.4]{gauge_geometries.png}
 
 }
-
 % Section II - Frame II:
 \frame{
 \frametitle{\sectiontitleII}
+\begin{multicols}{2}
+If multiple gauges are used the relationship between strain and output voltage is derived with a similar process (see page 479).   \vspcc
 
+\includegraphics[scale=.2]{half_bridge_beam.png}
+\end{multicols}
+
+The result gives an expression relating the output voltage, the gauge factor, and all four measured strains. \vspcc
+
+\scalebox{1}{$\frac{\delta E_{out}}{E_{in}}=\frac{GF}{4}\left(\epsilon_1-\epsilon_2+\epsilon_4-\epsilon_3\right)=\kappa\frac{GF}{4}$}\vspcc
+
+The constant $\kappa$ is known as the bridge factor.
 
 }
 
@@ -139,19 +192,21 @@
 % Section III - Frame I:
 \frame{
 \frametitle{\sectiontitleIII}
+Equation 11.22 shows that for a bridge containing one or more strain gauges, equal strains on opposite bridge arms sum, whereas equal strains on adjacent arms of the bridge cancel. These characteristics can be used to increase the output of the bridge, to provide temperature compensation, or to cancel unwanted components of strain. \vspc
 
+{\tiny Text: Theory and Design of Mechanical Measurements} \vspcc
 
-\vspace{20mm}
-{\tiny Text: Theory and Design of Mechanical Measurements}
+This summarizes the reasons to use a wheatstone instead of a operational amplifier when measuring strain with a metallic strain gauge. 
+
 }
 
 % Section III - Frame II:
 \frame{
 \frametitle{\sectiontitleIII}
+\small
 
-
-\vspace{20mm}
-{\tiny Text: Theory and Design of Mechanical Measurements}
+\includegraphics[scale=.28]{gauge_configurations.png}\\
+For more details read this document from \href{https://www.ni.com/en-us/innovations/white-papers/07/measuring-strain-with-strain-gages.html}{NI}.
 }
 
 % Section IV:
@@ -161,8 +216,13 @@
 \frame{
 \frametitle{\sectiontitleIV}
 
+\begin{multicols}{2}
+Have you ever wondered how a digital scale works? \vspcc
 
+Does it matter where you place item? Why or why not?
 
+\includegraphics[scale=.2]{digital_scale.jpg}
+\end{multicols}
 
 }
 	

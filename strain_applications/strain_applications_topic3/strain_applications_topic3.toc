@@ -1,4 +1,4 @@
 \beamer@sectionintoc {1}{What is Principle Stress?}{3}{0}{1}
-\beamer@sectionintoc {2}{Why measure }{4}{0}{2}
+\beamer@sectionintoc {2}{Motivation }{4}{0}{2}
 \beamer@sectionintoc {3}{Strain Applications}{6}{0}{3}
-\beamer@sectionintoc {4}{Example: Mass from strain}{8}{0}{4}
+\beamer@sectionintoc {4}{Example: A Pressure Vessel}{8}{0}{4}
