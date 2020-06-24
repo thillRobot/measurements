@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Euler–Bernoulli Beam Theory}{3}{0}{1}
+\beamer@sectionintoc {2}{Force-Deflection Model}{5}{0}{2}
+\beamer@sectionintoc {3}{Cantilevered Beam}{7}{0}{3}
+\beamer@sectionintoc {4}{Deflection and Strain}{9}{0}{4}
