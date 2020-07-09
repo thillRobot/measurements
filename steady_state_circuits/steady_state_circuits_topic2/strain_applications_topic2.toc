@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{The Quarter Bridge}{3}{0}{1}
+\beamer@sectionintoc {2}{Using Multiple Gauges}{6}{0}{2}
+\beamer@sectionintoc {3}{Apparent Strain and Temperature}{8}{0}{3}
+\beamer@sectionintoc {4}{Example: Digital Scale}{10}{0}{4}
