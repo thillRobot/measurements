@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.30)  13 JUL 2020 16:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.30)  14 JUL 2020 11:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**steady_state_circuits_topic1.tex
-(./steady_state_circuits_topic1.tex
+**steady_state_circuits_topic2.tex
+(./steady_state_circuits_topic2.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
@@ -732,8 +732,8 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 )
 \mybox=\box81
 
-(./steady_state_circuits_topic1.aux)
-\openout1 = `steady_state_circuits_topic1.aux'.
+(./steady_state_circuits_topic2.aux)
+\openout1 = `steady_state_circuits_topic2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
 LaTeX Font Info:    ... okay on input line 84.
@@ -830,9 +830,9 @@ LaTeX Info: Redefining \ref on input line 84.
 LaTeX Info: Redefining \pageref on input line 84.
 LaTeX Info: Redefining \nameref on input line 84.
 
-(./steady_state_circuits_topic1.out) (./steady_state_circuits_topic1.out)
+(./steady_state_circuits_topic2.out) (./steady_state_circuits_topic2.out)
 \@outlinefile=\write5
-\openout5 = `steady_state_circuits_topic1.out'.
+\openout5 = `steady_state_circuits_topic2.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 84.
@@ -912,132 +912,119 @@ ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 \c@lstlisting=\count178
- (./steady_state_circuits_topic1.nav)
+ (./steady_state_circuits_topic2.nav)
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ] [2
 
-] [3
-
 ]
-<resistor_color_codes.jpg, id=135, 602.25pt x 416.30531pt>
-File: resistor_color_codes.jpg Graphic file (type jpg)
-<use resistor_color_codes.jpg>
-Package pdftex.def Info: resistor_color_codes.jpg  used on input line 139.
-(pdftex.def)             Requested size: 150.56212pt x 104.07607pt.
-<ceramic_capacitor_codes.jpg, id=136, 508.14844pt x 384.6872pt>
-File: ceramic_capacitor_codes.jpg Graphic file (type jpg)
-<use ceramic_capacitor_codes.jpg>
-Package pdftex.def Info: ceramic_capacitor_codes.jpg  used on input line 139.
-(pdftex.def)             Requested size: 152.4457pt x 115.40704pt.
- [4
+<George_Ohm.png, id=105, 254.9525pt x 327.2225pt>
+File: George_Ohm.png Graphic file (type png)
+<use George_Ohm.png>
+Package pdftex.def Info: George_Ohm.png  used on input line 121.
+(pdftex.def)             Requested size: 89.2347pt x 114.52959pt.
+<Ohms_Laborbuch.jpg, id=106, 1291.82625pt x 1099.10625pt>
+File: Ohms_Laborbuch.jpg Graphic file (type jpg)
+<use Ohms_Laborbuch.jpg>
+Package pdftex.def Info: Ohms_Laborbuch.jpg  used on input line 121.
+(pdftex.def)             Requested size: 129.19019pt x 109.91705pt.
+ [3
 
- <./resistor_color_codes.jpg> <./ceramic_capacitor_codes.jpg>]
-<charges_plus_minus.png, id=167, 165.61874pt x 124.21407pt>
-File: charges_plus_minus.png Graphic file (type png)
-<use charges_plus_minus.png>
-Package pdftex.def Info: charges_plus_minus.png  used on input line 166.
-(pdftex.def)             Requested size: 82.80916pt x 62.10687pt.
- [5
-
- <./charges_plus_minus.png>] [6
-
-]
-LaTeX Font Info:    Try loading font information for U+msa on input line 208.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+ <./George_Ohm.png> <./Ohms_Laborbuch.jpg>]
+LaTeX Font Info:    Try loading font information for U+msa on input line 138.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 208.
+LaTeX Font Info:    Try loading font information for U+msb on input line 138.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 208.
+line 138.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-[7
+<OhmsLaw.png, id=138, 90.3375pt x 126.4725pt>
+File: OhmsLaw.png Graphic file (type png)
+<use OhmsLaw.png>
+Package pdftex.def Info: OhmsLaw.png  used on input line 138.
+(pdftex.def)             Requested size: 72.27008pt x 101.17813pt.
+
+[4
+
+ <./OhmsLaw.png>] [5
 
 ]
-<resistor_symbol.png, id=261, 133.83333pt x 45.50333pt>
-File: resistor_symbol.png Graphic file (type png)
-<use resistor_symbol.png>
-Package pdftex.def Info: resistor_symbol.png  used on input line 225.
-(pdftex.def)             Requested size: 53.53236pt x 18.20099pt.
-<capacitor_symbol.png, id=262, 140.02313pt x 48.18pt>
-File: capacitor_symbol.png Graphic file (type png)
-<use capacitor_symbol.png>
-Package pdftex.def Info: capacitor_symbol.png  used on input line 225.
-(pdftex.def)             Requested size: 56.00826pt x 19.27164pt.
-<inductor_symbol.png, id=263, 156.585pt x 33.12375pt>
-File: inductor_symbol.png Graphic file (type png)
-<use inductor_symbol.png>
-Package pdftex.def Info: inductor_symbol.png  used on input line 225.
-(pdftex.def)             Requested size: 62.63287pt x 13.24925pt.
-<node_symbol.png, id=264, 88.83188pt x 34.62938pt>
-File: node_symbol.png Graphic file (type png)
-<use node_symbol.png>
-Package pdftex.def Info: node_symbol.png  used on input line 225.
-(pdftex.def)             Requested size: 53.29953pt x 20.77777pt.
-<jump_symbol.png, id=265, 65.49469pt x 60.97781pt>
-File: jump_symbol.png Graphic file (type png)
-<use jump_symbol.png>
-Package pdftex.def Info: jump_symbol.png  used on input line 225.
-(pdftex.def)             Requested size: 39.29709pt x 36.58694pt.
-<switch_symbol.png, id=266, 81.30376pt x 19.57312pt>
-File: switch_symbol.png Graphic file (type png)
-<use switch_symbol.png>
-Package pdftex.def Info: switch_symbol.png  used on input line 225.
-(pdftex.def)             Requested size: 48.78261pt x 11.74394pt.
- [8
+<Kirchhoffs_voltage_law.png, id=202, 551.05875pt x 481.8pt>
+File: Kirchhoffs_voltage_law.png Graphic file (type png)
+<use Kirchhoffs_voltage_law.png>
+Package pdftex.def Info: Kirchhoffs_voltage_law.png  used on input line 162.
+(pdftex.def)             Requested size: 110.2098pt x 96.35829pt.
 
- <./resistor_symbol.png> <./capacitor_symbol.png> <./inductor_symbol.png> <./no
-de_symbol.png> <./jump_symbol.png> <./switch_symbol.png>] [9
+Overfull \vbox (29.1793pt too high) detected at line 162
+ []
+
+[6
+
+ <./Kirchhoffs_voltage_law.png>] [7
+
+] [8
+
+] [9
 
 ] [10
 
 ]
 \tf@nav=\write6
-\openout6 = `steady_state_circuits_topic1.nav'.
+\openout6 = `steady_state_circuits_topic2.nav'.
 
 \tf@toc=\write7
-\openout7 = `steady_state_circuits_topic1.toc'.
+\openout7 = `steady_state_circuits_topic2.toc'.
 
 \tf@snm=\write8
-\openout8 = `steady_state_circuits_topic1.snm'.
+\openout8 = `steady_state_circuits_topic2.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 261.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 261.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 198.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 198.
 
-(./steady_state_circuits_topic1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 261.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 261.
-Package rerunfilecheck Info: File `steady_state_circuits_topic1.out' has not ch
-anged.
-(rerunfilecheck)             Checksum: 42CA268508395579247A77CF9EFBA1A1;236.
+(./steady_state_circuits_topic2.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 198.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 198.
+
+
+Package rerunfilecheck Warning: File `steady_state_circuits_topic2.out' has cha
+nged.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `steady_state_circuits_topic2.out':
+(rerunfilecheck)             Before: 6760248039086B07860AFA90C7BF082D;207
+(rerunfilecheck)             After:  A05E7653A253D9ACD24DCA4B0AED8E70;208.
  ) 
 Here is how much of TeX's memory you used:
- 18430 strings out of 492982
- 345501 string characters out of 6134896
- 451459 words of memory out of 5000000
- 21558 multiletter control sequences out of 15000+600000
- 11379 words of font info for 41 fonts, out of 8000000 for 9000
+ 18416 strings out of 492982
+ 345102 string characters out of 6134896
+ 449333 words of memory out of 5000000
+ 21547 multiletter control sequences out of 15000+600000
+ 12472 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,19n,57p,824b,559s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on steady_state_circuits_topic1.pdf (10 pages, 519442 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmssi8.pfb>
+Output written on steady_state_circuits_topic2.pdf (10 pages, 509558 bytes).
 PDF statistics:
  388 PDF objects out of 1000 (max. 8388607)
- 340 compressed objects within 4 object streams
+ 346 compressed objects within 4 object streams
  25 named destinations out of 1000 (max. 500000)
- 126 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

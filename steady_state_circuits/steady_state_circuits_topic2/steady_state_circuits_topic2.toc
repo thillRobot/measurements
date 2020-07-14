@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Ohm's Law}{3}{0}{1}
+\beamer@sectionintoc {2}{Kirchhoff's Laws}{5}{0}{2}
+\beamer@sectionintoc {3}{Power Dissipation}{7}{0}{3}
+\beamer@sectionintoc {4}{Example: Resistance Sensor}{9}{0}{4}
