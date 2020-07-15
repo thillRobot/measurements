@@ -4,7 +4,7 @@
 % Spring 2020 - Summer 2020
 % Tristan Hill, May 07, 2020 - June 12, 2020 - July 08, 2020
 % Module 6 - Steady State Circuits
-% Topic 2 - Fundamental Laws
+% Topic 3 - Circuit Applications
 %
 
 \documentclass{beamer}                         % for presentation (has nav buttons at bottom)
@@ -67,12 +67,12 @@
 \newcommand{\MNUM}{6\hspace{2mm}} % Module number
 \newcommand{\TNUM}{2\hspace{2mm}} % Topic number 
 \newcommand{\moduletitle}{Steady State Circuits}
-\newcommand{\topictitle}{Fundamental Laws} 
+\newcommand{\topictitle}{Circuit Applications} 
 
-\newcommand{\sectiontitleI}{Ohm's Law}
-\newcommand{\sectiontitleII}{Kirchhoff's Laws}
-\newcommand{\sectiontitleIII}{Power Dissipation}
-\newcommand{\sectiontitleIV}{Example: Resistance Sensor}
+\newcommand{\sectiontitleI}{---}
+\newcommand{\sectiontitleII}{Voltage Divider}
+\newcommand{\sectiontitleIII}{Wheatstone Bridge}
+\newcommand{\sectiontitleIV}{---}
 
 % custom box
 \newsavebox{\mybox}
@@ -110,30 +110,12 @@
 % Section I - Frame I:
 \frame{
 \frametitle{\sectiontitleI}
-{\bf George Simon Ohm} 
-\begin{multicols}{2}
-\includegraphics[scale=.35]{George_Ohm.png}	
 
-\includegraphics[scale=.10]{Ohms_Laborbuch.jpg}	
-
-\end{multicols}
-Ohm did his work on resistance in the years 1825 and 1826, and published his results in 1827 as the book Die galvanische Kette, mathematisch bearbeitet...
 }
 
 % Section I - Frame II:
 \frame{
 \frametitle{\sectiontitleI}
-Ohm's law states that the current through a conductor between two points is directly proportional to the voltage across the two points. 
-
-\begin{multicols}{2}
-
-\[ I=\frac{V}{R}  \] \vspace{1mm}\\
-It is more commonly shown in the following form.
-\[ V=IR \]
-
-\includegraphics[scale=.8]{OhmsLaw.png}
-
-\end{multicols}
 
 }
 
@@ -145,12 +127,6 @@ It is more commonly shown in the following form.
 \frame{
 \frametitle{\sectiontitleII}
 
-Both of Kirchhoff's laws can be understood as corollaries of Maxwell's equations in the low-frequency limit. They are accurate for DC circuits, and for AC circuits at frequencies where the wavelengths of electromagnetic radiation are very large compared to the circuits. \vspc 
-
-\begin{enumerate}
-\item Kichhoff's Voltage Law (KVL)
-\item Kichhoff's Current  Law (KCL)
-\end{enumerate}
 
 }
 
@@ -158,13 +134,7 @@ Both of Kirchhoff's laws can be understood as corollaries of Maxwell's equations
 \frame{
 \frametitle{\sectiontitleII}
 
-\begin{multicols}{2}
-{\bf Kichhoff's Voltage Law (KVL)} - The sum of the voltages around a loop (aka mesh) equals zero.\\ $ \sum\limits_{k=1}^{n} V_k = 0 $ \\
-\includegraphics[scale=.20]{Kirchhoffs_voltage_law.png} 
 
-{\bf Kichhoff's Current  Law (KCL)} - The sum of the current flowing in and out of  node (aka junction) equals zero. \\ $ \sum\limits_{k=1}^{n} I_k = 0 $ \vspace{2mm}\\
-\includegraphics[scale=.4]{Kirchhoffs_current_law.png} 
-\end{multicols}
 
 }
 
@@ -176,18 +146,13 @@ Both of Kirchhoff's laws can be understood as corollaries of Maxwell's equations
 \frame{
 \frametitle{\sectiontitleIII}
 
-Energy is transformed in to heat in passive circuit components. For a resistor the power dissipation can be found with following relations. \vspace{5mm}
-
-$P=IV$ \hspace{20mm} $V=IR$
 
 }
 
 % Section III - Frame II:
 \frame{
 \frametitle{\sectiontitleIII}
-Power is the rate of energy dissipated, aka the amount of energy lost per unit of time. How do we compute total energy for the power? 
 
-\[E=\int\limits_{t1}^{t2}Pdt \]  
 }
 
 %% Section IV:
@@ -198,16 +163,7 @@ Power is the rate of energy dissipated, aka the amount of energy lost per unit o
 \frametitle{\sectiontitleIV}
 \small
 
-Consider the simple circuit shown for measuring light intensity. 
-\begin{multicols}{2}
-\includegraphics[scale=.2]{ldr_circuit.png}
-\begin{enumerate}
-\item Find the current in the loop. 
-\item Find the voltage drop across the LDR.
-\item Find the voltage drop across the $10k\Omega$ resistor.
-\item Find the power dissipated the resistor and the total energy lost to heat over 10 seconds. 
-\end{enumerate}
-\end{multicols}
+
 }
 	
 % Section IV - Frame I:
