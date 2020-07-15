@@ -1,4 +1,4 @@
 \beamer@sectionintoc {1}{Common Passive Components}{3}{0}{1}
 \beamer@sectionintoc {2}{Important Electrical Quantities}{5}{0}{2}
 \beamer@sectionintoc {3}{Units and Symbols}{7}{0}{3}
-\beamer@sectionintoc {4}{Circuits in Engineering}{9}{0}{4}
+\beamer@sectionintoc {4}{Types of Switches}{9}{0}{4}

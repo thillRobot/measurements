@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.30)  15 JUL 2020 08:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.30)  15 JUL 2020 16:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -920,76 +920,87 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 ] [2
 
 ]
-<George_Ohm.png, id=105, 254.9525pt x 327.2225pt>
+<James_Clerk_Maxwell.png, id=105, 332.24126pt x 399.4925pt>
+File: James_Clerk_Maxwell.png Graphic file (type png)
+<use James_Clerk_Maxwell.png>
+Package pdftex.def Info: James_Clerk_Maxwell.png  used on input line 127.
+(pdftex.def)             Requested size: 99.67314pt x 119.84866pt.
+
+Overfull \hbox (3.90985pt too wide) in paragraph at lines 127--127
+[] 
+ []
+
+<George_Ohm.png, id=107, 254.9525pt x 327.2225pt>
 File: George_Ohm.png Graphic file (type png)
 <use George_Ohm.png>
-Package pdftex.def Info: George_Ohm.png  used on input line 121.
-(pdftex.def)             Requested size: 89.2347pt x 114.52959pt.
-<Ohms_Laborbuch.jpg, id=106, 1291.82625pt x 1099.10625pt>
+Package pdftex.def Info: George_Ohm.png  used on input line 127.
+(pdftex.def)             Requested size: 76.48633pt x 98.1675pt.
+<Ohms_Laborbuch.jpg, id=108, 1291.82625pt x 1099.10625pt>
 File: Ohms_Laborbuch.jpg Graphic file (type jpg)
 <use Ohms_Laborbuch.jpg>
-Package pdftex.def Info: Ohms_Laborbuch.jpg  used on input line 121.
-(pdftex.def)             Requested size: 129.19019pt x 109.91705pt.
- [3
+Package pdftex.def Info: Ohms_Laborbuch.jpg  used on input line 127.
+(pdftex.def)             Requested size: 90.43707pt x 76.9453pt.
+[3
 
- <./George_Ohm.png> <./Ohms_Laborbuch.jpg>]
-LaTeX Font Info:    Try loading font information for U+msa on input line 138.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+ <./James_Clerk_Maxwell.png> <./George_Ohm.png> <./Ohms_Laborbuch.jpg>]
+LaTeX Font Info:    Try loading font information for U+msa on input line 144.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 138.
+LaTeX Font Info:    Try loading font information for U+msb on input line 144.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 138.
+line 144.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-<OhmsLaw.png, id=138, 90.3375pt x 126.4725pt>
+<OhmsLaw.png, id=141, 90.3375pt x 126.4725pt>
 File: OhmsLaw.png Graphic file (type png)
 <use OhmsLaw.png>
-Package pdftex.def Info: OhmsLaw.png  used on input line 138.
+Package pdftex.def Info: OhmsLaw.png  used on input line 144.
 (pdftex.def)             Requested size: 72.27008pt x 101.17813pt.
 
 [4
 
- <./OhmsLaw.png>] [5
+ <./OhmsLaw.png>]
+<series_resistors.png, id=174, 306.47833pt x 187.36667pt>
+File: series_resistors.png Graphic file (type png)
+<use series_resistors.png>
+Package pdftex.def Info: series_resistors.png  used on input line 171.
+(pdftex.def)             Requested size: 61.29457pt x 37.47266pt.
+<parallel_resistors.png, id=175, 200.75pt x 283.72667pt>
+File: parallel_resistors.png Graphic file (type png)
+<use parallel_resistors.png>
+Package pdftex.def Info: parallel_resistors.png  used on input line 171.
+(pdftex.def)             Requested size: 40.14928pt x 56.74432pt.
+ [5
 
-]
-<Kirchhoffs_voltage_law.png, id=202, 551.05875pt x 481.8pt>
-File: Kirchhoffs_voltage_law.png Graphic file (type png)
-<use Kirchhoffs_voltage_law.png>
-Package pdftex.def Info: Kirchhoffs_voltage_law.png  used on input line 169.
-(pdftex.def)             Requested size: 110.2098pt x 96.35829pt.
-<Kirchhoffs_current_law.png, id=203, 221.32687pt x 215.30438pt>
-File: Kirchhoffs_current_law.png Graphic file (type png)
-<use Kirchhoffs_current_law.png>
-Package pdftex.def Info: Kirchhoffs_current_law.png  used on input line 169.
-(pdftex.def)             Requested size: 88.52916pt x 86.12022pt.
-
-Overfull \vbox (2.82452pt too high) detected at line 169
- []
-
+ <./series_resistors.png> <./parallel_resistors.png>]
 [6
 
- <./Kirchhoffs_voltage_law.png> <./Kirchhoffs_current_law.png>] [7
+]
+<Kirchhoffs_voltage_law.png, id=239, 551.05875pt x 481.8pt>
+File: Kirchhoffs_voltage_law.png Graphic file (type png)
+<use Kirchhoffs_voltage_law.png>
+Package pdftex.def Info: Kirchhoffs_voltage_law.png  used on input line 202.
+(pdftex.def)             Requested size: 110.2098pt x 96.35829pt.
+<Kirchhoffs_current_law.png, id=240, 221.32687pt x 215.30438pt>
+File: Kirchhoffs_current_law.png Graphic file (type png)
+<use Kirchhoffs_current_law.png>
+Package pdftex.def Info: Kirchhoffs_current_law.png  used on input line 202.
+(pdftex.def)             Requested size: 88.52916pt x 86.12022pt.
+ [7
 
-] [8
+ <./Kirchhoffs_voltage_law.png> <./Kirchhoffs_current_law.png>] [8
 
 ]
-<ldr_circuit.png, id=299, 710.655pt x 692.5875pt>
-File: ldr_circuit.png Graphic file (type png)
-<use ldr_circuit.png>
-Package pdftex.def Info: ldr_circuit.png  used on input line 211.
-(pdftex.def)             Requested size: 142.12848pt x 138.51505pt.
-
 [9
-
- <./ldr_circuit.png>] [10
 
 ]
 \tf@nav=\write6
@@ -1001,23 +1012,23 @@ Package pdftex.def Info: ldr_circuit.png  used on input line 211.
 \tf@snm=\write8
 \openout8 = `steady_state_circuits_topic2.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 221.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 221.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 225.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 225.
  (./steady_state_circuits_topic2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 221.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 221.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 225.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 225.
 Package rerunfilecheck Info: File `steady_state_circuits_topic2.out' has not ch
 anged.
-(rerunfilecheck)             Checksum: A05E7653A253D9ACD24DCA4B0AED8E70;208.
+(rerunfilecheck)             Checksum: BCCDFECB8479F7DB811BB8CFC3DF0C3D;202.
  ) 
 Here is how much of TeX's memory you used:
- 18457 strings out of 492982
- 346024 string characters out of 6134896
- 451336 words of memory out of 5000000
- 21584 multiletter control sequences out of 15000+600000
+ 18463 strings out of 492982
+ 346274 string characters out of 6134896
+ 449270 words of memory out of 5000000
+ 21590 multiletter control sequences out of 15000+600000
  15961 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,19n,57p,824b,651s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,19n,57p,824b,571s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texl
@@ -1025,10 +1036,10 @@ ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmssi8.pfb>
-Output written on steady_state_circuits_topic2.pdf (10 pages, 589346 bytes).
+Output written on steady_state_circuits_topic2.pdf (9 pages, 621819 bytes).
 PDF statistics:
- 392 PDF objects out of 1000 (max. 8388607)
- 346 compressed objects within 4 object streams
- 25 named destinations out of 1000 (max. 500000)
- 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 365 PDF objects out of 1000 (max. 8388607)
+ 316 compressed objects within 4 object streams
+ 23 named destinations out of 1000 (max. 500000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
 

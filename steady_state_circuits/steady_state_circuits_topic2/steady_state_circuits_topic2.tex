@@ -70,9 +70,9 @@
 \newcommand{\topictitle}{Fundamental Laws} 
 
 \newcommand{\sectiontitleI}{Ohm's Law}
-\newcommand{\sectiontitleII}{Kirchhoff's Laws}
-\newcommand{\sectiontitleIII}{Power Dissipation}
-\newcommand{\sectiontitleIV}{Example: Resistance Sensor}
+\newcommand{\sectiontitleII}{Combining Resistance}
+\newcommand{\sectiontitleIII}{Kirchhoff's Laws}
+\newcommand{\sectiontitleIV}{Power Dissipation}
 
 % custom box
 \newsavebox{\mybox}
@@ -108,20 +108,26 @@
 \section{\sectiontitleI}
 
 % Section I - Frame I:
-\frame{
+\frame{ \small
 \frametitle{\sectiontitleI}
-{\bf George Simon Ohm} 
-\begin{multicols}{2}
-\includegraphics[scale=.35]{George_Ohm.png}	
 
-\includegraphics[scale=.10]{Ohms_Laborbuch.jpg}	
+\begin{multicols}{3}
+
+{\bf James Maxwell}
+\includegraphics[scale=.30]{James_Clerk_Maxwell.png} \hspace{3mm}	
+
+{\bf George Ohm} 
+\includegraphics[scale=.30]{George_Ohm.png}	
+
+{\bf Ohm's Notebook}
+\includegraphics[scale=.07]{Ohms_Laborbuch.jpg}	
 
 \end{multicols}
 Ohm did his work on resistance in the years 1825 and 1826, and published his results in 1827 as the book Die galvanische Kette, mathematisch bearbeitet...
 }
 
 % Section I - Frame II:
-\frame{
+\frame{ \small
 \frametitle{\sectiontitleI}
 Ohm's law states that the current through a conductor between two points is directly proportional to the voltage across the two points. 
 
@@ -144,6 +150,33 @@ It is more commonly shown in the following form.
 % Section II - Frame I:
 \frame{
 \frametitle{\sectiontitleII}
+\begin{multicols}{2}
+
+\begin{center}
+Resistors in Series\vspcc
+\includegraphics[scale=.2]{series_resistors.png} 
+\end{center}
+\[R_{eq}=R_1+R_2 \]
+\vspace{15mm}\\
+
+\begin{center}
+Resistors in Parallel \vspcc
+\includegraphics[scale=.2]{parallel_resistors.png}
+\end{center}
+\[R_{eq}=\frac{1}{\frac{1}{R_1}+\frac{1}{R_2}} \]
+\vspace{10mm}\\
+
+\end{multicols}
+
+}
+
+
+% Section III:
+\section{\sectiontitleIII}
+
+% Section III - Frame I:
+\frame{ \small
+\frametitle{\sectiontitleIII}
 
 Both of Kirchhoff's laws can be understood as corollaries of Maxwell's equations in the low-frequency limit. They are accurate for DC circuits, and for AC circuits at frequencies where the wavelengths of electromagnetic radiation are very large compared to the circuits. \vspc 
 
@@ -154,67 +187,38 @@ Both of Kirchhoff's laws can be understood as corollaries of Maxwell's equations
 
 }
 
-% Section II - Frame II:
-\frame{
-\frametitle{\sectiontitleII}
+% Section III - Frame II:
+\frame{ \small
+\frametitle{\sectiontitleIII}
 
 \begin{multicols}{2}
-{\bf Kichhoff's Voltage Law (KVL)} - The sum of the voltages around a loop (aka mesh) equals zero.\\ $ \sum\limits_{k=1}^{n} V_k = 0 $ \\
+{\bf Kichhoff's Voltage Law (KVL)} - The sum of the voltages around a loop (aka mesh) equals zero.\\ $ \sum\limits_{k=1}^{n} v_k = 0 $ \\
 \includegraphics[scale=.20]{Kirchhoffs_voltage_law.png} 
 
-{\bf Kichhoff's Current  Law (KCL)} - The sum of the current flowing in and out of  node (aka junction) equals zero. \\ $ \sum\limits_{k=1}^{n} I_k = 0 $ \vspace{2mm}\\
+{\bf Kichhoff's Current  Law (KCL)} - The sum of the current flowing in and out of  node (aka junction) equals zero. \\ $ \sum\limits_{k=1}^{n} i_k = 0 $ \vspace{2mm}\\
 \includegraphics[scale=.4]{Kirchhoffs_current_law.png} 
 \end{multicols}
 
-}
-
-
-% Section III:
-\section{\sectiontitleIII}
-
-% Section III - Frame I:
-\frame{
-\frametitle{\sectiontitleIII}
-
-Energy is transformed in to heat in passive circuit components. For a resistor the power dissipation can be found with following relations. \vspace{5mm}
-
-$P=IV$ \hspace{20mm} $V=IR$
-
-}
-
-% Section III - Frame II:
-\frame{
-\frametitle{\sectiontitleIII}
-Power is the rate of energy dissipated, aka the amount of energy lost per unit of time. How do we compute total energy for the power? 
-
-\[E=\int\limits_{t1}^{t2}Pdt \]  
 }
 
 %% Section IV:
 \section{\sectiontitleIV}
 
 % Section IV - Frame I:
-\frame{
+\frame{ \small
 \frametitle{\sectiontitleIV}
-\small
-
-Consider the simple circuit shown for measuring light intensity. 
-\begin{multicols}{2}
-\includegraphics[scale=.2]{ldr_circuit.png}
-\begin{enumerate}
-\item Find the current in the loop. 
-\item Find the voltage drop across the LDR.
-\item Find the voltage drop across the $10k\Omega$ resistor.
-\item Find the power dissipated in the resistor and the total energy lost to heat over 10 seconds. 
-\end{enumerate}
-\end{multicols}
+	Energy is transformed in to heat in passive circuit components. For a resistor the power dissipation can be found with following relations. \vspace{5mm}
+	
+	$P=IV$ \hspace{20mm} $V=IR$
 }
 	
-% Section IV - Frame I:
-\frame{
+% Section IV - Frame II:
+\frame{ \small
 \frametitle{\sectiontitleIV}
-\small
 
+	Power is the rate of energy dissipated, aka the amount of energy lost per unit of time. How do we compute total energy for the power? 
+	
+	\[E=\int\limits_{t1}^{t2}Pdt \]  
 }
 
 

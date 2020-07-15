@@ -72,7 +72,7 @@
 \newcommand{\sectiontitleI}{Common Passive Components}
 \newcommand{\sectiontitleII}{Important Electrical Quantities}
 \newcommand{\sectiontitleIII}{Units and Symbols}
-\newcommand{\sectiontitleIV}{Circuits in Engineering}
+\newcommand{\sectiontitleIV}{Types of Switches}
 
 % custom box
 \newsavebox{\mybox}
@@ -89,9 +89,7 @@
 
 % Section 0: Outline
 \frame{
-
 \large \textbf{Topic \TNUM - \topictitle} \vspace{3mm}\\
-
 
 \begin{itemize}
 
@@ -101,10 +99,6 @@
 	\item \sectiontitleIV 	\vspc %Section IV
 
 \end{itemize}
-
-
-
-
 
 }
 
@@ -127,15 +121,16 @@ Most circuits require an active power source for operation. A voltage source is 
 
 }
 
+
 % Section I - Frame II:
 \frame{
 \frametitle{\sectiontitleI}
-\
 
 Components are identified by color codes and numbering systems. However it is always a good idea to measure for yourself because a marking can be  incorrect  or a component may be damaged. \vspc
 
 \includegraphics[scale=.25]{resistor_color_codes.jpg}
 \includegraphics[scale=.3]{ceramic_capacitor_codes.jpg}
+
 }
 
 
@@ -146,20 +141,17 @@ Components are identified by color codes and numbering systems. However it is al
 \frame{
 \frametitle{\sectiontitleII}
 
-
-
 \begin{itemize}
 
-\begin{multicols}{2}
-\item {\B Charge} - the physical property of matter that causes it to experience a force when placed in an electromagnetic field.
-
-\includegraphics[scale=.5]{charges_plus_minus.png}
-\end{multicols}
-
-\item {\PR Voltage} - the difference in electric potential between two points ... can be caused by electric charge, by electric current through a magnetic field, by time-varying magnetic fields, or some combination of these three.
-
-\item {\R Current} - the rate of flow of electric charge past a point or region. An electric current is said to exist when there is a net flow of electric charge through a region.
-
+	\begin{multicols}{2}
+	\item {\B Charge} - the physical property of matter that causes it to experience a force when placed in an electromagnetic field.
+	
+	\includegraphics[scale=.5]{charges_plus_minus.png}
+	\end{multicols}
+	
+	\item {\PR Voltage} - the difference in electric potential between two points ... can be caused by electric charge, by electric current through a magnetic field, by time-varying magnetic fields, or some combination of these three.
+	
+	\item {\R Current} - the rate of flow of electric charge past a point or region. An electric current is said to exist when there is a net flow of electric charge through a region.
 
 \end{itemize}
 
@@ -172,13 +164,12 @@ Components are identified by color codes and numbering systems. However it is al
 
 \begin{itemize}
 
-\item {\B Resistance} - a measure of a components opposition to the flow of electric current. The inverse quantity is electrical conductance, and is the ease with which an electric current passes.  
-
-
-\item {\PR Capacitance} - the ratio of the change in electric charge of a system to the corresponding change in its electric potential (voltage).
-
-\item {\R Inductance} - the tendency of an electrical conductor to oppose a change in the electric current flowing through it. The flow of electric current creates a magnetic field around the conductor. The field strength depends on the magnitude of the current, and follows any changes in current.
-
+	\item {\B Resistance} - a measure of a components opposition to the flow of electric current. The inverse quantity is electrical conductance, and is the ease with which an electric current passes.  
+	
+	
+	\item {\PR Capacitance} - the ratio of the change in electric charge of a system to the corresponding change in its electric potential (voltage).
+	
+	\item {\R Inductance} - the tendency of an electrical conductor to oppose a change in the electric current flowing through it. The flow of electric current creates a magnetic field around the conductor. The field strength depends on the magnitude of the current, and follows any changes in current.
 
 \end{itemize}
 
@@ -189,41 +180,40 @@ Components are identified by color codes and numbering systems. However it is al
 \section{\sectiontitleIII}
 
 % Section III - Frame I:
-\frame{
+\frame{\small
 \frametitle{\sectiontitleIII}
-\small
-\renewcommand{\arraystretch}{1.2}
-\begin{tabular}{|c|c|c|c|} \hline
-	Quantity & Symbol & Unit & Abbr. \\ \hline\hline
-    Charge & Q,q & Coulomb & C \\ \hline
-    Voltage & V,v & Volt & v\\ \hline
-    Current & I,i & Ampere & A \\ \hline
-    Resistance & R & Ohm & $\Omega$ \\ \hline
-    Capacitance & C & Farad & F \\ \hline
-    Inductance & L & Henry & H  \\ \hline
-\end{tabular}
-
-\vspace*{10mm} Question: When should you use upper case or lower case letters for electrical quantities?
+	
+	\renewcommand{\arraystretch}{1.2}
+	\begin{tabular}{|c|c|c|c|} \hline
+		Quantity & Symbol & Unit & Abbr. \\ \hline\hline
+	    Charge & Q,q & Coulomb & C \\ \hline
+	    Voltage & V,v & Volt & v\\ \hline
+	    Current & I,i & Ampere & A \\ \hline
+	    Resistance & R & Ohm & $\Omega$ \\ \hline
+	    Capacitance & C & Farad & F \\ \hline
+	    Inductance & L & Henry & H  \\ \hline
+	\end{tabular}
+	
+	\vspace*{10mm} Question: When should you use upper case or lower case letters for electrical quantities?
 
 }
 
 % Section III - Frame II:
-\frame{
+\frame{\small
 \frametitle{\sectiontitleIII}
-\small
-
-When working with a or building a circuit  you need a diagram. Draw or find one before you begin. Here are some commonly used symbols.\vspccc
-
-\includegraphics[scale=.4]{resistor_symbol.png} \hspace{15mm}
-\includegraphics[scale=.4]{capacitor_symbol.png} \hspace{15mm}
-\includegraphics[scale=.4]{inductor_symbol.png} \vspace{10mm}
-
-\includegraphics[scale=.6]{node_symbol.png} \hspace{15mm}
-\includegraphics[scale=.6]{jump_symbol.png} \hspace{15mm}
-\includegraphics[scale=.6]{switch_symbol.png} \hspace{15mm}
+	
+	When working with a or building a circuit  you need a diagram. Draw or find one before you begin. Here are some commonly used symbols.\vspccc
+	
+	\includegraphics[scale=.4]{resistor_symbol.png} \hspace{15mm}
+	\includegraphics[scale=.4]{capacitor_symbol.png} \hspace{15mm}
+	\includegraphics[scale=.4]{inductor_symbol.png} \vspace{10mm}
+	
+	\includegraphics[scale=.5]{node_symbol.png} \hspace{15mm}
+	\includegraphics[scale=.5]{jump_symbol.png} \hspace{15mm}
+	\includegraphics[scale=.5]{switch_symbol.png} \hspace{15mm}
+	\includegraphics[scale=.7]{led_symbol.png} \hspace{15mm}
 
 }
-
 
 %% Section IV:
 \section{\sectiontitleIV}
@@ -233,29 +223,35 @@ When working with a or building a circuit  you need a diagram. Draw or find one 
 \frametitle{\sectiontitleIV}
 \small
 
-{\bf Fluid Flow Analogy} \vspc
 
-Traditionally engineers have used an analogy relating the movement of electrons to the flow of water through a pipe (\href{https://en.wikipedia.org/wiki/Hydraulic_analogy}{\B hydraulic analogy}) known as {\it drain-pipe theory}. \vspace{5mm}
+A switch is a mechanical-electrical device that that can change from a continuous state to a dis-continuous state and they are used as a mechanical interface to a circuit. There many different types of switches for different purposes and this is not an exhaustive list.
 
-This may provided a sense of intuition this comparison is not accurate do to the non-Newtonian nature of electricity and magnetism (\href{https://www.slideshare.net/PDiCEOThaneHeins3240/georgia-state-university-hyperphysics-how-newtonian-mechanics-is-incorrectly-being-applied-to-explain-the-laws-of-electricity-and-magnetism}{\G more on this}). It can  be used to visualize some basic circuits principles, but it should not be used for analysis of complex electrical systems. 
+\begin{itemize}
+\item Toggle Switches
+\item Momentary Switches
+\item Reed Switches
+\item Level or Float Switches
+\item and many more
+\end{itemize}
 
 }
 	
-% Section IV - Frame I:
+% Section IV - Frame II:
 \frame{
 \frametitle{\sectiontitleIV}
 \small
 
-{\bf Circuits in Mechanical Engineering} \vspc
+Toggle switches are are possibly the most commonly used switches and they come in many different forms.\vspace{5mm}\\
 
-How much does a mechanical engineer need to know about electricity and magnetism? This is good question, and obviously it varies based on your particular area of mechanical engineering. \vspc
-
-Regardless, engineering is an integrated discipline and very few products or designs are isolated so to a single field. \vspc
-
-Further the need for measurements in mechanical systems drives the need for a mechanical engineer to have a solid foundation in basic circuits theory. \vspc
-
-
+	{\bf Poles } - The numbers of poles refers to the number of independent conductors or circuits in a switch that are controlled by the same toggle or input.
+	
+	{\bf Throws} - The numbers of throws refers to the number of output terminals of a switch. \vspace{5mm}\\
+	
+	\includegraphics[scale=.7]{spst_symbol.png} \hspace{5mm} \includegraphics[scale=.7]{spdt_symbol.png} \hspace{5mm}
+	\includegraphics[scale=.7]{dpst_symbol.png} \hspace{5mm} \includegraphics[scale=.7]{dpdt_symbol.png}
 }
+ 
+
 
 
 \end{document}
