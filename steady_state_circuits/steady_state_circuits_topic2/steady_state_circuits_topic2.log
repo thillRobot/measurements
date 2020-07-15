@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.30)  15 JUL 2020 00:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.30)  15 JUL 2020 08:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -960,12 +960,12 @@ Package pdftex.def Info: OhmsLaw.png  used on input line 138.
  <./OhmsLaw.png>] [5
 
 ]
-<Kirchhoffs_voltage_law.png, id=203, 551.05875pt x 481.8pt>
+<Kirchhoffs_voltage_law.png, id=202, 551.05875pt x 481.8pt>
 File: Kirchhoffs_voltage_law.png Graphic file (type png)
 <use Kirchhoffs_voltage_law.png>
 Package pdftex.def Info: Kirchhoffs_voltage_law.png  used on input line 169.
 (pdftex.def)             Requested size: 110.2098pt x 96.35829pt.
-<Kirchhoffs_current_law.png, id=204, 221.32687pt x 215.30438pt>
+<Kirchhoffs_current_law.png, id=203, 221.32687pt x 215.30438pt>
 File: Kirchhoffs_current_law.png Graphic file (type png)
 <use Kirchhoffs_current_law.png>
 Package pdftex.def Info: Kirchhoffs_current_law.png  used on input line 169.
@@ -981,7 +981,7 @@ Overfull \vbox (2.82452pt too high) detected at line 169
 ] [8
 
 ]
-<ldr_circuit.png, id=300, 710.655pt x 692.5875pt>
+<ldr_circuit.png, id=299, 710.655pt x 692.5875pt>
 File: ldr_circuit.png Graphic file (type png)
 <use ldr_circuit.png>
 Package pdftex.def Info: ldr_circuit.png  used on input line 211.
@@ -1011,27 +1011,24 @@ anged.
 (rerunfilecheck)             Checksum: A05E7653A253D9ACD24DCA4B0AED8E70;208.
  ) 
 Here is how much of TeX's memory you used:
- 18460 strings out of 492982
- 346052 string characters out of 6134896
- 451374 words of memory out of 5000000
- 21586 multiletter control sequences out of 15000+600000
+ 18457 strings out of 492982
+ 346024 string characters out of 6134896
+ 451336 words of memory out of 5000000
+ 21584 multiletter control sequences out of 15000+600000
  15961 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,19n,57p,824b,651s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Navigation11} has been referenced but does not ex
-ist, replaced by a fixed one
-
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmssi8.pfb>
-Output written on steady_state_circuits_topic2.pdf (10 pages, 589371 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmssi8.pfb>
+Output written on steady_state_circuits_topic2.pdf (10 pages, 589346 bytes).
 PDF statistics:
- 393 PDF objects out of 1000 (max. 8388607)
- 347 compressed objects within 4 object streams
- 26 named destinations out of 1000 (max. 500000)
+ 392 PDF objects out of 1000 (max. 8388607)
+ 346 compressed objects within 4 object streams
+ 25 named destinations out of 1000 (max. 500000)
  111 words of extra memory for PDF output out of 10000 (max. 10000000)
 

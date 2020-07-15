@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.30)  15 JUL 2020 01:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.30)  15 JUL 2020 09:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -927,14 +927,23 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 
 ] [6
 
-] [7
+]
+<bridge_circuit.png, id=214, 329.92827pt x 278.3966pt>
+File: bridge_circuit.png Graphic file (type png)
+<use bridge_circuit.png>
+Package pdftex.def Info: bridge_circuit.png  used on input line 171.
+(pdftex.def)             Requested size: 115.47662pt x 97.44026pt.
 
-] [8
+Overfull \vbox (9.15712pt too high) detected at line 171
+ []
+
+[7
+
+ <./bridge_circuit.png>] [8
 
 ] [9
 
-]
-[10
+] [10
 
 ]
 \tf@nav=\write6
@@ -946,30 +955,38 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 \tf@snm=\write8
 \openout8 = `steady_state_circuits_topic3.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 177.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 177.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 201.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 201.
  (./steady_state_circuits_topic3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 177.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 177.
-Package rerunfilecheck Info: File `steady_state_circuits_topic3.out' has not ch
-anged.
-(rerunfilecheck)             Checksum: A0662424A3E0A6524DB1E8E1E3D1F75F;180.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 201.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 201.
+
+
+Package rerunfilecheck Warning: File `steady_state_circuits_topic3.out' has cha
+nged.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `steady_state_circuits_topic3.out':
+(rerunfilecheck)             Before: D21CC0B87C62F93049F1B8981FAA5305;69
+(rerunfilecheck)             After:  326D5810EC438CEF36EE0145F5C58F27;242.
  ) 
 Here is how much of TeX's memory you used:
- 18317 strings out of 492982
- 342805 string characters out of 6134896
- 449222 words of memory out of 5000000
- 21475 multiletter control sequences out of 15000+600000
- 7240 words of font info for 26 fonts, out of 8000000 for 9000
+ 18322 strings out of 492982
+ 342908 string characters out of 6134896
+ 449468 words of memory out of 5000000
+ 21477 multiletter control sequences out of 15000+600000
+ 7596 words of font info for 27 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,19n,57p,824b,559s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on steady_state_circuits_topic3.pdf (10 pages, 52326 bytes).
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
+Output written on steady_state_circuits_topic3.pdf (10 pages, 82528 bytes).
 PDF statistics:
- 364 PDF objects out of 1000 (max. 8388607)
- 333 compressed objects within 4 object streams
+ 362 PDF objects out of 1000 (max. 8388607)
+ 328 compressed objects within 4 object streams
  25 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 62 words of extra memory for PDF output out of 10000 (max. 10000000)
 
