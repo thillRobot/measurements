@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.13)  11 JUL 2020 23:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.13)  20 JUL 2020 12:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -952,48 +952,43 @@ File: lstlang1.sty 2019/09/10 1.8c listings language file
 ] [3
 
 ]
-<resistor_color_codes.jpg, id=134, 602.25pt x 416.30531pt>
+<resistor_color_codes.jpg, id=135, 602.25pt x 416.30531pt>
 File: resistor_color_codes.jpg Graphic file (type jpg)
 <use resistor_color_codes.jpg>
-Package pdftex.def Info: resistor_color_codes.jpg  used on input line 139.
+Package pdftex.def Info: resistor_color_codes.jpg  used on input line 134.
 (pdftex.def)             Requested size: 150.56212pt x 104.07607pt.
-<ceramic_capacitor_codes.jpg, id=135, 508.14844pt x 384.6872pt>
+<ceramic_capacitor_codes.jpg, id=136, 508.14844pt x 384.6872pt>
 File: ceramic_capacitor_codes.jpg Graphic file (type jpg)
 <use ceramic_capacitor_codes.jpg>
-Package pdftex.def Info: ceramic_capacitor_codes.jpg  used on input line 139.
+Package pdftex.def Info: ceramic_capacitor_codes.jpg  used on input line 134.
 (pdftex.def)             Requested size: 152.4457pt x 115.40704pt.
  [4
 
  <./resistor_color_codes.jpg> <./ceramic_capacitor_codes.jpg>]
-<charges_plus_minus.png, id=166, 165.61874pt x 124.21407pt>
+<charges_plus_minus.png, id=167, 165.61874pt x 124.21407pt>
 File: charges_plus_minus.png Graphic file (type png)
 <use charges_plus_minus.png>
-Package pdftex.def Info: charges_plus_minus.png  used on input line 166.
+Package pdftex.def Info: charges_plus_minus.png  used on input line 158.
 (pdftex.def)             Requested size: 82.80916pt x 62.10687pt.
  [5
 
- <./charges_plus_minus.png>]
-File: charges_plus_minus.png Graphic file (type png)
-<use charges_plus_minus.png>
-Package pdftex.def Info: charges_plus_minus.png  used on input line 187.
-(pdftex.def)             Requested size: 82.80916pt x 62.10687pt.
- [6
+ <./charges_plus_minus.png>] [6
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 210
+LaTeX Font Info:    Trying to load font information for U+msa on input line 200
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 210
+LaTeX Font Info:    Trying to load font information for U+msb on input line 200
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 210.
+ut line 200.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
@@ -1002,16 +997,71 @@ thkerncmss.
 [7
 
 ]
-<resistor_symbol.png, id=260, 133.83333pt x 45.50333pt>
+<resistor_symbol.png, id=261, 133.83333pt x 45.50333pt>
 File: resistor_symbol.png Graphic file (type png)
 <use resistor_symbol.png>
-Package pdftex.def Info: resistor_symbol.png  used on input line 221.
-(pdftex.def)             Requested size: 40.1503pt x 13.6511pt.
+Package pdftex.def Info: resistor_symbol.png  used on input line 217.
+(pdftex.def)             Requested size: 53.53236pt x 18.20099pt.
+<capacitor_symbol.png, id=262, 140.02313pt x 48.18pt>
+File: capacitor_symbol.png Graphic file (type png)
+<use capacitor_symbol.png>
+Package pdftex.def Info: capacitor_symbol.png  used on input line 217.
+(pdftex.def)             Requested size: 56.00826pt x 19.27164pt.
+<inductor_symbol.png, id=263, 156.585pt x 33.12375pt>
+File: inductor_symbol.png Graphic file (type png)
+<use inductor_symbol.png>
+Package pdftex.def Info: inductor_symbol.png  used on input line 217.
+(pdftex.def)             Requested size: 62.63287pt x 13.24925pt.
+<node_symbol.png, id=264, 88.83188pt x 34.62938pt>
+File: node_symbol.png Graphic file (type png)
+<use node_symbol.png>
+Package pdftex.def Info: node_symbol.png  used on input line 217.
+(pdftex.def)             Requested size: 44.41582pt x 17.31464pt.
+<jump_symbol.png, id=265, 65.49469pt x 60.97781pt>
+File: jump_symbol.png Graphic file (type png)
+<use jump_symbol.png>
+Package pdftex.def Info: jump_symbol.png  used on input line 217.
+(pdftex.def)             Requested size: 32.74725pt x 30.48882pt.
+<switch_symbol.png, id=266, 78.2925pt x 21.07875pt>
+File: switch_symbol.png Graphic file (type png)
+<use switch_symbol.png>
+Package pdftex.def Info: switch_symbol.png  used on input line 217.
+(pdftex.def)             Requested size: 39.14615pt x 10.53934pt.
+<led_symbol.png, id=267, 40.65187pt x 19.57312pt>
+File: led_symbol.png Graphic file (type png)
+<use led_symbol.png>
+Package pdftex.def Info: led_symbol.png  used on input line 217.
+(pdftex.def)             Requested size: 28.4561pt x 13.70108pt.
  [8
 
- <./resistor_symbol.png>] [9
+ <./resistor_symbol.png> <./capacitor_symbol.png> <./inductor_symbol.png> <./no
+de_symbol.png> <./jump_symbol.png> <./switch_symbol.png> <./led_symbol.png>] [9
 
 ]
+<spst_symbol.png, id=333, 78.2925pt x 36.88782pt>
+File: spst_symbol.png Graphic file (type png)
+<use spst_symbol.png>
+Package pdftex.def Info: spst_symbol.png  used on input line 253.
+(pdftex.def)             Requested size: 54.80437pt x 25.82127pt.
+<spdt_symbol.png, id=334, 78.2925pt x 36.135pt>
+File: spdt_symbol.png Graphic file (type png)
+<use spdt_symbol.png>
+Package pdftex.def Info: spdt_symbol.png  used on input line 253.
+(pdftex.def)             Requested size: 54.80437pt x 25.2943pt.
+<dpst_symbol.png, id=335, 78.2925pt x 63.23625pt>
+File: dpst_symbol.png Graphic file (type png)
+<use dpst_symbol.png>
+Package pdftex.def Info: dpst_symbol.png  used on input line 253.
+(pdftex.def)             Requested size: 54.80437pt x 44.26506pt.
+<dpdt_symbol.png, id=336, 78.2925pt x 68.50594pt>
+File: dpdt_symbol.png Graphic file (type png)
+<use dpdt_symbol.png>
+Package pdftex.def Info: dpdt_symbol.png  used on input line 253.
+(pdftex.def)             Requested size: 54.80437pt x 47.95383pt.
+ [10
+
+ <./spst_symbol.png> <./spdt_symbol.png> <./dpst_symbol.png> <./dpdt_symbol.png
+>]
 \tf@nav=\write6
 \openout6 = `steady_state_circuits_topic1.nav'.
 
@@ -1021,31 +1071,30 @@ Package pdftex.def Info: resistor_symbol.png  used on input line 221.
 \tf@snm=\write8
 \openout8 = `steady_state_circuits_topic1.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 235.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 235.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 258.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 258.
  (./steady_state_circuits_topic1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 235.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 235.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 258.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 258.
 Package rerunfilecheck Info: File `steady_state_circuits_topic1.out' has not ch
 anged.
-(rerunfilecheck)             Checksum: 4CE1734CD49DF07CB7F2CA1545C628EF;229.
+(rerunfilecheck)             Checksum: F7F83CE1761B8D766CC57EF95EE06A65;230.
  ) 
 Here is how much of TeX's memory you used:
- 19519 strings out of 481239
- 367111 string characters out of 5920377
- 807991 words of memory out of 5000000
- 34296 multiletter control sequences out of 15000+600000
- 539783 words of font info for 50 fonts, out of 8000000 for 9000
+ 19582 strings out of 481239
+ 368289 string characters out of 5920377
+ 808038 words of memory out of 5000000
+ 34348 multiletter control sequences out of 15000+600000
+ 539721 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,19n,67p,824b,566s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on steady_state_circuits_topic1.pdf (9 pages, 509763 bytes).
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
+Output written on steady_state_circuits_topic1.pdf (10 pages, 516951 bytes).
 PDF statistics:
- 344 PDF objects out of 1000 (max. 8388607)
- 307 compressed objects within 4 object streams
- 23 named destinations out of 1000 (max. 500000)
- 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 391 PDF objects out of 1000 (max. 8388607)
+ 334 compressed objects within 4 object streams
+ 25 named destinations out of 1000 (max. 500000)
+ 151 words of extra memory for PDF output out of 10000 (max. 10000000)
 
