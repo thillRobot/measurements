@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.13)  24 JUL 2020 00:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.13)  24 JUL 2020 10:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -758,6 +758,24 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \FrameRule=\dimen292
 \FrameSep=\dimen293
 )
+(/usr/share/texlive/texmf-dist/tex/latex/ncctools/nccmath.sty
+Package: nccmath 2006/01/20 v1.3 Additional Math Commands (NCC)
+\NCC@fracrulewidth=\dimen294
+)
+\sympureletters=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
+ut line 20.
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup7
+\symboldletters=\mathgroup8
+\symboldsymbols=\mathgroup9
+\symboldpureletters=\mathgroup10
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 209.
+)
 \mybox=\box121
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
@@ -765,7 +783,7 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count329
 \l__pdf_internal_box=\box122
 )
-No file time_varying_circuits_topic1.aux.
+(./time_varying_circuits_topic1.aux)
 \openout1 = `time_varying_circuits_topic1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
@@ -784,6 +802,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
 LaTeX Font Info:    ... okay on input line 84.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
 LaTeX Font Info:    ... okay on input line 84.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -821,13 +840,13 @@ LaTeX Font Info:    ... okay on input line 84.
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count330
-\scratchdimen=\dimen294
+\scratchdimen=\dimen295
 \scratchbox=\box123
 \nofMPsegments=\count331
 \nofMParguments=\count332
 \everyMPshowfont=\toks44
 \MPscratchCnt=\count333
-\MPscratchDim=\dimen295
+\MPscratchDim=\dimen296
 \MPnumerator=\count334
 \makeMPintoPDFobject=\count335
 \everyMPtoPDFconversion=\toks45
@@ -858,6 +877,8 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 84.
 LaTeX Info: Redefining \pageref on input line 84.
 LaTeX Info: Redefining \nameref on input line 84.
+
+(./time_varying_circuits_topic1.out) (./time_varying_circuits_topic1.out)
 \@outlinefile=\write5
 \openout5 = `time_varying_circuits_topic1.out'.
 
@@ -865,15 +886,17 @@ LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 84.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 84.
-\symnumbers=\mathgroup6
-\sympureletters=\mathgroup7
+\symnumbers=\mathgroup11
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 84.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/cmss/m/it on input line 8
+4.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/mathkerncmss/bx/sl --> OT1/cmss/m/it on input line 
+84.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 84.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 84.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 84.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 84.
 LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 84.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 84.
@@ -939,127 +962,71 @@ ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 \c@lstlisting=\count337
-
-No file time_varying_circuits_topic1.nav.
+ (./time_varying_circuits_topic1.nav)
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
-) [1
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
-
-] [3
+] [2
 
 ]
-<resistor_color_codes.jpg, id=99, 602.25pt x 416.30531pt>
-File: resistor_color_codes.jpg Graphic file (type jpg)
-<use resistor_color_codes.jpg>
-Package pdftex.def Info: resistor_color_codes.jpg  used on input line 134.
-(pdftex.def)             Requested size: 150.56212pt x 104.07607pt.
-<ceramic_capacitor_codes.jpg, id=100, 508.14844pt x 384.6872pt>
-File: ceramic_capacitor_codes.jpg Graphic file (type jpg)
-<use ceramic_capacitor_codes.jpg>
-Package pdftex.def Info: ceramic_capacitor_codes.jpg  used on input line 134.
-(pdftex.def)             Requested size: 152.4457pt x 115.40704pt.
- [4
-
- <./resistor_color_codes.jpg> <./ceramic_capacitor_codes.jpg>]
-<charges_plus_minus.png, id=128, 165.61874pt x 124.21407pt>
+<charges_plus_minus.png, id=105, 165.61874pt x 124.21407pt>
 File: charges_plus_minus.png Graphic file (type png)
 <use charges_plus_minus.png>
-Package pdftex.def Info: charges_plus_minus.png  used on input line 158.
+Package pdftex.def Info: charges_plus_minus.png  used on input line 127.
 (pdftex.def)             Requested size: 82.80916pt x 62.10687pt.
- [5
+ [3
 
- <./charges_plus_minus.png>] [6
+ <./charges_plus_minus.png>]
+[4
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 200
+LaTeX Font Info:    Trying to load font information for U+msa on input line 168
 .
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 200
+LaTeX Font Info:    Trying to load font information for U+msb on input line 168
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 200.
+ut line 168.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-[7
+<Oliver_Heaviside.jpg, id=168, 514.92375pt x 791.95876pt>
+File: Oliver_Heaviside.jpg Graphic file (type jpg)
+<use Oliver_Heaviside.jpg>
+Package pdftex.def Info: Oliver_Heaviside.jpg  used on input line 168.
+(pdftex.def)             Requested size: 102.98293pt x 158.38895pt.
+
+Overfull \vbox (1.06248pt too high) detected at line 168
+ []
+
+[5
+
+ <./Oliver_Heaviside.jpg>] [6
+
+] [7
+
+] [8
 
 ]
-<resistor_symbol.png, id=212, 133.83333pt x 45.50333pt>
-File: resistor_symbol.png Graphic file (type png)
-<use resistor_symbol.png>
-Package pdftex.def Info: resistor_symbol.png  used on input line 217.
-(pdftex.def)             Requested size: 53.53236pt x 18.20099pt.
-<capacitor_symbol.png, id=213, 140.02313pt x 48.18pt>
-File: capacitor_symbol.png Graphic file (type png)
-<use capacitor_symbol.png>
-Package pdftex.def Info: capacitor_symbol.png  used on input line 217.
-(pdftex.def)             Requested size: 56.00826pt x 19.27164pt.
-<inductor_symbol.png, id=214, 156.585pt x 33.12375pt>
-File: inductor_symbol.png Graphic file (type png)
-<use inductor_symbol.png>
-Package pdftex.def Info: inductor_symbol.png  used on input line 217.
-(pdftex.def)             Requested size: 62.63287pt x 13.24925pt.
-<node_symbol.png, id=215, 88.83188pt x 34.62938pt>
-File: node_symbol.png Graphic file (type png)
-<use node_symbol.png>
-Package pdftex.def Info: node_symbol.png  used on input line 217.
-(pdftex.def)             Requested size: 44.41582pt x 17.31464pt.
-<jump_symbol.png, id=216, 65.49469pt x 60.97781pt>
-File: jump_symbol.png Graphic file (type png)
-<use jump_symbol.png>
-Package pdftex.def Info: jump_symbol.png  used on input line 217.
-(pdftex.def)             Requested size: 32.74725pt x 30.48882pt.
-<switch_symbol.png, id=217, 78.2925pt x 21.07875pt>
-File: switch_symbol.png Graphic file (type png)
-<use switch_symbol.png>
-Package pdftex.def Info: switch_symbol.png  used on input line 217.
-(pdftex.def)             Requested size: 39.14615pt x 10.53934pt.
-<led_symbol.png, id=218, 40.65187pt x 19.57312pt>
-File: led_symbol.png Graphic file (type png)
-<use led_symbol.png>
-Package pdftex.def Info: led_symbol.png  used on input line 217.
-(pdftex.def)             Requested size: 28.4561pt x 13.70108pt.
- [8
+<rc_circuit.png, id=298, 174.70486pt x 167.79208pt>
+File: rc_circuit.png Graphic file (type png)
+<use rc_circuit.png>
+Package pdftex.def Info: rc_circuit.png  used on input line 223.
+(pdftex.def)             Requested size: 87.3522pt x 83.89583pt.
+ [9
 
- <./resistor_symbol.png> <./capacitor_symbol.png> <./inductor_symbol.png> <./no
-de_symbol.png> <./jump_symbol.png> <./switch_symbol.png> <./led_symbol.png>] [9
+ <./rc_circuit.png>] [10
 
 ]
-<spst_symbol.png, id=280, 78.2925pt x 36.88782pt>
-File: spst_symbol.png Graphic file (type png)
-<use spst_symbol.png>
-Package pdftex.def Info: spst_symbol.png  used on input line 253.
-(pdftex.def)             Requested size: 54.80437pt x 25.82127pt.
-<spdt_symbol.png, id=281, 78.2925pt x 36.135pt>
-File: spdt_symbol.png Graphic file (type png)
-<use spdt_symbol.png>
-Package pdftex.def Info: spdt_symbol.png  used on input line 253.
-(pdftex.def)             Requested size: 54.80437pt x 25.2943pt.
-<dpst_symbol.png, id=282, 78.2925pt x 63.23625pt>
-File: dpst_symbol.png Graphic file (type png)
-<use dpst_symbol.png>
-Package pdftex.def Info: dpst_symbol.png  used on input line 253.
-(pdftex.def)             Requested size: 54.80437pt x 44.26506pt.
-<dpdt_symbol.png, id=283, 78.2925pt x 68.50594pt>
-File: dpdt_symbol.png Graphic file (type png)
-<use dpdt_symbol.png>
-Package pdftex.def Info: dpdt_symbol.png  used on input line 253.
-(pdftex.def)             Requested size: 54.80437pt x 47.95383pt.
- [10
-
- <./spst_symbol.png> <./spdt_symbol.png> <./dpst_symbol.png> <./dpdt_symbol.png
->]
 \tf@nav=\write6
 \openout6 = `time_varying_circuits_topic1.nav'.
 
@@ -1069,37 +1036,38 @@ Package pdftex.def Info: dpdt_symbol.png  used on input line 253.
 \tf@snm=\write8
 \openout8 = `time_varying_circuits_topic1.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 258.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 258.
- (./time_varying_circuits_topic1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 258.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 258.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 233.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 233.
 
-
-Package rerunfilecheck Warning: File `time_varying_circuits_topic1.out' has cha
-nged.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `time_varying_circuits_topic1.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  BD76C74239CF0185D6D8625501820977;156.
+(./time_varying_circuits_topic1.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 233.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 233.
+Package rerunfilecheck Info: File `time_varying_circuits_topic1.out' has not ch
+anged.
+(rerunfilecheck)             Checksum: 606576979B0550EBD49307DFEE9E3EA4;237.
  ) 
 Here is how much of TeX's memory you used:
- 19515 strings out of 481239
- 367100 string characters out of 5920377
- 804690 words of memory out of 5000000
- 34289 multiletter control sequences out of 15000+600000
- 539721 words of font info for 50 fonts, out of 8000000 for 9000
+ 19707 strings out of 481239
+ 369117 string characters out of 5920377
+ 809075 words of memory out of 5000000
+ 34466 multiletter control sequences out of 15000+600000
+ 544347 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,15n,67p,824b,566s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on time_varying_circuits_topic1.pdf (10 pages, 512384 bytes).
+ 58i,19n,67p,824b,566s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy7.pfb>
+Output written on time_varying_circuits_topic1.pdf (10 pages, 269457 bytes).
 PDF statistics:
- 333 PDF objects out of 1000 (max. 8388607)
- 281 compressed objects within 3 object streams
+ 400 PDF objects out of 1000 (max. 8388607)
+ 357 compressed objects within 4 object streams
  25 named destinations out of 1000 (max. 500000)
- 119 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

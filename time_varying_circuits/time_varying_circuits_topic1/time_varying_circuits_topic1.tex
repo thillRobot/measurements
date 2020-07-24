@@ -14,6 +14,9 @@
 \usepackage{listings}
 \usepackage{multicol}
 \usepackage{framed}
+\usepackage{amsmath, nccmath}
+\usepackage{geometry}
+\usepackage{bm}
 
 \beamertemplateballitem
 
@@ -37,15 +40,13 @@
 \newcommand{\OR}{\color{TTU}}
 \newcommand{\GD}{\color{TTUgold}}
 
-
+% beamer colors
 \setbeamercolor{palette primary}{bg=TTUpurple,fg=TTUgold}
 \setbeamercolor{palette secondary}{bg=black,fg=TTUgold}
 \setbeamercolor{palette tertiary}{bg=black,fg=TTUpurple}
 \setbeamercolor{palette quaternary}{bg=TTUgold,fg=black}
 \setbeamercolor{structure}{fg=TTUpurple} % itemize, enumerate, etc
 \setbeamercolor{section in toc}{fg=TTUpurple} % TOC sections
-
-%\usefonttheme{professionalfonts}
 
 \newcommand{\Lagr}{\mathcal{L}} % lagrangian
 
@@ -58,7 +59,6 @@
 \newcommand{\hspccc}{\hspace{6mm}} % large horizontal space
 \newcommand{\hspcc}{\hspace{4mm}}   % medium horizontal space
 \newcommand{\hspc}{\hspace{2mm}}     % small horizontal space
-
 \newcommand{\eqscl}{0.9}     % small horizontal space
 
 
@@ -67,12 +67,12 @@
 \newcommand{\MNUM}{7\hspace{2mm}} % Module number
 \newcommand{\TNUM}{1\hspace{2mm}} % Topic number 
 \newcommand{\moduletitle}{Time Varying Circuits}
-\newcommand{\topictitle}{The Constitutive Equations} 
+\newcommand{\topictitle}{The Dynamics of Circuits} 
 
-\newcommand{\sectiontitleI}{---}
-\newcommand{\sectiontitleII}{---}
-\newcommand{\sectiontitleIII}{---}
-\newcommand{\sectiontitleIV}{---}
+\newcommand{\sectiontitleI}{Review Electrical Quantities}
+\newcommand{\sectiontitleII}{Resistance and Impedance}
+\newcommand{\sectiontitleIII}{Capacitance and Inductance}
+\newcommand{\sectiontitleIV}{Example: RC Circuit}
 
 % custom box
 \newsavebox{\mybox}
@@ -108,39 +108,7 @@
 % Section I - Frame I:
 \frame{
 \frametitle{\sectiontitleI}
-%\small
-Passive components affect the behavior of a circuit in different ways but they do   not generate power and can only absorb energy or transform it into heat. Active components on the other hand...
-
-\begin{itemize}
-\item Resistor 
-\item Capacitor
-\item Inductor
-\end{itemize}
-
-Most circuits require an active power source for operation. A voltage source is used in most applications however current sources are also available and are needed for specialized electrical applications. 
-
-}
-
-
-% Section I - Frame II:
-\frame{
-\frametitle{\sectiontitleI}
-
-Components are identified by color codes and numbering systems. However it is always a good idea to measure for yourself because a marking can be  incorrect  or a component may be damaged. \vspc
-
-\includegraphics[scale=.25]{resistor_color_codes.jpg}
-\includegraphics[scale=.3]{ceramic_capacitor_codes.jpg}
-
-}
-
-
-% Section II:
-\section{\sectiontitleII}
-
-% Section II - Frame I:
-\frame{
-\frametitle{\sectiontitleII}
-
+\small
 \begin{itemize}
 
 	\begin{multicols}{2}
@@ -155,13 +123,12 @@ Components are identified by color codes and numbering systems. However it is al
 
 \end{itemize}
 
+
 }
 
-
-% Section II - Frame II:
-\frame{
-\frametitle{\sectiontitleII}
-
+% Section I - Frame II:
+\frame{ \small
+\frametitle{\sectiontitleI}
 \begin{itemize}
 
 
@@ -177,42 +144,68 @@ Components are identified by color codes and numbering systems. However it is al
 }
 
 
+% Section II:
+\section{\sectiontitleII}
+
+% Section II - Frame I:
+\frame{ \small
+\frametitle{\sectiontitleII}
+
+\begin{multicols}{2}
+
+	... electrical {\PN impedance} is the measure of the opposition that a circuit presents to a current when a voltage is applied. \vspc
+	
+	The term impedance was coined by Oliver Heaviside in July 1886. Arthur Kennelly was the first to represent impedance with complex numbers in 1893.
+	
+	\[ Z=\frac{V}{I}=\frac{|V|}{|I|}e^{j\left(\phi_V-\phi_I \right)} \] \vspace{2mm}
+	\[ R=\frac{V}{I} \]
+
+\includegraphics[scale=.2]{Oliver_Heaviside.jpg}\\
+{\tiny \href{https://en.wikipedia.org/wiki/Oliver_Heaviside}{Wikipedia}}
+
+\end{multicols}
+
+}
+
+% Section II - Frame II:
+\frame{
+\frametitle{\sectiontitleII}
+
+In addition to {\PR resistance} as seen in DC circuits, {\PN impedance} in AC circuits includes the effects of the induction of voltages in conductors by the magnetic fields (inductance), and the electrostatic storage of charge induced by voltages between conductors (capacitance). The impedance caused by these two effects is collectively referred to as reactance and forms the imaginary part of complex impedance whereas resistance forms the real part. 
+
+{\tiny \href{https://en.wikipedia.org/wiki/Electrical_impedance}{Wikipedia}}
+
+}
+
 % Section III:
 \section{\sectiontitleIII}
 
 % Section III - Frame I:
 \frame{\small
 \frametitle{\sectiontitleIII}
+
+	In many DC applications the transient, or dynamic, behavior of the circuit must be considered. This may be counter-intuitive. \vspc
 	
-	\renewcommand{\arraystretch}{1.2}
-	\begin{tabular}{|c|c|c|c|} \hline
-		Quantity & Symbol & Unit & Abbr. \\ \hline\hline
-	    Charge & Q,q & Coulomb & C \\ \hline
-	    Voltage & V,v & Volt & v\\ \hline
-	    Current & I,i & Ampere & A \\ \hline
-	    Resistance & R & Ohm & $\Omega$ \\ \hline
-	    Capacitance & C & Farad & F \\ \hline
-	    Inductance & L & Henry & H  \\ \hline
-	\end{tabular}
-	
-	\vspace*{10mm} Question: When should you use upper case or lower case letters for electrical quantities?
+		{\PR Capacitance} - the ratio of the change in electric charge of a system to the corresponding change in its electric potential (voltage). \vspc
+
+	\begin{fleqn}
+		\[i_C(t)=C\frac{dv_C\left(t\right)}{dt} \] \vspace{2mm}
+		\[v_C=\frac{1}{C}\int\limits_{t_1}^{t_2}i_C(t)dt \]
+	\end{fleqn}
+
 
 }
 
 % Section III - Frame II:
 \frame{\small
 \frametitle{\sectiontitleIII}
+
+	{\R Inductance} - the tendency of an electrical conductor to oppose a change in the electric current flowing through it. The flow of electric current creates a magnetic field around the conductor. The field strength depends on the magnitude of the current, and follows any changes in current. \vspc
 	
-	When working with a or building a circuit  you need a diagram. Draw or find one before you begin. Here are some commonly used symbols.\vspccc
-	
-	\includegraphics[scale=.4]{resistor_symbol.png} \hspace{15mm}
-	\includegraphics[scale=.4]{capacitor_symbol.png} \hspace{15mm}
-	\includegraphics[scale=.4]{inductor_symbol.png} \vspace{10mm}
-	
-	\includegraphics[scale=.5]{node_symbol.png} \hspace{15mm}
-	\includegraphics[scale=.5]{jump_symbol.png} \hspace{15mm}
-	\includegraphics[scale=.5]{switch_symbol.png} \hspace{15mm}
-	\includegraphics[scale=.7]{led_symbol.png} \hspace{15mm}
+	\begin{fleqn}
+	\[v_L(t)=L\frac{d}{dt}i_L(t)=L\frac{di_L}{dt} \] 	
+	\[i_L(t)=\frac{1}{L}\int\limits_{t_1}^{t_2}v_L\left(t\right)dt \]
+	\end{fleqn}
 
 }
 
@@ -220,20 +213,12 @@ Components are identified by color codes and numbering systems. However it is al
 \section{\sectiontitleIV}
 
 % Section IV - Frame I:
-\frame{
+\frame{ \small
 \frametitle{\sectiontitleIV}
-\small
 
-
-A switch is a mechanical-electrical device that that can change from a continuous state to a dis-continuous state and they are used as a mechanical interface to a circuit. There many different types of switches for different purposes and this is not an exhaustive list.
-
-\begin{itemize}
-\item Toggle Switches
-\item Momentary Switches
-\item Reed Switches
-\item Level or Float Switches
-\item and many more
-\end{itemize}
+	The basic RC circuit is a simple but important example that I assume you saw in your circuits course. This circuit demonstrates a fundamental concept and has several practical uses in mechanical measurements. \vspc
+	
+	\includegraphics[scale=0.5]{rc_circuit.png}
 
 }
 	
@@ -242,19 +227,9 @@ A switch is a mechanical-electrical device that that can change from a continuou
 \frametitle{\sectiontitleIV}
 \small
 
-Toggle switches are are possibly the most commonly used switches and they come in many different forms.\vspace{5mm}\\
 
-	{\bf Poles } - The numbers of poles refers to the number of independent conductors or circuits in a switch that are controlled by the same toggle or input.
-	
-	{\bf Throws} - The numbers of throws refers to the number of output terminals of a switch per pole. \vspace{5mm}\\
-	
-	\includegraphics[scale=.7]{spst_symbol.png} \hspace{5mm} \includegraphics[scale=.7]{spdt_symbol.png} \hspace{5mm}
-	\includegraphics[scale=.7]{dpst_symbol.png} \hspace{5mm} \includegraphics[scale=.7]{dpdt_symbol.png}
 }
  
-
-
-
 \end{document}
 
 
