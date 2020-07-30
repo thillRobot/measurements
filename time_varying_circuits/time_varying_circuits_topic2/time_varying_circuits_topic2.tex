@@ -14,6 +14,9 @@
 \usepackage{listings}
 \usepackage{multicol}
 \usepackage{framed}
+\usepackage{amsmath, nccmath}
+\usepackage{geometry}
+\usepackage{bm}
 
 \beamertemplateballitem
 
@@ -70,9 +73,9 @@
 \newcommand{\topictitle}{First Order Systems} 
 
 \newcommand{\sectiontitleI}{General System Model}
-\newcommand{\sectiontitleII}{Example: RC Circuit}
-\newcommand{\sectiontitleIII}{Example: Bulb Thermometer}
-\newcommand{\sectiontitleIV}{---}
+\newcommand{\sectiontitleII}{Mechanical-Electrical Analogies}
+\newcommand{\sectiontitleIII}{Example: RC Circuit}
+\newcommand{\sectiontitleIV}{Example: Bulb Thermometer}
 
 % custom box
 \newsavebox{\mybox}
@@ -106,14 +109,20 @@
 \section{\sectiontitleI}
 
 % Section I - Frame I:
-\frame{
+\frame{  \small
 \frametitle{\sectiontitleI}
+
+The behavior of a circuit is dependent on time, and many common circuits can be represented by a {\it linear ordinary differential equation} which can be written in the following standard form. 
+
+\[ a_n\frac{d^nx}{dt^n}+a_{n-1}\frac{d^{n-1}x}{dt^{n-1}}+...+a_2\frac{d^2x}{dt^2}+a_1\frac{dx}{dt}+a_0x=f(t) \] 
+\vspace{0mm}
+
 
 }
 
 
 % Section I - Frame II:
-\frame{
+\frame{ \small
 \frametitle{\sectiontitleI}
 
 
@@ -126,6 +135,17 @@
 % Section II - Frame I:
 \frame{
 \frametitle{\sectiontitleII}
+
+Many mechanical systems are also time dependent, or {\it dynamic} and a mechanical-electrical analog is often draw between the two.
+
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{ccc}
+\underline{Zero Order}&\underline{First Order}&\underline{Second Order}\\
+\includegraphics[scale=0.25]{r_circuit.png}&\includegraphics[scale=0.25]{rc_circuit.png}&\includegraphics[scale=0.25]{rlc_circuit.png}\\
+\includegraphics[scale=0.15]{hand_spring.png}&\includegraphics[scale=0.15]{water_tank.png}&\hspace{5mm}\includegraphics[scale=0.10]{mass_spring_damper.png}\\
+\end{tabular}
+
+This concept {\it was} used for analysis and simulation. 
 
 
 
@@ -145,7 +165,21 @@
 % Section III - Frame I:
 \frame{\small
 \frametitle{\sectiontitleIII}
+
+The RC circuit is a first order system. The response to a step input $v_s$ is exponential which is decscribed a single parameter the time constant $\tau$. 
+\vspc
+
+\begin{multicols}{2}
+\includegraphics[scale=0.35]{rc_circuit.png} 	
 	
+\begin{fleqn}
+\[ RC\dot{v}_C+v_C=v_S \]
+\[v_C\left(t\right)=v_s\left(1-e^{-\frac{t}{RC}}\right) \] \\
+\end{fleqn}
+
+\includegraphics[scale=0.5]{time_axis.png} 	
+\end{multicols}
+
 
 }
 
@@ -153,6 +187,20 @@
 \frame{\small
 \frametitle{\sectiontitleIII}
 	
+\begin{multicols}{2}
+
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|c|c|} \hline
+$time, t(s$)&$response, v_C$(V)\\ \hline
+&\\ \hline
+&\\ \hline
+&\\ \hline
+&\\ \hline
+\end{tabular}
+
+\includegraphics[scale=0.5]{time_axis.png} 	
+\end{multicols}
+
 	
 }
 
@@ -160,18 +208,22 @@
 \section{\sectiontitleIV}
 
 % Section IV - Frame I:
-\frame{
+\frame{ \small
 \frametitle{\sectiontitleIV}
-\small
 
+Consider the bulb thermometer shown which can be modeled as a first order system.  If the system was intially at T$0$
+
+\[ \frac{dE}{dt}=\dot{Q} \]
+
+
+\includegraphics[scale=.35]{bulb_thermometer.png}
 
 
 }
 	
 % Section IV - Frame II:
-\frame{
+\frame{ \small
 \frametitle{\sectiontitleIV}
-\small
 
 
 }
