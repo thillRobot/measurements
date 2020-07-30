@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.29)  30 JUL 2020 01:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.29)  30 JUL 2020 11:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -970,20 +970,20 @@ File: lstlang1.sty 2019/09/10 1.8c listings language file
 ] [2
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 121
+LaTeX Font Info:    Trying to load font information for U+msa on input line 120
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 121
+LaTeX Font Info:    Trying to load font information for U+msb on input line 120
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 121.
+ut line 120.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
@@ -991,82 +991,86 @@ thkerncmss.
 )
 [3
 
-] [4
-
 ]
-<r_circuit.png, id=171, 122.54478pt x 155.22339pt>
+<r_circuit.png, id=140, 122.54478pt x 155.22339pt>
 File: r_circuit.png Graphic file (type png)
 <use r_circuit.png>
-Package pdftex.def Info: r_circuit.png  used on input line 152.
+Package pdftex.def Info: r_circuit.png  used on input line 141.
 (pdftex.def)             Requested size: 30.63611pt x 38.80574pt.
-<rc_circuit.png, id=173, 174.70486pt x 167.79208pt>
+<rc_circuit.png, id=142, 226.23653pt x 167.79208pt>
 File: rc_circuit.png Graphic file (type png)
 <use rc_circuit.png>
-Package pdftex.def Info: rc_circuit.png  used on input line 152.
-(pdftex.def)             Requested size: 43.6761pt x 41.9479pt.
-<rlc_circuit.png, id=174, 174.70486pt x 175.3333pt>
+Package pdftex.def Info: rc_circuit.png  used on input line 141.
+(pdftex.def)             Requested size: 56.55899pt x 41.9479pt.
+<rlc_circuit.png, id=143, 174.70486pt x 175.3333pt>
 File: rlc_circuit.png Graphic file (type png)
 <use rlc_circuit.png>
-Package pdftex.def Info: rlc_circuit.png  used on input line 152.
+Package pdftex.def Info: rlc_circuit.png  used on input line 141.
 (pdftex.def)             Requested size: 43.6761pt x 43.8332pt.
-<hand_spring.png, id=175, 468.24937pt x 354.57469pt>
+<hand_spring.png, id=144, 468.24937pt x 354.57469pt>
 File: hand_spring.png Graphic file (type png)
 <use hand_spring.png>
-Package pdftex.def Info: hand_spring.png  used on input line 152.
+Package pdftex.def Info: hand_spring.png  used on input line 141.
 (pdftex.def)             Requested size: 70.23436pt x 53.1839pt.
-<water_tank.png, id=176, 538.26094pt x 369.63094pt>
+<water_tank.png, id=145, 538.26094pt x 369.63094pt>
 File: water_tank.png Graphic file (type png)
 <use water_tank.png>
-Package pdftex.def Info: water_tank.png  used on input line 152.
+Package pdftex.def Info: water_tank.png  used on input line 141.
 (pdftex.def)             Requested size: 80.73566pt x 55.44225pt.
-<mass_spring_damper.png, id=177, 824.32968pt x 566.115pt>
+<mass_spring_damper.png, id=146, 824.32968pt x 566.115pt>
 File: mass_spring_damper.png Graphic file (type png)
 <use mass_spring_damper.png>
-Package pdftex.def Info: mass_spring_damper.png  used on input line 152.
+Package pdftex.def Info: mass_spring_damper.png  used on input line 141.
 (pdftex.def)             Requested size: 82.43779pt x 56.6148pt.
- [5
+ [4
 
  <./r_circuit.png> <./rc_circuit.png> <./rlc_circuit.png> <./hand_spring.png> <
-./water_tank.png> <./mass_spring_damper.png>] [6
-
-]
+./water_tank.png> <./mass_spring_damper.png>]
 File: rc_circuit.png Graphic file (type png)
 <use rc_circuit.png>
-Package pdftex.def Info: rc_circuit.png  used on input line 184.
-(pdftex.def)             Requested size: 61.14761pt x 58.7281pt.
-<time_axis.png, id=243, 336.84105pt x 200.4707pt>
-File: time_axis.png Graphic file (type png)
-<use time_axis.png>
-Package pdftex.def Info: time_axis.png  used on input line 184.
+Package pdftex.def Info: rc_circuit.png  used on input line 170.
+(pdftex.def)             Requested size: 113.11798pt x 83.89583pt.
+ [5
+
+]
+<voltage_versus_time.png, id=215, 336.84105pt x 200.4707pt>
+File: voltage_versus_time.png Graphic file (type png)
+<use voltage_versus_time.png>
+Package pdftex.def Info: voltage_versus_time.png  used on input line 191.
 (pdftex.def)             Requested size: 168.4201pt x 100.23509pt.
 
-Overfull \hbox (19.77518pt too wide) in paragraph at lines 184--184
+Overfull \hbox (19.77518pt too wide) in paragraph at lines 191--191
 [][]  
+ []
+
+[6
+
+ <./voltage_versus_time.png>]
+<bulb_thermometer.png, id=246, 352.31625pt x 358.33875pt>
+File: bulb_thermometer.png Graphic file (type png)
+<use bulb_thermometer.png>
+Package pdftex.def Info: bulb_thermometer.png  used on input line 223.
+(pdftex.def)             Requested size: 123.31253pt x 125.42044pt.
+
+Overfull \vbox (16.38298pt too high) detected at line 223
  []
 
 [7
 
- <./time_axis.png>]
-File: time_axis.png Graphic file (type png)
-<use time_axis.png>
-Package pdftex.def Info: time_axis.png  used on input line 205.
+ <./bulb_thermometer.png>]
+<temp_versus_time.png, id=281, 336.84105pt x 200.4707pt>
+File: temp_versus_time.png Graphic file (type png)
+<use temp_versus_time.png>
+Package pdftex.def Info: temp_versus_time.png  used on input line 244.
 (pdftex.def)             Requested size: 168.4201pt x 100.23509pt.
 
-Overfull \hbox (19.77518pt too wide) in paragraph at lines 205--205
+Overfull \hbox (19.77518pt too wide) in paragraph at lines 244--244
 [][]  
  []
 
 [8
 
-]
-<bulb_thermometer.png, id=308, 352.31625pt x 358.33875pt>
-File: bulb_thermometer.png Graphic file (type png)
-<use bulb_thermometer.png>
-Package pdftex.def Info: bulb_thermometer.png  used on input line 222.
-(pdftex.def)             Requested size: 123.31253pt x 125.42044pt.
- [9
-
- <./bulb_thermometer.png>] [10
+ <./temp_versus_time.png>] [9
 
 ]
 \tf@nav=\write6
@@ -1078,37 +1082,38 @@ Package pdftex.def Info: bulb_thermometer.png  used on input line 222.
 \tf@snm=\write8
 \openout8 = `time_varying_circuits_topic2.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 234.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 234.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 264.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 264.
  (./time_varying_circuits_topic2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 234.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 234.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 264.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 264.
 Package rerunfilecheck Info: File `time_varying_circuits_topic2.out' has not ch
 anged.
 (rerunfilecheck)             Checksum: 2FF64FE2E7598CCF40331B2FCDF20884;235.
  ) 
 Here is how much of TeX's memory you used:
- 19785 strings out of 481239
- 370373 string characters out of 5920377
- 809063 words of memory out of 5000000
- 34528 multiletter control sequences out of 15000+600000
+ 19787 strings out of 481239
+ 370537 string characters out of 5920377
+ 809021 words of memory out of 5000000
+ 34531 multiletter control sequences out of 15000+600000
  554930 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,19n,67p,824b,566s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy7.pfb>
-Output written on time_varying_circuits_topic2.pdf (10 pages, 429549 bytes).
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy7.pfb>
+Output written on time_varying_circuits_topic2.pdf (9 pages, 443535 bytes).
 PDF statistics:
- 411 PDF objects out of 1000 (max. 8388607)
- 357 compressed objects within 4 object streams
- 25 named destinations out of 1000 (max. 500000)
- 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 386 PDF objects out of 1000 (max. 8388607)
+ 330 compressed objects within 4 object streams
+ 23 named destinations out of 1000 (max. 500000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
 

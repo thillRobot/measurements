@@ -117,15 +117,6 @@ The behavior of a circuit is dependent on time, and many common circuits can be 
 \[ a_n\frac{d^nx}{dt^n}+a_{n-1}\frac{d^{n-1}x}{dt^{n-1}}+...+a_2\frac{d^2x}{dt^2}+a_1\frac{dx}{dt}+a_0x=f(t) \] 
 \vspace{0mm}
 
-
-}
-
-
-% Section I - Frame II:
-\frame{ \small
-\frametitle{\sectiontitleI}
-
-
 }
 
 
@@ -147,15 +138,6 @@ Many mechanical systems are also time dependent, or {\it dynamic} and a mechanic
 
 This concept {\it was} used for analysis and simulation. 
 
-
-
-}
-
-
-% Section II - Frame II:
-\frame{
-\frametitle{\sectiontitleII }
-
 }
 
 
@@ -170,14 +152,18 @@ The RC circuit is a first order system. The response to a step input $v_s$ is ex
 \vspc
 
 \begin{multicols}{2}
-\includegraphics[scale=0.35]{rc_circuit.png} 	
+\includegraphics[scale=0.5]{rc_circuit.png} 	
 	
+First Order Model
 \begin{fleqn}
 \[ RC\dot{v}_C+v_C=v_S \]
-\[v_C\left(t\right)=v_s\left(1-e^{-\frac{t}{RC}}\right) \] \\
 \end{fleqn}
 
-\includegraphics[scale=0.5]{time_axis.png} 	
+Response Equation
+\begin{fleqn}
+\[v_C\left(t\right)=v_s\left(1-e^{-\frac{t}{RC}}\right) \]
+\end{fleqn}
+
 \end{multicols}
 
 
@@ -191,14 +177,14 @@ The RC circuit is a first order system. The response to a step input $v_s$ is ex
 
 \renewcommand{\arraystretch}{1.5}
 \begin{tabular}{|c|c|} \hline
-$time, t(s$)&$response, v_C$(V)\\ \hline
+$time (s)$&$response (V)$\\ \hline
 &\\ \hline
 &\\ \hline
 &\\ \hline
 &\\ \hline
 \end{tabular}
 
-\includegraphics[scale=0.5]{time_axis.png} 	
+\includegraphics[scale=0.5]{voltage_versus_time.png} 	
 \end{multicols}
 
 	
@@ -211,12 +197,27 @@ $time, t(s$)&$response, v_C$(V)\\ \hline
 \frame{ \small
 \frametitle{\sectiontitleIV}
 
-Consider the bulb thermometer shown which can be modeled as a first order system.  If the system was intially at T$0$
+Consider the bulb thermometer shown which can be modeled as a first order system.  Where does the {\it model} come from? \vspc
 
-\[ \frac{dE}{dt}=\dot{Q} \]
+\[ \frac{dE}{dt}=\dot{Q}\hspace{15mm} \frac{dE}{dt}=mc_v\frac{T(t)}{dt} \hspace{15mm}\dot{Q}=hA_s\Delta T \]
+\[ \]
 
+\begin{multicols}{2}
 
 \includegraphics[scale=.35]{bulb_thermometer.png}
+
+First Order Model
+\begin{fleqn}
+\[ \frac{mc_v}{hA_s}\frac{T(t)}{dt}+T(t)=T_\infty \] 
+\end{fleqn}
+
+Response Equation
+\begin{fleqn}
+\[ T(t)=T_\infty+\left[ T\left(0\right)-T_\infty \right]e^{-\frac{t}{\tau}} \] 
+\end{fleqn}
+
+
+\end{multicols}
 
 
 }
@@ -225,10 +226,39 @@ Consider the bulb thermometer shown which can be modeled as a first order system
 \frame{ \small
 \frametitle{\sectiontitleIV}
 
+\begin{multicols}{2}
+
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|c|c|} \hline
+$time (s)$&$response (^\circ C)$\\ \hline
+&\\ \hline
+&\\ \hline
+&\\ \hline
+&\\ \hline
+\end{tabular}
+
+\includegraphics[scale=0.5]{temp_versus_time.png} 	
+\end{multicols}
+
 
 }
  
+% Section IV - Frame III:
+\frame{ \small
+\frametitle{\sectiontitleIV}
 
+What is the time constant of the bulb thermometer system? 
+\vspace{5mm}
+\begin{fleqn}
+\[ \tau= \]
+\end{fleqn}
+\vspace{5mm}\\What is the static sensitivity? What are the units?
+\vspace{5mm}
+\begin{fleqn}
+\[ K= \]
+\end{fleqn}
+\vspace{5mm}
+}
 
 
 \end{document}
