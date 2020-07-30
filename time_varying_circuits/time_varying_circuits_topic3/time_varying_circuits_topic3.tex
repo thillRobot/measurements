@@ -7,13 +7,15 @@
 % Topic 3 - Frequency Filters
 %
 
-\documentclass{beamer}                         % for presentation (has nav buttons at bottom)
-%\documentclass[handout]{beamer}  % for handout 
+\documentclass{beamer} % for presentation (has nav buttons at bottom)
+%\documentclass[handout]{beamer} % for handout 
 \usepackage{beamerthemesplit}
-\usepackage{amsmath}
 \usepackage{listings}
 \usepackage{multicol}
 \usepackage{framed}
+\usepackage{amsmath, nccmath}
+\usepackage{geometry}
+\usepackage{bm}
 
 \beamertemplateballitem
 
@@ -34,7 +36,7 @@
 \newcommand{\G}{\color{mygreen}}
 \newcommand{\PR}{\color{mypurple}}
 \newcommand{\PN}{\color{mypink}}
-\newcommand{\OR}{\color{TTU}}
+\newcommand{\OR}{\color{orange}}
 \newcommand{\GD}{\color{TTUgold}}
 
 
@@ -69,9 +71,9 @@
 \newcommand{\moduletitle}{Time Varying Circuits}
 \newcommand{\topictitle}{Frequency Filters} 
 
-\newcommand{\sectiontitleI}{Filter Concept}
-\newcommand{\sectiontitleII}{Butterworth Filter}
-\newcommand{\sectiontitleIII}{---}
+\newcommand{\sectiontitleI}{Signal, Amplitude, and Frequency}
+\newcommand{\sectiontitleII}{Filter Concept}
+\newcommand{\sectiontitleIII}{High-Pass, Low-Pass, and Band-Pass}
 \newcommand{\sectiontitleIV}{Applications}
 
 % custom box
@@ -109,25 +111,63 @@
 \frame{
 \frametitle{\sectiontitleI}
 
+{\R Signal}, {\G Amplitude}, and {\B Frequency}\vspace{2mm}\\
+\includegraphics[scale=.25]{amplitude_frequency.png} 
+\includegraphics[scale=.25]{unit_circle.png}
+					
+What is the relationship between the unit circle and frequency?\vspace{5mm}\\
+
+
 }
 
 
 % Section I - Frame II:
-\frame{
+\frame{ \small
+\frametitle{\sectiontitleI}
+
+\begin{multicols}{2}
+Signals can be composed of multiple {\it frequency components}. \\ (see Fourier Analysis Ch2).\vspace{3mm}\\
+
+\includegraphics[scale=.4]{signal_addition.png}
+
+\includegraphics[scale=.30]{frequency_components.png}
+\end{multicols}
+
+}
+
+% Section I - Frame III:
+\frame{ \small
 \frametitle{\sectiontitleI}
 
 
+\includegraphics[scale=.35]{frequency_domain.png}
+
 }
+
+
 
 
 % Section II:
 \section{\sectiontitleII}
 
 % Section II - Frame I:
+\frame{ \small
+\frametitle{\sectiontitleII}
+
+A {\PR raw signal} is input to a {\OR frequency filter} and a {\PN filtered signal} is output. \vspace{5mm}
+
+\includegraphics[scale=.45]{filter_concept.png}
+
+} 
+
+% Section II - Frame II:
 \frame{
 \frametitle{\sectiontitleII}
 
+So what is inside the {\it grey box}? \vspace{10mm} \\
 
+\includegraphics[scale=.5]{grey_box.png} \vspace{5mm} \\
+How does it work? 
 
 }
 
@@ -135,6 +175,18 @@
 % Section II - Frame II:
 \frame{
 \frametitle{\sectiontitleII }
+
+Filters are constructed from time-varying circuits. The most basic of which is the {\B RC filter}.
+\begin{multicols}{2}
+
+First Order Model
+\[ \tau \dot{y}+y=KA \sin(\omega t) \]
+
+Response Equation
+\includegraphics[scale=.5]{rc_circuit.png} \vspace{5mm} \\
+\end{multicols}
+
+\[ y(t)=Ce^{-\frac{t}{\tau}}+\frac{KA}{\sqrt{1+(\omega\tau)^2}}\sin(\omega t-\tan^{-1}(\omega\tau)) \]
 
 }
 
@@ -146,12 +198,17 @@
 \frame{\small
 \frametitle{\sectiontitleIII}
 	
+\includegraphics[scale=.25]{filter_types.png} \vspace{5mm} \\
 
 }
 
 % Section III - Frame II:
 \frame{\small
 \frametitle{\sectiontitleIII}
+Physical frequency filters do not behave in an ideal manner as the previous figure shows. The filter characteristics are frequency dependent. 
+
+\includegraphics[scale=.3]{bode_diagram.png} \vspace{5mm} \\
+
 	
 	
 }
@@ -160,28 +217,20 @@
 \section{\sectiontitleIV}
 
 % Section IV - Frame I:
-\frame{
+\frame{\small
 \frametitle{\sectiontitleIV}
-\small
 
-
+	
+	Finally, what are filters used for? 
+	\begin{itemize}
+		\item 
+		\item 
+		\item	
+	\end{itemize}
 
 }
 	
-% Section IV - Frame II:
-\frame{
-\frametitle{\sectiontitleIV}
-\small
-
-
-}
- 
-
-
-
 \end{document}
-
-
 
 
 
