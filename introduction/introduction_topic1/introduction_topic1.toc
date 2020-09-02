@@ -1,4 +1,4 @@
 \beamer@sectionintoc {1}{Welcome Back!}{3}{0}{1}
 \beamer@sectionintoc {2}{Definition of a Measurement}{4}{0}{2}
 \beamer@sectionintoc {3}{Measurement System Stages}{5}{0}{3}
-\beamer@sectionintoc {4}{Engineering Example}{9}{0}{4}
+\beamer@sectionintoc {4}{Examples in Mechanical Engineering }{9}{0}{4}

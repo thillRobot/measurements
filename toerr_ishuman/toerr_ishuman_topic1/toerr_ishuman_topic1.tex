@@ -1,10 +1,11 @@
 % 
-% topic Template for ME3023 - Measurements in Mechanincal Systems - Tennessee Technological University
+% Lecture Template for ME3023 -  Measurements in Mechanical Systems - Tennessee Technological University
 %
-% Spring 2020 - Summer 2020
-% Tristan Hill, May 31, 2020
-% Module 2 - To Err is Human 
-% Topic 1 - Accuracy and Precesion   ->  (4th Topic)
+% Spring 2020 - Summer 2020 - Fall 2020
+% Tristan Hill, May 07, 2020 - June 12, 2020 - August 23, 2020
+% Module 2 - To Err is Human
+% Topic 1 - Accuracy and Error
+% 
 %
 
 \documentclass{beamer}                         % for presentation (has nav buttons at bottom)
@@ -15,7 +16,8 @@
 \usepackage{multicol}
 \usepackage{framed}
 
-\beamertemplateballitem
+\beamertemplateballitem 
+
 
 \definecolor{TTUpurple}{rgb}{0.3098, 0.1607, 0.5176} % TTU Purple (primary)
 \definecolor{TTUgold}{rgb}{1.0000, 0.8666, 0.0000} % TTU Gold (primary)
@@ -27,7 +29,9 @@
 \setbeamercolor{structure}{fg=TTUpurple} % itemize, enumerate, etc
 \setbeamercolor{section in toc}{fg=TTUpurple} % TOC sections
 
-% custom colors 
+% custom colors
+\definecolor{TTUpurple}{rgb}{0.3098, 0.1607, 0.5176} % TTU Purple (primary)
+\definecolor{TTUgold}{rgb}{1.0000, 0.8666, 0.0000} % TTU Gold (primary) 
 \definecolor{mygray}{rgb}{.6, .6, .6}
 \definecolor{mypurple}{rgb}{0.6,0.1961,0.8}
 \definecolor{mybrown}{rgb}{0.5451,0.2706,0.0745}
@@ -42,9 +46,22 @@
 \newcommand{\G}{\color{mygreen}}
 \newcommand{\PR}{\color{mypurple}}
 \newcommand{\PN}{\color{mypink}}
+\newcommand{\OR}{\color{TTU}}
+\newcommand{\GD}{\color{TTUgold}}
+
+
+\setbeamercolor{palette primary}{bg=TTUpurple,fg=TTUgold}
+\setbeamercolor{palette secondary}{bg=black,fg=TTUgold}
+\setbeamercolor{palette tertiary}{bg=black,fg=TTUpurple}
+\setbeamercolor{palette quaternary}{bg=TTUgold,fg=black}
+\setbeamercolor{structure}{fg=TTUpurple} % itemize, enumerate, etc
+\setbeamercolor{section in toc}{fg=TTUpurple} % TOC sections
+
+%\usefonttheme{professionalfonts}
 
 \newcommand{\Lagr}{\mathcal{L}} % lagrangian
 
+\newcommand{\hspcu}{\underline{\hspace{25mm}} } % large horizontal space w underline
 \newcommand{\vspccc}{\vspace{6mm}\\} % large vertical space
 \newcommand{\vspcc}{\vspace{4mm}\\}   % medium vertical space
 \newcommand{\vspc}{\vspace{2mm}\\}     % small vertical space
@@ -54,17 +71,27 @@
 \newcommand{\hspcc}{\hspace{4mm}}   % medium horizontal space
 \newcommand{\hspc}{\hspace{2mm}}     % small horizontal space
 
+\newcommand{\eqscl}{0. 9}     % small horizontal space
+
 
 \author{ME3023 - Measurements in Mechanical Systems} % original formatting from Mike Renfro, September 21, 2004
 
 \newcommand{\MNUM}{2\hspace{2mm}} % Module number
-\newcommand{\TNUM}{1\hspace{2mm}} % Topic number  ->  (4th Topic)
-\newcommand{\moduletitle}{To Err is Human }
-\newcommand{\topictitle}{Accuracy and Error } 
+\newcommand{\TNUM}{1\hspace{2mm}} % Topic number 
+\newcommand{\moduletitle}{To Err is Human}
+\newcommand{\topictitle}{Accuracy and Error} 
+
+\newcommand{\sectiontitleI}{Thought Experiment}
+\newcommand{\sectiontitleII}{Accuracy and Error}
+\newcommand{\sectiontitleIII}{Estimating Error}
+\newcommand{\sectiontitleIV}{Uncertainty Interval}
+
+% custom box
+\newsavebox{\mybox}
 
 \title{Module \MNUM - \moduletitle}
 
-\date{Mechanical Engineering\\Tennessee Technological University}
+\date{Mechanical Engineering\vspc Tennessee Technological University}
 
 \begin{document}
 
@@ -73,25 +100,26 @@
 \frame{\titlepage \center\begin{framed}\Large \textbf{Topic \TNUM - \topictitle}\end{framed} \vspace{5mm}}
 
 % Section 0: Outline
-
 \frame{
 
 \large \textbf{Topic \TNUM - \topictitle} \vspace{3mm}\\
 
 \begin{itemize}
-	\item Thought Experiment \vspc % Section 1
-	\item Accuracy and Error \vspc% Section 2
-	\item Estimating Error\vspc% Section 3
-     \item Uncertainty Interval \vspc %Section 1 
+
+	\item \sectiontitleI    \vspc % Section I
+	\item \sectiontitleII 	\vspc % Section II
+	\item \sectiontitleIII 	\vspc %Section III
+	\item \sectiontitleIV 	\vspc %Section IV
+
 \end{itemize}
 
 }
 
 % Section 1
-\section{Thought Experiment}
+\section{\sectiontitleI}
 
 \frame{
-\frametitle{Thought Experiment}
+\frametitle{\sectiontitleI}
 
 {\bf Thought Experiment}: Look around the room and choose an object. It can be anything. Ask yourself the following questions. \vspc
 \begin{itemize}
@@ -105,16 +133,16 @@
 }
 
 % Section 2
-\section{Accuracy and Error}
+\section{\sectiontitleII}
 
 \frame{
-\frametitle{Accuracy and Error}
+\frametitle{\sectiontitleII}
 
-The exact value of a variable is called the {\G true value}. The value of the variables as indicated by a
-measurement system is called the {\B measured value}. The {\PR accuracy} of a measurement refers to the
-closeness of agreement between the measured value and the true value. But the {\G true value} is rarely
-known {\it exactly}, and various influences, called {\R errors}, have an effect on both of these values. So the
-concept of the {\PR accuracy} of a measurement is a {\it qualitative} one. \vspcc
+The exact value of a variable is called the \hspcu value. The value of the variables as indicated by a
+measurement system is called the {\B \hspcu value}. The \hspcu of a measurement refers to the
+closeness of agreement between the \hspcu value and the \hspcu value. But the {\G \hspcu value} is rarely
+known {\it exactly}, and various influences, called \hspcu, have an effect on both of these values. So the
+concept of the \hspcu of a measurement is a {\it qualitative} one. \vspcc
 
 \begin{framed}\scalebox{1}{$\hspace{10mm}{\R error} = {\B measured\hspace{1mm}value} - {\G true\hspace{1mm}value} $}\end{framed}
 
@@ -123,30 +151,30 @@ concept of the {\PR accuracy} of a measurement is a {\it qualitative} one. \vspc
 }
 
 % Section 3
-\section{Estimating Error}
+\section{\sectiontitleIII}
 
 \frame{
-\frametitle{Estimating Error}
+\frametitle{\sectiontitleIII}
 
 The {\bf \G true value} can be estimated but cannot be known  {\it exactly}. In practice a {\BR reference} value is used in place of the true value. We will discuss this again the the {\it Calibration Module}.
 
 
 \begin{framed}\scalebox{1}{$\hspace{20mm} {\PR accuracy} =  \frac{|{\R error}|}{{\BR reference\hspace{1mm}value}}\times 100 $}\end{framed}
 
-An estimate of error based using this value is sometimes referred to as {\B relative accuracy}. \vspc
+An estimate of error based using this value is sometimes referred to as {\B \hspcu accuracy}. \vspc
 
 }
 
 % Section 4
-\section{Uncertainty Interval}
+\section{\sectiontitleIV}
 
 \frame{
-\frametitle{Uncertainty Interval}
+\frametitle{\sectiontitleIV}
 
-``The {\B uncertainty} is a numerical estimate of the possible range of the error in a measurement. In any
-measurement, the {\R error} is not known exactly since the true value is rarely known exactly. But based on
+``The {\B \hspcu} is a numerical estimate of the possible range of the error in a measurement. In any
+measurement, the {\R \hspcu} is not known exactly since the true value is rarely known exactly. But based on
 available information, the operator might feel confident that the error is within certain bounds, a plus
-or minus range of the indicated reading. This is the assigned {\B uncertainty}.''\vspace{5mm}\\
+or minus range of the indicated reading. This is the assigned \hspcu.''\vspace{5mm}\\
 We will discuss this again the the {\it Uncertainty Module}.\vspace{10mm}\\
 
 {\tiny Text: Theory and Design of Mech. Meas.}

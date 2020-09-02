@@ -1,21 +1,23 @@
 % 
-% topic Template for ME3023 - Measurements in Mechanincal Systems - Tennessee Technological University
+% Lecture Template for ME3023 -  Measurements in Mechanical Systems - Tennessee Technological University
 %
-% Spring 2020 - Summer 2020
-% Tristan Hill, May 31, 2020
-% Module 2 - To Err is Human 
-% Topic 6 - Repeatability and Testing
+% Spring 2020 - Summer 2020 - Fall 2020
+% Tristan Hill, May 07, 2020 - June 12, 2020 - August 23, 2020
+% Module 2 - To Err is Human
+% Topic 3 - Repeatability and Testing
+% 
 %
 
-%\documentclass{beamer}                         % for presentation (has nav buttons at bottom)
-\documentclass[handout]{beamer}  % for handout 
+\documentclass{beamer}                         % for presentation (has nav buttons at bottom)
+%\documentclass[handout]{beamer}  % for handout 
 \usepackage{beamerthemesplit}
 \usepackage{amsmath}
 \usepackage{listings}
 \usepackage{multicol}
 \usepackage{framed}
 
-\beamertemplateballitem
+\beamertemplateballitem 
+
 
 \definecolor{TTUpurple}{rgb}{0.3098, 0.1607, 0.5176} % TTU Purple (primary)
 \definecolor{TTUgold}{rgb}{1.0000, 0.8666, 0.0000} % TTU Gold (primary)
@@ -27,7 +29,9 @@
 \setbeamercolor{structure}{fg=TTUpurple} % itemize, enumerate, etc
 \setbeamercolor{section in toc}{fg=TTUpurple} % TOC sections
 
-% custom colors 
+% custom colors
+\definecolor{TTUpurple}{rgb}{0.3098, 0.1607, 0.5176} % TTU Purple (primary)
+\definecolor{TTUgold}{rgb}{1.0000, 0.8666, 0.0000} % TTU Gold (primary) 
 \definecolor{mygray}{rgb}{.6, .6, .6}
 \definecolor{mypurple}{rgb}{0.6,0.1961,0.8}
 \definecolor{mybrown}{rgb}{0.5451,0.2706,0.0745}
@@ -42,11 +46,22 @@
 \newcommand{\G}{\color{mygreen}}
 \newcommand{\PR}{\color{mypurple}}
 \newcommand{\PN}{\color{mypink}}
+\newcommand{\OR}{\color{TTU}}
+\newcommand{\GD}{\color{TTUgold}}
+
+
+\setbeamercolor{palette primary}{bg=TTUpurple,fg=TTUgold}
+\setbeamercolor{palette secondary}{bg=black,fg=TTUgold}
+\setbeamercolor{palette tertiary}{bg=black,fg=TTUpurple}
+\setbeamercolor{palette quaternary}{bg=TTUgold,fg=black}
+\setbeamercolor{structure}{fg=TTUpurple} % itemize, enumerate, etc
+\setbeamercolor{section in toc}{fg=TTUpurple} % TOC sections
+
+%\usefonttheme{professionalfonts}
 
 \newcommand{\Lagr}{\mathcal{L}} % lagrangian
 
-\newcommand{\hspcu}{\underline{\hspace{20mm}}} % large horizontal space w underline
-
+\newcommand{\hspcu}{\underline{\hspace{25mm}} } % large horizontal space w underline
 \newcommand{\vspccc}{\vspace{6mm}\\} % large vertical space
 \newcommand{\vspcc}{\vspace{4mm}\\}   % medium vertical space
 \newcommand{\vspc}{\vspace{2mm}\\}     % small vertical space
@@ -56,17 +71,27 @@
 \newcommand{\hspcc}{\hspace{4mm}}   % medium horizontal space
 \newcommand{\hspc}{\hspace{2mm}}     % small horizontal space
 
+\newcommand{\eqscl}{0. 9}     % small horizontal space
+
 
 \author{ME3023 - Measurements in Mechanical Systems} % original formatting from Mike Renfro, September 21, 2004
 
 \newcommand{\MNUM}{2\hspace{2mm}} % Module number
 \newcommand{\TNUM}{3\hspace{2mm}} % Topic number 
-\newcommand{\moduletitle}{To Err is Human  }
+\newcommand{\moduletitle}{To Err is Human}
 \newcommand{\topictitle}{Repeatability and Testing} 
+
+\newcommand{\sectiontitleI}{Instrument Repeatability}
+\newcommand{\sectiontitleII}{Conditions for Repeatability}
+\newcommand{\sectiontitleIII}{Reproducibility and Instrument Uncertainty}
+%\newcommand{\sectiontitleIV}{Sample Uncertainty Data}
+
+% custom box
+\newsavebox{\mybox}
 
 \title{Module \MNUM - \moduletitle}
 
-\date{June 03, 2020}
+\date{Mechanical Engineering\vspc Tennessee Technological University}
 
 \begin{document}
 
@@ -75,29 +100,30 @@
 \frame{\titlepage \center\begin{framed}\Large \textbf{Topic \TNUM - \topictitle}\end{framed} \vspace{5mm}}
 
 % Section 0: Outline
-
 \frame{
 
 \large \textbf{Topic \TNUM - \topictitle} \vspace{3mm}\\
 
 \begin{itemize}
-	\item Instrument Repeatability \vspc% Section 1
-	\item Conditions for Repeatability \vspc %Section 2
-	\item Reproducibility and Instrument Uncertainty \vspc %Section 3
+
+	\item \sectiontitleI		\vspc % Section I
+	\item \sectiontitleII 	\vspc % Section II
+	\item \sectiontitleIII 	\vspc %Section III
+	%\item \sectiontitleIV 	\vspc %Section IV
 
 \end{itemize}
 
 }
 
 % Section 1
-\section{Instrument Repeatability}
+\section{\sectiontitleI}
 
 \frame{
-\frametitle{Instrument Repeatability}
+\frametitle{\sectiontitleI}
 
-``\hspcu\hspcu\hspcu\hspcu\hspcu \\
-provides a measure of the instrument {\PN repeatability}. Specific claims of
-{\PN repeatability} are based on multiple calibration tests (replication) performed within a given lab on the
+``The ability of a measurement system to indicate the same value on repeated but independent
+application of the same input provides a measure of the instrument  \hspcu. Specific claims of
+\hspcu are based on multiple calibration tests (\hspcu) performed within a given lab on the
 particular unit.'' \vspc
 
 \begin{framed}\hspace{10mm}\scalebox{1}{$\%u_{R_{max}}=\frac{2s_x}{r_0}\times100$}\end{framed}
@@ -107,20 +133,20 @@ particular unit.'' \vspc
 {\tiny Text: Theory and Design of Mech. Meas.}
 }
 
-% Section 1
-\section{Conditions for Repeatability}
+
+\section{\sectiontitleII}
 
 \frame{
-\frametitle{Conditions for Repeatability}
+\frametitle{\sectiontitleII}
 
 The following conditions need to be fulfilled in the establishment of repeatability:
 \begin{itemize}
 
-\item the same experimental \hspcu
-\item the same \hspcu
-\item the same measuring instrument, used under \hspcu
+\item the same experimental tools
+\item the same observer
+\item the same measuring instrument, used under the same conditions
 \item the same location
-\item repetition over a short \hspcu
+\item repetition over a short period of time.
 \item same objectives
 
 
@@ -130,17 +156,17 @@ The following conditions need to be fulfilled in the establishment of repeatabil
 }
 
 % Section 3
-\section{Reproducibility and Instrument Uncertainty}
+\section{\sectiontitleIII}
 
 \frame{
-\frametitle{Reproducibility and Instrument Uncertainty}
+\frametitle{\sectiontitleIII}
 
-``The term\hspcu , when reported in instrument specifications, refers to the closeness of
+``The term \hspcu, when reported in instrument specifications, refers to the closeness of
 agreement in results obtained from duplicate tests carried out under similar conditions of
 measurement ... \vspcc
 
-... The term {\PR instrument precision}, when reported in instrument specifications, refers to a random
-\hspcu based on the results of separate repeatability tests.'' \vspace{10mm} \\
+... The term \hspcu \hspcu, when reported in instrument specifications, refers to a random
+uncertainty based on the results of separate repeatability tests.'' \vspace{10mm} \\
 
 {\tiny Text: Theory and Design of Mech. Meas.}
 }

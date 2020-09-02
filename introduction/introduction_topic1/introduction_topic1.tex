@@ -1,9 +1,11 @@
 % 
-% topic Template for ME3023 - Measurements in Mechanincal Systems - Tennessee Technological University
+% Lecture Template for ME3023 -  Measurements in Mechanical Systems - Tennessee Technological University
 %
-% Spring 2020 - Summer 2020
-% Tristan Hill, May 31, 2020
-% Introduction - Topic 1 - General Measurement System
+% Spring 2020 - Summer 2020 - Fall 2020
+% Tristan Hill, May 07, 2020 - June 12, 2020 - August 23, 2020
+% Module 1 - Introduction
+% Topic 1 - General Measurement System
+% 
 %
 
 \documentclass{beamer}                         % for presentation (has nav buttons at bottom)
@@ -14,7 +16,8 @@
 \usepackage{multicol}
 \usepackage{framed}
 
-\beamertemplateballitem
+\beamertemplateballitem 
+
 
 \definecolor{TTUpurple}{rgb}{0.3098, 0.1607, 0.5176} % TTU Purple (primary)
 \definecolor{TTUgold}{rgb}{1.0000, 0.8666, 0.0000} % TTU Gold (primary)
@@ -26,11 +29,14 @@
 \setbeamercolor{structure}{fg=TTUpurple} % itemize, enumerate, etc
 \setbeamercolor{section in toc}{fg=TTUpurple} % TOC sections
 
-% custom colors 
+% custom colors
+\definecolor{TTUpurple}{rgb}{0.3098, 0.1607, 0.5176} % TTU Purple (primary)
+\definecolor{TTUgold}{rgb}{1.0000, 0.8666, 0.0000} % TTU Gold (primary) 
 \definecolor{mygray}{rgb}{.6, .6, .6}
 \definecolor{mypurple}{rgb}{0.6,0.1961,0.8}
 \definecolor{mybrown}{rgb}{0.5451,0.2706,0.0745}
 \definecolor{mygreen}{rgb}{0, .39, 0}
+\definecolor{mypink}{rgb}{0.9960, 0, 0.9960}
 
 % color commands
 \newcommand{\R}{\color{red}}
@@ -39,10 +45,23 @@
 \newcommand{\K}{\color{black}}
 \newcommand{\G}{\color{mygreen}}
 \newcommand{\PR}{\color{mypurple}}
+\newcommand{\PN}{\color{mypink}}
+\newcommand{\OR}{\color{TTU}}
+\newcommand{\GD}{\color{TTUgold}}
+
+
+\setbeamercolor{palette primary}{bg=TTUpurple,fg=TTUgold}
+\setbeamercolor{palette secondary}{bg=black,fg=TTUgold}
+\setbeamercolor{palette tertiary}{bg=black,fg=TTUpurple}
+\setbeamercolor{palette quaternary}{bg=TTUgold,fg=black}
+\setbeamercolor{structure}{fg=TTUpurple} % itemize, enumerate, etc
+\setbeamercolor{section in toc}{fg=TTUpurple} % TOC sections
+
 %\usefonttheme{professionalfonts}
 
 \newcommand{\Lagr}{\mathcal{L}} % lagrangian
 
+\newcommand{\hspcu}{\underline{\hspace{20mm}}} % large horizontal space w underline
 \newcommand{\vspccc}{\vspace{6mm}\\} % large vertical space
 \newcommand{\vspcc}{\vspace{4mm}\\}   % medium vertical space
 \newcommand{\vspc}{\vspace{2mm}\\}     % small vertical space
@@ -52,17 +71,27 @@
 \newcommand{\hspcc}{\hspace{4mm}}   % medium horizontal space
 \newcommand{\hspc}{\hspace{2mm}}     % small horizontal space
 
+\newcommand{\eqscl}{0. 9}     % small horizontal space
+
 
 \author{ME3023 - Measurements in Mechanical Systems} % original formatting from Mike Renfro, September 21, 2004
 
 \newcommand{\MNUM}{1\hspace{2mm}} % Module number
 \newcommand{\TNUM}{1\hspace{2mm}} % Topic number 
-\newcommand{\moduletitle}{Introduction }
-\newcommand{\topictitle}{General Measurement System } 
+\newcommand{\moduletitle}{Introduction}
+\newcommand{\topictitle}{General Measurement System} 
+
+\newcommand{\sectiontitleI}{Welcome Back!}
+\newcommand{\sectiontitleII}{Definition of a Measurement}
+\newcommand{\sectiontitleIII}{Measurement System Stages}
+\newcommand{\sectiontitleIV}{Examples in Mechanical Engineering }
+
+% custom box
+\newsavebox{\mybox}
 
 \title{Module \MNUM - \moduletitle}
 
-\date{Mechanical Engineering\\Tennessee Technological University}
+\date{Mechanical Engineering\vspc Tennessee Technological University}
 
 \begin{document}
 
@@ -71,27 +100,27 @@
 \frame{\titlepage \center\begin{framed}\Large \textbf{Topic \TNUM - \topictitle}\end{framed} \vspace{5mm}}
 
 % Section 0: Outline
-
 \frame{
 
 \large \textbf{Topic \TNUM - \topictitle} \vspace{3mm}\\
 
 \begin{itemize}
-	\item Welcome Back!\vspace{3mm}\\ % Section 1
-	\item Definition of a Measurement\vspace{3mm}\\% Section 2
-	\item Measurement System Stages\vspace{3mm}\\ %Section 3
-	\item Examples in Mechanical Engineering \vspace{3mm}\\ %Section 4
 
-	%\item Example\vspace{3mm}\\ % Section 5 - 5 is almost too many...
+	\item \sectiontitleI		\vspc % Section I
+	\item \sectiontitleII 	\vspc % Section II
+	\item \sectiontitleIII 	\vspc %Section III
+	\item \sectiontitleIV 	\vspc %Section IV
+
 \end{itemize}
+
 }
 
 % Section 1
-\section{Welcome Back!}
+\section{\sectiontitleI}
 
 \frame{
-\frametitle{Welcome to New Video Topics}
-\large{\it Welcome Back!\vspace{3mm}\\}
+\frametitle{\sectiontitleI}
+%\large{\it Welcome Back!\vspace{3mm}\\}
 
 \begin{itemize}
 \item Things are going to be different but we will still learn! \vspace{3mm}\\
@@ -102,10 +131,10 @@
 }
 
 % Section 2
-\section{Definition of a Measurement}
+\section{\sectiontitleII}
 
 \frame{
-\frametitle{Definition of a Measurement}
+\frametitle{\sectiontitleII}
 
 \large{``A {\bf \B measurement} is an act of assigning a specific value to a physical variable.''} \vspc
 {\tiny Text: Theory and Design of Mech. Meas.}
@@ -113,10 +142,10 @@
 }
 
 % Section 3
-\section{Measurement System Stages}
+\section{\sectiontitleIII}
 
 \frame{
-\frametitle{Measurement System Stages}
+\frametitle{\sectiontitleIII}
 
 \includegraphics[scale=.3]{measurement_stages} \\
 {\tiny Image: Theory and Design of Mech. Meas.}
@@ -165,10 +194,10 @@ display, a marked scale, or even a recording device such as a computer disk driv
 }
 
 % Section 4
-\section{Engineering Example}
+\section{\sectiontitleIV}
 
 \frame{
-\frametitle{Engineering Example}
+\frametitle{\sectiontitleIV}
 
 \begin{multicols}{2}
 \includegraphics[scale=0.04]{makethemask.jpg}

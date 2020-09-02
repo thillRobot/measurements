@@ -1,9 +1,11 @@
 % 
-% topic Template for ME3023 - Measurements in Mechanincal Systems - Tennessee Technological University
+% Lecture Template for ME3023 -  Measurements in Mechanical Systems - Tennessee Technological University
 %
-% Spring 2020 - Summer 2020
-% Tristan Hill, May 31, 2020
-% Introduction - Topic 3 - Experimental Test Plan
+% Spring 2020 - Summer 2020 - Fall 2020
+% Tristan Hill, May 07, 2020 - June 12, 2020 - August 23, 2020
+% Module 1 - Introduction
+% Topic 3 - Experimental Test Plan
+% 
 %
 
 \documentclass{beamer}                         % for presentation (has nav buttons at bottom)
@@ -14,7 +16,8 @@
 \usepackage{multicol}
 \usepackage{framed}
 
-\beamertemplateballitem
+\beamertemplateballitem 
+
 
 \definecolor{TTUpurple}{rgb}{0.3098, 0.1607, 0.5176} % TTU Purple (primary)
 \definecolor{TTUgold}{rgb}{1.0000, 0.8666, 0.0000} % TTU Gold (primary)
@@ -26,11 +29,14 @@
 \setbeamercolor{structure}{fg=TTUpurple} % itemize, enumerate, etc
 \setbeamercolor{section in toc}{fg=TTUpurple} % TOC sections
 
-% custom colors 
+% custom colors
+\definecolor{TTUpurple}{rgb}{0.3098, 0.1607, 0.5176} % TTU Purple (primary)
+\definecolor{TTUgold}{rgb}{1.0000, 0.8666, 0.0000} % TTU Gold (primary) 
 \definecolor{mygray}{rgb}{.6, .6, .6}
 \definecolor{mypurple}{rgb}{0.6,0.1961,0.8}
 \definecolor{mybrown}{rgb}{0.5451,0.2706,0.0745}
 \definecolor{mygreen}{rgb}{0, .39, 0}
+\definecolor{mypink}{rgb}{0.9960, 0, 0.9960}
 
 % color commands
 \newcommand{\R}{\color{red}}
@@ -39,10 +45,23 @@
 \newcommand{\K}{\color{black}}
 \newcommand{\G}{\color{mygreen}}
 \newcommand{\PR}{\color{mypurple}}
+\newcommand{\PN}{\color{mypink}}
+\newcommand{\OR}{\color{TTU}}
+\newcommand{\GD}{\color{TTUgold}}
+
+
+\setbeamercolor{palette primary}{bg=TTUpurple,fg=TTUgold}
+\setbeamercolor{palette secondary}{bg=black,fg=TTUgold}
+\setbeamercolor{palette tertiary}{bg=black,fg=TTUpurple}
+\setbeamercolor{palette quaternary}{bg=TTUgold,fg=black}
+\setbeamercolor{structure}{fg=TTUpurple} % itemize, enumerate, etc
+\setbeamercolor{section in toc}{fg=TTUpurple} % TOC sections
+
 %\usefonttheme{professionalfonts}
 
 \newcommand{\Lagr}{\mathcal{L}} % lagrangian
 
+\newcommand{\hspcu}{\underline{\hspace{20mm}}} % large horizontal space w underline
 \newcommand{\vspccc}{\vspace{6mm}\\} % large vertical space
 \newcommand{\vspcc}{\vspace{4mm}\\}   % medium vertical space
 \newcommand{\vspc}{\vspace{2mm}\\}     % small vertical space
@@ -52,17 +71,28 @@
 \newcommand{\hspcc}{\hspace{4mm}}   % medium horizontal space
 \newcommand{\hspc}{\hspace{2mm}}     % small horizontal space
 
+\newcommand{\eqscl}{0. 9}     % small horizontal space
+
 
 \author{ME3023 - Measurements in Mechanical Systems} % original formatting from Mike Renfro, September 21, 2004
 
 \newcommand{\MNUM}{1\hspace{2mm}} % Module number
 \newcommand{\TNUM}{3\hspace{2mm}} % Topic number 
-\newcommand{\moduletitle}{Introduction }
-\newcommand{\topictitle}{Experimental Test Plan } 
+\newcommand{\moduletitle}{Introduction}
+\newcommand{\topictitle}{Experimental Test Plan} 
+
+\newcommand{\sectiontitleI}{Parameter Design Plan}
+\newcommand{\sectiontitleII}{System and Tolerance Design Plan}
+\newcommand{\sectiontitleIII}{Data Reduction Design Plan}
+\newcommand{\sectiontitleIV}{Experimental Design Strategies }
+
+
+% custom box
+\newsavebox{\mybox}
 
 \title{Module \MNUM - \moduletitle}
 
-\date{Mechanical Engineering\\Tennessee Technological University}
+\date{Mechanical Engineering\vspc Tennessee Technological University}
 
 \begin{document}
 
@@ -71,25 +101,26 @@
 \frame{\titlepage \center\begin{framed}\Large \textbf{Topic \TNUM - \topictitle}\end{framed} \vspace{5mm}}
 
 % Section 0: Outline
-
 \frame{
 
 \large \textbf{Topic \TNUM - \topictitle} \vspace{3mm}\\
 
 \begin{itemize}
-	\item Parameter Design Plan \vspc% Section 1
-	\item System and Tolerance Design Plan\vspc% Section 2
-	\item Data Reduction Design Plan \vspc%Section 3
-	\item Experimental Design Strategies \vspc%Section 4
+
+	\item \sectiontitleI		\vspc % Section I
+	\item \sectiontitleII 	\vspc % Section II
+	\item \sectiontitleIII 	\vspc %Section III
+	\item \sectiontitleIV 	\vspc %Section IV
+
 \end{itemize}
 
 }
 
 % Section 1
-\section{Parameter design plan}
+\section{\sectiontitleI}
 
 \frame{
-\frametitle{Parameter design plan}
+\frametitle{\sectiontitleI}
 
 {\B Parameter Design Plan}: Determine the test objective and identify the process variables and
 parameters and a means for their control. \vspc
@@ -99,10 +130,10 @@ parameters and a means for their control. \vspc
 }
 
 % Section 2
-\section{System and tolerance design plan.}
+\section{\sectiontitleII}
 
 \frame{
-\frametitle{System and tolerance design plan}
+\frametitle{\sectiontitleII}
 
 
 {\PR System and Tolerance Design Plan}: Select a measurement technique, equipment, and
@@ -113,10 +144,10 @@ question?’’
 {\tiny Text: Theory and Design of Mech. Meas.}
 }
 % Section 3
-\section{Data reduction design plan}
+\section{\sectiontitleIII}
 
 \frame{
-\frametitle{Data reduction design plan}
+\frametitle{\sectiontitleIII}
 
 {\G Data Reduction Design Plan}: Plan how to analyze, present, and use the anticipated data.\vspc
 \underline{Ask}: ‘‘How will I interpret the resulting data? How will I use the data to answer my question?
@@ -125,10 +156,10 @@ How good is my answer? Does my answer make sense?’’
 {\tiny Text: Theory and Design of Mech. Meas.}
 }
 % Section 4
-\section{Experimental Design Strategies}
+\section{\sectiontitleIV}
 
 \frame{
-\frametitle{Experimental Design Strategies}
+\frametitle{\sectiontitleIV}
 
 
 \begin{itemize}

@@ -7,8 +7,8 @@
 % Topic 1 - Accuracy and Precesion   ->  (4th Topic)
 %
 
-%\documentclass{beamer}                         % for presentation (has nav buttons at bottom)
-\documentclass[handout]{beamer}  % for handout 
+\documentclass{beamer}                         % for presentation (has nav buttons at bottom)
+%\documentclass[handout]{beamer}  % for handout 
 \usepackage{beamerthemesplit}
 \usepackage{amsmath}
 \usepackage{listings}
@@ -49,8 +49,6 @@
 \newcommand{\vspcc}{\vspace{4mm}\\}   % medium vertical space
 \newcommand{\vspc}{\vspace{2mm}\\}     % small vertical space
 
-\newcommand{\hspcu}{\underline{\hspace{20mm}}} % large horizontal space w underline
-
 \newcommand{\hspcccc}{\hspace{10mm}} % large horizontal space
 \newcommand{\hspccc}{\hspace{6mm}} % large horizontal space
 \newcommand{\hspcc}{\hspace{4mm}}   % medium horizontal space
@@ -60,13 +58,13 @@
 \author{ME3023 - Measurements in Mechanical Systems} % original formatting from Mike Renfro, September 21, 2004
 
 \newcommand{\MNUM}{2\hspace{2mm}} % Module number
-\newcommand{\TNUM}{1\hspace{2mm}} % Topic number  ->  (4th Topic)
-\newcommand{\moduletitle}{To Err is Human }
-\newcommand{\topictitle}{Accuracy and Error } 
+\newcommand{\TNUM}{1\hspace{2mm}} % Topic number 
+\newcommand{\moduletitle}{To Err is Human}
+\newcommand{\topictitle}{Accuracy and Error}
 
 \title{Module \MNUM - \moduletitle}
 
-\date{June 02, 2020}
+\date{Mechanical Engineering\\Tennessee Technological University}
 
 \begin{document}
 
@@ -112,13 +110,13 @@
 \frame{
 \frametitle{Accuracy and Error}
 
-The exact value of a variable is called the \hspcu. The value of the variables as indicated by a
-measurement system is called the  \hspcu\hspc\hspcu. The\hspcu of a measurement refers to the
-closeness of agreement between the measured value and the true value. But the\hspcu\hspc\hspcu is rarely
-known \hspcu, and various influences, called\hspcu, have an effect on both of these values. So the
-concept of the \hspcu of a measurement is a {\it qualitative} one. \vspcc
+The exact value of a variable is called the {\G true value}. The value of the variables as indicated by a
+measurement system is called the {\B measured value}. The {\PR accuracy} of a measurement refers to the
+closeness of agreement between the measured value and the true value. But the {\G true value} is rarely
+known {\it exactly}, and various influences, called {\R errors}, have an effect on both of these values. So the
+concept of the {\PR accuracy} of a measurement is a {\it qualitative} one. \vspcc
 
-\begin{framed}\scalebox{1}{$\hspace{10mm}{\R error} =$}\end{framed}
+\begin{framed}\scalebox{1}{$\hspace{10mm}{\R error} = {\B measured\hspace{1mm}value} - {\G true\hspace{1mm}value} $}\end{framed}
 
 \vspace{0mm}
 {\tiny Text: Theory and Design of Mech. Meas.}
@@ -133,9 +131,9 @@ concept of the \hspcu of a measurement is a {\it qualitative} one. \vspcc
 The {\bf \G true value} can be estimated but cannot be known  {\it exactly}. In practice a {\BR reference} value is used in place of the true value. We will discuss this again the the {\it Calibration Module}.
 
 
-\begin{framed}\scalebox{1}{$\hspace{20mm} {\PR accuracy} = $}\end{framed}
+\begin{framed}\scalebox{1}{$\hspace{20mm} {\PR accuracy} =  \frac{|{\R error}|}{{\BR reference\hspace{1mm}value}}\times 100 $}\end{framed}
 
-An estimate of error based using this value is sometimes referred to as \hspcu. \vspc
+An estimate of error based using this value is sometimes referred to as {\B relative accuracy}. \vspc
 
 }
 
@@ -145,10 +143,10 @@ An estimate of error based using this value is sometimes referred to as \hspcu. 
 \frame{
 \frametitle{Uncertainty Interval}
 
-``The \hspcu is a numerical estimate of the possible range of the error in a measurement. In any
-measurement, the\hspcu is not known exactly since the true value is rarely known exactly. But based on
+``The {\B uncertainty} is a numerical estimate of the possible range of the error in a measurement. In any
+measurement, the {\R error} is not known exactly since the true value is rarely known exactly. But based on
 available information, the operator might feel confident that the error is within certain bounds, a plus
-or minus range of the indicated reading. This is the assigned \hspcu.''\vspace{5mm}\\
+or minus range of the indicated reading. This is the assigned {\B uncertainty}.''\vspace{5mm}\\
 We will discuss this again the the {\it Uncertainty Module}.\vspace{10mm}\\
 
 {\tiny Text: Theory and Design of Mech. Meas.}

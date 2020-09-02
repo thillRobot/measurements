@@ -1,10 +1,11 @@
 % 
-% topic Template for ME3023 - Measurements in Mechanincal Systems - Tennessee Technological University
+% Lecture Template for ME3023 -  Measurements in Mechanical Systems - Tennessee Technological University
 %
-% Spring 2020 - Summer 2020
-% Tristan Hill, May 31, 2020
+% Spring 2020 - Summer 2020 - Fall 2020
+% Tristan Hill, May 07, 2020 - June 12, 2020 - August 23, 2020
 % Module 2 - To Err is Human
 % Topic 2 - Errors and Uncertainty
+% 
 %
 
 \documentclass{beamer}                         % for presentation (has nav buttons at bottom)
@@ -15,7 +16,8 @@
 \usepackage{multicol}
 \usepackage{framed}
 
-\beamertemplateballitem
+\beamertemplateballitem 
+
 
 \definecolor{TTUpurple}{rgb}{0.3098, 0.1607, 0.5176} % TTU Purple (primary)
 \definecolor{TTUgold}{rgb}{1.0000, 0.8666, 0.0000} % TTU Gold (primary)
@@ -27,7 +29,9 @@
 \setbeamercolor{structure}{fg=TTUpurple} % itemize, enumerate, etc
 \setbeamercolor{section in toc}{fg=TTUpurple} % TOC sections
 
-% custom colors 
+% custom colors
+\definecolor{TTUpurple}{rgb}{0.3098, 0.1607, 0.5176} % TTU Purple (primary)
+\definecolor{TTUgold}{rgb}{1.0000, 0.8666, 0.0000} % TTU Gold (primary) 
 \definecolor{mygray}{rgb}{.6, .6, .6}
 \definecolor{mypurple}{rgb}{0.6,0.1961,0.8}
 \definecolor{mybrown}{rgb}{0.5451,0.2706,0.0745}
@@ -42,9 +46,22 @@
 \newcommand{\G}{\color{mygreen}}
 \newcommand{\PR}{\color{mypurple}}
 \newcommand{\PN}{\color{mypink}}
+\newcommand{\OR}{\color{TTU}}
+\newcommand{\GD}{\color{TTUgold}}
+
+
+\setbeamercolor{palette primary}{bg=TTUpurple,fg=TTUgold}
+\setbeamercolor{palette secondary}{bg=black,fg=TTUgold}
+\setbeamercolor{palette tertiary}{bg=black,fg=TTUpurple}
+\setbeamercolor{palette quaternary}{bg=TTUgold,fg=black}
+\setbeamercolor{structure}{fg=TTUpurple} % itemize, enumerate, etc
+\setbeamercolor{section in toc}{fg=TTUpurple} % TOC sections
+
+%\usefonttheme{professionalfonts}
 
 \newcommand{\Lagr}{\mathcal{L}} % lagrangian
 
+\newcommand{\hspcu}{\underline{\hspace{25mm}} } % large horizontal space w underline
 \newcommand{\vspccc}{\vspace{6mm}\\} % large vertical space
 \newcommand{\vspcc}{\vspace{4mm}\\}   % medium vertical space
 \newcommand{\vspc}{\vspace{2mm}\\}     % small vertical space
@@ -54,18 +71,28 @@
 \newcommand{\hspcc}{\hspace{4mm}}   % medium horizontal space
 \newcommand{\hspc}{\hspace{2mm}}     % small horizontal space
 
+\newcommand{\eqscl}{0. 9}     % small horizontal space
+
 
 \author{ME3023 - Measurements in Mechanical Systems} % original formatting from Mike Renfro, September 21, 2004
 
 \newcommand{\MNUM}{2\hspace{2mm}} % Module number
 \newcommand{\TNUM}{2\hspace{2mm}} % Topic number 
-\newcommand{\moduletitle}{To Err is Human }
-\newcommand{\topictitle}{Errors and Uncertainty } 
+\newcommand{\moduletitle}{To Err is Human}
+\newcommand{\topictitle}{Errors and Uncertainty} 
+
+\newcommand{\sectiontitleI}{Random and Systematic Errors}
+\newcommand{\sectiontitleII}{Dart Board Example}
+\newcommand{\sectiontitleIII}{Types of Errors}
+\newcommand{\sectiontitleIV}{Sample Uncertainty Data}
+
+% custom box
+\newsavebox{\mybox}
 
 \title{Module \MNUM - \moduletitle}
 
+\date{Mechanical Engineering\vspc Tennessee Technological University}
 
-\date{Mechanical Engineering\\Tennessee Technological University}
 \begin{document}
 
 \lstset{language=MATLAB,basicstyle=\ttfamily\small,showstringspaces=false}
@@ -73,30 +100,26 @@
 \frame{\titlepage \center\begin{framed}\Large \textbf{Topic \TNUM - \topictitle}\end{framed} \vspace{5mm}}
 
 % Section 0: Outline
-
 \frame{
 
 \large \textbf{Topic \TNUM - \topictitle} \vspace{3mm}\\
 
 \begin{itemize}
 
+	\item \sectiontitleI		\vspc % Section I
+	\item \sectiontitleII 	\vspc % Section II
+	\item \sectiontitleIII 	\vspc %Section III
+	\item \sectiontitleIV 	\vspc %Section IV
 
-	
-	\item Random and Systematic Errors \vspc%Section 1
-	\item Dart Board Example \vspc%Section 2
-	\item Types of Errors  \vspc% Section 3
-	\item Sample Uncertainty Data \vspc % Section 4
-
-	
 \end{itemize}
 
 }
 
 % Section 1
-\section{Random and Systematic Errors}
+\section{\sectiontitleI}
 
 \frame{
-\frametitle{Random and Systematic Errors}
+\frametitle{\sectiontitleI}
 
 ``Errors are effects that cause a  measured value to differ from its true value. {\PN Random} error causes a
 {\PN random} variation in measured values found during repeated measurements of a variable. \vspc
@@ -107,10 +130,10 @@
 {\tiny Text: Theory and Design of Mech. Meas.}
 }
 % Section 2
-\section{Dart Board Example}
+\section{\sectiontitleII}
 
 \frame{
-\frametitle{Dart Board Example}
+\frametitle{\sectiontitleII}
 
 ``The concept of accuracy and the effects of {\PR systematic} and {\PN random} errors in instruments
 and measurement systems can be illustrated by the throw of darts.''
@@ -125,10 +148,10 @@ application of the same input provides a measure of the instrument {\B repeatabi
 
 
 % Section 3
-\section{Types of Errors}
+\section{\sectiontitleIII}
 
 \frame{
-\frametitle{Types of Errors}
+\frametitle{\sectiontitleIII}
 
 Common categories of errors in measurements are shown below. This is not an exhaustive list.  
 
@@ -147,7 +170,7 @@ Common categories of errors in measurements are shown below. This is not an exha
 }
 
 % Section 4
-\section{Sample Uncertainty Data}
+\section{\sectiontitleIV}
 
 \frame{
 \frametitle{Sample Uncertainty Data}
