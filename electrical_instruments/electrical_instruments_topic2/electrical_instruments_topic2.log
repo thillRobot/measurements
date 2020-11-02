@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.29)  16 SEP 2020 10:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.29)  21 SEP 2020 08:53
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1000,15 +1000,47 @@ Package pdftex.def Info: fn_gen.jpg  used on input line 156.
 (pdftex.def)             Requested size: 188.20265pt x 85.444pt.
  [6
 
- <./fn_gen.jpg>] [7
+ <./fn_gen.jpg>]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 165
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 165
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
+ut line 165.
+
+(/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
+File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+)
+[7
 
 ] [8
 
-] [9
-
-] [10
-
 ]
+<oscilloscope_fig1.jpg, id=291, 289.5618pt x 271.2534pt>
+File: oscilloscope_fig1.jpg Graphic file (type jpg)
+<use oscilloscope_fig1.jpg>
+Package pdftex.def Info: oscilloscope_fig1.jpg  used on input line 185.
+(pdftex.def)             Requested size: 144.78053pt x 135.62636pt.
+ [9
+
+ <./oscilloscope_fig1.jpg>]
+<tds220.jpg, id=321, 526.96875pt x 298.11375pt>
+File: tds220.jpg Graphic file (type jpg)
+<use tds220.jpg>
+Package pdftex.def Info: tds220.jpg  used on input line 195.
+(pdftex.def)             Requested size: 184.44182pt x 104.34137pt.
+ [10
+
+ <./tds220.jpg>]
 \tf@nav=\write6
 \openout6 = `electrical_instruments_topic2.nav'.
 
@@ -1018,31 +1050,31 @@ Package pdftex.def Info: fn_gen.jpg  used on input line 156.
 \tf@snm=\write8
 \openout8 = `electrical_instruments_topic2.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 193.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 193.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 198.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 198.
 
 (./electrical_instruments_topic2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 193.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 193.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 198.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 198.
 Package rerunfilecheck Info: File `electrical_instruments_topic2.out' has not c
 hanged.
-(rerunfilecheck)             Checksum: 6FE40400659B8BB0090E2D0624B726E3;221.
+(rerunfilecheck)             Checksum: ADC6DEEEE2586AD8C0D6F653CCCE38E3;238.
  ) 
 Here is how much of TeX's memory you used:
- 19622 strings out of 481239
- 367166 string characters out of 5920377
- 808009 words of memory out of 5000000
- 34409 multiletter control sequences out of 15000+600000
- 536232 words of font info for 37 fonts, out of 8000000 for 9000
+ 19717 strings out of 481239
+ 369110 string characters out of 5920377
+ 808079 words of memory out of 5000000
+ 34473 multiletter control sequences out of 15000+600000
+ 544641 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,19n,67p,825b,566s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on electrical_instruments_topic2.pdf (10 pages, 1504761 bytes).
+Output written on electrical_instruments_topic2.pdf (10 pages, 1660654 bytes).
 PDF statistics:
- 370 PDF objects out of 1000 (max. 8388607)
+ 372 PDF objects out of 1000 (max. 8388607)
  334 compressed objects within 4 object streams
  25 named destinations out of 1000 (max. 500000)
- 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 

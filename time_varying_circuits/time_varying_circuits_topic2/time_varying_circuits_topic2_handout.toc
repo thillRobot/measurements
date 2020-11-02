@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{General System Model}{3}{0}{1}
+\beamer@sectionintoc {2}{Mechanical-Electrical Analogies}{4}{0}{2}
+\beamer@sectionintoc {3}{Example: RC Circuit}{5}{0}{3}
+\beamer@sectionintoc {4}{Example: Bulb Thermometer}{7}{0}{4}

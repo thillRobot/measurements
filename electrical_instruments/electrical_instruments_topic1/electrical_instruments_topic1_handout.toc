@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Safety and Electricity }{3}{0}{1}
+\beamer@sectionintoc {2}{Using a Digital Multimeter}{4}{0}{2}
+\beamer@sectionintoc {3}{Measuring Voltage and Current}{5}{0}{3}
+\beamer@sectionintoc {4}{Measuring Resistance and Continuity}{7}{0}{4}

@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.29)  30 JUL 2020 14:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.29)  23 SEP 2020 08:16
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  %&-line parsing enabled.
 **time_varying_circuits_topic2.tex
 (./time_varying_circuits_topic2.tex
@@ -1094,7 +1094,7 @@ anged.
 Here is how much of TeX's memory you used:
  19787 strings out of 481239
  370537 string characters out of 5920377
- 809021 words of memory out of 5000000
+ 809020 words of memory out of 5000000
  34531 multiletter control sequences out of 15000+600000
  554930 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191

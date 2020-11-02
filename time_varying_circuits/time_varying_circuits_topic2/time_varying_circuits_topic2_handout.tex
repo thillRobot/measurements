@@ -1,0 +1,271 @@
+% 
+% Lecture Template for ME3023 -  Measurements in Mechanical Systems - Tennessee Technological University
+%
+% Spring 2020 - Summer 2020
+% Tristan Hill, May 07, 2020 - June 12, 2020 - July 08, 2020
+% Module 7 - Time Varying Circuits
+% Topic 2 - First Order Systems
+%
+
+\documentclass{beamer}                         % for presentation (has nav buttons at bottom)
+%\documentclass[handout]{beamer}  % for handout 
+\usepackage{beamerthemesplit}
+\usepackage{listings}
+\usepackage{multicol}
+\usepackage{framed}
+\usepackage{amsmath, nccmath}
+\usepackage{geometry}
+\usepackage{bm}
+
+\beamertemplateballitem
+
+% custom colors
+\definecolor{TTUpurple}{rgb}{0.3098, 0.1607, 0.5176} % TTU Purple (primary)
+\definecolor{TTUgold}{rgb}{1.0000, 0.8666, 0.0000} % TTU Gold (primary) 
+\definecolor{mygray}{rgb}{.6, .6, .6}
+\definecolor{mypurple}{rgb}{0.6,0.1961,0.8}
+\definecolor{mybrown}{rgb}{0.5451,0.2706,0.0745}
+\definecolor{mygreen}{rgb}{0, .39, 0}
+\definecolor{mypink}{rgb}{0.9960, 0, 0.9960}
+
+% color commands
+\newcommand{\R}{\color{red}}
+\newcommand{\B}{\color{blue}}
+\newcommand{\BR}{\color{mybrown}}
+\newcommand{\K}{\color{black}}
+\newcommand{\G}{\color{mygreen}}
+\newcommand{\PR}{\color{mypurple}}
+\newcommand{\PN}{\color{mypink}}
+\newcommand{\OR}{\color{TTU}}
+\newcommand{\GD}{\color{TTUgold}}
+
+
+\setbeamercolor{palette primary}{bg=TTUpurple,fg=TTUgold}
+\setbeamercolor{palette secondary}{bg=black,fg=TTUgold}
+\setbeamercolor{palette tertiary}{bg=black,fg=TTUpurple}
+\setbeamercolor{palette quaternary}{bg=TTUgold,fg=black}
+\setbeamercolor{structure}{fg=TTUpurple} % itemize, enumerate, etc
+\setbeamercolor{section in toc}{fg=TTUpurple} % TOC sections
+
+%\usefonttheme{professionalfonts}
+
+\newcommand{\Lagr}{\mathcal{L}} % lagrangian
+
+\newcommand{\hspcu}{\underline{\hspace{20mm}}} % large horizontal space w underline
+\newcommand{\vspccc}{\vspace{6mm}\\} % large vertical space
+\newcommand{\vspcc}{\vspace{4mm}\\}   % medium vertical space
+\newcommand{\vspc}{\vspace{2mm}\\}     % small vertical space
+
+\newcommand{\hspcccc}{\hspace{10mm}} % large horizontal space
+\newcommand{\hspccc}{\hspace{6mm}} % large horizontal space
+\newcommand{\hspcc}{\hspace{4mm}}   % medium horizontal space
+\newcommand{\hspc}{\hspace{2mm}}     % small horizontal space
+
+\newcommand{\eqscl}{0.9}     % small horizontal space
+
+
+\author{ME3023 - Measurements in Mechanical Systems} % original formatting from Mike Renfro, September 21, 2004
+
+\newcommand{\MNUM}{7\hspace{2mm}} % Module number
+\newcommand{\TNUM}{2\hspace{2mm}} % Topic number 
+\newcommand{\moduletitle}{Time Varying Circuits}
+\newcommand{\topictitle}{First Order Systems} 
+
+\newcommand{\sectiontitleI}{General System Model}
+\newcommand{\sectiontitleII}{Mechanical-Electrical Analogies}
+\newcommand{\sectiontitleIII}{Example: RC Circuit}
+\newcommand{\sectiontitleIV}{Example: Bulb Thermometer}
+
+% custom box
+\newsavebox{\mybox}
+
+\title{Module \MNUM - \moduletitle}
+
+\date{Mechanical Engineering\vspc Tennessee Technological University}
+
+\begin{document}
+
+\lstset{language=MATLAB,basicstyle=\ttfamily\small,showstringspaces=false}
+
+\frame{\titlepage \center\begin{framed}\Large \textbf{Topic \TNUM - \topictitle}\end{framed} \vspace{5mm}}
+
+% Section 0: Outline
+\frame{
+\large \textbf{Topic \TNUM - \topictitle} \vspace{3mm}\\
+
+\begin{itemize}
+
+	\item \sectiontitleI    \vspc % Section I
+	\item \sectiontitleII 	\vspc % Section II
+	\item \sectiontitleIII 	\vspc %Section III
+	\item \sectiontitleIV 	\vspc %Section IV
+
+\end{itemize}
+
+}
+
+% Section I:
+\section{\sectiontitleI}
+
+% Section I - Frame I:
+\frame{  \small
+\frametitle{\sectiontitleI}
+
+The behavior of a circuit is dependent on time, and many common circuits can be represented by a {\it linear ordinary differential equation} which can be written in the following standard form. 
+
+\[ a_n\frac{d^nx}{dt^n}+a_{n-1}\frac{d^{n-1}x}{dt^{n-1}}+...+a_2\frac{d^2x}{dt^2}+a_1\frac{dx}{dt}+a_0x=f(t) \] 
+\vspace{0mm}
+
+}
+
+
+% Section II:
+\section{\sectiontitleII}
+
+% Section II - Frame I:
+\frame{
+\frametitle{\sectiontitleII}
+
+Many mechanical systems are also time dependent, or {\it dynamic} and a mechanical-electrical analog is often draw between the two.
+
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{ccc}
+\underline{Zero Order}&\underline{First Order}&\underline{Second Order}\\
+\includegraphics[scale=0.25]{r_circuit.png}&\includegraphics[scale=0.25]{rc_circuit.png}&\includegraphics[scale=0.25]{rlc_circuit.png}\\
+\includegraphics[scale=0.15]{hand_spring.png}&\includegraphics[scale=0.15]{water_tank.png}&\hspace{5mm}\includegraphics[scale=0.10]{mass_spring_damper.png}\\
+\end{tabular}
+
+This concept {\it was} used for analysis and simulation. 
+
+}
+
+
+% Section III:
+\section{\sectiontitleIII}
+
+% Section III - Frame I:
+\frame{\small
+\frametitle{\sectiontitleIII}
+
+The RC circuit is a first order system. The response to a step input $v_s$ is exponential which is described a single parameter the time constant $\tau$. 
+\vspc
+
+\begin{multicols}{2}
+\includegraphics[scale=0.5]{rc_circuit.png} 	
+	
+First Order Model
+\begin{fleqn}
+\[ RC\dot{v}_C+v_C=v_S \]
+\end{fleqn}
+
+Response Equation
+\begin{fleqn}
+\[v_C\left(t\right)=v_s\left(1-e^{-\frac{t}{RC}}\right) \]
+\end{fleqn}
+
+\end{multicols}
+
+
+}
+
+% Section III - Frame II:
+\frame{\small
+\frametitle{\sectiontitleIII}
+	
+\begin{multicols}{2}
+
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|c|c|} \hline
+$time (s)$&$response (V)$\\ \hline
+&\\ \hline
+&\\ \hline
+&\\ \hline
+&\\ \hline
+\end{tabular}
+
+\includegraphics[scale=0.5]{voltage_versus_time.png} 	
+\end{multicols}
+
+	
+}
+
+%% Section IV:
+\section{\sectiontitleIV}
+
+% Section IV - Frame I:
+\frame{ \small
+\frametitle{\sectiontitleIV}
+
+Consider the bulb thermometer shown which can be modeled as a first order system.  Where does the {\it model} come from? \vspc
+
+\[ \frac{dE}{dt}=\dot{Q}\hspace{15mm} \frac{dE}{dt}=mc_v\frac{T(t)}{dt} \hspace{15mm}\dot{Q}=hA_s\Delta T \]
+\[ \]
+
+\begin{multicols}{2}
+
+\includegraphics[scale=.35]{bulb_thermometer.png}
+
+First Order Model
+\begin{fleqn}
+\[ mc_v\frac{T(t)}{dt}+hA_sT(t)=hA_sT_\infty \] 
+\end{fleqn}
+
+Response Equation
+\begin{fleqn}
+\[ T(t)=T_\infty+\left[ T\left(0\right)-T_\infty \right]e^{-\frac{t}{\tau}} \] 
+\end{fleqn}
+
+
+\end{multicols}
+
+
+}
+	
+% Section IV - Frame II:
+\frame{ \small
+\frametitle{\sectiontitleIV}
+
+\begin{multicols}{2}
+
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|c|c|} \hline
+$time (s)$&$response (^\circ C)$\\ \hline
+&\\ \hline
+&\\ \hline
+&\\ \hline
+&\\ \hline
+\end{tabular}
+
+\includegraphics[scale=0.5]{temp_versus_time.png} 	
+\end{multicols}
+
+
+}
+ 
+% Section IV - Frame III:
+\frame{ \small
+\frametitle{\sectiontitleIV}
+Think about the {\it general system model}. \vspace{2mm}\\
+
+What is the time constant of the bulb thermometer system? 
+
+\vspace{5mm}
+\begin{fleqn}
+\[ \tau= \]
+\end{fleqn}
+\vspace{5mm}\\What is the static sensitivity? What are the units?
+\vspace{5mm}
+\begin{fleqn}
+\[ K= \]
+\end{fleqn}
+\vspace{8mm}
+
+}
+
+
+\end{document}
+
+
+
+
+

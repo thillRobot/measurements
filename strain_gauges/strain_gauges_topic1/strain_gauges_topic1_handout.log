@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.13)  17 JUN 2020 12:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.29)  14 OCT 2020 07:57
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  %&-line parsing enabled.
 **strain_gauges_topic1_handout.tex
 (./strain_gauges_topic1_handout.tex
@@ -1019,13 +1019,13 @@ Overfull \vbox (42.6425pt too high) detected at line 167
 [6
 
  <./unmounted_strain_gauge.jpg> <./mounted_gages.png>]
-<axial_gaged_beam.png, id=113, 351.714pt x 357.335pt>
+<axial_gaged_beam.png, id=113, 351.714pt x 356.532pt>
 File: axial_gaged_beam.png Graphic file (type png)
 <use axial_gaged_beam.png>
 Package pdftex.def Info: axial_gaged_beam.png  used on input line 179.
-(pdftex.def)             Requested size: 140.6831pt x 142.93146pt.
+(pdftex.def)             Requested size: 140.6831pt x 142.61026pt.
 
-Overfull \vbox (65.15666pt too high) detected at line 179
+Overfull \vbox (64.83546pt too high) detected at line 179
  []
 
 [7
@@ -1054,7 +1054,7 @@ anged.
 Here is how much of TeX's memory you used:
  19502 strings out of 481239
  366376 string characters out of 5920377
- 803949 words of memory out of 5000000
+ 803948 words of memory out of 5000000
  34276 multiletter control sequences out of 15000+600000
  540927 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1064,7 +1064,7 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on strain_gauges_topic1_handout.pdf (8 pages, 209306 bytes).
+Output written on strain_gauges_topic1_handout.pdf (8 pages, 209469 bytes).
 PDF statistics:
  163 PDF objects out of 1000 (max. 8388607)
  123 compressed objects within 2 object streams

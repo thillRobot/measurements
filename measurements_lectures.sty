@@ -1,6 +1,8 @@
 % !TEX TS-program = xelatex
 % !TEX encoding = UTF-8 Unicode
 
+
+
 \usepackage[T1]{fontenc} 
 %\usepackage[margin=1in]{geometry}
 \usepackage{multirow}
@@ -15,11 +17,12 @@
 \usepackage{beamerthemesplit}
 \beamertemplateballitem
 
+\usepackage[fleqn]{nccmath}
 \usepackage{amsmath}
 \usepackage{keystroke}
 \usepackage{varwidth}
 \usepackage{tasks}
-\usepackage{fleqn}
+
 
 \usepackage{MnSymbol,wasysym}
 \usepackage{tikzsymbols}
@@ -111,7 +114,7 @@
 \newcommand{\G}{\color{mygreen}}
 \newcommand{\PR}{\color{mypurple}}
 \newcommand{\PN}{\color{mypink}}
-\newcommand{\OR}{\color{TTU}}
+\newcommand{\OR}{\color{orange}}
 \newcommand{\GD}{\color{TTUgold}}
 
 % beamer colors
@@ -138,17 +141,6 @@
 
 \newcommand{\SQ}{\textquotesingle} 
 
-% ROS related commands
-\newcommand{\usrname}{<user\_name>} 
-\newcommand{\pkgname}{<package\_name>} 
-\newcommand{\wspname}{<workspace\_name>}
-\newcommand{\nodname}{<node\_name>}
-\newcommand{\tpcname}{<topic\_name>}
-\newcommand{\lfname}{<file\_name>}
-
-\newcommand{\home}{\textasciitilde/}
-\newcommand{\rosdistro}{melodic}
-\newcommand{\pthname}{/opt/ros/\rosdistro/share/turtlebot\_stage/maps/}
 
 % keyboard graphics
 \newcommand{\WindowsLogo}{\raisebox{-0.1em}{%
