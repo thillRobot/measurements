@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Table of Probability Values }{3}{0}{1}
+\beamer@sectionintoc {2}{Example 1}{4}{0}{2}
+\beamer@sectionintoc {3}{Example 2}{5}{0}{3}
+\beamer@sectionintoc {4}{Example 3}{9}{0}{4}

@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.29)  9 NOV 2020 08:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.29)  9 NOV 2020 08:51
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
-**probablity_statistics_topic2.tex
-(./probablity_statistics_topic2.tex
+**probablity_statistics_topic3.tex
+(./probablity_statistics_topic3.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14>
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
@@ -1178,11 +1178,11 @@ Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )
-runsystem(uname -s > "probablity_statistics_topic2.w18")...executed.
+runsystem(uname -s > "probablity_statistics_topic3.w18")...executed.
 
 
-(./probablity_statistics_topic2.w18)
-runsystem(rm -- "probablity_statistics_topic2.w18")...executed.
+(./probablity_statistics_topic3.w18)
+runsystem(rm -- "probablity_statistics_topic3.w18")...executed.
 
 )
 (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
@@ -1208,7 +1208,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@every@listing=\toks54
 \c@listing=\count387
 )
-runsystem(mkdir -p _minted-probablity_statistics_topic2)...executed.
+runsystem(mkdir -p _minted-probablity_statistics_topic3)...executed.
 
 
 
@@ -1223,12 +1223,18 @@ Package hyperref Info: Option `pdfnewwindow' set `true' on input line 107.
 Package hyperref Info: Option `colorlinks' set `true' on input line 107.
 )
 \mybox=\box146
-runsystem(which pygmentize && touch probablity_statistics_topic2.aex)...execute
+runsystem(which pygmentize && touch probablity_statistics_topic3.aex)...execute
 d.
 
-runsystem(rm probablity_statistics_topic2.aex)...executed.
+runsystem(rm probablity_statistics_topic3.aex)...executed.
 
- (./probablity_statistics_topic2.aux
+ (./probablity_statistics_topic3.aux
+
+LaTeX Warning: Label `sectionIII<1>' multiply defined.
+
+
+LaTeX Warning: Label `sectionIII' multiply defined.
+
 
 LaTeX Warning: Label `sectionIII<1>' multiply defined.
 
@@ -1242,7 +1248,7 @@ LaTeX Warning: Label `sectionIII<1>' multiply defined.
 LaTeX Warning: Label `sectionIII' multiply defined.
 
 )
-\openout1 = `probablity_statistics_topic2.aux'.
+\openout1 = `probablity_statistics_topic3.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
@@ -1336,9 +1342,9 @@ LaTeX Info: Redefining \ref on input line 32.
 LaTeX Info: Redefining \pageref on input line 32.
 LaTeX Info: Redefining \nameref on input line 32.
 
-(./probablity_statistics_topic2.out) (./probablity_statistics_topic2.out)
+(./probablity_statistics_topic3.out) (./probablity_statistics_topic3.out)
 \@outlinefile=\write7
-\openout7 = `probablity_statistics_topic2.out'.
+\openout7 = `probablity_statistics_topic3.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 32.
@@ -1423,179 +1429,155 @@ ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 \c@lstlisting=\count395
- (./probablity_statistics_topic2.nav)
+ (./probablity_statistics_topic3.nav)
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
-)
-Overfull \vbox (0.1964pt too high) detected at line 36
- []
-
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ] [2
 
-] [3
-
-] [4
-
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 100
-.
+<topic2_fig2.png, id=110, 692.5875pt x 662.475pt>
+File: topic2_fig2.png Graphic file (type png)
+<use topic2_fig2.png>
+Package pdftex.def Info: topic2_fig2.png  used on input line 61.
+(pdftex.def)             Requested size: 207.77785pt x 198.74403pt.
+<topic2_fig3.png, id=112, 287.0725pt x 191.71625pt>
+File: topic2_fig3.png Graphic file (type png)
+<use topic2_fig3.png>
+Package pdftex.def Info: topic2_fig3.png  used on input line 61.
+(pdftex.def)             Requested size: 86.1224pt x 57.5153pt.
+
+Overfull \vbox (3.30237pt too high) detected at line 61
+ []
+
+[3
+
+ <./topic2_fig2.png> <./topic2_fig3.png>]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 76.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 100
-.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 76.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 10
-0.
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 76
+.
 
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 100.
+ut line 76.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-<topic2_measured_fig2.png, id=174, 1363.9758pt x 755.9442pt>
-File: topic2_measured_fig2.png Graphic file (type png)
-<use topic2_measured_fig2.png>
-Package pdftex.def Info: topic2_measured_fig2.png  used on input line 100.
-(pdftex.def)             Requested size: 272.79033pt x 151.18616pt.
+[4
 
-Overfull \hbox (81.46628pt too wide) in paragraph at lines 100--100
-[]| []  
+]
+<topic3_fig1.png, id=184, 1366.10374pt x 815.045pt>
+File: topic3_fig1.png Graphic file (type png)
+<use topic3_fig1.png>
+Package pdftex.def Info: topic3_fig1.png  used on input line 100.
+(pdftex.def)             Requested size: 273.21591pt x 163.0061pt.
+
+Overfull \vbox (66.86667pt too high) detected at line 100
  []
 
 [5
 
- <./topic2_measured_fig2.png (PNG copy)>]
-<lecture1_fig1.png, id=220, 413.29407pt x 310.15875pt>
-File: lecture1_fig1.png Graphic file (type png)
-<use lecture1_fig1.png>
-Package pdftex.def Info: lecture1_fig1.png  used on input line 108.
-(pdftex.def)             Requested size: 206.64651pt x 155.079pt.
- [6
-
- <./lecture1_fig1.png>]
-File: lecture1_fig1.png Graphic file (type png)
-<use lecture1_fig1.png>
-Package pdftex.def Info: lecture1_fig1.png  used on input line 116.
-(pdftex.def)             Requested size: 206.64651pt x 155.079pt.
- [7
-
-]
-[8
+ <./topic3_fig1.png>]pdfTeX warning (ext4): destination with the same identifie
+r (name{sectionIII<1>}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.110 	\end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{sectionIII}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.110 	\end{frame}
+                   [6
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{sectionIII<1
 >}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.147 	\end{frame}
+l.119 	\end{frame}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{sectionIII}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.147 	\end{frame}
-                  
-<topic2_fig4.png, id=322, 653.44125pt x 475.7775pt>
-File: topic2_fig4.png Graphic file (type png)
-<use topic2_fig4.png>
-Package pdftex.def Info: topic2_fig4.png  used on input line 147.
-(pdftex.def)             Requested size: 163.35991pt x 118.94408pt.
- [9
+l.119 	\end{frame}
+                   [7
 
- <./topic2_fig4.png>]pdfTeX warning (ext4): destination with the same identifie
-r (name{sectionIII<1>}) has been already used, duplicate ignored
+]pdfTeX warning (ext4): destination with the same identifier (name{sectionIII<1
+>}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.163 	\end{frame}
+l.129 	\end{frame}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{sectionIII}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.163 	\end{frame}
-                   [10
+l.129 	\end{frame}
+                   [8
+
+] [9
 
 ]
-<topic2_fig2.png, id=384, 692.5875pt x 662.475pt>
-File: topic2_fig2.png Graphic file (type png)
-<use topic2_fig2.png>
-Package pdftex.def Info: topic2_fig2.png  used on input line 174.
-(pdftex.def)             Requested size: 173.14644pt x 165.61835pt.
-<topic2_fig3.png, id=385, 287.0725pt x 191.71625pt>
-File: topic2_fig3.png Graphic file (type png)
-<use topic2_fig3.png>
-Package pdftex.def Info: topic2_fig3.png  used on input line 174.
-(pdftex.def)             Requested size: 129.18143pt x 86.2715pt.
- [11
-
- <./topic2_fig2.png> <./topic2_fig3.png>]
 \tf@nav=\write8
-\openout8 = `probablity_statistics_topic2.nav'.
+\openout8 = `probablity_statistics_topic3.nav'.
 
 \tf@toc=\write9
-\openout9 = `probablity_statistics_topic2.toc'.
+\openout9 = `probablity_statistics_topic3.toc'.
 
 \tf@snm=\write10
-\openout10 = `probablity_statistics_topic2.snm'.
+\openout10 = `probablity_statistics_topic3.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 177.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 177.
-
-(./probablity_statistics_topic2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 177.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 177.
-Package rerunfilecheck Info: File `probablity_statistics_topic2.out' has not ch
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 144.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 144.
+ (./probablity_statistics_topic3.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 144.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 144.
+Package rerunfilecheck Info: File `probablity_statistics_topic3.out' has not ch
 anged.
-(rerunfilecheck)             Checksum: 997BDE113796C5F337F94761A4FC2F39;234.
+(rerunfilecheck)             Checksum: 740072E7B87BC8D58DCC18DD3B0086C3;195.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 30786 strings out of 481239
- 603413 string characters out of 5920377
- 1089146 words of memory out of 5000000
- 45311 multiletter control sequences out of 15000+600000
- 557115 words of font info for 86 fonts, out of 8000000 for 9000
+ 30739 strings out of 481239
+ 602622 string characters out of 5920377
+ 1087884 words of memory out of 5000000
+ 45279 multiletter control sequences out of 15000+600000
+ 552814 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,19n,83p,795b,580s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{/usr/s
-hare/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-d
-ist/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{/usr/share/texlive/texmf-dist/fonts
-/enc/dvips/mnsymbol/MnSymbolE.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvip
-s/mnsymbol/MnSymbolA.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/mnsymbo
-l/MnSymbolF.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/mnsymbol/MnSy
-mbol10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol5
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol6.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol7.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf/fonts/type1/public/cm-supe
-r/sfss0500.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss0600.pfb></usr
-/share/texmf/fonts/type1/public/cm-super/sfss0700.pfb></usr/share/texmf/fonts/t
-ype1/public/cm-super/sfss1000.pfb></usr/share/texmf/fonts/type1/public/cm-super
-/sfss1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1200.pfb></usr/
-share/texmf/fonts/type1/public/cm-super/sfss1440.pfb></usr/share/texmf/fonts/ty
-pe1/public/cm-super/sfsx0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/
-sfsx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/s
-hare/texmf/fonts/type1/public/cm-super/sfsx1440.pfb>
-Output written on probablity_statistics_topic2.pdf (11 pages, 417830 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{/usr/s
+hare/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-d
+ist/fonts/type1/public/mnsymbol/MnSymbol10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/mnsymbol/MnSymbol7.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmssi10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1000.
+pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1095.pfb></usr/share/texm
+f/fonts/type1/public/cm-super/sfss1200.pfb></usr/share/texmf/fonts/type1/public
+/cm-super/sfss1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx0600.p
+fb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf
+/fonts/type1/public/cm-super/sfsx1440.pfb>
+Output written on probablity_statistics_topic3.pdf (9 pages, 260412 bytes).
 PDF statistics:
- 508 PDF objects out of 1000 (max. 8388607)
- 446 compressed objects within 5 object streams
- 35 named destinations out of 1000 (max. 500000)
- 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 391 PDF objects out of 1000 (max. 8388607)
+ 343 compressed objects within 4 object streams
+ 31 named destinations out of 1000 (max. 500000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
