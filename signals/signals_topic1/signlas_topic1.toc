@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Signal Amplitude and Frequency - Review}{3}{0}{1}
+\beamer@sectionintoc {2}{Genrealized Behavior}{4}{0}{2}
+\beamer@sectionintoc {3}{Classification of Waveforms}{5}{0}{3}
+\beamer@sectionintoc {4}{Probability Density Function}{10}{0}{4}

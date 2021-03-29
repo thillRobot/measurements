@@ -52,21 +52,21 @@
 	tabsize=3
 }
 
-%\usepackage{minted}
-%\setminted[text]{
-%	escapeinside=||, 
-%	frame=single,
-%	framesep=2mm,
-%	baselinestretch=1.2,
-%	bgcolor=mygray
-%}
-%\setminted[cpp]{
-%	escapeinside=||, 
-%	frame=single,
-%	framesep=2mm,
-%	baselinestretch=1.2,
-%	bgcolor=mygray
-%}
+\usepackage{minted}
+\setminted[text]{
+	escapeinside=||, 
+	frame=single,
+	framesep=2mm,
+	baselinestretch=1.2,
+	bgcolor=mygray
+}
+\setminted[cpp]{
+	escapeinside=||, 
+	frame=single,
+	framesep=2mm,
+	baselinestretch=1.2,
+	bgcolor=mygray
+}
 
 \usepackage{hyperref}
 
@@ -106,12 +106,12 @@
     urlcolor=blue           % color of external links
 }
 
-% color commands
-\newcommand{\R}{\color{red}}
-\newcommand{\B}{\color{blue}}
+% color commands - Updated - topic scripts need these changes
+\newcommand{\RD}{\color{red}}
+\newcommand{\BL}{\color{blue}}
 \newcommand{\BR}{\color{mybrown}}
-\newcommand{\K}{\color{black}}
-\newcommand{\G}{\color{mygreen}}
+\newcommand{\BK}{\color{black}}
+\newcommand{\GR}{\color{mygreen}}
 \newcommand{\PR}{\color{mypurple}}
 \newcommand{\PN}{\color{mypink}}
 \newcommand{\OR}{\color{orange}}
@@ -141,23 +141,18 @@
 
 \newcommand{\SQ}{\textquotesingle} 
 
-
 % keyboard graphics
 \newcommand{\WindowsLogo}{\raisebox{-0.1em}{%
 \includegraphics[height=0.8em]{win_logo}}}
 \newcommand{\WinKey}{\keystroke{\WindowsLogo}}
 
-\newcommand{\TAB}{\raisebox{-0.1em}{Tab}}
-\newcommand{\TABKey}{\keystroke{\TAB}}
+\newcommand{\TABKey}{\keystroke{\raisebox{-0.1em}{Tab}}}
 
-\newcommand{\T}{\raisebox{-0.1em}{T}}
-\newcommand{\TKey}{\keystroke{\T}}
+\newcommand{\TKey}{\keystroke{\raisebox{-0.1em}{T}}}
 
-\newcommand{\C}{\raisebox{-0.1em}{C}}
-\newcommand{\CKey}{\keystroke{\C}}
+\newcommand{\CKey}{\keystroke{\raisebox{-0.1em}{C}}}
 
-\newcommand{\CTRL}{\raisebox{-0.1em}{Ctrl}}
-\newcommand{\CTRLKey}{\keystroke{\CTRL}}
+\newcommand{\CTRLKey}{\keystroke{\raisebox{-0.1em}{Ctrl}}}
 
 \newcommand{\ALT}{\raisebox{-0.1em}{Alt}}
 \newcommand{\ALTKey}{\keystroke{\ALT}}
@@ -165,17 +160,13 @@
 \newcommand{\ENTER}{\raisebox{-0.1em}{Enter}}
 \newcommand{\ENTERKey}{\keystroke{\ENTER}}
 
-\newcommand{\I}{\raisebox{-0.1em}{I}}
-\newcommand{\IKey}{\keystroke{\I}}
+\newcommand{\IKey}{\keystroke{\raisebox{-0.1em}{I}}}
 
-\newcommand{\Kay}{\raisebox{-0.1em}{K}}
-\newcommand{\KayKey}{\keystroke{\Kay}}
+\newcommand{\KayKey}{\keystroke{\raisebox{-0.1em}{K}}}
 
-\newcommand{\J}{\raisebox{-0.1em}{J}}
-\newcommand{\JKey}{\keystroke{\J}}
+\newcommand{\JKey}{\keystroke{\raisebox{-0.1em}{J}}}
 
-\newcommand{\EL}{\raisebox{-0.1em}{L}}
-\newcommand{\ELKey}{\keystroke{\EL}}
+\newcommand{\ELKey}{\raisebox{-0.1em}{L}}
 
 \newcommand{\COMMA}{\raisebox{-0.1em}{,}}
 \newcommand{\COMMAKey}{\keystroke{\COMMA}}

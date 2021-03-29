@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Signal, Amplitude, and Frequency}{3}{0}{1}
+\beamer@sectionintoc {2}{Filter Concept}{6}{0}{2}
+\beamer@sectionintoc {3}{High-Pass, Low-Pass, and Band-Pass}{9}{0}{3}
+\beamer@sectionintoc {4}{Applications}{11}{0}{4}
