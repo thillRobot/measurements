@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.3.1)  5 APR 2021 08:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.3.1)  7 APR 2021 10:01
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2273,12 +2273,12 @@ thkerncmss.
 >}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.115 \end{frame}
+l.123 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{sectionIII}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.115 \end{frame}
+l.123 \end{frame}
                   [6
 
 ] [7
@@ -2287,12 +2287,12 @@ l.115 \end{frame}
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.140 \end{frame}
+l.148 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{sectionIV}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.140 \end{frame}
+l.148 \end{frame}
                   [8
 
 ]
@@ -2305,11 +2305,11 @@ l.140 \end{frame}
 \tf@snm=\write11
 \openout11 = `electrical_signals_topic2.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 142.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 142.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 150.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 150.
  (./electrical_signals_topic2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 142.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 142.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 150.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 150.
 Package rerunfilecheck Info: File `electrical_signals_topic2.out' has not chang
 ed.
 (rerunfilecheck)             Checksum: 47D7A55AF8F686B68204A5526400000B;243.
@@ -2343,10 +2343,10 @@ type1/public/cm-super/sfss1200.pfb></usr/share/texmf/fonts/type1/public/cm-supe
 r/sfss1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx0600.pfb></usr
 /share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/t
 ype1/public/cm-super/sfsx1440.pfb>
-Output written on electrical_signals_topic2.pdf (8 pages, 207547 bytes).
+Output written on electrical_signals_topic2.pdf (8 pages, 208715 bytes).
 PDF statistics:
- 378 PDF objects out of 1000 (max. 8388607)
- 332 compressed objects within 4 object streams
+ 380 PDF objects out of 1000 (max. 8388607)
+ 334 compressed objects within 4 object streams
  29 named destinations out of 1000 (max. 500000)
  101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
