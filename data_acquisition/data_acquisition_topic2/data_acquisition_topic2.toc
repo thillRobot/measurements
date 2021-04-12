@@ -1,0 +1,5 @@
+\beamer@sectionintoc {1}{Signal Types and DAQ}{3}{0}{1}
+\beamer@sectionintoc {2}{Available Hardware}{4}{0}{2}
+\beamer@sectionintoc {3}{Available Hardware}{5}{0}{3}
+\beamer@sectionintoc {4}{Software Integration}{6}{0}{4}
+\beamer@sectionintoc {5}{---}{8}{0}{5}
