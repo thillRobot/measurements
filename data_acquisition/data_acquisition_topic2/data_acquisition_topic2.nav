@@ -7,29 +7,26 @@
 \headcommand {\sectionentry {1}{Signal Types and DAQ}{3}{Signal Types and DAQ}{0}}
 \headcommand {\slideentry {1}{0}{1}{3/3}{}{0}}
 \headcommand {\beamer@framepages {3}{3}}
-\headcommand {\beamer@sectionpages {3}{3}}
-\headcommand {\beamer@subsectionpages {3}{3}}
-\headcommand {\sectionentry {2}{Available Hardware}{4}{Available Hardware}{0}}
-\headcommand {\slideentry {2}{0}{1}{4/4}{}{0}}
+\headcommand {\slideentry {1}{0}{2}{4/4}{}{0}}
 \headcommand {\beamer@framepages {4}{4}}
-\headcommand {\beamer@sectionpages {4}{4}}
-\headcommand {\beamer@subsectionpages {4}{4}}
-\headcommand {\sectionentry {3}{Available Hardware}{5}{Available Hardware}{0}}
-\headcommand {\slideentry {3}{0}{1}{5/5}{}{0}}
+\headcommand {\beamer@sectionpages {3}{4}}
+\headcommand {\beamer@subsectionpages {3}{4}}
+\headcommand {\sectionentry {2}{Available Hardware}{5}{Available Hardware}{0}}
+\headcommand {\slideentry {2}{0}{1}{5/5}{}{0}}
 \headcommand {\beamer@framepages {5}{5}}
 \headcommand {\beamer@sectionpages {5}{5}}
 \headcommand {\beamer@subsectionpages {5}{5}}
-\headcommand {\sectionentry {4}{Software Integration}{6}{Software Integration}{0}}
-\headcommand {\slideentry {4}{0}{1}{6/6}{}{0}}
+\headcommand {\sectionentry {3}{Software Integration}{6}{Software Integration}{0}}
+\headcommand {\slideentry {3}{0}{1}{6/6}{}{0}}
 \headcommand {\beamer@framepages {6}{6}}
-\headcommand {\slideentry {4}{0}{2}{7/7}{}{0}}
+\headcommand {\slideentry {3}{0}{2}{7/7}{}{0}}
 \headcommand {\beamer@framepages {7}{7}}
 \headcommand {\beamer@sectionpages {6}{7}}
 \headcommand {\beamer@subsectionpages {6}{7}}
-\headcommand {\sectionentry {5}{---}{8}{---}{0}}
-\headcommand {\slideentry {5}{0}{1}{8/8}{}{0}}
+\headcommand {\sectionentry {4}{---}{8}{---}{0}}
+\headcommand {\slideentry {4}{0}{1}{8/8}{}{0}}
 \headcommand {\beamer@framepages {8}{8}}
-\headcommand {\slideentry {5}{0}{2}{9/9}{}{0}}
+\headcommand {\slideentry {4}{0}{2}{9/9}{}{0}}
 \headcommand {\beamer@framepages {9}{9}}
 \headcommand {\beamer@partpages {1}{9}}
 \headcommand {\beamer@subsectionpages {8}{9}}

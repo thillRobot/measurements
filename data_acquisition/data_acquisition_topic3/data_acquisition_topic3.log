@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.3.1)  12 APR 2021 09:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.3.1)  14 APR 2021 11:00
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2237,49 +2237,85 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 
 ] [2
 
-] [3
+]
+<sampling_fig7_1.png, id=111, 837.1275pt x 456.70625pt>
+File: sampling_fig7_1.png Graphic file (type png)
+<use sampling_fig7_1.png>
+Package pdftex.def Info: sampling_fig7_1.png  used on input line 76.
+(pdftex.def)             Requested size: 251.14018pt x 137.01292pt.
+ [3
 
-]pdfTeX warning (ext4): destination with the same identifier (name{sectionI<1>}
-) has been already used, duplicate ignored
+ <./sampling_fig7_1.png>]pdfTeX warning (ext4): destination with the same ident
+ifier (name{sectionI<1>}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.82 \end{frame}
+l.85 \end{frame}
                 pdfTeX warning (ext4): destination with the same identifier (na
 me{sectionI}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.82 \end{frame}
+l.85 \end{frame}
                  [4
 
-] [5
+]
+<aliasing_fig7_2.png, id=178, 941.5175pt x 847.165pt>
+File: aliasing_fig7_2.png Graphic file (type png)
+<use aliasing_fig7_2.png>
+Package pdftex.def Info: aliasing_fig7_2.png  used on input line 99.
+(pdftex.def)             Requested size: 188.30016pt x 169.43pt.
+ [5
 
-] [6
+ <./aliasing_fig7_2.png>]
+<cartesian_6x12.png, id=211, 904.1278pt x 452.4403pt>
+File: cartesian_6x12.png Graphic file (type png)
+<use cartesian_6x12.png>
+Package pdftex.def Info: cartesian_6x12.png  used on input line 113.
+(pdftex.def)             Requested size: 316.44946pt x 158.35648pt.
 
-]pdfTeX warning (ext4): destination with the same identifier (name{sectionIII<1
->}) has been already used, duplicate ignored
+Overfull \hbox (9.15959pt too wide) in paragraph at lines 113--113
+[][]  
+ []
+
+[6
+
+ <./cartesian_6x12.png>]pdfTeX warning (ext4): destination with the same identi
+fier (name{sectionIII<1>}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.118 \end{frame}
+l.123 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{sectionIII}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.118 \end{frame}
+l.123 \end{frame}
                   [7
 
-] [8
+]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 132.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+[8
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{sectionIV<1>
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.139 \end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{sectionIV}) has been already used, duplicate ignored
+l.154 ...[containsverbatim,label=sectionIV] \small
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{sectionIV}) has been already used, duplica
+te ignored
 <to be read again> 
                    \relax 
-l.139 \end{frame}
-                  [9
+l.154 ...[containsverbatim,label=sectionIV] \small
+                                                  
+LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 167
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmtt.fd
+File: ts1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+) [9
 
 ]
 \tf@nav=\write9
@@ -2291,38 +2327,41 @@ l.139 \end{frame}
 \tf@snm=\write11
 \openout11 = `data_acquisition_topic3.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 141.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 141.
- (./data_acquisition_topic3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 141.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 141.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 177.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 177.
+
+(./data_acquisition_topic3.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 177.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 177.
 Package rerunfilecheck Info: File `data_acquisition_topic3.out' has not changed
 .
-(rerunfilecheck)             Checksum: D420D2A8879BB6DE4EAB8FCD594D3C6A;258.
+(rerunfilecheck)             Checksum: 5DBDDEBF446205DB74FF01F978A032F3;200.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 36753 strings out of 492982
- 731849 string characters out of 6134897
- 874723 words of memory out of 5000000
- 39652 multiletter control sequences out of 15000+600000
- 539643 words of font info for 36 fonts, out of 8000000 for 9000
+ 37367 strings out of 492982
+ 739597 string characters out of 6134897
+ 897517 words of memory out of 5000000
+ 40256 multiletter control sequences out of 15000+600000
+ 539940 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,19n,73p,10354b,564s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/
-fonts/type1/public/cm-super/sfss0600.pfb></usr/share/texmf/fonts/type1/public/c
-m-super/sfss1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1200.pfb
-></usr/share/texmf/fonts/type1/public/cm-super/sfss1440.pfb></usr/share/texmf/f
-onts/type1/public/cm-super/sfsx0600.pfb></usr/share/texmf/fonts/type1/public/cm
--super/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb>
-
-Output written on data_acquisition_topic3.pdf (9 pages, 101948 bytes).
+ 67i,19n,73p,10354b,1626s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf
+/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/fonts/type1/public/
+cm-super/sfss0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1000.pf
+b></usr/share/texmf/fonts/type1/public/cm-super/sfss1095.pfb></usr/share/texmf/
+fonts/type1/public/cm-super/sfss1200.pfb></usr/share/texmf/fonts/type1/public/c
+m-super/sfss1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx0600.pfb
+></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/f
+onts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf/fonts/type1/public/cm
+-super/sftt1000.pfb>
+Output written on data_acquisition_topic3.pdf (9 pages, 277609 bytes).
 PDF statistics:
- 377 PDF objects out of 1000 (max. 8388607)
- 339 compressed objects within 4 object streams
- 32 named destinations out of 1000 (max. 500000)
- 104 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 381 PDF objects out of 1000 (max. 8388607)
+ 336 compressed objects within 4 object streams
+ 31 named destinations out of 1000 (max. 500000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
