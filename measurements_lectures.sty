@@ -52,21 +52,21 @@
 	tabsize=3
 }
 
-\usepackage{minted}
-\setminted[text]{
-	escapeinside=||, 
-	frame=single,
-	framesep=2mm,
-	baselinestretch=1.2,
-	bgcolor=mygray
-}
-\setminted[cpp]{
-	escapeinside=||, 
-	frame=single,
-	framesep=2mm,
-	baselinestretch=1.2,
-	bgcolor=mygray
-}
+%\usepackage{minted}
+%\setminted[text]{
+%	escapeinside=||, 
+%	frame=single,
+%	framesep=2mm,
+%	baselinestretch=1.2,
+%	bgcolor=mygray
+%}
+%\setminted[cpp]{
+%	escapeinside=||, 
+%	frame=single,
+%	framesep=2mm,
+%	baselinestretch=1.2,
+%	bgcolor=mygray
+%}
 
 \usepackage{hyperref}
 
@@ -100,7 +100,7 @@
     pdfkeywords={keyword1, key2, key3}, % list of keywords
     pdfnewwindow=true,      % links in new PDF window
     colorlinks=true,       % false: boxed links; true: colored links
-    linkcolor=TTUgold,          % color of internal links (change box color with linkbordercolor)
+    linkcolor=black,          % color of internal links (change box color with linkbordercolor)
     citecolor=green,        % color of links to bibliography
     filecolor=magenta,      % color of file links
     urlcolor=blue           % color of external links
@@ -125,11 +125,14 @@
 \setbeamercolor{structure}{fg=TTUpurple} % itemize, enumerate, etc
 \setbeamercolor{section in toc}{fg=TTUpurple} % TOC sections
 
+
+
 % Mathematics Commands
 \newcommand{\Lagr}{\mathcal{L}} % lagrangian
 
 % Space Commands 
 \newcommand{\hspcu}{\underline{\hspace{20mm}}} % large horizontal space w underline
+\newcommand{\hspcuu}{\underline{\hspace{30mm}}} % large horizontal space w underline
 \newcommand{\vspccc}{\vspace{6mm}\\} % large vertical space
 \newcommand{\vspcc}{\vspace{4mm}\\}   % medium vertical space
 \newcommand{\vspc}{\vspace{2mm}\\}     % small vertical space
