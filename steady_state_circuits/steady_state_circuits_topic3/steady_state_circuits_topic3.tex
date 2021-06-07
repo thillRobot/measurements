@@ -6,63 +6,23 @@
 % Module 6->4 - Steady State Circuits
 % Topic 3 - Circuit Applications
 %
+% 
+% Lecture Template for ME3023 -  Measurements in Mechanical Systems - Tennessee Technological University
+%
+% Spring 2020 - Summer 2020
+% Tristan Hill, May 07, 2020 - June 12, 2020 - July 08, 2020
+% Module 6->4 - Steady State Circuits
+% Topic 1 - Components, Units, and Symbols
+%
+% Lecture Template for ME3023 -  Measurements in Mechanical Systems - Tennessee Technological University
+% Spring 2020 - Summer 2020 - Fall 2020 - Spring 2021 - Summer 2021
+% Tristan Hill, May 07, 2020 - June 12, 2020 - July 08, 2020 - Novemeber 02, 2020 - March 28, 2021 - May 25, 2021
+% Module Name: To Err is Human
+% Topic 1 - Accuracy and Error
 
-\documentclass{beamer}                         % for presentation (has nav buttons at bottom)
-%\documentclass[handout]{beamer}  % for handout 
-\usepackage{beamerthemesplit}
-\usepackage{amsmath}
-\usepackage{listings}
-\usepackage{multicol}
-\usepackage{framed}
+\documentclass[fleqn]{beamer} % for presentation (has nav buttons at bottom)
 
-\beamertemplateballitem
-
-% custom colors
-\definecolor{TTUpurple}{rgb}{0.3098, 0.1607, 0.5176} % TTU Purple (primary)
-\definecolor{TTUgold}{rgb}{1.0000, 0.8666, 0.0000} % TTU Gold (primary) 
-\definecolor{mygray}{rgb}{.6, .6, .6}
-\definecolor{mypurple}{rgb}{0.6,0.1961,0.8}
-\definecolor{mybrown}{rgb}{0.5451,0.2706,0.0745}
-\definecolor{mygreen}{rgb}{0, .39, 0}
-\definecolor{mypink}{rgb}{0.9960, 0, 0.9960}
-
-% color commands
-\newcommand{\R}{\color{red}}
-\newcommand{\B}{\color{blue}}
-\newcommand{\BR}{\color{mybrown}}
-\newcommand{\K}{\color{black}}
-\newcommand{\G}{\color{mygreen}}
-\newcommand{\PR}{\color{mypurple}}
-\newcommand{\PN}{\color{mypink}}
-\newcommand{\OR}{\color{TTU}}
-\newcommand{\GD}{\color{TTUgold}}
-
-% beamer colors
-\setbeamercolor{palette primary}{bg=TTUpurple,fg=TTUgold}
-\setbeamercolor{palette secondary}{bg=black,fg=TTUgold}
-\setbeamercolor{palette tertiary}{bg=black,fg=TTUpurple}
-\setbeamercolor{palette quaternary}{bg=TTUgold,fg=black}
-\setbeamercolor{structure}{fg=TTUpurple} % itemize, enumerate, etc
-\setbeamercolor{section in toc}{fg=TTUpurple} % TOC sections
-
-
-\newcommand{\Lagr}{\mathcal{L}} % lagrangian
-
-\newcommand{\hspcu}{\underline{\hspace{20mm}}} % large horizontal space w underline
-\newcommand{\vspccc}{\vspace{6mm}\\} % large vertical space
-\newcommand{\vspcc}{\vspace{4mm}\\}   % medium vertical space
-\newcommand{\vspc}{\vspace{2mm}\\}     % small vertical space
-
-\newcommand{\hspcccc}{\hspace{10mm}} % large horizontal space
-\newcommand{\hspccc}{\hspace{6mm}} % large horizontal space
-\newcommand{\hspcc}{\hspace{4mm}}   % medium horizontal space
-\newcommand{\hspc}{\hspace{2mm}}     % small horizontal space
-
-\newcommand{\eqscl}{0.9}     % small horizontal space
-
-
-\author{ME3023 - Measurements in Mechanical Systems} % original formatting from Mike Renfro, September 21, 2004
-
+\usepackage{/home/thill/Documents/lectures/measurements_lectures/measurements_lectures}
 \newcommand{\MNUM}{4\hspace{2mm}} % Module number
 \newcommand{\TNUM}{3\hspace{2mm}} % Topic number 
 \newcommand{\moduletitle}{Steady State Circuits}
@@ -76,15 +36,16 @@
 % custom box
 \newsavebox{\mybox}
 
-\title{Module \MNUM - \moduletitle}
+\title{Lecture Module - \moduletitle}
 
 \date{Mechanical Engineering\vspc Tennessee Technological University}
 
 \begin{document}
+	
+	\lstset{language=MATLAB,basicstyle=\ttfamily\small,showstringspaces=false}
+	
+	\frame{\titlepage \center\begin{framed}\Large \textbf{Topic \TNUM - \topictitle}\end{framed} \vspace{5mm}}
 
-\lstset{language=MATLAB,basicstyle=\ttfamily\small,showstringspaces=false}
-
-\frame{\titlepage \center\begin{framed}\Large \textbf{Topic \TNUM - \topictitle}\end{framed} \vspace{5mm}}
 
 % Section 0: Outline
 \frame{
@@ -140,9 +101,9 @@
 	
 	{\bf Fluid Flow - Hydraulic Analogy} \vspc
 	
-	Traditionally engineers have used an analogy relating the movement of electrons to the flow of water through a pipe (\href{https://en.wikipedia.org/wiki/Hydraulic_analogy}{\B hydraulic analogy}) known as {\it drain-pipe theory}. \vspace{5mm}
+	Traditionally engineers have used an analogy relating the movement of electrons to the flow of water through a pipe (\href{https://en.wikipedia.org/wiki/Hydraulic_analogy}{\BL hydraulic analogy}) known as {\it drain-pipe theory}. \vspace{5mm}
 	
-	This may provide a sense of intuition {\it however} this comparison is not accurate do to the non-Newtonian nature of electricity and magnetism (\href{https://www.slideshare.net/PDiCEOThaneHeins3240/georgia-state-university-hyperphysics-how-newtonian-mechanics-is-incorrectly-being-applied-to-explain-the-laws-of-electricity-and-magnetism}{\G more on this}). It can  be used to visualize some basic circuits principles, but it should not be used for analysis of complex electrical systems. 
+	This may provide a sense of intuition {\it however} this comparison is not accurate do to the non-Newtonian nature of electricity and magnetism (\href{https://www.slideshare.net/PDiCEOThaneHeins3240/georgia-state-university-hyperphysics-how-newtonian-mechanics-is-incorrectly-being-applied-to-explain-the-laws-of-electricity-and-magnetism}{\GR more on this}). It can  be used to visualize some basic circuits principles, but it should not be used for analysis of complex electrical systems. 
 
 }
 	
