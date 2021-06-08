@@ -1,5 +1,5 @@
-%% !TEX TS-program = xelatex
-%% !TEX encoding = UTF-8 Unicode
+% % !TEX TS-program = xelatex
+% % !TEX encoding = UTF-8 Unicode
 
 % Spring 2020 - Summer 2020 - Fall 2020
 % Tristan Hill, May 07, 2020 - June 12, 2020 - July 08, 2020 - Sept. 23
@@ -26,15 +26,15 @@
 % custom box
 \newsavebox{\mybox}
 
-\title{Module \MNUM - \moduletitle}
+\title{Lecture Module - \moduletitle}
 
 \date{Mechanical Engineering\vspc Tennessee Technological University}
 
 \begin{document}
-
-\lstset{language=MATLAB,basicstyle=\ttfamily\small,showstringspaces=false}
-
-\frame{\titlepage \center\begin{framed}\Large \textbf{Topic \TNUM - \topictitle}\end{framed} \vspace{5mm}}
+	
+	\lstset{language=MATLAB,basicstyle=\ttfamily\small,showstringspaces=false}
+	
+	\frame{\titlepage \center\begin{framed}\Large \textbf{Topic \TNUM - \topictitle}\end{framed} \vspace{5mm}}
 
 % Section 0: Outline
 \frame{
@@ -61,14 +61,14 @@
 \begin{itemize}
 
 	\begin{multicols}{2}
-	\item {\B Charge} - the physical property of matter that causes it to experience a force when placed in an electromagnetic field.
+	\item {\BL Charge} - the physical property of matter that causes it to experience a force when placed in an electromagnetic field.
 	
 	\includegraphics[scale=.5]{charges_plus_minus.png}
 	\end{multicols}
 	
 	\item {\PR Voltage} - the difference in electric potential between two points ... can be caused by electric charge, by electric current through a magnetic field, by time-varying magnetic fields, or some combination of these three.
 	
-	\item {\R Current} - the rate of flow of electric charge past a point or region. An electric current is said to exist when there is a net flow of electric charge through a region.
+	\item {\RD Current} - the rate of flow of electric charge past a point or region. An electric current is said to exist when there is a net flow of electric charge through a region.
 
 \end{itemize}
 
@@ -81,12 +81,12 @@
 \begin{itemize}
 
 
-	\item {\B Resistance} - a measure of a components opposition to the flow of electric current. The inverse quantity is electrical conductance, and is the ease with which an electric current passes.  
+	\item {\BL Resistance} - a measure of a components opposition to the flow of electric current. The inverse quantity is electrical conductance, and is the ease with which an electric current passes.  
 	
 	
 	\item {\PR Capacitance} - the ratio of the change in electric charge of a system to the corresponding change in its electric potential (voltage).
 	
-	\item {\R Inductance} - the tendency of an electrical conductor to oppose a change in the electric current flowing through it. The flow of electric current creates a magnetic field around the conductor. The field strength depends on the magnitude of the current, and follows any changes in current.
+	\item {\RD Inductance} - the tendency of an electrical conductor to oppose a change in the electric current flowing through it. The flow of electric current creates a magnetic field around the conductor. The field strength depends on the magnitude of the current, and follows any changes in current.
 
 \end{itemize}
 
@@ -102,12 +102,12 @@
 
 \begin{multicols}{2}
 
-	... electrical {\PN impedance} is the measure of the opposition that a circuit presents to a current when a voltage is applied. \vspc
+	... electrical {\PN \hspcuu} is the measure of the opposition that a circuit presents to a current when a voltage is applied. \vspc
 	
 	The term impedance was coined by Oliver Heaviside in July 1886. Arthur Kennelly was the first to represent impedance with complex numbers in 1893.
 	
 	\[ Z=\frac{V}{I}=\frac{|V|}{|I|}e^{j\left(\phi_V-\phi_I \right)} \] \vspace{2mm}
-	\[ R=\frac{V}{I} \]
+	%\[ R=\frac{V}{I} \]
 
 \includegraphics[scale=.2]{Oliver_Heaviside.jpg}\\
 {\tiny \href{https://en.wikipedia.org/wiki/Oliver_Heaviside}{Wikipedia}}
@@ -137,10 +137,10 @@ In addition to {\PR resistance} as seen in DC circuits, {\PN impedance} in AC ci
 	
 		{\PR Capacitance} - the ratio of the change in electric charge of a system to the corresponding change in its electric potential (voltage). \vspc
 
-	\begin{fleqn}
-		\[i_C(t)=C\frac{dv_C\left(t\right)}{dt} \] \vspace{2mm}
-		\[v_C=\frac{1}{C}\int\limits_{t_1}^{t_2}i_C(t)dt \]
-	\end{fleqn}
+%	\begin{fleqn}
+%		\[i_C(t)=C\frac{dv_C\left(t\right)}{dt} \] \vspace{2mm}
+%		\[v_C=\frac{1}{C}\int\limits_{t_1}^{t_2}i_C(t)dt \]
+%	\end{fleqn}
 
 
 }
@@ -149,12 +149,12 @@ In addition to {\PR resistance} as seen in DC circuits, {\PN impedance} in AC ci
 \frame{\small
 \frametitle{\sectiontitleIII}
 
-	{\R Inductance} - the tendency of an electrical conductor to oppose a change in the electric current flowing through it. The flow of electric current creates a magnetic field around the conductor. The field strength depends on the magnitude of the current, and follows any changes in current. \vspc
+	{\RD Inductance} - the tendency of an electrical conductor to oppose a change in the electric current flowing through it. The flow of electric current creates a magnetic field around the conductor. The field strength depends on the magnitude of the current, and follows any changes in current. \vspc
 	
-	\begin{fleqn}
-	\[v_L(t)=L\frac{d}{dt}i_L(t)=L\frac{di_L}{dt} \] 	
-	\[i_L(t)=\frac{1}{L}\int\limits_{t_1}^{t_2}v_L\left(t\right)dt \]
-	\end{fleqn}
+%	\begin{fleqn}
+%	\[v_L(t)=L\frac{d}{dt}i_L(t)=L\frac{di_L}{dt} \] 	
+%	\[i_L(t)=\frac{1}{L}\int\limits_{t_1}^{t_2}v_L\left(t\right)dt \]
+%	\end{fleqn}
 
 }
 
