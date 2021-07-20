@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{A Population of Data}{3}{0}{1}
+\beamer@sectionintoc {2}{Variance and Standard Deviation}{5}{0}{2}
+\beamer@sectionintoc {3}{Using the Z Table}{8}{0}{3}
+\beamer@sectionintoc {4}{Example: Using the Z Table}{11}{0}{4}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.3.1)  28 MAR 2021 21:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.3.1)  20 JUL 2021 10:16
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2400,10 +2400,10 @@ runsystem(rm probablity_statistics_topic1.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 37150 strings out of 492982
- 739230 string characters out of 6134897
- 877070 words of memory out of 5000000
- 39970 multiletter control sequences out of 15000+600000
+ 37151 strings out of 492982
+ 739236 string characters out of 6134897
+ 877024 words of memory out of 5000000
+ 39971 multiletter control sequences out of 15000+600000
  551803 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,19n,73p,10359b,564s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2424,7 +2424,7 @@ c/cm-super/sfsx0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1000.
 pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texm
 f/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf/fonts/type1/public
 /cm-super/sftt0800.pfb>
-Output written on probablity_statistics_topic1.pdf (14 pages, 1311764 bytes).
+Output written on probablity_statistics_topic1.pdf (14 pages, 1311437 bytes).
 PDF statistics:
  568 PDF objects out of 1000 (max. 8388607)
  508 compressed objects within 6 object streams

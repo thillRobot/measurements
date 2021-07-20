@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{A Population of Data}{3}{0}{1}
+\beamer@sectionintoc {2}{Randomly Distributed Data}{5}{0}{2}
+\beamer@sectionintoc {3}{Frequency Histogram}{6}{0}{3}
+\beamer@sectionintoc {4}{Probability Density Function}{12}{0}{4}
