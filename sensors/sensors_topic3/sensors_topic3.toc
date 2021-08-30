@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{What is a Analog Sensor?}{3}{0}{1}
+\beamer@sectionintoc {2}{Time Dependent Behavior}{4}{0}{2}
+\beamer@sectionintoc {3}{Example Sensors}{6}{0}{3}
+\beamer@sectionintoc {4}{Examples Applications}{9}{0}{4}
