@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.3.1)  7 JUN 2021 06:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.3.1)  30 AUG 2021 11:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2215,7 +2215,7 @@ Package rerunfilecheck Info: File `introduction_topic1.out' has not changed.
 Here is how much of TeX's memory you used:
  34878 strings out of 492982
  688468 string characters out of 6134897
- 789174 words of memory out of 5000000
+ 789175 words of memory out of 5000000
  37771 multiletter control sequences out of 15000+600000
  550756 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
