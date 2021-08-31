@@ -3,32 +3,33 @@
 
 % Spring 2020 - Summer 2020 - Fall 2020 - Fall 2021
 % Tristan Hill, May 07, 2020 - June 12, 2020 - July 08, 2020
-% Lecture Module - Sensors
-% Topic 2 - Various Sensors (need new title)
+% Module Y - Sensors
+% Topic 1 - Various Sensors (need new title)
 
 \documentclass[fleqn]{beamer} % for presentation (has nav buttons at bottom)
 
 \usepackage{/home/thill/Documents/lectures/measurements_lectures/measurements_lectures}
 
-
+\author{ME3023 - Measurements in Mechanical Systems} 
 
 \newcommand{\MNUM}{5\hspace{2mm}} % Module number
-\newcommand{\TNUM}{2\hspace{2mm}} % Topic number 
+\newcommand{\TNUM}{1\hspace{2mm}} % Topic number 
 \newcommand{\moduletitle}{Sensors}
-\newcommand{\topictitle}{IC and MEMS based Sensors} 
+\newcommand{\topictitle}{Introduction and Overview} 
 
-\newcommand{\sectiontitleI}{Integrated Circuits}
-\newcommand{\sectiontitleII}{Micro Electro-Mechanical Devices}
-\newcommand{\sectiontitleIII}{Accelerometer}
-\newcommand{\sectiontitleIV}{Compass or Orientation Sensor}
+\newcommand{\sectiontitleI}{Classification of Sensors}
+\newcommand{\sectiontitleII}{Analog and Digital Sensors}
+\newcommand{\sectiontitleIII}{Example 1: Distance or Range}
+\newcommand{\sectiontitleIV}{Example 2: Motion}
+\newcommand{\sectiontitleV}{Example 3: Orientation}
 
 \newcommand{\btVFill}{\vskip0pt plus 1filll}
 
 % custom box
 \newsavebox{\mybox}
 
-\author{ME3023 - Measurements in Mechanical Systems} 
 \title{Lecture Module - \moduletitle}
+
 \date{Mechanical Engineering\vspc Tennessee Technological University}
 
 \begin{document}
@@ -58,6 +59,9 @@
 \frame{  \small
 	\frametitle{\sectiontitleI}
 	
+	a {\PR sensor}, a physical element that employs some natural phenomenon... ...to sense the variable being measured
+	
+	\includegraphics[scale=0.30]{sensor_stage.png}\includegraphics[scale=0.20]{measurement_stages.png}
 
 	\btVFill
 	{\tiny Image: Theory and Design of Mech. Meas.}
@@ -86,7 +90,10 @@
 \frame{  \small
 \frametitle{\sectiontitleII}
 
-
+\begin{tabular}{|c|c|c|} \hline
+ 	Analog \hspace*{10mm}& Digital \hspace*{10mm}& Both? \hspace*{10mm} \\ \hline   
+\end{tabular}
+ 	
  
  \btVFill
 }
@@ -156,11 +163,27 @@
 \btVFill
 }
 
-\section{\sectiontitleIV}
+% Section IV - Frame III:
+\frame{  \small
+	\frametitle{\sectiontitleIV}
+	
+	\begin{itemize}
+		\item How does this type of sensor work?
+		\begin{itemize}
+			\item \vspace{5mm}
+			\item \vspace{5mm}
+			\item \vspace{5mm}	
+		\end{itemize}
+	\end{itemize}
+	
+	\btVFill
+}
+
+\section{\sectiontitleV}
 
 % Section V - Frame I:
 \frame{  \small
-	\frametitle{\sectiontitleIV}
+	\frametitle{\sectiontitleV}
 	
 	{\bf Thought Exercise:} How do we measure {\PR orientation}?        
 	
@@ -188,10 +211,26 @@
 
 % Section V - Frame II:
 \frame{  \small
-	\frametitle{\sectiontitleIV}
+	\frametitle{\sectiontitleV}
 	
 	\begin{itemize}
 		\item What applications require this type of sensor?
+		\begin{itemize}
+			\item \vspace{5mm}
+			\item \vspace{5mm}
+			\item \vspace{5mm}	
+		\end{itemize}
+	\end{itemize}
+	
+	\btVFill
+}
+
+% Section V - Frame III:
+\frame{  \small
+	\frametitle{\sectiontitleV}
+	
+	\begin{itemize}
+		\item How does this type of sensor work?
 		\begin{itemize}
 			\item \vspace{5mm}
 			\item \vspace{5mm}
