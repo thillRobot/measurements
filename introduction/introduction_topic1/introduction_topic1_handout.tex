@@ -1,6 +1,7 @@
 % Lecture Template for ME3023 -  Measurements in Mechanical Systems - Tennessee Technological University
 % Spring 2020 - Summer 2020 - Fall 2020 - Spring 2021 - Summer 2021
 % Tristan Hill, May 07, 2020 - June 12, 2020 - July 08, 2020 - Novemeber 02, 2020 - March 28, 2021 - May 25, 2021 - August 21, 2022
+
 % Module Name: - Introduction
 % Topic 1 - General Measurement System
 
@@ -17,7 +18,8 @@
 \newcommand{\sectiontitleI}{Welcome Back!}
 \newcommand{\sectiontitleII}{Definition of a Measurement}
 \newcommand{\sectiontitleIII}{Measurement System Stages}
-\newcommand{\sectiontitleIV}{Examples in Mechanical Engineering }
+\newcommand{\sectiontitleIV}{Brainstorming Activity}
+\newcommand{\sectiontitleV}{Examples in Mechanical Engineering }
 
 % custom box
 \newsavebox{\mybox}
@@ -55,10 +57,13 @@
 \frametitle{\sectiontitleI}
 %\large{\it Welcome Back!\vspace{3mm}\\}
 
+Notes about class:
+
 \begin{itemize}
-\item Summer school is different but we will still cover the same material as we would in the regualar semester. \vspace{3mm}\\
-\item These new outlines should help keep me/us on track.  \vspace{3mm}\\
-\item The material will be organized in $\sim 10$ min videos, and you can watch them at anytime. \vspace{3mm}\\
+\item These lecture notes can be found on ilearn under {\bf Content > Lecture Modules}.
+\item The material will be organized in 10 to 15 min lectures. You are encouraged to ask questions.
+\item Lectures and most discussions will be recorded. You can watch them anytime. \vspace{3mm}\\
+\item Lectures will be followed by a class activity to be submitted by the end of the class session.
 \end{itemize}
 
 \end{frame}
@@ -129,42 +134,64 @@ display, a marked scale, or even a recording device such as a computer disk driv
 % Section 4
 \section{\sectiontitleIV}
 
-\begin{frame}[label=sectionIV]
-\frametitle{\sectiontitleIV}
+	\begin{frame}[label=sectionIV]
+	\frametitle{\sectiontitleIV}
 
-\begin{multicols}{2}
-\includegraphics[scale=0.04]{makethemask.jpg}
+		\scriptsize
+		\begin{multicols}{2}
+			{\bf Activity:} Team Brainstorm
 
-\small
-3D printers (FDM) use PLA, ABS, PETG and other plastics which absorb moisture from the air over time causing adverse affects on part quality. This is particularly a problem in humid climates such the southeastern USA.
-\end{multicols}
+			{\bf Duration:} $\sim 10$ minutes
 
-{\tiny Image: T.Hill}
+			{\bf Groups:} 2-3 members
+
+			\includegraphics[scale=0.5]{Brainstorm_room.png}
+
+			{\bf Topic:} Remote Probe Concept
+			\begin{itemize}
+				\item You are designing a remote probe to inspect an environment which can only be accessed from above. 
+				\item The goal is to collect as much information as possible from the environment to prepare for a robotic maintinence task. 
+	        \end{itemize}
+
+	    \end{multicols}	
+
+	    {\bf Requirements:}	
+		\begin{itemize}
+			\item Probe must enter environment through hole $\sim 100mm$ wide 
+			\item Probe must exit through same hole leaving nothing behind
+			\item The alllowable EFI and RFI is limited. No wifi communication is available \vspace{4mm}
+		\end{itemize}
+
+		{\bf Deliverable:} Submit a copy of your team brainstorming notes including text, images, and diagrams to the activity assignment on ilearn. Include names of all team members.
+
+	\end{frame}
+
+% Section 5
+\section{\sectiontitleIV}
+
+\begin{frame}[label=sectionV]
+\frametitle{\sectiontitleV}
+\href{https://events-platform.asmeconferences.org/event/idetc-cie-2022/planning/UGxhbm5pbmdfOTcxMjI2}{IDETC2022-96785: Development of an Instrumented Rear Suspension to Measure the Tire Forces of a Race Car During Track Driving}\vspace{5mm}\\
+
+\includegraphics[scale=0.125]{IDETC_technical_session.png}
 
 \end{frame}
 
-\begin{frame}
-\frametitle{Engineering Example}
+\begin{frame}[label=sectionV]
+\frametitle{\sectiontitleV}
 
-\begin{multicols}{2}
+\href{https://events-platform.asmeconferences.org/event/idetc-cie-2022/planning/UGxhbm5pbmdfOTcxMzIx}{IDETC2022-91154: Photometric Stereo Enhanced Light Sectioning Measurement for Microtexture Road Profiling}\vspace{5mm}\\
 
-\includegraphics[scale=0.055]{filament_dryer_fig2.jpg}
+\includegraphics[scale=0.125]{IDETC_technical_session.png}
+ 
+\end{frame}
 
+\begin{frame}[label=sectionV]
+\frametitle{\sectiontitleV}
+\href{https://events-platform.asmeconferences.org/event/idetc-cie-2022/planning/UGxhbm5pbmdfOTcxNDk4}{IDETC2022-90082: Automated Weld Path Generation Using Random Sample Consensus and Iterative Closest Point Workpiece Localization}\vspace{5mm}\\
 
-\small
-\vspace{10mm}Fortunately the {\it water-logged} plastic can be dehydrated for further use.\vspcc
-Inspect the DIY filament dryer shown and Identify each of the following measurement stages.
+\includegraphics[scale=0.125]{IDETC_technical_session.png}
 
-\begin{itemize}
-\item Sensor - Transducer
-\item Signal Condtioning
-\item Output Stage
-\item Feedback Control ?
-\end{itemize}
-
-\end{multicols}
-
-{\tiny Image: T.Hill}
 \end{frame}
 
 \end{document}
