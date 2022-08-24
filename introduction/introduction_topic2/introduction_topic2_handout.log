@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.23)  24 AUG 2022 10:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.23)  24 AUG 2022 10:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1239,9 +1239,9 @@ Package pdftex.def Info: proximity_sensor.jpg  used on input line 143.
 File: sharp_ranger_circuit.png Graphic file (type png)
 <use sharp_ranger_circuit.png>
 Package pdftex.def Info: sharp_ranger_circuit.png  used on input line 143.
-(pdftex.def)             Requested size: 112.91699pt x 83.70914pt.
+(pdftex.def)             Requested size: 143.03586pt x 106.03725pt.
 
-Overfull \vbox (9.0658pt too high) detected at line 143
+Overfull \vbox (9.3939pt too high) detected at line 143
  []
 
 [7
@@ -1286,7 +1286,7 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 180.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 180.
 Package rerunfilecheck Info: File `introduction_topic2_handout.out' has not cha
 nged.
-(rerunfilecheck)             Checksum: B9EDF0E58B3065FE9C25EED2BD26C66E;302.
+(rerunfilecheck)             Checksum: A55BF51C6F28995F550B3446877C65E5;325.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1295,7 +1295,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  25934 strings out of 483183
  513229 string characters out of 5966292
- 993885 words of memory out of 5000000
+ 993974 words of memory out of 5000000
  40296 multiletter control sequences out of 15000+600000
  553787 words of font info for 75 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1310,9 +1310,9 @@ u/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1095.600pk> </ho
 me/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1440
 .600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen
 /ec/ecsx0600.600pk>
-Output written on introduction_topic2_handout.pdf (8 pages, 401783 bytes).
+Output written on introduction_topic2_handout.pdf (8 pages, 403999 bytes).
 PDF statistics:
- 590 PDF objects out of 1000 (max. 8388607)
+ 597 PDF objects out of 1000 (max. 8388607)
  330 compressed objects within 4 object streams
  32 named destinations out of 1000 (max. 500000)
  119 words of extra memory for PDF output out of 10000 (max. 10000000)

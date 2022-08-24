@@ -2,4 +2,4 @@
 \beamer@sectionintoc {2}{Independent and Dependent Variables}{4}{0}{2}
 \beamer@sectionintoc {3}{Controlled Variables and Parameters}{5}{0}{3}
 \beamer@sectionintoc {4}{Extraneous Variables}{6}{0}{4}
-\beamer@sectionintoc {5}{Engineering Examples}{7}{0}{5}
+\beamer@sectionintoc {5}{Class Activity: Measurement System Examples}{7}{0}{5}
