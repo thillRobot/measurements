@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.23)  24 AUG 2022 09:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.23)  24 AUG 2022 10:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1215,32 +1215,32 @@ File: lstlang1.sty 2019/09/10 1.8c listings language file
 <proximity_sensor.jpg, id=256, 170.04706pt x 84.09358pt>
 File: proximity_sensor.jpg Graphic file (type jpg)
 <use proximity_sensor.jpg>
-Package pdftex.def Info: proximity_sensor.jpg  used on input line 141.
+Package pdftex.def Info: proximity_sensor.jpg  used on input line 143.
 (pdftex.def)             Requested size: 85.02332pt x 42.04668pt.
 <sharp_ranger_circuit.png, id=257, 752.8125pt x 558.085pt>
 File: sharp_ranger_circuit.png Graphic file (type png)
 <use sharp_ranger_circuit.png>
-Package pdftex.def Info: sharp_ranger_circuit.png  used on input line 141.
+Package pdftex.def Info: sharp_ranger_circuit.png  used on input line 143.
 (pdftex.def)             Requested size: 112.91699pt x 83.70914pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 141
+LaTeX Font Info:    Trying to load font information for U+msa on input line 143
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 141
+LaTeX Font Info:    Trying to load font information for U+msb on input line 143
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+wasy on input line 14
-1.
+3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
-Overfull \vbox (2.0658pt too high) detected at line 141
+Overfull \vbox (9.0658pt too high) detected at line 143
  []
 
 [7
@@ -1250,20 +1250,20 @@ estination with the same identifier (name{sectionV<1>}) has been already used,
 duplicate ignored
 <to be read again> 
                    \relax 
-l.175 	\end{frame}
+l.179 	\end{frame}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{sectionV}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.175 	\end{frame}
+l.179 	\end{frame}
                   
-<thermocouple_atd.png, id=292, 358.33875pt x 411.03563pt>
+<thermocouple_atd.png, id=293, 358.33875pt x 411.03563pt>
 File: thermocouple_atd.png Graphic file (type png)
 <use thermocouple_atd.png>
-Package pdftex.def Info: thermocouple_atd.png  used on input line 175.
-(pdftex.def)             Requested size: 143.33296pt x 164.41133pt.
+Package pdftex.def Info: thermocouple_atd.png  used on input line 179.
+(pdftex.def)             Requested size: 125.42044pt x 143.86462pt.
 
-Overfull \vbox (15.72131pt too high) detected at line 175
+Overfull \vbox (2.1746pt too high) detected at line 179
  []
 
 [8
@@ -1278,13 +1278,13 @@ Overfull \vbox (15.72131pt too high) detected at line 175
 \tf@snm=\write9
 \openout9 = `introduction_topic2.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 176.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 176.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 180.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 180.
  (./introduction_topic2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 176.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 176.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 180.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 180.
 Package rerunfilecheck Info: File `introduction_topic2.out' has not changed.
-(rerunfilecheck)             Checksum: B9EDF0E58B3065FE9C25EED2BD26C66E;302.
+(rerunfilecheck)             Checksum: A55BF51C6F28995F550B3446877C65E5;325.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1293,24 +1293,25 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  25899 strings out of 483183
  512677 string characters out of 5966292
- 992869 words of memory out of 5000000
+ 993958 words of memory out of 5000000
  40273 multiletter control sequences out of 15000+600000
  546319 words of font info for 52 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  62i,19n,73p,786b,574s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/e
-css0600.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/j
-knappen/ec/ecss1200.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts
-/pk/ljfour/jknappen/ec/ecsx1200.600pk> </home/tntech.edu/thill/.texlive2019/tex
-mf-var/fonts/pk/ljfour/jknappen/ec/ecsx1440.600pk> </home/tntech.edu/thill/.tex
-live2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1095.600pk> </home/tntech.ed
-u/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1440.600pk> </ho
-me/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx0600
-.600pk>
-Output written on introduction_topic2.pdf (8 pages, 398651 bytes).
+csi0600.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/j
+knappen/ec/ecss0600.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts
+/pk/ljfour/jknappen/ec/ecss1200.600pk> </home/tntech.edu/thill/.texlive2019/tex
+mf-var/fonts/pk/ljfour/jknappen/ec/ecsx1200.600pk> </home/tntech.edu/thill/.tex
+live2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1440.600pk> </home/tntech.ed
+u/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1095.600pk> </ho
+me/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1440
+.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen
+/ec/ecsx0600.600pk>
+Output written on introduction_topic2.pdf (8 pages, 403575 bytes).
 PDF statistics:
- 576 PDF objects out of 1000 (max. 8388607)
- 326 compressed objects within 4 object streams
+ 597 PDF objects out of 1000 (max. 8388607)
+ 330 compressed objects within 4 object streams
  32 named destinations out of 1000 (max. 500000)
  119 words of extra memory for PDF output out of 10000 (max. 10000000)
 
