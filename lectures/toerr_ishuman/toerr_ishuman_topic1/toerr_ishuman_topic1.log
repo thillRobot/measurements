@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.8.25)  19 JAN 2022 10:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.21)  7 SEP 2022 01:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -489,12 +489,6 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty
-Package: sansmathaccent 2020/01/31
-
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
-Package: scrlfile 2020/01/24 v3.29 KOMA-Script package (loading files)
 )))
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator.sty
@@ -661,7 +655,7 @@ Package: amsthm 2017/10/31 v2.20.4
 \beamer@dimb=\dimen277
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty)))
-(/home/thill/Documents/lectures/measurements_lectures/measurements_lectures.sty
+(/home/thill/courses/measurements_lectures/measurements_lectures.sty
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
 )
@@ -867,93 +861,11 @@ Package xtemplate Info: Declaring object type 'tasks' taking 3 argument(s) on
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/tasks/tasks.cfg))
-(/usr/share/texlive/texmf-dist/tex/latex/mnsymbol/MnSymbol.sty
-Package: MnSymbol 2007/01/21 v1.4 support for the MnSymbol font
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-)
-LaTeX Info: Redefining \dagger on input line 84.
-LaTeX Info: Redefining \ddagger on input line 84.
-LaTeX Info: Redefining \mathparagraph on input line 84.
-LaTeX Info: Redefining \mathsection on input line 84.
-LaTeX Info: Redefining \mathdollar on input line 84.
-LaTeX Info: Redefining \mathsterling on input line 84.
-LaTeX Info: Redefining \yen on input line 84.
-LaTeX Info: Redefining \circledR on input line 84.
-LaTeX Info: Redefining \circledS on input line 84.
-LaTeX Info: Redefining \Re on input line 84.
-LaTeX Info: Redefining \Im on input line 84.
-LaTeX Info: Redefining \dotplus on input line 84.
-LaTeX Info: Redefining \thicksim on input line 84.
-LaTeX Info: Redefining \thickapprox on input line 84.
-LaTeX Info: Redefining \veebar on input line 84.
-LaTeX Info: Redefining \barwedge on input line 84.
-LaTeX Info: Redefining \doublebarwedge on input line 84.
-LaTeX Info: Redefining \centerdot on input line 84.
-LaTeX Info: Redefining \divideontimes on input line 84.
-\symMnSyA=\mathgroup6
-\symMnSyB=\mathgroup7
-\symMnSyC=\mathgroup8
-\symMnSyD=\mathgroup9
-LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 119.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> OMX/MnSymbolE/m/n on input line 119.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> OMX/MnSymbolE/m/n on input line 119.
-LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 120.
-LaTeX Font Info:    Encoding `OMS' has changed to `U' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 120.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> U/MnSymbolF/m/n on input line 120.
-LaTeX Font Info:    Encoding `OMS' has changed to `U' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 120.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> U/MnSymbolF/m/n on input line 120.
-LaTeX Font Info:    Overwriting symbol font `MnSyA' in version `bold'
-(Font)                  U/MnSymbolA/m/n --> U/MnSymbolA/b/n on input line 121.
-LaTeX Font Info:    Overwriting symbol font `MnSyB' in version `bold'
-(Font)                  U/MnSymbolB/m/n --> U/MnSymbolB/b/n on input line 122.
-LaTeX Font Info:    Overwriting symbol font `MnSyC' in version `bold'
-(Font)                  U/MnSymbolC/m/n --> U/MnSymbolC/b/n on input line 123.
-LaTeX Font Info:    Overwriting symbol font `MnSyD' in version `bold'
-(Font)                  U/MnSymbolD/m/n --> U/MnSymbolD/b/n on input line 124.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/MnSymbolE/m/n --> OMX/MnSymbolE/b/n on input line 1
-25.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  U/MnSymbolF/m/n --> U/MnSymbolF/b/n on input line 126.
-LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 241.
-LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `bold'
-(Font)                  OMS/MnSymbolS/m/n --> OMS/MnSymbolS/b/n on input line 2
-41.
-LaTeX Info: Redefining \longrightarrow on input line 548.
-LaTeX Info: Redefining \longleftarrow on input line 549.
-LaTeX Info: Redefining \longleftrightarrow on input line 550.
-LaTeX Info: Redefining \Longrightarrow on input line 551.
-LaTeX Info: Redefining \Longleftarrow on input line 552.
-LaTeX Info: Redefining \Longleftrightarrow on input line 553.
-LaTeX Info: Redefining \longmapsto on input line 554.
-LaTeX Info: Redefining \vdots on input line 868.
-LaTeX Font Info:    Redeclaring math symbol \braceld on input line 1721.
-LaTeX Font Info:    Redeclaring math symbol \bracelu on input line 1722.
-LaTeX Font Info:    Redeclaring math symbol \bracerd on input line 1723.
-LaTeX Font Info:    Redeclaring math symbol \braceru on input line 1724.
-LaTeX Info: Redefining \downbracefill on input line 1799.
-LaTeX Info: Redefining \upbracefill on input line 1800.
-LaTeX Info: Redefining \overbrace on input line 1819.
-LaTeX Info: Redefining \underbrace on input line 1820.
-LaTeX Info: Redefining \surd on input line 1843.
-LaTeX Font Info:    Redeclaring math accent \widehat on input line 1845.
-LaTeX Font Info:    Redeclaring math accent \widetilde on input line 1846.
-LaTeX Font Info:    Redeclaring math accent \vec on input line 1848.
-)
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/wasysym.sty
 Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
-\symwasy=\mathgroup10
+\symwasy=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
 (Font)                  U/wasy/m/n --> U/wasy/b/n on input line 93.
-LaTeX Font Info:    Redeclaring math symbol \invneg on input line 242.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tikzsymbols/tikzsymbols.sty
 Package: tikzsymbols 2019/02/08 v4.10c Some symbols created using tikz and LaTe
@@ -1110,25 +1022,44 @@ Package hyperref Info: Option `pdfnewwindow' set `true' on input line 107.
 Package hyperref Info: Option `colorlinks' set `true' on input line 107.
 )
 \mybox=\box138
- (./toerr_ishuman_topic1.aux)
+ (./toerr_ishuman_topic1.aux
+
+LaTeX Warning: Label `sectionIV<1>' multiply defined.
+
+
+LaTeX Warning: Label `sectionIV' multiply defined.
+
+
+LaTeX Warning: Label `sectionIV<1>' multiply defined.
+
+
+LaTeX Warning: Label `sectionIV' multiply defined.
+
+
+LaTeX Warning: Label `sectionIV<1>' multiply defined.
+
+
+LaTeX Warning: Label `sectionIV' multiply defined.
+
+)
 \openout1 = `toerr_ishuman_topic1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1188,7 +1119,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box140
-Package hyperref Info: Link coloring ON on input line 30.
+Package hyperref Info: Link coloring ON on input line 31.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1201,71 +1132,56 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count367
 )
-LaTeX Info: Redefining \ref on input line 30.
-LaTeX Info: Redefining \pageref on input line 30.
-LaTeX Info: Redefining \nameref on input line 30.
+LaTeX Info: Redefining \ref on input line 31.
+LaTeX Info: Redefining \pageref on input line 31.
+LaTeX Info: Redefining \nameref on input line 31.
 
 (./toerr_ishuman_topic1.out) (./toerr_ishuman_topic1.out)
 \@outlinefile=\write6
 \openout6 = `toerr_ishuman_topic1.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 30.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 31.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 30.
-\symnumbers=\mathgroup11
-\sympureletters=\mathgroup12
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 31.
+\symnumbers=\mathgroup7
+\sympureletters=\mathgroup8
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 30.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 30.
+(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/cmss/b/n on input line 30.
+(Font)                  OT1/cmr/bx/n --> T1/cmss/b/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/cmss/b/n on input line 30.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 30.
+(Font)                  OT1/cmr/bx/n --> T1/cmss/b/n on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmss/m/n on input line 30.
+(Font)                  OT1/cmss/m/n --> T1/cmss/m/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/cmss/m/n on input line 30.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 30.
+(Font)                  OT1/cmss/bx/n --> T1/cmss/m/n on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/cmss/m/it on input line 30.
+(Font)                  OT1/cmr/m/it --> T1/cmss/m/it on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/cmss/m/it on input line 30.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 30.
+(Font)                  OT1/cmr/bx/it --> T1/cmss/m/it on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 30.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 30.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 31.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 30.
+(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 31.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 30.
+(Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> T1/cmr/b/n on input line 30.
+(Font)                  OT1/cmss/b/n --> T1/cmr/b/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/cmss/b/n --> T1/cmss/b/n on input line 30.
+(Font)                  T1/cmss/b/n --> T1/cmss/b/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 30.
+(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 30.
+(Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/cmtt/m/n --> T1/cmtt/b/n on input line 30.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 30.
-LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
-(Font)              `pureletters' in the math version `normal' on input line 30
-.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  T1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 30
-.
-LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
-(Font)              `pureletters' in the math version `bold' on input line 30.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 30
-.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 30.
+(Font)                  T1/cmtt/m/n --> T1/cmtt/b/n on input line 31.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -1300,44 +1216,95 @@ File: lstlang1.sty 2019/09/10 1.8c listings language file
 ] [2
 
 ]
-<vip_harp.jpg, id=110, 3276.24pt x 2457.18pt>
-File: vip_harp.jpg Graphic file (type jpg)
-<use vip_harp.jpg>
-Package pdftex.def Info: vip_harp.jpg  used on input line 67.
-(pdftex.def)             Requested size: 81.8858pt x 61.41435pt.
- [3
-
- <./vip_harp.jpg>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 88.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 70.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 88.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 70.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 88
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 70
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
-)
-LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 88.
+) [3
 
-(/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
-File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
-thkerncmss.
-)
-[4
+] [4
 
 ] [5
 
-] [6
+]pdfTeX warning (ext4): destination with the same identifier (name{sectionIV<1>
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.126 	\end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{sectionIV}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.126 	\end{frame}
+                  
+<GPS-IIR.jpeg, id=216, 1806.75pt x 1806.75pt>
+File: GPS-IIR.jpeg Graphic file (type jpg)
+<use GPS-IIR.jpeg>
+Package pdftex.def Info: GPS-IIR.jpeg  used on input line 126.
+(pdftex.def)             Requested size: 135.5004pt x 135.5004pt.
+ [6
+
+ <./GPS-IIR.jpeg>]pdfTeX warning (ext4): destination with the same identifier (
+name{sectionIV<1>}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.154 	\end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{sectionIV}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.154 	\end{frame}
+                  
+<lat_lon_grid.png, id=252, 156.585pt x 152.82094pt>
+File: lat_lon_grid.png Graphic file (type png)
+<use lat_lon_grid.png>
+Package pdftex.def Info: lat_lon_grid.png  used on input line 154.
+(pdftex.def)             Requested size: 156.58461pt x 152.82054pt.
+
+Overfull \hbox (7.93968pt too wide) in paragraph at lines 154--154
+[][] 
+ []
+
+
+Overfull \vbox (8.04861pt too high) detected at line 154
+ []
+
+[7
+
+ <./lat_lon_grid.png>]pdfTeX warning (ext4): destination with the same identifi
+er (name{sectionIV<1>}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.182 	\end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{sectionIV}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.182 	\end{frame}
+                  
+File: lat_lon_grid.png Graphic file (type png)
+<use lat_lon_grid.png>
+Package pdftex.def Info: lat_lon_grid.png  used on input line 182.
+(pdftex.def)             Requested size: 156.58461pt x 152.82054pt.
+
+Overfull \hbox (7.93968pt too wide) in paragraph at lines 182--182
+[][] 
+ []
+
+[8
 
 ]
 \tf@nav=\write7
@@ -1349,34 +1316,46 @@ thkerncmss.
 \tf@snm=\write9
 \openout9 = `toerr_ishuman_topic1.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 122.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 122.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 184.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 184.
  (./toerr_ishuman_topic1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 122.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 122.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 184.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 184.
 Package rerunfilecheck Info: File `toerr_ishuman_topic1.out' has not changed.
-(rerunfilecheck)             Checksum: 20B849EF1508D4799C873E7CD16AE7BF;159.
+(rerunfilecheck)             Checksum: 06ACCCEE88B4CC208C3425FC22AE1D67;212.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 28459 strings out of 481239
- 550373 string characters out of 5920377
- 996928 words of memory out of 5000000
- 43058 multiletter control sequences out of 15000+600000
- 552863 words of font info for 74 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 67i,19n,83p,787b,574s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/
-fonts/type1/public/cm-super/sfsi1095.pfb></usr/share/texmf/fonts/type1/public/c
-m-super/sfss0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1095.pfb
-></usr/share/texmf/fonts/type1/public/cm-super/sfss1200.pfb></usr/share/texmf/f
-onts/type1/public/cm-super/sfss1440.pfb></usr/share/texmf/fonts/type1/public/cm
--super/sfsx0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb>
-</usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fo
-nts/type1/public/cm-super/sfsx1440.pfb>
-Output written on toerr_ishuman_topic1.pdf (6 pages, 2643320 bytes).
+ 25897 strings out of 483183
+ 512294 string characters out of 5966292
+ 994423 words of memory out of 5000000
+ 40266 multiletter control sequences out of 15000+600000
+ 551964 words of font info for 68 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 62i,19n,73p,787b,574s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{sectionIII} has been referenced but does not exis
+t, replaced by a fixed one
+
+ </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0600.600pk
+> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0800.600p
+k> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0800.600
+pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx0800.60
+0pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi1095.6
+00pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0600.
+600pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1200
+.600pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx120
+0.600pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx14
+40.600pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1
+095.600pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss
+1440.600pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecs
+x0600.600pk>
+Output written on toerr_ishuman_topic1.pdf (8 pages, 1070361 bytes).
 PDF statistics:
- 270 PDF objects out of 1000 (max. 8388607)
- 235 compressed objects within 3 object streams
- 24 named destinations out of 1000 (max. 500000)
- 93 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 639 PDF objects out of 1000 (max. 8388607)
+ 332 compressed objects within 4 object streams
+ 28 named destinations out of 1000 (max. 500000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 

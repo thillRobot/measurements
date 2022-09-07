@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="55.032368mm"
+   height="53.687759mm"
+   viewBox="0 0 55.032368 53.687759"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="lat_lon_grid.svg"
+   inkscape:version="1.2 (1:1.2.1+202207142221+cd75a1ee6d)"
+   inkscape:export-filename="lat_lon_grid.ong.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="3.659624"
+     inkscape:cx="64.897377"
+     inkscape:cy="109.30085"
+     inkscape:window-width="2560"
+     inkscape:window-height="1403"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="359.05896"
+       y="653.92584"
+       width="60.451027"
+       height="14.422488"
+       id="rect520" />
+    <rect
+       x="359.05896"
+       y="653.92584"
+       width="65.777596"
+       height="14.422488"
+       id="rect520-3" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-77.968124,-119.79971)">
+    <g
+       inkscape:label="GridCartesian:X10:Y10"
+       transform="translate(82.8682,119.932)"
+       id="g393">
+      <g
+         inkscape:label="MajorXGridlines"
+         id="g369">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 5,0 V 50"
+           inkscape:label="MajorXDiv1"
+           id="path351" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 10,0 V 50"
+           inkscape:label="MajorXDiv2"
+           id="path353" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 15,0 V 50"
+           inkscape:label="MajorXDiv3"
+           id="path355" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 20,0 V 50"
+           inkscape:label="MajorXDiv4"
+           id="path357" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 25,0 V 50"
+           inkscape:label="MajorXDiv5"
+           id="path359" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 30,0 V 50"
+           inkscape:label="MajorXDiv6"
+           id="path361" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 35,0 V 50"
+           inkscape:label="MajorXDiv7"
+           id="path363" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 40,0 V 50"
+           inkscape:label="MajorXDiv8"
+           id="path365" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 45,0 V 50"
+           inkscape:label="MajorXDiv9"
+           id="path367" />
+      </g>
+      <g
+         inkscape:label="MajorYGridlines"
+         id="g389">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,5 H 50"
+           inkscape:label="MajorYDiv1"
+           id="path371" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,10 H 50"
+           inkscape:label="MajorYDiv2"
+           id="path373" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,15 H 50"
+           inkscape:label="MajorYDiv3"
+           id="path375" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,20 H 50"
+           inkscape:label="MajorYDiv4"
+           id="path377" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,25 H 50"
+           inkscape:label="MajorYDiv5"
+           id="path379" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,30 H 50"
+           inkscape:label="MajorYDiv6"
+           id="path381" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,35 H 50"
+           inkscape:label="MajorYDiv7"
+           id="path383" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,40 H 50"
+           inkscape:label="MajorYDiv8"
+           id="path385" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583"
+           d="M 0,45 H 50"
+           inkscape:label="MajorYDiv9"
+           id="path387" />
+      </g>
+      <rect
+         x="0"
+         y="0"
+         width="50"
+         height="50"
+         style="fill:none;stroke:#000000;stroke-width:0.264583"
+         inkscape:label="Border"
+         id="rect391" />
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,5.7964391,-2.3844822)"
+       id="text518"
+       style="white-space:pre;shape-inside:url(#rect520);display:inline;fill:#000000"><tspan
+         x="359.05859"
+         y="664.54297"
+         id="tspan812">Lattitude</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,-0.26458333,0.26458333,0,-95.446612,247.17887)"
+       id="text518-6"
+       style="white-space:pre;shape-inside:url(#rect520-3);display:inline;fill:#000000"><tspan
+         x="359.05859"
+         y="664.54297"
+         id="tspan814">Longitude</tspan></text>
+  </g>
+</svg>
