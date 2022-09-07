@@ -7,7 +7,9 @@
 \documentclass[fleqn]{beamer} % for presentation (has nav buttons at bottom)
 
 %\usepackage{/home/thill/Documents/lectures/measurements_lectures/measurements_lectures}
-\usepackage{/home/thill/courses/measurements_lectures/measurements_lectures}
+%\usepackage{/home/thill/courses/measurements_lectures/measurements_lectures}
+\usepackage{/home/tntech.edu/thill/courses/measurements_lectures/measurements_lectures}
+
 
 \author{ME3023 - Measurements in Mechanical Systems} 
 
@@ -128,11 +130,12 @@
 	\begin{frame}[label=sectionIV]
 		\frametitle{\sectiontitleIV}
 		\scriptsize
-		{\bf Part 1 - Informed Prediction}: Generate data you expect the GPS in your phone to report.  \vspc
+		{\bf Part 1 - Informed Prediction}: Generate data you expect the GPS in your phone to report. \\
 		
 		\begin{multicols}{2}
-
-			\begin{tabular}{|c|c|c|}
+			\setlength{\tabcolsep}{20pt}
+			\renewcommand{\arraystretch}{1.4}
+			\begin{tabular}{|c|c|c|} \hline
 			$i$ & $lat_i$ & $lon_i$ \\\hline
 			  1  & &              \\ \hline
 			  2  & &              \\ \hline
@@ -160,7 +163,9 @@
 		
 		\begin{multicols}{2}
 
-			\begin{tabular}{|c|c|c|}
+			\setlength{\tabcolsep}{20pt}
+			\renewcommand{\arraystretch}{1.4}
+			\begin{tabular}{|c|c|c|} \hline
 			$i$ & $lat_i$ & $lon_i$ \\\hline
 			  1  & &              \\ \hline
 			  2  & &              \\ \hline
