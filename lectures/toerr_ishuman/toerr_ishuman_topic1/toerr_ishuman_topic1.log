@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.23)  7 SEP 2022 10:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.23)  7 SEP 2022 10:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1328,23 +1328,23 @@ Overfull \vbox (2.3572pt too high) detected at line 182
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.203 	\end{frame}
+l.202 	\end{frame}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{sectionIV}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.203 	\end{frame}
+l.202 	\end{frame}
                   
 <thinker_rodin.png, id=317, 722.7pt x 1084.05pt>
 File: thinker_rodin.png Graphic file (type png)
 <use thinker_rodin.png>
-Package pdftex.def Info: thinker_rodin.png  used on input line 203.
-(pdftex.def)             Requested size: 51.31094pt x 76.96643pt.
-<thinker_dc_comics.png, id=319, 250.9375pt x 375.4025pt>
+Package pdftex.def Info: thinker_rodin.png  used on input line 202.
+(pdftex.def)             Requested size: 72.27423pt x 108.41135pt.
+<thinker_dc_comics.png, id=318, 250.9375pt x 375.4025pt>
 File: thinker_dc_comics.png Graphic file (type png)
 <use thinker_dc_comics.png>
-Package pdftex.def Info: thinker_dc_comics.png  used on input line 203.
-(pdftex.def)             Requested size: 37.63899pt x 56.30794pt.
+Package pdftex.def Info: thinker_dc_comics.png  used on input line 202.
+(pdftex.def)             Requested size: 62.7342pt x 93.85039pt.
  [9
 
  <./thinker_rodin.png> <./thinker_dc_comics.png>]
@@ -1357,12 +1357,12 @@ Package pdftex.def Info: thinker_dc_comics.png  used on input line 203.
 \tf@snm=\write9
 \openout9 = `toerr_ishuman_topic1.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 205.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 205.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 204.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 204.
 
 (./toerr_ishuman_topic1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 205.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 205.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 204.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 204.
 Package rerunfilecheck Info: File `toerr_ishuman_topic1.out' has not changed.
 (rerunfilecheck)             Checksum: 06ACCCEE88B4CC208C3425FC22AE1D67;212.
 
@@ -1395,7 +1395,7 @@ r/jknappen/ec/ecsx1440.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fo
 nts/pk/ljfour/jknappen/ec/ecss1095.600pk> </home/tntech.edu/thill/.texlive2019/
 texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1440.600pk> </home/tntech.edu/thill/.
 texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx0600.600pk>
-Output written on toerr_ishuman_topic1.pdf (9 pages, 2544579 bytes).
+Output written on toerr_ishuman_topic1.pdf (9 pages, 2544554 bytes).
 PDF statistics:
  686 PDF objects out of 1000 (max. 8388607)
  363 compressed objects within 4 object streams
