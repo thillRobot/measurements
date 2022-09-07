@@ -130,9 +130,34 @@
 	\begin{frame}[label=sectionIV]
 		\frametitle{\sectiontitleIV}
 		\scriptsize
-		{\bf Part 1 - Informed Prediction}: Generate data you expect the GPS in your phone to report. \\
+		{\bf Part 1 - Informed Prediction}: Generate data you expect the GPS in your phone to report. Show the data points on the graph to the right.  \\
 		
 		\begin{multicols}{2}
+			\setlength{\tabcolsep}{20pt}
+			\renewcommand{\arraystretch}{1.4}
+			\begin{tabular}{|c|c|c|} \hline
+			$i$ & $lat_i$ & $lon_i$ \\\hline
+			  1  & &              \\ \hline
+			  2  & &              \\ \hline
+			  3  & &              \\ \hline
+			  4  & &              \\ \hline
+			  5  & &              \\ \hline
+
+			\end{tabular}
+
+			\includegraphics[scale=1]{lat_lon_grid.png}
+			{\tiny Image: thill}
+		\end{multicols}	
+
+	\end{frame}
+
+	\begin{frame}[label=sectionIV]
+		\frametitle{\sectiontitleIV}
+		\scriptsize
+		{\bf Part 2 - Measurement}: Record GPS from your phone. Show the data points on the graph to the right. You can use export feature in Sensor Logger to report the data.  \\
+		
+		\begin{multicols}{2}
+
 			\setlength{\tabcolsep}{20pt}
 			\renewcommand{\arraystretch}{1.4}
 			\begin{tabular}{|c|c|c|} \hline
@@ -159,29 +184,20 @@
 	\begin{frame}[label=sectionIV]
 		\frametitle{\sectiontitleIV}
 		\scriptsize
-		{\bf Part 3 - Measurement}: Compare and constrast the data from the two sources.  \vspc
-		
+		{\bf Part 3 - Analysis/Results/Conclusions}: Compare and contrast the two sets of data. What conclusions can you make about your predictions or the sensor data?
 		\begin{multicols}{2}
 
-			\setlength{\tabcolsep}{20pt}
-			\renewcommand{\arraystretch}{1.4}
-			\begin{tabular}{|c|c|c|} \hline
-			$i$ & $lat_i$ & $lon_i$ \\\hline
-			  1  & &              \\ \hline
-			  2  & &              \\ \hline
-			  3  & &              \\ \hline
-			  4  & &              \\ \hline
-			  5  & &              \\ \hline
-			  6  & &              \\ \hline
-			  7  & &              \\ \hline
-			  8  & &              \\ \hline
-			  8  & &              \\ \hline		
-			  9  & &              \\ \hline
-             10  & &              \\ \hline
-			\end{tabular}
+			\begin{itemize}
+				\item Were the predictions reasonable? \\
+				\item What type of error is present in the recorded data? \\
+				\item What should be used as a reference for this data? \\ 
+			\end{itemize}
+			
 
-			\includegraphics[scale=1]{lat_lon_grid.png}
-			{\tiny Image: thill}
+			\includegraphics[scale=.071]{thinker_rodin.png}
+			{\tiny Image: \href{https://en.wikipedia.org/wiki/The_Thinker}{wikipedia}}
+			\includegraphics[scale=.15]{thinker_dc_comics.png}
+			{\tiny Image: \href{https://en.wikipedia.org/wiki/Thinker_(DC_Comics)}{wikipedia}}
 		\end{multicols}	
 
 	\end{frame}
