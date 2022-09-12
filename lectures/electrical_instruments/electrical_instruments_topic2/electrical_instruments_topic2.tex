@@ -10,19 +10,20 @@
 
 \documentclass[fleqn]{beamer} % for presentation (has nav buttons at bottom)
 
-\usepackage{/home/thill/courses/measurements/lectures/measurements_lectures}
+\usepackage{/home/tntech.edu/thill/courses/measurements/lectures/measurements_lectures}
 
 \author{ME3023 - Measurements in Mechanical Systems} % original formatting from Mike Renfro, September 21, 2004
 
 \newcommand{\MNUM}{5\hspace{2mm}} % Module number
 \newcommand{\TNUM}{2\hspace{2mm}} % Topic number 
 \newcommand{\moduletitle}{Electrical Instruments}
-\newcommand{\topictitle}{More Analog Instruments} 
+\newcommand{\topictitle}{Prototype Circuits} 
 
-\newcommand{\sectiontitleI}{Safety and Electricity }
-\newcommand{\sectiontitleII}{Using a Desktop Power Supply}
-\newcommand{\sectiontitleIII}{Using a Function Generator}
-\newcommand{\sectiontitleIV}{Using an Oscilloscope}
+\newcommand{\sectiontitleI}{Circuits for Mechanical Engineers}
+\newcommand{\sectiontitleII}{Using a Solderless Breadboard}
+\newcommand{\sectiontitleIII}{Using a Desktop Power Supply}
+\newcommand{\sectiontitleIV}{Examples}
+
 
 
 % custom box
@@ -39,7 +40,7 @@
 	\frame{\titlepage \center\begin{framed}\Large \textbf{Topic \TNUM - \topictitle}\end{framed} \vspace{5mm}}
 	
 	
-	% Section 0: Outline
+% Section 0: Outline
 	\frame{
 		\large \textbf{Topic \TNUM - \topictitle} \vspace{3mm}\\
 		
@@ -57,20 +58,76 @@
 
 
 \section{\sectiontitleI}
-
 % Section I - Frame I:
+	\begin{frame}  \small
+	\frametitle{\sectiontitleI}
+
+	Engineering is an integrated field...
+
+	\end{frame}
+
+
+\section{\sectiontitleII}
+% Section II - Frame I:	
+
+	% Section I - Frame I:
+	\begin{frame}  \small
+	\frametitle{\sectiontitleII}
+
+
+
+	\includegraphics[scale=.125]{breadboard_large.jpg} 	
+	\includegraphics[scale=.65]{breadboard_wplugs.png} 
+	%\includegraphics[scale=.08]{breadboard_small.jpg} 
+   	
+
+	\end{frame}
+
+
+% Section II - Frame II:
 \frame{  \small
-\frametitle{\sectiontitleI}
+\frametitle{\sectiontitleII}
 
-Please read the {\bf In-Lab Safety and Good Practices} document \textbf{or} \vspace{3mm}\\
-the {\bf Remote-Lab Safety and Good Practices} document. \vspace{10mm}\\
 
-Also, stay tuned for information about your lab safety training course. This is on ilearn \textbf{ME Lab Shop Safety}.
+  \includegraphics[scale=.10]{breadboard_template.png} 
+
 
 }
 
 
-\section{\sectiontitleII}
+% Section II - Frame III:
+\frame{  \small
+\frametitle{\sectiontitleII}
+
+
+Question: Why is the breadboard separated into sections? 
+(note: this image shows 4 - top,bottom,top,bottom) 
+
+  \includegraphics[scale=.20]{breadboard_wcircuit.jpg} 
+
+
+}
+
+
+% Section II - Frame I:
+\frame{  \small
+\frametitle{\sectiontitleII}
+ 
+ \begin{multicols}{2}
+ \underline{Pros:}
+ 
+ \underline{Cons:}
+ 
+ \end{multicols}
+ \vspace{30mm}
+ 
+ \underline{Common Mistakes:}
+ \vspace{10mm}
+
+}
+
+
+\section{\sectiontitleIII}
 
 % Section II - Frame I:
 \frame{  \small
