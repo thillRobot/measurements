@@ -25,8 +25,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.32346812"
-     inkscape:cx="1491.6462"
-     inkscape:cy="469.9072"
+     inkscape:cx="1504.0122"
+     inkscape:cy="717.22679"
      inkscape:window-width="2560"
      inkscape:window-height="1403"
      inkscape:window-x="0"
@@ -555,42 +555,42 @@
        xml:space="preserve"
        transform="matrix(2.3435774,0,0,2.3435774,-495.96138,-1236.5918)"
        id="text1801"
-       style="white-space:pre;shape-inside:url(#rect1803);fill:#000000"><tspan
+       style="white-space:pre;shape-inside:url(#rect1803);display:inline;fill:#000000"><tspan
          x="244.17773"
          y="398.2463"
-         id="tspan2143"><tspan
+         id="tspan2331"><tspan
            style="font-size:13.5477px"
-           id="tspan2141">A
+           id="tspan2329">A
 </tspan></tspan><tspan
          x="244.17773"
          y="415.18094"
-         id="tspan2147"><tspan
+         id="tspan2335"><tspan
            style="font-size:13.5477px"
-           id="tspan2145">B
+           id="tspan2333">B
 </tspan></tspan><tspan
          x="244.17773"
          y="432.11557"
-         id="tspan2151"><tspan
+         id="tspan2339"><tspan
            style="font-size:13.5477px"
-           id="tspan2149">C
+           id="tspan2337">C
 </tspan></tspan><tspan
          x="244.17773"
          y="449.0502"
-         id="tspan2155"><tspan
+         id="tspan2343"><tspan
            style="font-size:13.5477px"
-           id="tspan2153">D
+           id="tspan2341">D
 </tspan></tspan><tspan
          x="244.17773"
          y="468.15454"
-         id="tspan2161"><tspan
+         id="tspan2349"><tspan
            style="font-size:13.5477px"
-           id="tspan2157">E</tspan><tspan
+           id="tspan2345">E</tspan><tspan
            style="font-size:16px"
-           id="tspan2159">
+           id="tspan2347">
 </tspan></tspan><tspan
          x="244.17773"
          y="484.61548"
-         id="tspan2163">
+         id="tspan2351">
 </tspan></text>
     <text
        xml:space="preserve"
@@ -599,51 +599,51 @@
        style="white-space:pre;shape-inside:url(#rect1803-3);display:inline;fill:#000000"><tspan
          x="244.17773"
          y="398.2463"
-         id="tspan2167"><tspan
+         id="tspan2355"><tspan
            style="font-size:13.5477px"
-           id="tspan2165">F
+           id="tspan2353">F
 </tspan></tspan><tspan
          x="244.17773"
          y="415.18094"
-         id="tspan2173"><tspan
+         id="tspan2361"><tspan
            style="font-size:13.5477px"
-           id="tspan2169">G</tspan><tspan
+           id="tspan2357">G</tspan><tspan
            style="font-size:13.5477px"
-           id="tspan2171">
+           id="tspan2359">
 </tspan></tspan><tspan
          x="244.17773"
          y="432.11557"
-         id="tspan2179"><tspan
+         id="tspan2367"><tspan
            style="font-size:13.5477px"
-           id="tspan2175">H</tspan><tspan
+           id="tspan2363">H</tspan><tspan
            style="font-size:13.5477px"
-           id="tspan2177">
+           id="tspan2365">
 </tspan></tspan><tspan
          x="244.17773"
          y="449.0502"
-         id="tspan2185"><tspan
+         id="tspan2373"><tspan
            style="font-size:13.5477px"
-           id="tspan2181">I</tspan><tspan
+           id="tspan2369">I</tspan><tspan
            style="font-size:13.5477px"
-           id="tspan2183">
+           id="tspan2371">
 </tspan></tspan><tspan
          x="244.17773"
          y="468.15454"
-         id="tspan2191"><tspan
+         id="tspan2379"><tspan
            style="font-size:13.5477px"
-           id="tspan2187">J</tspan><tspan
+           id="tspan2375">J</tspan><tspan
            style="font-size:16px"
-           id="tspan2189">
+           id="tspan2377">
 </tspan></tspan><tspan
          x="244.17773"
          y="484.61548"
-         id="tspan2193">
+         id="tspan2381">
 </tspan></text>
     <text
        xml:space="preserve"
        transform="scale(0.26458333)"
        id="text1807"
-       style="white-space:pre;shape-inside:url(#rect1809);fill:#000000" />
+       style="white-space:pre;shape-inside:url(#rect1809);display:inline;fill:#000000" />
     <text
        xml:space="preserve"
        style="font-size:31.75px;fill:#000000;stroke-width:0.264583"
@@ -654,6 +654,22 @@
          id="tspan2012"
          style="stroke-width:0.264583"
          x="101.15684"
-         y="-329.27823">1  2  3  4  5     </tspan></text>
+         y="-329.27823">1  2  3  4  5 ...    </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:31.75px;fill:#000000;stroke-width:0.264583"
+       x="75.083328"
+       y="-393.94705"
+       id="text2197"><tspan
+         sodipodi:role="line"
+         id="tspan2195"
+         style="stroke-width:0.264583"
+         x="75.083328"
+         y="-393.94705">+</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="75.083328"
+         y="-354.25955"
+         id="tspan2199">-</tspan></text>
   </g>
 </svg>
