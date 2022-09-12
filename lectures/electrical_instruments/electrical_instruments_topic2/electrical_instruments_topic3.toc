@@ -1,4 +1,0 @@
-\beamer@sectionintoc {1}{Safety and Electricity }{3}{0}{1}
-\beamer@sectionintoc {2}{Using a Desktop Power Supply}{4}{0}{2}
-\beamer@sectionintoc {3}{Using a Function Generator}{6}{0}{3}
-\beamer@sectionintoc {4}{Using an Oscilloscope}{9}{0}{4}

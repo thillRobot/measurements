@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.21)  12 SEP 2022 00:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.21)  12 SEP 2022 00:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**electrical_instruments_topic1.tex 1
+**electrical_instruments_topic1.tex
 (./electrical_instruments_topic1.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14>
@@ -1194,105 +1194,111 @@ Dictionary: translator-theorem-dictionary, Language: English
 File: lstlang1.sty 2019/09/10 1.8c listings language file
 ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-] [2
+]
+<YX360TRF_Sanwa.jpg, id=80, 1228.59pt x 1537.745pt>
+File: YX360TRF_Sanwa.jpg Graphic file (type jpg)
+<use YX360TRF_Sanwa.jpg>
+Package pdftex.def Info: YX360TRF_Sanwa.jpg  used on input line 62.
+(pdftex.def)             Requested size: 122.8662pt x 153.78351pt.
+ [2
 
-] [3
+ <./YX360TRF_Sanwa.jpg>] [3
 
 ]
-<dmm_benchtop.jpeg, id=141, 538.01pt x 538.01pt>
+<dmm_benchtop.jpeg, id=144, 538.01pt x 538.01pt>
 File: dmm_benchtop.jpeg Graphic file (type jpg)
 <use dmm_benchtop.jpeg>
-Package pdftex.def Info: dmm_benchtop.jpeg  used on input line 95.
+Package pdftex.def Info: dmm_benchtop.jpeg  used on input line 103.
 (pdftex.def)             Requested size: 134.50217pt x 134.50217pt.
-<bk_2831e.jpg, id=142, 1204.5pt x 600.2425pt>
+<bk_2831e.jpg, id=145, 1204.5pt x 600.2425pt>
 File: bk_2831e.jpg Graphic file (type jpg)
 <use bk_2831e.jpg>
-Package pdftex.def Info: bk_2831e.jpg  used on input line 95.
+Package pdftex.def Info: bk_2831e.jpg  used on input line 103.
 (pdftex.def)             Requested size: 156.5905pt x 78.03426pt.
 
-Overfull \hbox (7.94557pt too wide) in paragraph at lines 95--95
+Overfull \hbox (7.94557pt too wide) in paragraph at lines 103--103
 [][] 
  []
 
 [4
 
  <./dmm_benchtop.jpeg> <./bk_2831e.jpg>]
-<Fluke_115_multimeter.jpeg, id=176, 1907.125pt x 3232.075pt>
+<Fluke_115_multimeter.jpeg, id=178, 1907.125pt x 3232.075pt>
 File: Fluke_115_multimeter.jpeg Graphic file (type jpg)
 <use Fluke_115_multimeter.jpeg>
-Package pdftex.def Info: Fluke_115_multimeter.jpeg  used on input line 116.
+Package pdftex.def Info: Fluke_115_multimeter.jpeg  used on input line 124.
 (pdftex.def)             Requested size: 76.272pt x 129.26099pt.
 
 
-Package hyperref Warning: Suppressing empty link on input line 116.
+Package hyperref Warning: Suppressing empty link on input line 124.
 
-<Digital_Multimeter_Aka.jpg, id=177, 674.52pt x 803.0pt>
+<Digital_Multimeter_Aka.jpg, id=179, 674.52pt x 803.0pt>
 File: Digital_Multimeter_Aka.jpg Graphic file (type jpg)
 <use Digital_Multimeter_Aka.jpg>
-Package pdftex.def Info: Digital_Multimeter_Aka.jpg  used on input line 116.
+Package pdftex.def Info: Digital_Multimeter_Aka.jpg  used on input line 124.
 (pdftex.def)             Requested size: 101.17363pt x 120.4448pt.
 
-Package hyperref Warning: Suppressing empty link on input line 116.
+Package hyperref Warning: Suppressing empty link on input line 124.
 
 
-Overfull \hbox (5.41034pt too wide) in paragraph at lines 116--116
+Overfull \hbox (5.41034pt too wide) in paragraph at lines 124--124
 [][] 
  []
 
-<Clampmeter_Fluke_337.jpeg, id=178, 288.3573pt x 632.3625pt>
+<Clampmeter_Fluke_337.jpeg, id=180, 288.3573pt x 632.3625pt>
 File: Clampmeter_Fluke_337.jpeg Graphic file (type jpg)
 <use Clampmeter_Fluke_337.jpeg>
-Package pdftex.def Info: Clampmeter_Fluke_337.jpeg  used on input line 116.
+Package pdftex.def Info: Clampmeter_Fluke_337.jpeg  used on input line 124.
 (pdftex.def)             Requested size: 57.67043pt x 126.47026pt.
 
-Package hyperref Warning: Suppressing empty link on input line 116.
+Package hyperref Warning: Suppressing empty link on input line 124.
 
 [5
 
  <./Fluke_115_multimeter.jpeg> <./Digital_Multimeter_Aka.jpg> <./Clampmeter_Flu
 ke_337.jpeg>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 132
+LaTeX Font Info:    Trying to load font information for U+msa on input line 140
 .
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 132
+LaTeX Font Info:    Trying to load font information for U+msb on input line 140
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 13
-2.
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 14
+0.
 
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
-<lecture1_fig10.png, id=208, 569.12625pt x 575.14874pt>
+<lecture1_fig10.png, id=210, 569.12625pt x 575.14874pt>
 File: lecture1_fig10.png Graphic file (type png)
 <use lecture1_fig10.png>
-Package pdftex.def Info: lecture1_fig10.png  used on input line 132.
+Package pdftex.def Info: lecture1_fig10.png  used on input line 140.
 (pdftex.def)             Requested size: 99.59859pt x 100.65253pt.
  [6
 
  <./lecture1_fig10.png>]
 File: lecture1_fig10.png Graphic file (type png)
 <use lecture1_fig10.png>
-Package pdftex.def Info: lecture1_fig10.png  used on input line 145.
+Package pdftex.def Info: lecture1_fig10.png  used on input line 153.
 (pdftex.def)             Requested size: 99.59859pt x 100.65253pt.
  [7
 
 ]
 File: lecture1_fig10.png Graphic file (type png)
 <use lecture1_fig10.png>
-Package pdftex.def Info: lecture1_fig10.png  used on input line 160.
+Package pdftex.def Info: lecture1_fig10.png  used on input line 168.
 (pdftex.def)             Requested size: 99.59859pt x 100.65253pt.
  [8
 
 ]
 File: lecture1_fig10.png Graphic file (type png)
 <use lecture1_fig10.png>
-Package pdftex.def Info: lecture1_fig10.png  used on input line 173.
+Package pdftex.def Info: lecture1_fig10.png  used on input line 181.
 (pdftex.def)             Requested size: 99.59859pt x 100.65253pt.
  [9
 
@@ -1306,27 +1312,27 @@ Package pdftex.def Info: lecture1_fig10.png  used on input line 173.
 \tf@snm=\write9
 \openout9 = `electrical_instruments_topic1.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 176.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 176.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 184.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 184.
  (./electrical_instruments_topic1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 176.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 176.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 184.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 184.
 Package rerunfilecheck Info: File `electrical_instruments_topic1.out' has not c
 hanged.
 (rerunfilecheck)             Checksum: 4751BF4BB49297FCA6D65169655055D3;253.
  ) 
 Here is how much of TeX's memory you used:
- 25869 strings out of 483183
- 511973 string characters out of 5966292
- 986511 words of memory out of 5000000
- 40243 multiletter control sequences out of 15000+600000
+ 25875 strings out of 483183
+ 512100 string characters out of 5966292
+ 986512 words of memory out of 5000000
+ 40248 multiletter control sequences out of 15000+600000
  549750 words of font info for 58 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 62i,19n,73p,798b,574s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,19n,73p,796b,574s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1000.600
-pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0600.60
-0pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0800.6
-00pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1000.
+pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0800.60
+0pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1000.6
+00pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0600.
 600pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1200
 .600pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx120
 0.600pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx14
@@ -1334,10 +1340,10 @@ pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0600.60
 095.600pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss
 1440.600pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecs
 x0600.600pk>
-Output written on electrical_instruments_topic1.pdf (9 pages, 3572508 bytes).
+Output written on electrical_instruments_topic1.pdf (9 pages, 4369122 bytes).
 PDF statistics:
- 620 PDF objects out of 1000 (max. 8388607)
- 340 compressed objects within 4 object streams
+ 631 PDF objects out of 1000 (max. 8388607)
+ 341 compressed objects within 4 object streams
  23 named destinations out of 1000 (max. 500000)
- 126 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 131 words of extra memory for PDF output out of 10000 (max. 10000000)
 
