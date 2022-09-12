@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.23)  12 SEP 2022 10:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.23)  12 SEP 2022 10:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1212,11 +1212,11 @@ Package pdftex.def Info: breadboard_wplugs.png  used on input line 84.
  [4
 
  <./breadboard_large.jpg> <./breadboard_wplugs.png>]
-<breadboard_template.png, id=166, 2544.50626pt x 1876.00874pt>
+<breadboard_template.png, id=166, 2616.77625pt x 1970.1103pt>
 File: breadboard_template.png Graphic file (type png)
 <use breadboard_template.png>
 Package pdftex.def Info: breadboard_template.png  used on input line 95.
-(pdftex.def)             Requested size: 254.46553pt x 187.61186pt.
+(pdftex.def)             Requested size: 209.34637pt x 157.61205pt.
  [5
 
  <./breadboard_template.png>]
@@ -1270,6 +1270,28 @@ Package pdftex.def Info: hp_psu.png  used on input line 148.
  <./hp_psu.png>] [10
 
 ]
+File: breadboard_template.png Graphic file (type png)
+<use breadboard_template.png>
+Package pdftex.def Info: breadboard_template.png  used on input line 172.
+(pdftex.def)             Requested size: 130.84647pt x 98.51128pt.
+File: breadboard_template.png Graphic file (type png)
+<use breadboard_template.png>
+Package pdftex.def Info: breadboard_template.png  used on input line 172.
+(pdftex.def)             Requested size: 130.84647pt x 98.51128pt.
+ [11
+
+]
+File: breadboard_template.png Graphic file (type png)
+<use breadboard_template.png>
+Package pdftex.def Info: breadboard_template.png  used on input line 181.
+(pdftex.def)             Requested size: 130.84647pt x 98.51128pt.
+File: breadboard_template.png Graphic file (type png)
+<use breadboard_template.png>
+Package pdftex.def Info: breadboard_template.png  used on input line 181.
+(pdftex.def)             Requested size: 130.84647pt x 98.51128pt.
+ [12
+
+]
 \tf@nav=\write7
 \openout7 = `electrical_instruments_topic2.nav'.
 
@@ -1279,21 +1301,21 @@ Package pdftex.def Info: hp_psu.png  used on input line 148.
 \tf@snm=\write9
 \openout9 = `electrical_instruments_topic2.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 173.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 173.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 186.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 186.
 
 (./electrical_instruments_topic2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 173.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 173.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 186.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 186.
 Package rerunfilecheck Info: File `electrical_instruments_topic2.out' has not c
 hanged.
 (rerunfilecheck)             Checksum: 25E1808E5B752D6949291FBE10F1B8AA;195.
  ) 
 Here is how much of TeX's memory you used:
- 25865 strings out of 483183
- 511944 string characters out of 5966292
- 985342 words of memory out of 5000000
- 40239 multiletter control sequences out of 15000+600000
+ 25873 strings out of 483183
+ 512014 string characters out of 5966292
+ 985412 words of memory out of 5000000
+ 40243 multiletter control sequences out of 15000+600000
  548991 words of font info for 57 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  62i,19n,73p,796b,574s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1306,10 +1328,10 @@ live2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1095.600pk> </home/tntech.ed
 u/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1440.600pk> </ho
 me/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx0600
 .600pk>
-Output written on electrical_instruments_topic2.pdf (10 pages, 2332663 bytes).
+Output written on electrical_instruments_topic2.pdf (12 pages, 2341690 bytes).
 PDF statistics:
- 568 PDF objects out of 1000 (max. 8388607)
- 338 compressed objects within 4 object streams
- 24 named destinations out of 1000 (max. 500000)
+ 628 PDF objects out of 1000 (max. 8388607)
+ 395 compressed objects within 4 object streams
+ 28 named destinations out of 1000 (max. 500000)
  123 words of extra memory for PDF output out of 10000 (max. 10000000)
 
