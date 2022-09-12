@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.21)  12 SEP 2022 00:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.23)  12 SEP 2022 10:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -655,7 +655,7 @@ Package: amsthm 2017/10/31 v2.20.4
 \beamer@dimb=\dimen277
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty)))
-(/home/thill/courses/measurements/lectures/measurements_lectures.sty
+(/home/tntech.edu/thill/courses/measurements/lectures/measurements_lectures.sty
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
 )
@@ -1025,22 +1025,22 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 107.
  (./electrical_instruments_topic2_handout.aux)
 \openout1 = `electrical_instruments_topic2_handout.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1100,7 +1100,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box140
-Package hyperref Info: Link coloring ON on input line 35.
+Package hyperref Info: Link coloring ON on input line 36.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1113,9 +1113,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count367
 )
-LaTeX Info: Redefining \ref on input line 35.
-LaTeX Info: Redefining \pageref on input line 35.
-LaTeX Info: Redefining \nameref on input line 35.
+LaTeX Info: Redefining \ref on input line 36.
+LaTeX Info: Redefining \pageref on input line 36.
+LaTeX Info: Redefining \nameref on input line 36.
 
 (./electrical_instruments_topic2_handout.out)
 (./electrical_instruments_topic2_handout.out)
@@ -1123,47 +1123,47 @@ LaTeX Info: Redefining \nameref on input line 35.
 \openout6 = `electrical_instruments_topic2_handout.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 35.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 36.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 35.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 36.
 \symnumbers=\mathgroup7
 \sympureletters=\mathgroup8
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 35.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 35.
+(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 36.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/cmss/b/n on input line 35.
+(Font)                  OT1/cmr/bx/n --> T1/cmss/b/n on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/cmss/b/n on input line 35.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 35.
+(Font)                  OT1/cmr/bx/n --> T1/cmss/b/n on input line 36.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmss/m/n on input line 35.
+(Font)                  OT1/cmss/m/n --> T1/cmss/m/n on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/cmss/m/n on input line 35.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+(Font)                  OT1/cmss/bx/n --> T1/cmss/m/n on input line 36.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/cmss/m/it on input line 35.
+(Font)                  OT1/cmr/m/it --> T1/cmss/m/it on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/cmss/m/it on input line 35.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 35.
+(Font)                  OT1/cmr/bx/it --> T1/cmss/m/it on input line 36.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 35.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 35.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 36.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 35.
+(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 36.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 35.
+(Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> T1/cmr/b/n on input line 35.
+(Font)                  OT1/cmss/b/n --> T1/cmr/b/n on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/cmss/b/n --> T1/cmss/b/n on input line 35.
+(Font)                  T1/cmss/b/n --> T1/cmss/b/n on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 35.
+(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 35.
+(Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/cmtt/m/n --> T1/cmtt/b/n on input line 35.
+(Font)                  T1/cmtt/m/n --> T1/cmtt/b/n on input line 36.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -1200,73 +1200,77 @@ File: lstlang1.sty 2019/09/10 1.8c listings language file
 ] [3
 
 ]
-<lab_psu_cropped.jpg, id=142, 50.8299pt x 72.0291pt>
-File: lab_psu_cropped.jpg Graphic file (type jpg)
-<use lab_psu_cropped.jpg>
-Package pdftex.def Info: lab_psu_cropped.jpg  used on input line 82.
-(pdftex.def)             Requested size: 86.41043pt x 122.4489pt.
-<topward.jpg, id=143, 1027.84pt x 732.7375pt>
-File: topward.jpg Graphic file (type jpg)
-<use topward.jpg>
-Package pdftex.def Info: topward.jpg  used on input line 82.
-(pdftex.def)             Requested size: 174.73048pt x 124.56372pt.
+<breadboard_large.jpg, id=141, 1214.5375pt x 722.7pt>
+File: breadboard_large.jpg Graphic file (type jpg)
+<use breadboard_large.jpg>
+Package pdftex.def Info: breadboard_large.jpg  used on input line 84.
+(pdftex.def)             Requested size: 151.81682pt x 90.33727pt.
+<breadboard_wplugs.png, id=142, 166.6225pt x 201.75375pt>
+File: breadboard_wplugs.png Graphic file (type png)
+<use breadboard_wplugs.png>
+Package pdftex.def Info: breadboard_wplugs.png  used on input line 84.
+(pdftex.def)             Requested size: 108.30333pt x 131.13837pt.
  [4
 
- <./lab_psu_cropped.jpg> <./topward.jpg>]
-<hp_psu.png, id=175, 1606.0pt x 903.375pt>
-File: hp_psu.png Graphic file (type png)
-<use hp_psu.png>
-Package pdftex.def Info: hp_psu.png  used on input line 91.
-(pdftex.def)             Requested size: 240.8896pt x 135.5004pt.
+ <./breadboard_large.jpg> <./breadboard_wplugs.png>]
+<breadboard_template.png, id=175, 2544.50626pt x 1876.00874pt>
+File: breadboard_template.png Graphic file (type png)
+<use breadboard_template.png>
+Package pdftex.def Info: breadboard_template.png  used on input line 95.
+(pdftex.def)             Requested size: 254.46553pt x 187.61186pt.
  [5
 
- <./hp_psu.png>]
-<fn_gen.jpg, id=207, 376.40625pt x 170.88844pt>
-File: fn_gen.jpg Graphic file (type jpg)
-<use fn_gen.jpg>
-Package pdftex.def Info: fn_gen.jpg  used on input line 103.
-(pdftex.def)             Requested size: 188.20265pt x 85.444pt.
+ <./breadboard_template.png>]
+<breadboard_wcircuit.jpg, id=207, 1080.035pt x 722.7pt>
+File: breadboard_wcircuit.jpg Graphic file (type jpg)
+<use breadboard_wcircuit.jpg>
+Package pdftex.def Info: breadboard_wcircuit.jpg  used on input line 109.
+(pdftex.def)             Requested size: 216.00317pt x 144.53743pt.
  [6
 
- <./fn_gen.jpg>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 112
+ <./breadboard_wcircuit.jpg>]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 127
 .
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 112
+LaTeX Font Info:    Trying to load font information for U+msb on input line 127
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 11
-2.
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 12
+7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 ) [7
 
-] [8
-
 ]
-<oscilloscope_fig1.jpg, id=299, 289.5618pt x 271.2534pt>
-File: oscilloscope_fig1.jpg Graphic file (type jpg)
-<use oscilloscope_fig1.jpg>
-Package pdftex.def Info: oscilloscope_fig1.jpg  used on input line 132.
-(pdftex.def)             Requested size: 144.78053pt x 135.62636pt.
+<lab_psu_cropped.jpg, id=270, 50.8299pt x 72.0291pt>
+File: lab_psu_cropped.jpg Graphic file (type jpg)
+<use lab_psu_cropped.jpg>
+Package pdftex.def Info: lab_psu_cropped.jpg  used on input line 139.
+(pdftex.def)             Requested size: 86.41043pt x 122.4489pt.
+<topward.jpg, id=271, 1027.84pt x 732.7375pt>
+File: topward.jpg Graphic file (type jpg)
+<use topward.jpg>
+Package pdftex.def Info: topward.jpg  used on input line 139.
+(pdftex.def)             Requested size: 174.73048pt x 124.56372pt.
+ [8
+
+ <./lab_psu_cropped.jpg> <./topward.jpg>]
+<hp_psu.png, id=301, 1606.0pt x 903.375pt>
+File: hp_psu.png Graphic file (type png)
+<use hp_psu.png>
+Package pdftex.def Info: hp_psu.png  used on input line 148.
+(pdftex.def)             Requested size: 240.8896pt x 135.5004pt.
  [9
 
- <./oscilloscope_fig1.jpg>]
-<tds220.jpg, id=329, 526.96875pt x 298.11375pt>
-File: tds220.jpg Graphic file (type jpg)
-<use tds220.jpg>
-Package pdftex.def Info: tds220.jpg  used on input line 142.
-(pdftex.def)             Requested size: 184.44182pt x 104.34137pt.
- [10
+ <./hp_psu.png>] [10
 
- <./tds220.jpg>]
+]
 \tf@nav=\write7
 \openout7 = `electrical_instruments_topic2_handout.nav'.
 
@@ -1276,38 +1280,49 @@ Package pdftex.def Info: tds220.jpg  used on input line 142.
 \tf@snm=\write9
 \openout9 = `electrical_instruments_topic2_handout.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 145.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 173.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 173.
 
 (./electrical_instruments_topic2_handout.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 145.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
-Package rerunfilecheck Info: File `electrical_instruments_topic2_handout.out' h
-as not changed.
-(rerunfilecheck)             Checksum: ADC6DEEEE2586AD8C0D6F653CCCE38E3;238.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 173.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 173.
+
+
+Package rerunfilecheck Warning: File `electrical_instruments_topic2_handout.out
+' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `electrical_instruments_topic2_hando
+ut.out':
+(rerunfilecheck)             Before: ADC6DEEEE2586AD8C0D6F653CCCE38E3;238
+(rerunfilecheck)             After:  25E1808E5B752D6949291FBE10F1B8AA;195.
  ) 
 Here is how much of TeX's memory you used:
- 25866 strings out of 483183
- 511785 string characters out of 5966292
- 985481 words of memory out of 5000000
- 40239 multiletter control sequences out of 15000+600000
- 549750 words of font info for 58 fonts, out of 8000000 for 9000
+ 25870 strings out of 483183
+ 512134 string characters out of 5966292
+ 985499 words of memory out of 5000000
+ 40243 multiletter control sequences out of 15000+600000
+ 548991 words of font info for 57 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  62i,19n,73p,804b,574s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1000.600
-pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1000.60
-0pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1200.6
-00pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1200.
-600pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1440
-.600pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss109
-5.600pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss14
-40.600pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx0
-600.600pk>
-Output written on electrical_instruments_topic2_handout.pdf (10 pages, 1683701 
+pdfTeX warning (dest): name{Outline0.4} has been referenced but does not exis
+t, replaced by a fixed one
+
+ </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecs
+s1000.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jkn
+appen/ec/ecss1200.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/p
+k/ljfour/jknappen/ec/ecsx1200.600pk> </home/tntech.edu/thill/.texlive2019/texmf
+-var/fonts/pk/ljfour/jknappen/ec/ecsx1440.600pk> </home/tntech.edu/thill/.texli
+ve2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1095.600pk> </home/tntech.edu/
+thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1440.600pk> </home
+/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx0600.6
+00pk>
+Output written on electrical_instruments_topic2_handout.pdf (10 pages, 2333183 
 bytes).
 PDF statistics:
- 608 PDF objects out of 1000 (max. 8388607)
- 357 compressed objects within 4 object streams
+ 584 PDF objects out of 1000 (max. 8388607)
+ 353 compressed objects within 4 object streams
  25 named destinations out of 1000 (max. 500000)
- 126 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 131 words of extra memory for PDF output out of 10000 (max. 10000000)
 

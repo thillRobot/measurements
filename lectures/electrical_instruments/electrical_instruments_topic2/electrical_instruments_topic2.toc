@@ -1,5 +1,3 @@
 \beamer@sectionintoc {1}{Circuits for Mechanical Engineers}{3}{0}{1}
 \beamer@sectionintoc {2}{Using a Solderless Breadboard}{4}{0}{2}
 \beamer@sectionintoc {3}{Using a Desktop Power Supply}{8}{0}{3}
-\beamer@sectionintoc {4}{Using a Desktop Power Supply}{10}{0}{4}
-\beamer@sectionintoc {5}{Examples}{13}{0}{5}
