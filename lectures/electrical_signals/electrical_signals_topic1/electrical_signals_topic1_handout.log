@@ -2,8 +2,8 @@ This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**electrical_signals_topic1.tex
-(./electrical_signals_topic1.tex
+**electrical_signals_topic1_handout.tex
+(./electrical_signals_topic1_handout.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14>
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
@@ -1022,21 +1022,9 @@ Package hyperref Info: Option `pdfnewwindow' set `true' on input line 107.
 Package hyperref Info: Option `colorlinks' set `true' on input line 107.
 )
 \mybox=\box138
- (./electrical_signals_topic1.aux
 
-LaTeX Warning: Label `sectionI<1>' multiply defined.
-
-
-LaTeX Warning: Label `sectionI' multiply defined.
-
-
-LaTeX Warning: Label `sectionIV<1>' multiply defined.
-
-
-LaTeX Warning: Label `sectionIV' multiply defined.
-
-)
-\openout1 = `electrical_signals_topic1.aux'.
+No file electrical_signals_topic1_handout.aux.
+\openout1 = `electrical_signals_topic1_handout.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
@@ -1054,7 +1042,6 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1129,10 +1116,8 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 40.
 LaTeX Info: Redefining \pageref on input line 40.
 LaTeX Info: Redefining \nameref on input line 40.
-
-(./electrical_signals_topic1.out) (./electrical_signals_topic1.out)
 \@outlinefile=\write6
-\openout6 = `electrical_signals_topic1.out'.
+\openout6 = `electrical_signals_topic1_handout.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 40.
@@ -1202,15 +1187,16 @@ ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 \c@lstlisting=\count368
- (./electrical_signals_topic1.nav)
+
+No file electrical_signals_topic1_handout.nav.
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
-) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+) [1
 
-] [2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ]
-<amplitude_frequency.png, id=111, 516.93124pt x 319.1925pt>
+<amplitude_frequency.png, id=78, 516.93124pt x 319.1925pt>
 File: amplitude_frequency.png Graphic file (type png)
 <use amplitude_frequency.png>
 Package pdftex.def Info: amplitude_frequency.png  used on input line 80.
@@ -1233,17 +1219,17 @@ ame{sectionI}) has been already used, duplicate ignored
                    \relax 
 l.97 	\end{frame}
                  
-<computer_motherboard.jpg, id=150, 770.88pt x 385.44pt>
+<computer_motherboard.jpg, id=113, 770.88pt x 385.44pt>
 File: computer_motherboard.jpg Graphic file (type jpg)
 <use computer_motherboard.jpg>
 Package pdftex.def Info: computer_motherboard.jpg  used on input line 97.
 (pdftex.def)             Requested size: 53.9671pt x 26.98355pt.
-<curiosity_on_mars.jpg, id=151, 2134.97626pt x 1263.72125pt>
+<curiosity_on_mars.jpg, id=114, 2134.97626pt x 1263.72125pt>
 File: curiosity_on_mars.jpg Graphic file (type jpg)
 <use curiosity_on_mars.jpg>
 Package pdftex.def Info: curiosity_on_mars.jpg  used on input line 97.
 (pdftex.def)             Requested size: 128.09305pt x 75.81999pt.
-<tesla_underhood.jpg, id=152, 513.92pt x 289.08pt>
+<tesla_underhood.jpg, id=115, 513.92pt x 289.08pt>
 File: tesla_underhood.jpg Graphic file (type jpg)
 <use tesla_underhood.jpg>
 Package pdftex.def Info: tesla_underhood.jpg  used on input line 97.
@@ -1274,7 +1260,7 @@ ame{sectionIV}) has been already used, duplicate ignored
                    \relax 
 l.206 \end{frame}
                  
-<table_2_1.png, id=369, 1429.34pt x 1067.99pt>
+<table_2_1.png, id=311, 1429.34pt x 1067.99pt>
 File: table_2_1.png Graphic file (type png)
 <use table_2_1.png>
 Package pdftex.def Info: table_2_1.png  used on input line 206.
@@ -1283,35 +1269,43 @@ Package pdftex.def Info: table_2_1.png  used on input line 206.
 
  <./table_2_1.png>]
 \tf@nav=\write7
-\openout7 = `electrical_signals_topic1.nav'.
+\openout7 = `electrical_signals_topic1_handout.nav'.
 
 \tf@toc=\write8
-\openout8 = `electrical_signals_topic1.toc'.
+\openout8 = `electrical_signals_topic1_handout.toc'.
 
 \tf@snm=\write9
-\openout9 = `electrical_signals_topic1.snm'.
+\openout9 = `electrical_signals_topic1_handout.snm'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 208.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 208.
- (./electrical_signals_topic1.aux)
+
+(./electrical_signals_topic1_handout.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 208.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 208.
-Package rerunfilecheck Info: File `electrical_signals_topic1.out' has not chang
-ed.
-(rerunfilecheck)             Checksum: B4EE622FF25B3D89E3C941D2D7AFC8B6;250.
 
 
-LaTeX Warning: There were multiply-defined labels.
+Package rerunfilecheck Warning: File `electrical_signals_topic1_handout.out' ha
+s changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `electrical_signals_topic1_handout.o
+ut':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  B4EE622FF25B3D89E3C941D2D7AFC8B6;250.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 25857 strings out of 483183
- 511936 string characters out of 5966292
- 986814 words of memory out of 5000000
- 40244 multiletter control sequences out of 15000+600000
+ 25789 strings out of 483183
+ 510875 string characters out of 5966292
+ 983201 words of memory out of 5000000
+ 40184 multiletter control sequences out of 15000+600000
  543284 words of font info for 40 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 62i,19n,73p,792b,574s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,15n,73p,800b,564s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/e
 csx1000.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/j
 knappen/ec/ecss0600.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts
@@ -1319,15 +1313,16 @@ knappen/ec/ecss0600.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts
 mf-var/fonts/pk/ljfour/jknappen/ec/ecss1000.600pk> </home/tntech.edu/thill/.tex
 live2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1200.600pk> </home/tntech.ed
 u/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1200.600pk> </ho
-me/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1440
+me/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx0600
 .600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen
-/ec/ecss1095.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljf
-our/jknappen/ec/ecss1440.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/
-fonts/pk/ljfour/jknappen/ec/ecsx0600.600pk>
-Output written on electrical_signals_topic1.pdf (11 pages, 643181 bytes).
+/ec/ecsx1440.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljf
+our/jknappen/ec/ecss1095.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/
+fonts/pk/ljfour/jknappen/ec/ecss1440.600pk>
+Output written on electrical_signals_topic1_handout.pdf (11 pages, 638049 bytes
+).
 PDF statistics:
- 711 PDF objects out of 1000 (max. 8388607)
- 403 compressed objects within 5 object streams
+ 642 PDF objects out of 1000 (max. 8388607)
+ 346 compressed objects within 4 object streams
  35 named destinations out of 1000 (max. 500000)
- 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 89 words of extra memory for PDF output out of 10000 (max. 10000000)
 
