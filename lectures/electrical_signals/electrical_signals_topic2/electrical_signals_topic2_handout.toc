@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Signal Mean Value}{3}{0}{1}
+\beamer@sectionintoc {2}{Power Dissipation}{4}{0}{2}
+\beamer@sectionintoc {3}{Signal Root Mean Square (RMS) Value}{5}{0}{3}
+\beamer@sectionintoc {4}{Discrete-Time or Digital Signals}{7}{0}{4}
