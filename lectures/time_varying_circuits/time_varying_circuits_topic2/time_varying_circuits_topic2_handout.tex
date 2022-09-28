@@ -9,7 +9,7 @@
 
 \documentclass[fleqn]{beamer} % for presentation (has nav buttons at bottom)
 
-\usepackage{/home/thill/Documents/lectures/measurements_lectures/measurements_lectures}
+\usepackage{/home/tntech.edu/thill/courses/measurements/lectures/measurements_lectures} 
 
 %\newcommand{\MNUM}{5\hspace{2mm}} % Module number
 \newcommand{\TNUM}{2\hspace{2mm}} % Topic number 
@@ -19,7 +19,7 @@
 \newcommand{\sectiontitleI}{General System Model}
 \newcommand{\sectiontitleII}{Mechanical-Electrical Analogies}
 \newcommand{\sectiontitleIII}{Example: RC Circuit}
-\newcommand{\sectiontitleIV}{Example: Bulb Thermometer}
+\newcommand{\sectiontitleIV}{Activity: Bulb Thermometer}
 
 % custom box
 \newsavebox{\mybox}
@@ -98,15 +98,15 @@ The RC circuit is a first order system. The response to a step input $v_s$ is ex
 \begin{multicols}{2}
 \includegraphics[scale=0.5]{rc_circuit.png} 	
 	
-First Order Model \vspace{15mm}\\
-%\begin{fleqn}
-%\[ RC\dot{v}_C+v_C=v_S \]
-%\end{fleqn}
+First Order Model
+\begin{fleqn}
+\[ RC\dot{v}_C+v_C=v_S \]
+\end{fleqn}
 
 Response Equation
-%\begin{fleqn}
-%\[v_C\left(t\right)=v_s\left(1-e^{-\frac{t}{RC}}\right) \]
-%\end{fleqn}
+\begin{fleqn}
+\[v_C\left(t\right)=v_s\left(1-e^{-\frac{t}{RC}}\right) \]
+\end{fleqn}
 
 \end{multicols}
 
@@ -141,7 +141,9 @@ $time (s)$&$response (V)$\\ \hline
 \frame{ \small
 \frametitle{\sectiontitleIV}
 
-Consider the bulb thermometer shown which can be modeled as a first order system.  Where does the {\it model} come from? \vspc
+{\scriptsize \underline{Activity:} This should be completed by each student as an individual. You are encouraged to discuss with your peers. }
+
+Consider the bulb thermometer shown which can be modeled as a first order system.  Write the system model and the expected reponse.
 
 \[ \frac{dE}{dt}=\dot{Q}\hspace{15mm} \frac{dE}{dt}=mc_v\frac{T(t)}{dt} \hspace{15mm}\dot{Q}=hA_s\Delta T \]
 \[ \]
@@ -150,15 +152,15 @@ Consider the bulb thermometer shown which can be modeled as a first order system
 
 \includegraphics[scale=.35]{bulb_thermometer.png}
 
-First Order Model \vspace{15mm}\\
-%\begin{fleqn}
+First Order Model:\vspace{15mm}\\
+\begin{fleqn}
 %\[ mc_v\frac{T(t)}{dt}+hA_sT(t)=hA_sT_\infty \] 
-%\end{fleqn}
+\end{fleqn}
 
-Response Equation
-%\begin{fleqn}
+Response Equation:
+\begin{fleqn}
 %\[ T(t)=T_\infty+\left[ T\left(0\right)-T_\infty \right]e^{-\frac{t}{\tau}} \] 
-%\end{fleqn}
+\end{fleqn}
 
 
 \end{multicols}
@@ -170,15 +172,18 @@ Response Equation
 \frame{ \small
 \frametitle{\sectiontitleIV}
 
+{\scriptsize \underline{Activity:} Fill out the table below and sketch a graph to represent the data. }
+
 \begin{multicols}{2}
 
 \renewcommand{\arraystretch}{1.5}
 \begin{tabular}{|c|c|} \hline
 $time (s)$&$response (^\circ C)$\\ \hline
-&\\ \hline
-&\\ \hline
-&\\ \hline
-&\\ \hline
+0&\\ \hline
+$1\tau$&\\ \hline
+$2\tau$&\\ \hline
+$3\tau$&\\ \hline
+$4\tau$&\\ \hline
 \end{tabular}
 
 \includegraphics[scale=0.5]{temp_versus_time.png} 	
@@ -186,11 +191,16 @@ $time (s)$&$response (^\circ C)$\\ \hline
 
 
 }
- 
+
+
 % Section IV - Frame III:
 \frame{ \small
 \frametitle{\sectiontitleIV}
-Think about the {\it general system model}. \vspace{2mm}\\
+
+{\scriptsize \underline{Activity:} Answer the following questions. }\\{ \tiny (hint: Think about the {\it general system model}.)}\\
+
+
+
 
 What is the time constant of the bulb thermometer system? 
 
