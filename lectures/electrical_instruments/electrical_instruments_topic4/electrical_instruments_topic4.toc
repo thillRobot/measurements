@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Device Overview}{3}{0}{1}
+\beamer@sectionintoc {2}{Reccomended Procudures and Settings}{5}{0}{2}
+\beamer@sectionintoc {3}{Common Issues and Solutions}{8}{0}{3}
+\beamer@sectionintoc {4}{Example}{10}{0}{4}
