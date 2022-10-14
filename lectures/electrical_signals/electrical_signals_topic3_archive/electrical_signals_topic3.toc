@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Frequency Spectrum Concept}{3}{0}{1}
+\beamer@sectionintoc {2}{Spectroscopy}{4}{0}{2}
+\beamer@sectionintoc {3}{Absorption and Emmission}{5}{0}{3}
+\beamer@sectionintoc {4}{Examples}{7}{0}{4}

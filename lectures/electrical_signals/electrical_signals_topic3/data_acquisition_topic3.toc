@@ -2,4 +2,3 @@
 \beamer@sectionintoc {2}{The Aliasing Phenomenon}{5}{0}{2}
 \beamer@sectionintoc {3}{Example by Hand}{6}{0}{3}
 \beamer@sectionintoc {4}{MATLAB Example}{8}{0}{4}
-\beamer@sectionintoc {5}{Activity}{10}{0}{5}

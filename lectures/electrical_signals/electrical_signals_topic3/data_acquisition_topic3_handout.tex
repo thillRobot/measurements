@@ -6,7 +6,7 @@
 
 % Spring 2020 - Summer 2020 - Fall 2020 - SPring 2021
 % Tristan Hill, May 07, 2020 - June 12, 2020 - July 08, 2020 - Novemeber 02, 2020 - March 28, 2021
-% Module Name: - Electrical Signals
+% Module Name: - Data Acquisition
 % Topic 3 - Sampling and Aliasing
 
 \documentclass[fleqn]{beamer} % for presentation (has nav buttons at bottom)
@@ -18,15 +18,13 @@
 
 %\newcommand{\MNUM}{9\hspace{2mm}} % Module number - The module number should be phased out...
 \newcommand{\TNUM}{3\hspace{2mm}} % Topic number - Topic numbers are going to stay
-\newcommand{\moduletitle}{Electrical Signals}
+\newcommand{\moduletitle}{Data Acquisition}
 \newcommand{\topictitle}{Sampling and Aliasing} 
 
 \newcommand{\sectiontitleI}{Sampling}
 \newcommand{\sectiontitleII}{The Aliasing Phenomenon}
 \newcommand{\sectiontitleIII}{Example by Hand}
 \newcommand{\sectiontitleIV}{MATLAB Example}
-\newcommand{\sectiontitleV}{Activity}
-
 
 \newcommand{\btVFill}{\vskip0pt plus 1filll}
 
@@ -54,7 +52,7 @@
 	\item \sectiontitleII 	\vspc % Section II
 	\item \sectiontitleIII 	\vspc %Section III
 	\item \sectiontitleIV 	\vspc %Section IV
-    \item \sectiontitleV 	\vspc %Section IV
+%	\item \sectiontitleV 	\vspc %Section IV
 
 \end{itemize}
 
@@ -174,46 +172,5 @@ grid on
 \btVFill
 \tiny{MATLAB code: T. Hill}	
 \end{frame}
-
-\section{\sectiontitleV}
-% Section V - Frame I
-\begin{frame}[label=sectionV] \scriptsize
-\frametitle{\sectiontitleV}
-\bigskip
-
-{\textbf Activity: Sampling Demonstration}
-
-Write a MATLAB program to accomplish the following:
-
-\begin{enumerate} \tiny
-
-	\item Plot a sinusoidal signal $y(t)=Asin(\omega\cdot t)=Asin(2\pi f \cdot t)$ with an amplitude $A=10$ (units) and frequency $f=1000$ (Hz). This is the {\it ideal signal} source. 
-	\begin{itemize} \tiny
-		\item Include axis labels and gridlines. 
-		\item Choose ampitude and time scales so that 15 to 20 periods or the waveform are shown. \vspace{5mm}\\
-	\end{itemize} 
-	\item Simulate the samping of the signal by plotting the same function with a reduced time step. Plot the sampled signal on the same figure. Use a different marker and include a legend to differentiate the signals. \vspace{5mm}\\ 
-
-	\item Use your code to determine the minimum sampling frequency required to measure the following quantities (note: use the sampled signal only, the {\it ideal signal} is not accessible).	
-
-	\begin{itemize} \tiny
-		\item {\bf Frequency} of the {\it ideal signal}
-		\item {\bf Amplitude} of the {\it ideal signal}
-	\end{itemize}
-
-
-
-\end{enumerate}
-
-\btVFill
-
-\tiny
-{\textbf Deliverables: Submit your MATLAB code to the appropriate ilearn folder. If you work with a partner, include all names in the code. All group members must submit the assignment.}
-
-
-
-
-\end{frame}
-
 
 \end{document}
