@@ -203,22 +203,22 @@ Functional Relationship: \\
 \begin{lstlisting}
 clear variables;close all;clc
 
-x=[];
-y=[];
+x=[9 12 15 18 21];
+y=[1.17 0.89 0.72 0.61 0.53];
 n=length(x);
 
 % perform Linear Least Squares Regression 
-a0=
-a1=
+a0=(sum(x)*sum(x.*y)-sum(x.^2)*sum(y))/(sum(x)^2-n*sum(x.^2));
+a1=(sum(x)*sum(y)-n*sum(x.*y))/(sum(x)^2-n*sum(x.^2));
 
 x_f=5.0:1.0:25;
-y_f=
+y_f=a1*x_f+a0;
 
 % generate 1st order curve fit with polyfit()
 P1=polyfit(x,y,1);
 
 x_f1=5.0:1.0:25;
-y_f1=
+y_f1=P1(1)*x_f1+P1(2);
 \end{lstlisting}
 \end{lrbox}
 
