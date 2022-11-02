@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Integrated Circuits}{3}{0}{1}
+\beamer@sectionintoc {2}{Micro Electro-Mechanical Devices}{6}{0}{2}
+\beamer@sectionintoc {3}{Accelerometer}{7}{0}{3}
+\beamer@sectionintoc {4}{Compass or Orientation Sensor}{12}{0}{4}
