@@ -36,15 +36,12 @@
 \headcommand {\beamer@framepages {12}{12}}
 \headcommand {\slideentry {4}{0}{2}{13/13}{}{0}}
 \headcommand {\beamer@framepages {13}{13}}
-\headcommand {\beamer@sectionpages {12}{13}}
-\headcommand {\beamer@subsectionpages {12}{13}}
-\headcommand {\sectionentry {5}{Compass or Orientation Sensor}{14}{Compass or Orientation Sensor}{0}}
-\headcommand {\slideentry {5}{0}{1}{14/14}{}{0}}
+\headcommand {\slideentry {4}{0}{3}{14/14}{}{0}}
 \headcommand {\beamer@framepages {14}{14}}
-\headcommand {\slideentry {5}{0}{2}{15/15}{}{0}}
+\headcommand {\slideentry {4}{0}{4}{15/15}{}{0}}
 \headcommand {\beamer@framepages {15}{15}}
 \headcommand {\beamer@partpages {1}{15}}
-\headcommand {\beamer@subsectionpages {14}{15}}
-\headcommand {\beamer@sectionpages {14}{15}}
+\headcommand {\beamer@subsectionpages {12}{15}}
+\headcommand {\beamer@sectionpages {12}{15}}
 \headcommand {\beamer@documentpages {15}}
 \headcommand {\gdef \inserttotalframenumber {15}}
