@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.8.25)  28 FEB 2022 10:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.23)  2 NOV 2022 10:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -489,12 +489,6 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty
-Package: sansmathaccent 2020/01/31
-
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
-Package: scrlfile 2020/01/24 v3.29 KOMA-Script package (loading files)
 )))
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator.sty
@@ -661,7 +655,7 @@ Package: amsthm 2017/10/31 v2.20.4
 \beamer@dimb=\dimen277
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty)))
-(/home/thill/Documents/lectures/measurements_lectures/measurements_lectures.sty
+(/home/tntech.edu/thill/courses/measurements/lectures/measurements_lectures.sty
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
 )
@@ -867,93 +861,11 @@ Package xtemplate Info: Declaring object type 'tasks' taking 3 argument(s) on
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/tasks/tasks.cfg))
-(/usr/share/texlive/texmf-dist/tex/latex/mnsymbol/MnSymbol.sty
-Package: MnSymbol 2007/01/21 v1.4 support for the MnSymbol font
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-)
-LaTeX Info: Redefining \dagger on input line 84.
-LaTeX Info: Redefining \ddagger on input line 84.
-LaTeX Info: Redefining \mathparagraph on input line 84.
-LaTeX Info: Redefining \mathsection on input line 84.
-LaTeX Info: Redefining \mathdollar on input line 84.
-LaTeX Info: Redefining \mathsterling on input line 84.
-LaTeX Info: Redefining \yen on input line 84.
-LaTeX Info: Redefining \circledR on input line 84.
-LaTeX Info: Redefining \circledS on input line 84.
-LaTeX Info: Redefining \Re on input line 84.
-LaTeX Info: Redefining \Im on input line 84.
-LaTeX Info: Redefining \dotplus on input line 84.
-LaTeX Info: Redefining \thicksim on input line 84.
-LaTeX Info: Redefining \thickapprox on input line 84.
-LaTeX Info: Redefining \veebar on input line 84.
-LaTeX Info: Redefining \barwedge on input line 84.
-LaTeX Info: Redefining \doublebarwedge on input line 84.
-LaTeX Info: Redefining \centerdot on input line 84.
-LaTeX Info: Redefining \divideontimes on input line 84.
-\symMnSyA=\mathgroup6
-\symMnSyB=\mathgroup7
-\symMnSyC=\mathgroup8
-\symMnSyD=\mathgroup9
-LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 119.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> OMX/MnSymbolE/m/n on input line 119.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> OMX/MnSymbolE/m/n on input line 119.
-LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 120.
-LaTeX Font Info:    Encoding `OMS' has changed to `U' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 120.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> U/MnSymbolF/m/n on input line 120.
-LaTeX Font Info:    Encoding `OMS' has changed to `U' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 120.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> U/MnSymbolF/m/n on input line 120.
-LaTeX Font Info:    Overwriting symbol font `MnSyA' in version `bold'
-(Font)                  U/MnSymbolA/m/n --> U/MnSymbolA/b/n on input line 121.
-LaTeX Font Info:    Overwriting symbol font `MnSyB' in version `bold'
-(Font)                  U/MnSymbolB/m/n --> U/MnSymbolB/b/n on input line 122.
-LaTeX Font Info:    Overwriting symbol font `MnSyC' in version `bold'
-(Font)                  U/MnSymbolC/m/n --> U/MnSymbolC/b/n on input line 123.
-LaTeX Font Info:    Overwriting symbol font `MnSyD' in version `bold'
-(Font)                  U/MnSymbolD/m/n --> U/MnSymbolD/b/n on input line 124.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/MnSymbolE/m/n --> OMX/MnSymbolE/b/n on input line 1
-25.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  U/MnSymbolF/m/n --> U/MnSymbolF/b/n on input line 126.
-LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 241.
-LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `bold'
-(Font)                  OMS/MnSymbolS/m/n --> OMS/MnSymbolS/b/n on input line 2
-41.
-LaTeX Info: Redefining \longrightarrow on input line 548.
-LaTeX Info: Redefining \longleftarrow on input line 549.
-LaTeX Info: Redefining \longleftrightarrow on input line 550.
-LaTeX Info: Redefining \Longrightarrow on input line 551.
-LaTeX Info: Redefining \Longleftarrow on input line 552.
-LaTeX Info: Redefining \Longleftrightarrow on input line 553.
-LaTeX Info: Redefining \longmapsto on input line 554.
-LaTeX Info: Redefining \vdots on input line 868.
-LaTeX Font Info:    Redeclaring math symbol \braceld on input line 1721.
-LaTeX Font Info:    Redeclaring math symbol \bracelu on input line 1722.
-LaTeX Font Info:    Redeclaring math symbol \bracerd on input line 1723.
-LaTeX Font Info:    Redeclaring math symbol \braceru on input line 1724.
-LaTeX Info: Redefining \downbracefill on input line 1799.
-LaTeX Info: Redefining \upbracefill on input line 1800.
-LaTeX Info: Redefining \overbrace on input line 1819.
-LaTeX Info: Redefining \underbrace on input line 1820.
-LaTeX Info: Redefining \surd on input line 1843.
-LaTeX Font Info:    Redeclaring math accent \widehat on input line 1845.
-LaTeX Font Info:    Redeclaring math accent \widetilde on input line 1846.
-LaTeX Font Info:    Redeclaring math accent \vec on input line 1848.
-)
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/wasysym.sty
 Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
-\symwasy=\mathgroup10
+\symwasy=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
 (Font)                  U/wasy/m/n --> U/wasy/b/n on input line 93.
-LaTeX Font Info:    Redeclaring math symbol \invneg on input line 242.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tikzsymbols/tikzsymbols.sty
 Package: tikzsymbols 2019/02/08 v4.10c Some symbols created using tikz and LaTe
@@ -1213,8 +1125,8 @@ LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 33.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 33.
-\symnumbers=\mathgroup11
-\sympureletters=\mathgroup12
+\symnumbers=\mathgroup7
+\sympureletters=\mathgroup8
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 33.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 33.
@@ -1251,21 +1163,6 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  T1/cmtt/m/n --> T1/cmtt/b/n on input line 33.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 33.
-LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
-(Font)              `pureletters' in the math version `normal' on input line 33
-.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  T1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 33
-.
-LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
-(Font)              `pureletters' in the math version `bold' on input line 33.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 33
-.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 33.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -1339,15 +1236,7 @@ LaTeX Font Info:    Trying to load font information for U+wasy on input line 97
 
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
-)
-LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 97.
-
-(/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
-File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
-thkerncmss.
-)
-[6
+) [6
 
 ] [7
 
@@ -1355,7 +1244,8 @@ thkerncmss.
 
 ] [9
 
-] [10
+]
+[10
 
 ] [11
 
@@ -1384,25 +1274,28 @@ Package rerunfilecheck Info: File `sensors_topic1.out' has not changed.
 (rerunfilecheck)             Checksum: 119797EAA35B938E535A2314B9A8E73A;293.
  ) 
 Here is how much of TeX's memory you used:
- 28492 strings out of 481239
- 550667 string characters out of 5920377
- 997485 words of memory out of 5000000
- 43079 multiletter control sequences out of 15000+600000
- 553573 words of font info for 74 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 67i,19n,83p,781b,607s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/
-fonts/type1/public/cm-super/sfss0600.pfb></usr/share/texmf/fonts/type1/public/c
-m-super/sfss1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1095.pfb
-></usr/share/texmf/fonts/type1/public/cm-super/sfss1200.pfb></usr/share/texmf/f
-onts/type1/public/cm-super/sfss1440.pfb></usr/share/texmf/fonts/type1/public/cm
--super/sfsx0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1000.pfb>
-</usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fo
-nts/type1/public/cm-super/sfsx1440.pfb>
-Output written on sensors_topic1.pdf (14 pages, 202228 bytes).
+ 25897 strings out of 483183
+ 512355 string characters out of 5966292
+ 987780 words of memory out of 5000000
+ 40266 multiletter control sequences out of 15000+600000
+ 549750 words of font info for 58 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 62i,19n,73p,781b,607s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/e
+csx1000.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/j
+knappen/ec/ecss0600.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts
+/pk/ljfour/jknappen/ec/ecss1000.600pk> </home/tntech.edu/thill/.texlive2019/tex
+mf-var/fonts/pk/ljfour/jknappen/ec/ecss1200.600pk> </home/tntech.edu/thill/.tex
+live2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1200.600pk> </home/tntech.ed
+u/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1440.600pk> </ho
+me/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1095
+.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen
+/ec/ecss1440.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljf
+our/jknappen/ec/ecsx0600.600pk>
+Output written on sensors_topic1.pdf (14 pages, 140141 bytes).
 PDF statistics:
- 540 PDF objects out of 1000 (max. 8388607)
- 490 compressed objects within 5 object streams
+ 766 PDF objects out of 1000 (max. 8388607)
+ 498 compressed objects within 5 object streams
  34 named destinations out of 1000 (max. 500000)
  120 words of extra memory for PDF output out of 10000 (max. 10000000)
 
