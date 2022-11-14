@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.23)  14 NOV 2022 10:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.23)  14 NOV 2022 12:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1030,9 +1030,9 @@ me/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440
 /ec/tcrm1095.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljf
 our/jknappen/ec/ecbx1728.600pk></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmsy10.pfb>
-Output written on exam2_review_policy_sec002.pdf (3 pages, 88451 bytes).
+Output written on exam2_review_policy_sec002.pdf (3 pages, 88010 bytes).
 PDF statistics:
- 319 PDF objects out of 1000 (max. 8388607)
+ 317 PDF objects out of 1000 (max. 8388607)
  62 compressed objects within 1 object stream
  7 named destinations out of 1000 (max. 500000)
  28 words of extra memory for PDF output out of 10000 (max. 10000000)
