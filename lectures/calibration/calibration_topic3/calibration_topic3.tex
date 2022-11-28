@@ -71,7 +71,7 @@
 \newcommand{\sectiontitleII}{Least Squares Regression}
 \newcommand{\sectiontitleIII}{Using Software Packages}
 \newcommand{\sectiontitleIV}{Example: IR Sensor Calibration}
-
+\newcommand{\sectiontitleV}{Activity: IR Sensor Calibration}
 
 \newsavebox{\mybox}
 
@@ -95,6 +95,7 @@
 	\item \sectiontitleII 	\vspc % Section II
 	\item \sectiontitleIII 	\vspc %Section III
 	\item \sectiontitleIV 	\vspc %Section IV
+	\item \sectiontitleV 	\vspc %Section V
 \end{itemize}
 
 }
@@ -202,22 +203,22 @@ Functional Relationship: \\
 \begin{lstlisting}
 clear variables;close all;clc
 
-x=[9 12 15 18 21];
-y=[1.17 0.89 0.72 0.61 0.53];
+x=[];
+y=[];
 n=length(x);
 
 % perform Linear Least Squares Regression 
-a0=(sum(x)*sum(x.*y)-sum(x.^2)*sum(y))/(sum(x)^2-n*sum(x.^2));
-a1=(sum(x)*sum(y)-n*sum(x.*y))/(sum(x)^2-n*sum(x.^2));
+a0=
+a1=
 
 x_f=5.0:1.0:25;
-y_f=a1*x_f+a0;
+y_f=
 
 % generate 1st order curve fit with polyfit()
 P1=polyfit(x,y,1);
 
 x_f1=5.0:1.0:25;
-y_f1=P1(1)*x_f1+P1(2);
+y_f1=
 \end{lstlisting}
 \end{lrbox}
 
@@ -261,6 +262,34 @@ grid on
 		
 		\includegraphics[scale=0.29]{calibration_fig1.png} \hspc  \includegraphics[scale=0.15]{sharp_calibration_fig1.png}\vspc
  		{\tiny Images: T.Hill, Sharp }
+
+}
+
+
+
+% Section V:
+\section{\sectiontitleV}
+\frame{
+\frametitle{ Activity: Sensor Calibration - IR Ranger} 
+
+	\textbf{Groups of up to 2} - At least one computer is required.
+
+
+	\textbf{Instructions:}
+	\begin{enumerate} \scriptsize
+		\item Use the sample calibration data provided to calculate the {\bf static sensitivity} and {\bf zero offset} of a 1st order regression line using a MATLAB program.  
+		\item Show the calibration data and calibration curve on the same graph. Label the graph and show a legend.
+		\item Show how the calibration curve could be used for a measurement application. Show two(2) example data points. 
+		\item Modify your program to calculate an improved calibration curve using a different mathematical model. Discuss the qualities of each curve. Are there benifits and tradeoffs?
+	\end{enumerate}
+
+
+	\textbf{Submission:}
+	\begin{itemize}\scriptsize
+		\item Your code should calculate the required values and generate the required graphs. 
+		\item Submit your MATLAB code to the appropriate ilearn folder. Include all names on the code. 
+		\item Each group member must submit the complete assignment to recieve credit. 
+	\end{itemize}
 
 }
 
