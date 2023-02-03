@@ -1,1 +1,59 @@
 */_minted*
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+#compressed archives
+*.tar.gz
+*.zip
+*.7z
+*.rar
+
+# STLs and slicer files
+**/stl/**
+**/prints/**
+.stl
+.STL
+.ufp
+.UFP
+.3mf
+.3MF
+
+#large images
+*.tiff
+
+#video files
+*.mov
+*.mpg
+*.mp4
+*.avi
