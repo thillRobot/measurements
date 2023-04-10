@@ -1,0 +1,5 @@
+\beamer@sectionintoc {1}{Classification of Sensors}{3}{0}{1}
+\beamer@sectionintoc {2}{Analog and Digital Sensors}{6}{0}{2}
+\beamer@sectionintoc {3}{Example 1: Distance or Range}{7}{0}{3}
+\beamer@sectionintoc {4}{Example 2: Motion}{9}{0}{4}
+\beamer@sectionintoc {5}{Example 3: Orientation}{12}{0}{5}
