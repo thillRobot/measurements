@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.23)  2 SEP 2022 11:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.18)  10 APR 2023 10:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -655,8 +655,8 @@ Package: amsthm 2017/10/31 v2.20.4
 \beamer@dimb=\dimen277
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty)))
-(/home/tntech.edu/thill/courses/measurements/lectures/measurements_lectures.sty
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+(/mnt/c/Users/thill/Documents/courses/measurements/lectures/measurements_lectur
+es.sty (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
 )
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
@@ -1036,6 +1036,12 @@ LaTeX Warning: Label `sectionIII<1>' multiply defined.
 LaTeX Warning: Label `sectionIII' multiply defined.
 
 
+LaTeX Warning: Label `sectionIII<1>' multiply defined.
+
+
+LaTeX Warning: Label `sectionIII' multiply defined.
+
+
 LaTeX Warning: Label `sectionIV<1>' multiply defined.
 
 
@@ -1219,40 +1225,35 @@ File: lstlang1.sty 2019/09/10 1.8c listings language file
 <cartesian_6x6_B.png, id=111, 452.4403pt x 452.4403pt>
 File: cartesian_6x6_B.png Graphic file (type png)
 <use cartesian_6x6_B.png>
-Package pdftex.def Info: cartesian_6x6_B.png  used on input line 74.
-(pdftex.def)             Requested size: 167.40028pt x 167.40028pt.
-
-Overfull \hbox (18.75536pt too wide) in paragraph at lines 74--74
-[][]  
- []
-
-[3
+Package pdftex.def Info: cartesian_6x6_B.png  used on input line 77.
+(pdftex.def)             Requested size: 135.73314pt x 135.73314pt.
+ [3
 
  <./cartesian_6x6_B.png>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 122
+LaTeX Font Info:    Trying to load font information for U+msa on input line 126
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 122
+LaTeX Font Info:    Trying to load font information for U+msb on input line 126
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+wasy on input line 12
-2.
+6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
-Overfull \hbox (0.27199pt too wide) in paragraph at lines 122--122
+Overfull \hbox (0.27199pt too wide) in paragraph at lines 126--126
 [][]  
  []
 
 
-Overfull \hbox (0.27199pt too wide) in paragraph at lines 122--122
+Overfull \hbox (0.27199pt too wide) in paragraph at lines 126--126
 [][]  
  []
 
@@ -1262,46 +1263,64 @@ Overfull \hbox (0.27199pt too wide) in paragraph at lines 122--122
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.165 \end{frame}
+l.169 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{sectionII}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.165 \end{frame}
+l.169 \end{frame}
                  
-Overfull \hbox (17.88403pt too wide) in paragraph at lines 165--165
+Overfull \hbox (17.88403pt too wide) in paragraph at lines 169--169
 [][]  
  []
 
 [5
 
-] [6
+]
+<ieee754_bits.png, id=209, 2890.8pt x 367.3725pt>
+File: ieee754_bits.png Graphic file (type png)
+<use ieee754_bits.png>
+Package pdftex.def Info: ieee754_bits.png  used on input line 183.
+(pdftex.def)             Requested size: 289.09694pt x 36.7394pt.
+ [6
+
+ <./ieee754_bits.png>]pdfTeX warning (ext4): destination with the same identifi
+er (name{sectionIII<1>}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.194 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{sectionIII}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.194 \end{frame}
+                  [7
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{sectionIII<1
 >}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.192 \end{frame}
+l.208 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{sectionIII}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.192 \end{frame}
-                  [7
+l.208 \end{frame}
+                  [8
 
-] [8
+] [9
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{sectionIV<1>
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.215 \end{frame}
+l.231 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{sectionIV}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.215 \end{frame}
-                  [9
+l.231 \end{frame}
+                  [10
 
 ]
 \tf@nav=\write7
@@ -1313,11 +1332,11 @@ l.215 \end{frame}
 \tf@snm=\write9
 \openout9 = `data_acquisition_topic1.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 217.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 217.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 233.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 233.
  (./data_acquisition_topic1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 217.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 217.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 233.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 233.
 Package rerunfilecheck Info: File `data_acquisition_topic1.out' has not changed
 .
 (rerunfilecheck)             Checksum: FC1022A6BB8EE1608CE1D3D05AE1F5AE;244.
@@ -1327,27 +1346,26 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 25881 strings out of 483183
- 512240 string characters out of 5966292
- 1004685 words of memory out of 5000000
- 40255 multiletter control sequences out of 15000+600000
+ 25891 strings out of 483183
+ 512432 string characters out of 5966292
+ 1004744 words of memory out of 5000000
+ 40262 multiletter control sequences out of 15000+600000
  548991 words of font info for 57 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  62i,19n,73p,790b,574s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/e
-css1000.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/j
-knappen/ec/ecss0600.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts
-/pk/ljfour/jknappen/ec/ecss1200.600pk> </home/tntech.edu/thill/.texlive2019/tex
-mf-var/fonts/pk/ljfour/jknappen/ec/ecsx1200.600pk> </home/tntech.edu/thill/.tex
-live2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1440.600pk> </home/tntech.ed
-u/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1095.600pk> </ho
-me/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1440
-.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen
-/ec/ecsx0600.600pk>
-Output written on data_acquisition_topic1.pdf (9 pages, 85158 bytes).
+ </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0600.600
+pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1000.60
+0pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1200.6
+00pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1200.
+600pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1440
+.600pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss109
+5.600pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss14
+40.600pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx0
+600.600pk>
+Output written on data_acquisition_topic1.pdf (10 pages, 131675 bytes).
 PDF statistics:
- 587 PDF objects out of 1000 (max. 8388607)
- 337 compressed objects within 4 object streams
- 31 named destinations out of 1000 (max. 500000)
- 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 640 PDF objects out of 1000 (max. 8388607)
+ 367 compressed objects within 4 object streams
+ 33 named destinations out of 1000 (max. 500000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
