@@ -1,0 +1,210 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>mydaq_gettingstarted</title><meta name="generator" content="MATLAB 8.1"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2013-03-11"><meta name="DC.source" content="mydaq_gettingstarted.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img { margin-bottom:0px; } 
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, tt, code { font-size:12px; }
+pre { margin:0px 0px 20px; }
+pre.error { color:red; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><h2>Contents</h2><div><ul><li><a href="#1">Getting Started with NI myDAQ</a></li><li><a href="#2">Identify the myDAQ device</a></li><li><a href="#3">Create a session</a></li><li><a href="#4">Add an analog input Voltage channel</a></li><li><a href="#5">Set session and channel properties</a></li><li><a href="#6">Obtain a single sample</a></li><li><a href="#7">Obtain timestamped data</a></li><li><a href="#8">Display the results</a></li></ul></div><h2>Getting Started with NI myDAQ<a name="1"></a></h2><pre class="codeinput"><span class="comment">% This example will help you get started with using the Session-based</span>
+<span class="comment">% interface and National Instruments myDAQ hardware.</span>
+</pre><h2>Identify the myDAQ device<a name="2"></a></h2><p>The first step is to ensure that the device is detected by your computer. Issue the following command to have the toolbox detect connected data acquisition hardware</p><pre class="codeinput">daq.getDevices
+</pre><pre class="codeoutput">
+ans = 
+
+Data acquisition devices:
+
+index  Vendor  Device ID                Description               
+----- -------- --------- -----------------------------------------
+1     digilent AD1       Digilent Inc. Analog Discovery Kit Rev. C
+2     ni       cDAQ1Mod1 National Instruments NI 9201
+3     ni       cDAQ1Mod2 National Instruments NI 9205
+4     ni       Dev1      National Instruments PCI-6221
+5     ni       Dev2      National Instruments USB-9201
+6     ni       Dev3      National Instruments PCIe-6361
+7     ni       myDAQ1    National Instruments NI myDAQ
+
+</pre><h2>Create a session<a name="3"></a></h2><pre class="codeinput"><span class="comment">% Now you should see a list of devices, of which we will select the</span>
+<span class="comment">% myDAQ device. The following command will allow you to create a</span>
+<span class="comment">% data acquisition session with the myDAQ device</span>
+
+s = daq.createSession(<span class="string">'ni'</span>)
+</pre><pre class="codeoutput">
+s = 
+
+Data acquisition session using National Instruments hardware:
+   Will run for 1 second (1000 scans) at 1000 scans/second.
+   No channels have been added.
+   
+</pre><h2>Add an analog input Voltage channel<a name="4"></a></h2><p>Now, we can go ahead and add an analog input voltage channel to the session. We choose channel 'ai0' on the myDAQ device. Ensure that this channel is capturing data.  We connect our input channel to a 35 Hz, 750mV pp test sine wave.</p><pre class="codeinput">ch = s.addAnalogInputChannel(<span class="string">'myDAQ1'</span>, <span class="string">'ai0'</span>, <span class="string">'Voltage'</span>)
+</pre><pre class="codeoutput">
+ch = 
+
+Data acquisition analog input voltage channel 'ai0' on device 'myDAQ1':
+
+       Coupling: DC
+ TerminalConfig: Differential
+          Range: -10 to +10 Volts
+           Name: ''
+             ID: 'ai0'
+         Device: [1x1 daq.ni.DeviceInfo]
+MeasurementType: 'Voltage'
+
+
+</pre><h2>Set session and channel properties<a name="5"></a></h2><p>Set the sampling frequency and the range on the device</p><pre class="codeinput">s.Rate = 200e3;
+s.Channels.Range = [-2 2];
+s.DurationInSeconds = 0.5
+</pre><pre class="codeoutput">
+s = 
+
+Data acquisition session using National Instruments hardware:
+   Will run for 0.5 seconds (100000 scans) at 200000 scans/second.
+   Number of channels: 1
+      index Type Device Channel MeasurementType       Range        Name
+      ----- ---- ------ ------- --------------- ------------------ ----
+      1     ai   myDAQ1 ai0     Voltage (Diff)  -2.0 to +2.0 Volts
+   
+</pre><h2>Obtain a single sample<a name="6"></a></h2><p>Obtain on-demand voltage readings using inputSingleScan</p><pre class="codeinput">[singleReading, triggerTime] = s.inputSingleScan
+
+[singleReading, triggerTime] = s.inputSingleScan
+</pre><pre class="codeoutput">
+singleReading =
+
+   -0.2473
+
+
+triggerTime =
+
+   7.3530e+05
+
+
+singleReading =
+
+    0.5031
+
+
+triggerTime =
+
+   7.3530e+05
+
+</pre><h2>Obtain timestamped data<a name="7"></a></h2><p>Start clocked foreground acquisition with startForeground</p><pre class="codeinput">[data, timestamps, triggerTime] = s.startForeground;
+</pre><h2>Display the results<a name="8"></a></h2><p>Plot the results</p><pre class="codeinput">plot(timestamps, data);xlabel(<span class="string">'Time/sec'</span>); ylabel(<span class="string">'Voltage/V'</span>);
+title([<span class="string">'Clocked Data Triggered on: '</span> datestr(triggerTime)])
+</pre><img vspace="5" hspace="5" src="mydaq_gettingstarted_01.png" alt=""> <p class="footer">Copyright 2013 The MathWorks, Inc.<br><a href="http://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2013a</a><br></p></div><!--
+##### SOURCE BEGIN #####
+%% Getting Started with NI myDAQ 
+% Copyright 2013 The MathWorks, Inc.
+% This example will help you get started with using the Session-based
+% interface and National Instruments myDAQ hardware. 
+
+%% Identify the myDAQ device
+% The first step is to ensure that the device is detected by your computer.
+% Issue the following command to have the toolbox detect connected data
+% acquisition hardware
+
+daq.getDevices
+
+%% Create a session
+
+% Now you should see a list of devices, of which we will select the
+% myDAQ device. The following command will allow you to create a
+% data acquisition session with the myDAQ device
+
+s = daq.createSession('ni')
+
+%% Add an analog input Voltage channel
+% Now, we can go ahead and add an analog input voltage channel to the
+% session. We choose channel 'ai0' on the myDAQ device. Ensure that this
+% channel is capturing data.  We connect our input channel to a 35 Hz,
+% 750mV pp test sine wave.
+
+ch = s.addAnalogInputChannel('myDAQ1', 'ai0', 'Voltage')
+
+
+%% Set session and channel properties
+% Set the sampling frequency and the range on the device
+
+s.Rate = 200e3;
+s.Channels.Range = [-2 2];
+s.DurationInSeconds = 0.5
+
+%% Obtain a single sample
+% Obtain on-demand voltage readings using inputSingleScan
+
+[singleReading, triggerTime] = s.inputSingleScan
+
+[singleReading, triggerTime] = s.inputSingleScan
+
+%% Obtain timestamped data
+% Start clocked foreground acquisition with startForeground
+
+[data, timestamps, triggerTime] = s.startForeground;
+
+%% Display the results
+% Plot the results
+
+plot(timestamps, data);xlabel('Time/sec'); ylabel('Voltage/V');
+title(['Clocked Data Triggered on: ' datestr(triggerTime)])
+
+
+##### SOURCE END #####
+--></body></html>
