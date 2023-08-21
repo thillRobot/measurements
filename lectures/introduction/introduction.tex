@@ -32,6 +32,21 @@
 \newcommand{\sectionIsubsectionIIItitle}{Brainstorming Activity}
 \newcommand{\sectionIsubsectionIVtitle}{Examples in Mechcanical Engineering}
 
+\newcommand{\sectionIIsubsectionItitle}{Measured Variable}
+\newcommand{\sectionIIsubsectionIItitle}{Independent and Dependent Variables}
+\newcommand{\sectionIIsubsectionIIItitle}{Controlled Variables and ParametersI}
+\newcommand{\sectionIIsubsectionIVtitle}{Extraneous VariablesV}
+\newcommand{\sectionIIsubsectionVtitle}{Class Activity: Measurement System Examples}
+
+\newcommand{\sectionIIIsubsectionItitle}{III-I}
+\newcommand{\sectionIIIsubsectionIItitle}{III-II}
+\newcommand{\sectionIIIsubsectionIIItitle}{III-III}
+\newcommand{\sectionIIIsubsectionIVtitle}{III-IV}
+
+\newcommand{\sectionIVsubsectionItitle}{IV-I}
+\newcommand{\sectionIVsubsectionIItitle}{IV-II}
+\newcommand{\sectionIVsubsectionIIItitle}{IV-III}
+\newcommand{\sectionIVsubsectionIVtitle}{IV-IV}
 % custom box
 \newsavebox{\mybox}
 
@@ -57,9 +72,6 @@
 		\end{itemize}
 
 	\end{frame}
-
-
-
 
 	% section I
 	\section{\sectionItitle}\label{sectionI}
@@ -177,7 +189,7 @@
 		% section I subsection IV
 		\subsection{\sectionIsubsectionIVtitle}\label{sectionIsubsectionIV}	
 
-			\begin{frame}[label=sectionIV]
+			\begin{frame}
 				\frametitle{\sectionIVtitle}
 				\href{https://events-platform.asmeconferences.org/event/idetc-cie-2022/planning/UGxhbm5pbmdfOTcxMjI2}{IDETC2022-96785: Development of an Instrumented Rear Suspension to Measure the Tire Forces of a Race Car During Track Driving}\vspace{5mm}\\
 
@@ -185,7 +197,7 @@
 
 			\end{frame}
 
-			\begin{frame}[label=sectionIV]
+			\begin{frame}
 				\frametitle{\sectionIVtitle}
 
 				\href{https://events-platform.asmeconferences.org/event/idetc-cie-2022/planning/UGxhbm5pbmdfOTcxMzIx}{IDETC2022-91154: Photometric Stereo Enhanced Light Sectioning Measurement for Microtexture Road Profiling}\vspace{5mm}\\
@@ -194,7 +206,7 @@
 			 
 			\end{frame}
 
-			\begin{frame}[label=sectionIV]
+			\begin{frame}
 				\frametitle{\sectionIVtitle}
 				\href{https://events-platform.asmeconferences.org/event/idetc-cie-2022/planning/UGxhbm5pbmdfOTcxNDk4}{IDETC2022-90082: Automated Weld Path Generation Using Random Sample Consensus and Iterative Closest Point Workpiece Localization}\vspace{5mm}\\
 
@@ -206,10 +218,150 @@
 	% Section II
 	\section{\sectionIItitle}\label{sectionII}
 
-		\begin{frame}[label=sectionII]
-			\frametitle{\sectionIItitle}
+		% section II Outline
+		\begin{frame}
+			\large \textbf{Topic 2 - \sectionItitle} \vspace{3mm}\\
 
+			\begin{itemize}
+				\item \hyperlink{sectionIIsubsectionI}{\sectionIIsubsectionItitle} \vspc %  section II subsection I
+				\item \hyperlink{sectionIIsubsectionII}{\sectionIIsubsectionIItitle} \vspc % section II subsection II
+				\item \hyperlink{sectionIIsubsectionIII}{\sectionIIsubsectionIIItitle} \vspc % section II subsection III
+				\item \hyperlink{sectionIIsubsectionIV}{\sectionIIsubsectionIVtitle} \vspc % section II subsection IV
+			\end{itemize}
 		\end{frame}
+
+		% section II subsection I
+		\subsection{\sectionIIsubsectionItitle}\label{sectionIIsubsectionI}
+
+			\begin{frame}[label=sectionIIsubsectionI]
+				\frametitle{\sectionIIsubsectionItitle}
+
+				\large{``A {\BL measurement} is an act of assigning a specific value to a physical variable. That physical variable
+				is the {\GR measured variable}.''} \vspc
+				{\tiny Text: Theory and Design of Mech. Meas.}
+
+			\end{frame}
+
+		% section II subsection II
+		\subsection{\sectionIIsubsectionIItitle}\label{sectionIIsubsectionII}
+
+			\begin{frame}
+				\frametitle{\sectionIIsubsectionIItitle}
+
+				{``If a change in one variable will not affect the value of some other variable, the
+				two are considered independent of each other. A variable that can be changed independently of other
+				variables is known as an {\PR independent variable}. A variable that is affected by changes in one or more
+				other variables is known as a {\BR dependent variable}. Normally, the variable that we measure depends on
+				the value of the variables that control the process.''} \vspc
+				{\tiny Text: Theory and Design of Mech. Meas.}
+
+			\end{frame}
+
+		% section II subsection III
+		\subsection{\sectionIIsubsectionIIItitle}\label{sectionIIsubsectionIII}
+
+			\begin{frame}
+				\frametitle{\sectionIIsubsectionIIItitle}
+
+				{``A variable is {\BL controlled} if it can be held at a constant value
+				or at some prescribed condition during a measurement... ...complete control of a variable is not usually
+				possible. We use the adjective {\BL controlled} to refer to a variable that can be held as prescribed, at
+				least in a nominal sense... \vspc
+				...we define a {\GR parameter} as a functional grouping of variables. For example, a moment of inertia or a Reynolds number... ...A {\GR parameter} that has an effect on the behavior of the measured variable is called a control parameter....''} \vspc
+				{\tiny Text: Theory and Design of Mech. Meas.}
+
+			\end{frame}
+
+		% section II subsection IV 
+		\subsection{\sectionIIsubsectionIVtitle}\label{sectionIIsubsectionIV}
+
+			\begin{frame}
+				\frametitle{\sectionIIsubsectionIVtitle}
+
+				{``Variables that are not or cannot be controlled during measurement but that affect the value of the
+				variable measured are called {\RD extraneous variables}. Their influence can confuse the clear relation
+				between cause and effect in a measurement... ...The effects due to {\RD extraneous variables} can take the form of signals superimposed
+				onto the measured signal with such forms as {\PR noise} and drift.''} \vspc
+				{\tiny Text: Theory and Design of Mech. Meas.}
+
+			\end{frame}
+		
+		% section II subsection V	
+		\subsection{\sectionIIsubsectionVtitle}\label{sectionIIsubsectionV}
+
+			% section II subsection V frame I
+			\begin{frame}
+				\frametitle{\sectionIIsubsectionVtitle}
+				\tiny
+
+				Indiviual Activity: Complete the activity and submit your work on ilearn {\it as an indiviual}.
+
+				\begin{multicols}{2}
+
+				\textbf{Example 1: SHARP IR Ranger } \vspc
+				\includegraphics[scale=0.5]{images/proximity_sensor.jpg}
+				\includegraphics[scale=0.19]{images/sharp_ranger_circuit.png} \vspccc
+
+				Identify the following measurement stages 
+				\begin{itemize}
+				\item Sensor: \hspcu
+				\item Transducer: \hspcu
+				\item Signal Conditioning: \hspcu
+				\item Output: \hspcu
+				\end{itemize}
+
+				Name at least one for each of the following categories 
+
+				\begin{itemize}
+				\item Measured Variable: \hspcu \vspc 
+				\item Independent Variable(s): \hspcu \vspc
+				\item Dependent Variable(s): \hspcu, \hspcu \vspc 
+				\item Controlled Variable(s): \hspcu, \hspcu \vspc 
+				\item Extraneous Variable(s):\hspcu \vspc
+				\end{itemize}
+
+				\end{multicols}	
+
+				{\tiny Image, More Info: \href{https://en.wikipedia.org/wiki/Proximity_sensor}{Wikipedia} }\hspace{40mm} {\tiny Image, More Info: \href{https://en.wikipedia.org/wiki/Position_sensitive_device}{Wikipedia} }
+
+			\end{frame}
+
+			% section II subsection V frame II
+			\begin{frame}
+				\frametitle{\sectionIIsubsectionVtitle}
+				\tiny
+
+				Indiviual Activity: Complete the activity and submit your work on ilearn {\it as an indiviual}.	
+
+				\begin{multicols}{2}
+
+				\textbf{Example 2: Thermocouple with DMM} \vspc
+				\includegraphics[scale=0.35]{images/thermocouple_atd.png} \vspc
+
+				Identify the following measurement stages 
+				\begin{itemize}
+				\item Sensor: \hspcu
+				\item Transducer: \hspcu
+				\item Signal Conditioning: \hspcu
+				\item Output: \hspcu
+				\end{itemize}
+
+
+				Name at least one for each category 
+
+				\begin{itemize}
+				\item Measured Variable: \hspcu \vspc 
+				\item Independent Variable(s): \hspcu, \hspcu \vspc
+				\item Dependent Variable(s): \hspcu, \hspcu \vspc 
+				\item Controlled Variable(s): \hspcu \vspc 
+				\item Extraneous Variable(s):\hspcu \vspc
+				\end{itemize}
+
+				\end{multicols}	
+
+				{\tiny Image, More Info: \href{https://en.wikipedia.org/wiki/Thermocouple}{Wikipedia} }\hspace{40mm} 
+
+			\end{frame}
 
 
 	% Section III

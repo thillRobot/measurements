@@ -4,5 +4,10 @@
 \beamer@subsectionintoc {1}{3}{Brainstorming Activity}{9}{0}{1}
 \beamer@subsectionintoc {1}{4}{Examples in Mechcanical Engineering}{10}{0}{1}
 \beamer@sectionintoc {2}{Types of Variables}{13}{0}{2}
-\beamer@sectionintoc {3}{Experimental Test Plan}{14}{0}{3}
-\beamer@sectionintoc {4}{Numbers and Storage}{15}{0}{4}
+\beamer@subsectionintoc {2}{1}{Measured Variable}{14}{0}{2}
+\beamer@subsectionintoc {2}{2}{Independent and Dependent Variables}{15}{0}{2}
+\beamer@subsectionintoc {2}{3}{Controlled Variables and ParametersI}{16}{0}{2}
+\beamer@subsectionintoc {2}{4}{Extraneous VariablesV}{17}{0}{2}
+\beamer@subsectionintoc {2}{5}{Class Activity: Measurement System Examples}{18}{0}{2}
+\beamer@sectionintoc {3}{Experimental Test Plan}{20}{0}{3}
+\beamer@sectionintoc {4}{Numbers and Storage}{21}{0}{4}
