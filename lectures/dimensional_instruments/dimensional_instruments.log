@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.5.31)  23 AUG 2023 08:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.5.31)  23 AUG 2023 08:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1310,7 +1310,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  25994 strings out of 483183
  515031 string characters out of 5966292
- 990854 words of memory out of 5000000
+ 990887 words of memory out of 5000000
  40341 multiletter control sequences out of 15000+600000
  551950 words of font info for 68 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1329,9 +1329,9 @@ thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1440.600pk> </home
 00pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/e
 c/ecss1440.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfou
 r/jknappen/ec/ecsx0600.600pk>
-Output written on dimensional_instruments.pdf (12 pages, 11731165 bytes).
+Output written on dimensional_instruments.pdf (12 pages, 11733179 bytes).
 PDF statistics:
- 801 PDF objects out of 1000 (max. 8388607)
+ 806 PDF objects out of 1000 (max. 8388607)
  492 compressed objects within 5 object streams
  47 named destinations out of 1000 (max. 500000)
  175 words of extra memory for PDF output out of 10000 (max. 10000000)
