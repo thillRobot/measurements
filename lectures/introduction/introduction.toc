@@ -1,17 +1,17 @@
 \beamer@sectionintoc {1}{General Measurement System}{3}{0}{1}
 \beamer@subsectionintoc {1}{1}{Definition of a Measurement}{4}{0}{1}
 \beamer@subsectionintoc {1}{2}{Measurement System Stages}{5}{0}{1}
-\beamer@subsectionintoc {1}{3}{Brainstorming Activity}{9}{0}{1}
-\beamer@subsectionintoc {1}{4}{Examples in Mechcanical Engineering}{10}{0}{1}
-\beamer@sectionintoc {2}{Types of Variables}{13}{0}{2}
-\beamer@subsectionintoc {2}{1}{Measured Variable}{14}{0}{2}
-\beamer@subsectionintoc {2}{2}{Independent and Dependent Variables}{15}{0}{2}
-\beamer@subsectionintoc {2}{3}{Controlled Variables and Parameters}{16}{0}{2}
-\beamer@subsectionintoc {2}{4}{Extraneous Variables}{17}{0}{2}
-\beamer@subsectionintoc {2}{5}{Class Activity: Measurement System Examples}{18}{0}{2}
-\beamer@sectionintoc {3}{Experimental Test Plan}{20}{0}{3}
-\beamer@subsectionintoc {3}{1}{Parameter Design Plan}{21}{0}{3}
-\beamer@subsectionintoc {3}{2}{System and Tolerance Design Plan}{22}{0}{3}
-\beamer@subsectionintoc {3}{3}{System and Tolerance Design Plan}{23}{0}{3}
-\beamer@subsectionintoc {3}{4}{Experimental Design Strategies}{24}{0}{3}
-\beamer@subsectionintoc {3}{5}{Small Group Activity}{25}{0}{3}
+\beamer@subsectionintoc {1}{3}{Brainstorming Activity}{10}{0}{1}
+\beamer@subsectionintoc {1}{4}{Examples in Mechcanical Engineering}{11}{0}{1}
+\beamer@sectionintoc {2}{Types of Variables}{14}{0}{2}
+\beamer@subsectionintoc {2}{1}{Measured Variable}{15}{0}{2}
+\beamer@subsectionintoc {2}{2}{Independent and Dependent Variables}{16}{0}{2}
+\beamer@subsectionintoc {2}{3}{Controlled Variables and Parameters}{17}{0}{2}
+\beamer@subsectionintoc {2}{4}{Extraneous Variables}{18}{0}{2}
+\beamer@subsectionintoc {2}{5}{Class Activity: Measurement System Examples}{19}{0}{2}
+\beamer@sectionintoc {3}{Experimental Test Plan}{21}{0}{3}
+\beamer@subsectionintoc {3}{1}{Parameter Design Plan}{22}{0}{3}
+\beamer@subsectionintoc {3}{2}{System and Tolerance Design Plan}{23}{0}{3}
+\beamer@subsectionintoc {3}{3}{System and Tolerance Design Plan}{24}{0}{3}
+\beamer@subsectionintoc {3}{4}{Experimental Design Strategies}{25}{0}{3}
+\beamer@subsectionintoc {3}{5}{Small Group Activity}{26}{0}{3}
