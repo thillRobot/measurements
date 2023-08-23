@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.13)  20 AUG 2023 18:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.5.31)  23 AUG 2023 08:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**introduction.tex
+**dimensional_instruments
 (/usr/share/texlive/texmf-dist/tex/latex/tools/x.tex
 ! Interruption.
 <to be read again> 
@@ -12,13 +12,13 @@ l.1
 ? x
  
 Here is how much of TeX's memory you used:
- 8 strings out of 480247
- 268 string characters out of 5896151
- 283961 words of memory out of 5000000
- 18049 multiletter control sequences out of 15000+600000
- 469259 words of font info for 28 fonts, out of 8000000 for 9000
+ 7 strings out of 483183
+ 269 string characters out of 5966292
+ 231602 words of memory out of 5000000
+ 15122 multiletter control sequences out of 15000+600000
+ 532338 words of font info for 24 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 3i,0n,1p,23b,6s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 3i,0n,1p,30b,6s stack positions out of 5000i,500n,10000p,200000b,80000s
 No pages of output.
 PDF statistics:
  0 PDF objects out of 1000 (max. 8388607)
