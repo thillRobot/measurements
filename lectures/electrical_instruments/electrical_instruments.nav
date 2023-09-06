@@ -1,0 +1,94 @@
+\headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
+\headcommand {\beamer@framepages {1}{1}}
+\headcommand {\slideentry {0}{0}{2}{2/2}{}{0}}
+\headcommand {\beamer@framepages {2}{2}}
+\headcommand {\beamer@sectionpages {1}{2}}
+\headcommand {\beamer@subsectionpages {1}{2}}
+\headcommand {\sectionentry {1}{Performing Analog Measurements}{3}{Performing Analog Measurements}{0}}
+\headcommand {\slideentry {1}{0}{1}{3/3}{}{0}}
+\headcommand {\beamer@framepages {3}{3}}
+\headcommand {\beamer@subsectionpages {3}{3}}
+\headcommand {\beamer@subsectionentry {0}{1}{1}{4}{Safety and Electricity}}
+\headcommand {\slideentry {1}{1}{1}{4/4}{Safety and Electricity}{0}}
+\headcommand {\beamer@framepages {4}{4}}
+\headcommand {\beamer@subsectionpages {4}{4}}
+\headcommand {\beamer@subsectionentry {0}{1}{2}{5}{Using a Digital Multimeter}}
+\headcommand {\slideentry {1}{2}{1}{5/5}{Using a Digital Multimeter}{0}}
+\headcommand {\beamer@framepages {5}{5}}
+\headcommand {\slideentry {1}{2}{2}{6/6}{Using a Digital Multimeter}{0}}
+\headcommand {\beamer@framepages {6}{6}}
+\headcommand {\beamer@subsectionpages {5}{6}}
+\headcommand {\beamer@subsectionentry {0}{1}{3}{7}{Measuring Voltage and Current}}
+\headcommand {\slideentry {1}{3}{1}{7/7}{Measuring Voltage and Current}{0}}
+\headcommand {\beamer@framepages {7}{7}}
+\headcommand {\slideentry {1}{3}{2}{8/8}{Measuring Voltage and Current}{0}}
+\headcommand {\beamer@framepages {8}{8}}
+\headcommand {\beamer@subsectionpages {7}{8}}
+\headcommand {\beamer@subsectionentry {0}{1}{4}{9}{Measuring Resistance and Continuity}}
+\headcommand {\slideentry {1}{4}{1}{9/9}{Measuring Resistance and Continuity}{0}}
+\headcommand {\beamer@framepages {9}{9}}
+\headcommand {\slideentry {1}{4}{2}{10/10}{Measuring Resistance and Continuity}{0}}
+\headcommand {\beamer@framepages {10}{10}}
+\headcommand {\beamer@sectionpages {3}{10}}
+\headcommand {\beamer@subsectionpages {9}{10}}
+\headcommand {\sectionentry {2}{Building Prototype Circuits}{11}{Building Prototype Circuits}{0}}
+\headcommand {\slideentry {2}{0}{1}{11/11}{}{0}}
+\headcommand {\beamer@framepages {11}{11}}
+\headcommand {\beamer@subsectionpages {11}{11}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{12}{Circuits for Mechanical Engineers}}
+\headcommand {\slideentry {2}{1}{1}{12/12}{Circuits for Mechanical Engineers}{0}}
+\headcommand {\beamer@framepages {12}{12}}
+\headcommand {\beamer@subsectionpages {12}{12}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{13}{Using a Solderless Breadboard}}
+\headcommand {\slideentry {2}{2}{1}{13/13}{Using a Solderless Breadboard}{0}}
+\headcommand {\beamer@framepages {13}{13}}
+\headcommand {\slideentry {2}{2}{2}{14/14}{Using a Solderless Breadboard}{0}}
+\headcommand {\beamer@framepages {14}{14}}
+\headcommand {\slideentry {2}{2}{3}{15/15}{Using a Solderless Breadboard}{0}}
+\headcommand {\beamer@framepages {15}{15}}
+\headcommand {\slideentry {2}{2}{4}{16/16}{Using a Solderless Breadboard}{0}}
+\headcommand {\beamer@framepages {16}{16}}
+\headcommand {\slideentry {2}{2}{5}{17/17}{Using a Solderless Breadboard}{0}}
+\headcommand {\beamer@framepages {17}{17}}
+\headcommand {\slideentry {2}{2}{6}{18/18}{Using a Solderless Breadboard}{0}}
+\headcommand {\beamer@framepages {18}{18}}
+\headcommand {\beamer@subsectionpages {13}{18}}
+\headcommand {\beamer@subsectionentry {0}{2}{3}{19}{Using a Desktop Power Supply}}
+\headcommand {\slideentry {2}{3}{1}{19/19}{Using a Desktop Power Supply}{0}}
+\headcommand {\beamer@framepages {19}{19}}
+\headcommand {\slideentry {2}{3}{2}{20/20}{Using a Desktop Power Supply}{0}}
+\headcommand {\beamer@framepages {20}{20}}
+\headcommand {\slideentry {2}{3}{3}{21/21}{Using a Desktop Power Supply}{0}}
+\headcommand {\beamer@framepages {21}{21}}
+\headcommand {\beamer@subsectionpages {19}{21}}
+\headcommand {\beamer@subsectionentry {0}{2}{4}{22}{Examples}}
+\headcommand {\slideentry {2}{4}{1}{22/22}{Examples}{0}}
+\headcommand {\beamer@framepages {22}{22}}
+\headcommand {\slideentry {2}{4}{2}{23/23}{Examples}{0}}
+\headcommand {\beamer@framepages {23}{23}}
+\headcommand {\beamer@sectionpages {11}{23}}
+\headcommand {\beamer@subsectionpages {22}{23}}
+\headcommand {\sectionentry {3}{Time Varying Signals}{24}{Time Varying Signals}{0}}
+\headcommand {\slideentry {3}{0}{1}{24/24}{}{0}}
+\headcommand {\beamer@framepages {24}{24}}
+\headcommand {\beamer@subsectionpages {24}{24}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{25}{Using a Function Generator}}
+\headcommand {\slideentry {3}{1}{1}{25/25}{Using a Function Generator}{0}}
+\headcommand {\beamer@framepages {25}{25}}
+\headcommand {\beamer@subsectionpages {25}{25}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{26}{Using an Oscilloscope}}
+\headcommand {\slideentry {3}{2}{1}{26/26}{Using an Oscilloscope}{0}}
+\headcommand {\beamer@framepages {26}{26}}
+\headcommand {\beamer@subsectionpages {26}{26}}
+\headcommand {\beamer@subsectionentry {0}{3}{3}{27}{Using an Oscilloscope}}
+\headcommand {\slideentry {3}{3}{1}{27/27}{Using an Oscilloscope}{0}}
+\headcommand {\beamer@framepages {27}{27}}
+\headcommand {\beamer@subsectionpages {27}{27}}
+\headcommand {\beamer@subsectionentry {0}{3}{4}{28}{Activity}}
+\headcommand {\slideentry {3}{4}{1}{28/28}{Activity}{0}}
+\headcommand {\beamer@framepages {28}{28}}
+\headcommand {\beamer@partpages {1}{28}}
+\headcommand {\beamer@subsectionpages {29}{28}}
+\headcommand {\beamer@sectionpages {29}{28}}
+\headcommand {\beamer@documentpages {28}}
+\headcommand {\gdef \inserttotalframenumber {28}}
