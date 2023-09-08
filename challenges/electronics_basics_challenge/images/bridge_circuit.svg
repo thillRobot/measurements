@@ -34,8 +34,8 @@
      showgrid="true"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
-     inkscape:cy="297.69195"
-     inkscape:cx="59.750521"
+     inkscape:cy="202.93964"
+     inkscape:cx="90.863219"
      inkscape:zoom="1.4142136"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
@@ -1649,5 +1649,35 @@
         </g>
       </g>
     </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:18.6667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="1467.0746"
+       y="129.50374"
+       id="text7708"><tspan
+         sodipodi:role="line"
+         id="tspan7706"
+         x="1467.0746"
+         y="129.50374" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:18.6667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="1471.2128"
+       y="138.40977"
+       id="text7712"><tspan
+         sodipodi:role="line"
+         id="tspan7710"
+         x="1471.2128"
+         y="138.40977">I</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:18.6667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="1471.7866"
+       y="351.26031"
+       id="text7716"><tspan
+         sodipodi:role="line"
+         id="tspan7714"
+         x="1471.7866"
+         y="351.26031">II</tspan></text>
   </g>
 </svg>
