@@ -1,0 +1,295 @@
+% Lecture Template for ME3023 -  Measurements in Mechanical Systems - Tennessee Technological University
+% Spring 2020 - Summer 2020 - Fall 2020 - Spring 2021 - Summer 2021 - Fall 2023
+% Tristan Hill, May 07, 2020 - June 12, 2020 - July 08, 2020 - Novemeber 02, 2020 - March 28, 2021 - May 25, 2021 - August 21, 2022 - September 02, 2023
+
+% Fall 2023 - condensing and streamlining lectures by combining topics into a single PDF under the module name
+%			  this will simplify file and link management as well as make lectures easier to use in class
+%			- added image/ to clean directory and reduce redundancy, specific to module for now  
+
+% Module Name: - Steady State Circuits
+% Topic 1 - Components, Units, and Symbols
+% Topic 2 - Fundamental Laws
+% Topic 3 - Circuit Applications
+
+
+\documentclass[fleqn]{beamer} % for presentation (has nav buttons at bottom)
+
+%\usepackage{/home/tntech.edu/thill/courses/measurements/lectures/measurements_lectures}
+\usepackage{/home/thill/courses/measurements/lectures/measurements_lectures}
+%\usepackage{/mnt/c/Users/thill/Documents/courses/measurements/lectures/measurements_lectures}
+
+\author{ME3023 - Measurements in Mechanical Systems} % original formatting from Mike Renfro, September 21, 2004
+
+\newcommand{\MNUM}{1\hspace{2mm}} % module number 
+\newcommand{\moduletitle}{Steady State Circuits}
+
+\newcommand{\sectionItitle}{-}
+\newcommand{\sectionIItitle}{-}
+\newcommand{\sectionIIItitle}{-}
+\newcommand{\sectionIVtitle}{-}
+
+\newcommand{\sectionIsubsectionItitle}{-}
+\newcommand{\sectionIsubsectionIItitle}{-}
+\newcommand{\sectionIsubsectionIIItitle}{-}
+\newcommand{\sectionIsubsectionIVtitle}{-}
+
+\newcommand{\sectionIIsubsectionItitle}{-}
+\newcommand{\sectionIIsubsectionIItitle}{-}
+\newcommand{\sectionIIsubsectionIIItitle}{-}
+\newcommand{\sectionIIsubsectionIVtitle}{-}
+
+\newcommand{\sectionIIIsubsectionItitle}{-}
+\newcommand{\sectionIIIsubsectionIItitle}{-}
+\newcommand{\sectionIIIsubsectionIIItitle}{-}
+\newcommand{\sectionIIIsubsectionIVtitle}{-}
+
+% custom box
+\newsavebox{\mybox}
+
+\title{Lecture Module - \moduletitle}
+
+\date{Mechanical Engineering\vspc Tennessee Technological University}
+
+\begin{document}
+
+	\lstset{language=MATLAB,basicstyle=\ttfamily\small,showstringspaces=false}
+
+	\frame{\titlepage \center\begin{framed}\Large \textbf{Topic \MNUM - \moduletitle}\end{framed} \vspace{5mm}}
+
+	% Module Outline
+	\begin{frame} 
+		\large \textbf{Module \MNUM - \moduletitle} \vspace{3mm}\\
+
+		\begin{itemize}
+			\item Topic 1 - \hyperlink{sectionI}{\sectionItitle} \vspc % section I
+			\item Topic 2 - \hyperlink{sectionII}{\sectionIItitle} \vspc % section II
+			\item Topic 3 - \hyperlink{sectionIII}{\sectionIIItitle} \vspc % section III
+			\item Topic 4 - \hyperlink{sectionIV}{\sectionIVtitle} \vspc % section IV
+		\end{itemize}
+
+	\end{frame}
+
+	% section I
+	\section{\sectionItitle}\label{sectionI}
+
+		% section I Outline
+		\begin{frame} 
+			\large \textbf{Topic 1 - \sectionItitle} \vspace{3mm}\\
+
+			\begin{itemize}
+				\item \hyperlink{sectionIsubsectionI}{\sectionIsubsectionItitle} \vspc %  section I subsection I
+				\item \hyperlink{sectionIsubsectionII}{\sectionIsubsectionIItitle} \vspc % section I subsection II
+				\item \hyperlink{sectionIsubsectionIII}{\sectionIsubsectionIIItitle} \vspc % section I subsection III
+				\item \hyperlink{sectionIsubsectionIV}{\sectionIsubsectionIVtitle} \vspc % section I subsection IV
+			\end{itemize}
+		\end{frame}
+		
+		% section I subsection I 
+		\subsection{\sectionIsubsectionItitle}\label{sectionIsubsectionI}
+
+			\begin{frame}
+				\frametitle{\sectionIsubsectionItitle}
+
+				
+
+			\end{frame}
+
+		% section I subsection II
+		\subsection{\sectionIsubsectionIItitle}\label{sectionIsubsectionII}
+
+			\begin{frame}
+				\frametitle{\sectionIsubsectionIItitle}
+
+				
+
+			\end{frame}
+
+			\begin{frame}
+				\frametitle{\sectionIsubsectionIItitle}
+			
+
+
+			\end{frame}
+
+
+		% section I subsection III
+		\subsection{\sectionIsubsectionIIItitle}\label{sectionIsubsectionIII}
+			\begin{frame} 
+				\frametitle{\sectionIsubsectionIIItitle}
+				
+			\end{frame}	
+
+			\begin{frame} 
+				\frametitle{\sectionIsubsectionIIItitle}
+				
+			\end{frame}	
+
+		% section I subsection IV
+		\subsection{\sectionIsubsectionIVtitle}\label{sectionIsubsectionIV}	
+
+			\begin{frame}
+				\frametitle{\sectionIsubsectionIVtitle}
+				
+			\end{frame}
+
+			\begin{frame}
+				\frametitle{\sectionIsubsectionIVtitle}
+			
+			\end{frame}
+
+	
+	% Section II
+	\section{\sectionIItitle}\label{sectionII}
+
+		% section II Outline
+		\begin{frame}
+			\large \textbf{Topic 2 - \sectionIItitle} \vspace{3mm}\\
+
+		\end{frame}
+
+		% section II subsection I
+		\subsection{\sectionIIsubsectionItitle}\label{sectionIIsubsectionI}
+
+			\begin{frame}[label=sectionIIsubsectionI]
+				\frametitle{\sectionIIsubsectionItitle}
+
+			\end{frame}
+
+		% section II subsection II
+		\subsection{\sectionIIsubsectionIItitle}\label{sectionIIsubsectionII}
+
+			\begin{frame}
+				\frametitle{\sectionIIsubsectionIItitle}
+
+				
+		
+
+			\end{frame}
+
+			\begin{frame}
+				\frametitle{\sectionIIsubsectionIItitle}
+
+			
+
+			\end{frame}
+
+			\begin{frame}
+				\frametitle{\sectionIIsubsectionIItitle}
+
+				
+
+			\end{frame}
+
+			\begin{frame}
+				\frametitle{\sectionIIsubsectionIItitle}
+
+				
+
+			\end{frame}
+
+			\begin{frame}
+				\frametitle{\sectionIIsubsectionIItitle}
+
+
+			\end{frame}
+
+			\begin{frame}
+				\frametitle{\sectionIIsubsectionIItitle}
+
+
+			
+			\end{frame}
+
+
+
+		% section II subsection III
+		\subsection{\sectionIIsubsectionIIItitle}\label{sectionIIsubsectionIII}
+
+			\begin{frame}
+				\frametitle{\sectionIIsubsectionIIItitle}
+
+			\end{frame}
+
+			\begin{frame}
+				\frametitle{\sectionIIsubsectionIIItitle}
+
+			\end{frame}
+
+			\begin{frame}
+			\frametitle{\sectionIIsubsectionIIItitle}
+
+
+			\end{frame}
+
+		% section II subsection IV 
+		\subsection{\sectionIIsubsectionIVtitle}\label{sectionIIsubsectionIV}
+
+			\begin{frame}
+				\frametitle{\sectionIIsubsectionIVtitle}
+
+			
+
+			\end{frame}
+
+			\begin{frame}
+				\frametitle{\sectionIIsubsectionIVtitle}
+
+			\end{frame}
+		
+	% Section III
+	\section{\sectionIIItitle}\label{sectionIII}
+
+		% section III Outline
+		\begin{frame}
+			\large \textbf{Topic 3 - \sectionIIItitle} \vspace{3mm}\\
+
+			
+		\end{frame}
+
+		% section III subsection I
+		\subsection{\sectionIIIsubsectionItitle}\label{sectionIIIsubsectionI}
+
+			\begin{frame}
+				\frametitle{\sectionIIIsubsectionItitle}
+
+				
+			\end{frame}
+
+		% section III subsection II
+		\subsection{\sectionIIIsubsectionIItitle}\label{sectionIIIsubsectionII}	
+
+			\begin{frame}
+				\frametitle{\sectionIIIsubsectionIItitle}
+
+
+			\end{frame}
+
+		% section III subsection III
+		\subsection{\sectionIIIsubsectionIItitle}\label{sectionIIIsubsectionIII}
+
+			\begin{frame}
+				\frametitle{\sectionIIIsubsectionIIItitle}
+
+			
+
+			\end{frame}
+
+		% section III subsection IV
+		\subsection{\sectionIIIsubsectionIVtitle}\label{sectionIIIsubsectionIV}	
+
+			\begin{frame}
+				\frametitle{\sectionIIIsubsectionIVtitle}
+
+			
+
+			\end{frame}
+
+
+
+
+\end{document}
+
+
+
+
+
