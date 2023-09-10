@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.18)  10 SEP 2023 10:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.18)  10 SEP 2023 10:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**steady_state_circuits
-(./steady_state_circuits.tex
+**steady_state_circuits_handout
+(./steady_state_circuits_handout.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14>
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
@@ -1022,8 +1022,18 @@ Package hyperref Info: Option `pdfnewwindow' set `true' on input line 107.
 Package hyperref Info: Option `colorlinks' set `true' on input line 107.
 )
 \mybox=\box138
- (./steady_state_circuits.aux)
-\openout1 = `steady_state_circuits.aux'.
+ (./steady_state_circuits_handout.aux
+
+LaTeX Warning: Label `sectionIIsubsectionI' multiply defined.
+
+
+LaTeX Warning: Label `sectionIIsubsectionI<1>' multiply defined.
+
+
+LaTeX Warning: Label `sectionIIsubsectionI' multiply defined.
+
+)
+\openout1 = `steady_state_circuits_handout.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
 LaTeX Font Info:    ... okay on input line 52.
@@ -1117,9 +1127,9 @@ LaTeX Info: Redefining \ref on input line 52.
 LaTeX Info: Redefining \pageref on input line 52.
 LaTeX Info: Redefining \nameref on input line 52.
 
-(./steady_state_circuits.out) (./steady_state_circuits.out)
+(./steady_state_circuits_handout.out) (./steady_state_circuits_handout.out)
 \@outlinefile=\write6
-\openout6 = `steady_state_circuits.out'.
+\openout6 = `steady_state_circuits_handout.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 52.
@@ -1189,7 +1199,7 @@ ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 \c@lstlisting=\count368
- (./steady_state_circuits.nav)
+ (./steady_state_circuits_handout.nav)
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
 ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
@@ -1201,13 +1211,13 @@ File: lstlang1.sty 2019/09/10 1.8c listings language file
 ] [4
 
 ]
-<images/resistor_color_codes.jpg, id=178, 602.25pt x 416.30531pt>
+<images/resistor_color_codes.jpg, id=236, 602.25pt x 416.30531pt>
 File: images/resistor_color_codes.jpg Graphic file (type jpg)
 <use images/resistor_color_codes.jpg>
 Package pdftex.def Info: images/resistor_color_codes.jpg  used on input line 11
 1.
 (pdftex.def)             Requested size: 150.56212pt x 104.07607pt.
-<images/ceramic_capacitor_codes.jpg, id=179, 508.14844pt x 384.6872pt>
+<images/ceramic_capacitor_codes.jpg, id=237, 508.14844pt x 384.6872pt>
 File: images/ceramic_capacitor_codes.jpg Graphic file (type jpg)
 <use images/ceramic_capacitor_codes.jpg>
 Package pdftex.def Info: images/ceramic_capacitor_codes.jpg  used on input line
@@ -1216,7 +1226,25 @@ Package pdftex.def Info: images/ceramic_capacitor_codes.jpg  used on input line
  [5
 
  <./images/resistor_color_codes.jpg> <./images/ceramic_capacitor_codes.jpg>]
-<images/charges_plus_minus.png, id=212, 165.61874pt x 124.21407pt>
+LaTeX Font Info:    Trying to load font information for U+msa on input line 133
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 133
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 13
+3.
+
+(/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
+File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
+)
+<images/charges_plus_minus.png, id=270, 165.61874pt x 124.21407pt>
 File: images/charges_plus_minus.png Graphic file (type png)
 <use images/charges_plus_minus.png>
 Package pdftex.def Info: images/charges_plus_minus.png  used on input line 133.
@@ -1226,57 +1254,40 @@ Package pdftex.def Info: images/charges_plus_minus.png  used on input line 133.
 
  <./images/charges_plus_minus.png>] [7
 
-]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 169
-.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 169
-.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 16
-9.
-
-(/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
-File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
-) [8
+] [8
 
 ]
-<images/resistor_symbol.png, id=318, 133.83333pt x 45.50333pt>
+<images/resistor_symbol.png, id=374, 133.83333pt x 45.50333pt>
 File: images/resistor_symbol.png Graphic file (type png)
 <use images/resistor_symbol.png>
 Package pdftex.def Info: images/resistor_symbol.png  used on input line 185.
 (pdftex.def)             Requested size: 53.53236pt x 18.20099pt.
-<images/capacitor_symbol.png, id=319, 140.02313pt x 48.18pt>
+<images/capacitor_symbol.png, id=375, 140.02313pt x 48.18pt>
 File: images/capacitor_symbol.png Graphic file (type png)
 <use images/capacitor_symbol.png>
 Package pdftex.def Info: images/capacitor_symbol.png  used on input line 185.
 (pdftex.def)             Requested size: 56.00826pt x 19.27164pt.
-<images/inductor_symbol.png, id=320, 156.585pt x 33.12375pt>
+<images/inductor_symbol.png, id=376, 156.585pt x 33.12375pt>
 File: images/inductor_symbol.png Graphic file (type png)
 <use images/inductor_symbol.png>
 Package pdftex.def Info: images/inductor_symbol.png  used on input line 185.
 (pdftex.def)             Requested size: 62.63287pt x 13.24925pt.
-<images/node_symbol.png, id=321, 88.83188pt x 34.62938pt>
+<images/node_symbol.png, id=377, 88.83188pt x 34.62938pt>
 File: images/node_symbol.png Graphic file (type png)
 <use images/node_symbol.png>
 Package pdftex.def Info: images/node_symbol.png  used on input line 185.
 (pdftex.def)             Requested size: 44.41582pt x 17.31464pt.
-<images/jump_symbol.png, id=322, 65.49469pt x 60.97781pt>
+<images/jump_symbol.png, id=378, 65.49469pt x 60.97781pt>
 File: images/jump_symbol.png Graphic file (type png)
 <use images/jump_symbol.png>
 Package pdftex.def Info: images/jump_symbol.png  used on input line 185.
 (pdftex.def)             Requested size: 32.74725pt x 30.48882pt.
-<images/switch_symbol.png, id=323, 78.2925pt x 21.07875pt>
+<images/switch_symbol.png, id=379, 78.2925pt x 21.07875pt>
 File: images/switch_symbol.png Graphic file (type png)
 <use images/switch_symbol.png>
 Package pdftex.def Info: images/switch_symbol.png  used on input line 185.
 (pdftex.def)             Requested size: 39.14615pt x 10.53934pt.
-<images/led_symbol.png, id=324, 40.65187pt x 19.57312pt>
+<images/led_symbol.png, id=380, 40.65187pt x 19.57312pt>
 File: images/led_symbol.png Graphic file (type png)
 <use images/led_symbol.png>
 Package pdftex.def Info: images/led_symbol.png  used on input line 185.
@@ -1285,25 +1296,26 @@ Package pdftex.def Info: images/led_symbol.png  used on input line 185.
 
  <./images/resistor_symbol.png> <./images/capacitor_symbol.png> <./images/induc
 tor_symbol.png> <./images/node_symbol.png> <./images/jump_symbol.png> <./images
-/switch_symbol.png> <./images/led_symbol.png>] [10
+/switch_symbol.png> <./images/led_symbol.png>]
+[10
 
 ]
-<images/spst_symbol.png, id=398, 78.2925pt x 36.88782pt>
+<images/spst_symbol.png, id=453, 78.2925pt x 36.88782pt>
 File: images/spst_symbol.png Graphic file (type png)
 <use images/spst_symbol.png>
 Package pdftex.def Info: images/spst_symbol.png  used on input line 219.
 (pdftex.def)             Requested size: 54.80437pt x 25.82127pt.
-<images/spdt_symbol.png, id=399, 78.2925pt x 36.135pt>
+<images/spdt_symbol.png, id=454, 78.2925pt x 36.135pt>
 File: images/spdt_symbol.png Graphic file (type png)
 <use images/spdt_symbol.png>
 Package pdftex.def Info: images/spdt_symbol.png  used on input line 219.
 (pdftex.def)             Requested size: 54.80437pt x 25.2943pt.
-<images/dpst_symbol.png, id=400, 78.2925pt x 63.23625pt>
+<images/dpst_symbol.png, id=455, 78.2925pt x 63.23625pt>
 File: images/dpst_symbol.png Graphic file (type png)
 <use images/dpst_symbol.png>
 Package pdftex.def Info: images/dpst_symbol.png  used on input line 219.
 (pdftex.def)             Requested size: 54.80437pt x 44.26506pt.
-<images/dpdt_symbol.png, id=401, 78.2925pt x 68.50594pt>
+<images/dpdt_symbol.png, id=456, 78.2925pt x 68.50594pt>
 File: images/dpdt_symbol.png Graphic file (type png)
 <use images/dpdt_symbol.png>
 Package pdftex.def Info: images/dpdt_symbol.png  used on input line 219.
@@ -1311,11 +1323,10 @@ Package pdftex.def Info: images/dpdt_symbol.png  used on input line 219.
  [11
 
  <./images/spst_symbol.png> <./images/spdt_symbol.png> <./images/dpst_symbol.pn
-g> <./images/dpdt_symbol.png>]
-[12
+g> <./images/dpdt_symbol.png>] [12
 
 ]
-<images/James_Clerk_Maxwell.png, id=487, 332.24126pt x 399.4925pt>
+<images/James_Clerk_Maxwell.png, id=541, 332.24126pt x 399.4925pt>
 File: images/James_Clerk_Maxwell.png Graphic file (type png)
 <use images/James_Clerk_Maxwell.png>
 Package pdftex.def Info: images/James_Clerk_Maxwell.png  used on input line 258
@@ -1326,12 +1337,12 @@ Overfull \hbox (3.90985pt too wide) in paragraph at lines 258--258
 [] 
  []
 
-<images/George_Ohm.png, id=488, 254.9525pt x 327.2225pt>
+<images/George_Ohm.png, id=542, 254.9525pt x 327.2225pt>
 File: images/George_Ohm.png Graphic file (type png)
 <use images/George_Ohm.png>
 Package pdftex.def Info: images/George_Ohm.png  used on input line 258.
 (pdftex.def)             Requested size: 76.48633pt x 98.1675pt.
-<images/Ohms_Laborbuch.jpg, id=489, 1291.82625pt x 1099.10625pt>
+<images/Ohms_Laborbuch.jpg, id=543, 1291.82625pt x 1099.10625pt>
 File: images/Ohms_Laborbuch.jpg Graphic file (type jpg)
 <use images/Ohms_Laborbuch.jpg>
 Package pdftex.def Info: images/Ohms_Laborbuch.jpg  used on input line 258.
@@ -1357,7 +1368,7 @@ r (name{sectionIIsubsectionI}) has been already used, duplicate ignored
                    \relax 
 l.276 			\end{frame}
                     	
-<images/OhmsLaw.png, id=529, 90.3375pt x 126.4725pt>
+<images/OhmsLaw.png, id=582, 90.3375pt x 126.4725pt>
 File: images/OhmsLaw.png Graphic file (type png)
 <use images/OhmsLaw.png>
 Package pdftex.def Info: images/OhmsLaw.png  used on input line 276.
@@ -1365,12 +1376,12 @@ Package pdftex.def Info: images/OhmsLaw.png  used on input line 276.
  [14
 
  <./images/OhmsLaw.png>]
-<images/series_resistors.png, id=564, 306.47833pt x 187.36667pt>
+<images/series_resistors.png, id=617, 306.47833pt x 187.36667pt>
 File: images/series_resistors.png Graphic file (type png)
 <use images/series_resistors.png>
 Package pdftex.def Info: images/series_resistors.png  used on input line 302.
 (pdftex.def)             Requested size: 61.29457pt x 37.47266pt.
-<images/parallel_resistors.png, id=565, 200.75pt x 283.72667pt>
+<images/parallel_resistors.png, id=618, 200.75pt x 283.72667pt>
 File: images/parallel_resistors.png Graphic file (type png)
 <use images/parallel_resistors.png>
 Package pdftex.def Info: images/parallel_resistors.png  used on input line 302.
@@ -1381,13 +1392,13 @@ Package pdftex.def Info: images/parallel_resistors.png  used on input line 302.
  <./images/series_resistors.png> <./images/parallel_resistors.png>] [16
 
 ]
-<images/Kirchhoffs_voltage_law.png, id=640, 551.05875pt x 481.8pt>
+<images/Kirchhoffs_voltage_law.png, id=691, 551.05875pt x 481.8pt>
 File: images/Kirchhoffs_voltage_law.png Graphic file (type png)
 <use images/Kirchhoffs_voltage_law.png>
 Package pdftex.def Info: images/Kirchhoffs_voltage_law.png  used on input line 
 330.
 (pdftex.def)             Requested size: 110.2098pt x 96.35829pt.
-<images/Kirchhoffs_current_law.png, id=641, 221.32687pt x 215.30438pt>
+<images/Kirchhoffs_current_law.png, id=692, 221.32687pt x 215.30438pt>
 File: images/Kirchhoffs_current_law.png Graphic file (type png)
 <use images/Kirchhoffs_current_law.png>
 Package pdftex.def Info: images/Kirchhoffs_current_law.png  used on input line 
@@ -1419,7 +1430,7 @@ Overfull \vbox (3.42863pt too high) detected at line 330
 ] [26
 
 ]
-<images/ldr_circuit.png, id=994, 710.655pt x 692.5875pt>
+<images/ldr_circuit.png, id=1041, 710.655pt x 692.5875pt>
 File: images/ldr_circuit.png Graphic file (type png)
 <use images/ldr_circuit.png>
 Package pdftex.def Info: images/ldr_circuit.png  used on input line 473.
@@ -1431,40 +1442,35 @@ Package pdftex.def Info: images/ldr_circuit.png  used on input line 473.
 
 ]
 \tf@nav=\write7
-\openout7 = `steady_state_circuits.nav'.
+\openout7 = `steady_state_circuits_handout.nav'.
 
 \tf@toc=\write8
-\openout8 = `steady_state_circuits.toc'.
+\openout8 = `steady_state_circuits_handout.toc'.
 
 \tf@snm=\write9
-\openout9 = `steady_state_circuits.snm'.
+\openout9 = `steady_state_circuits_handout.snm'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 482.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 482.
- (./steady_state_circuits.aux)
+ (./steady_state_circuits_handout.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 482.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 482.
+Package rerunfilecheck Info: File `steady_state_circuits_handout.out' has not c
+hanged.
+(rerunfilecheck)             Checksum: 7E503E73910B278D8F91658A5C4D58D6;999.
 
 
-Package rerunfilecheck Warning: File `steady_state_circuits.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `steady_state_circuits.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  7E503E73910B278D8F91658A5C4D58D6;999.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 26186 strings out of 483183
- 518336 string characters out of 5966292
- 990079 words of memory out of 5000000
- 40467 multiletter control sequences out of 15000+600000
+ 26202 strings out of 483183
+ 518719 string characters out of 5966292
+ 990556 words of memory out of 5000000
+ 40483 multiletter control sequences out of 15000+600000
  557998 words of font info for 82 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 62i,19n,73p,784b,667s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,19n,73p,792b,667s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi1000.600
 pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0600.60
 0pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0800.6
@@ -1484,10 +1490,10 @@ mex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on steady_state_circuits.pdf (28 pages, 1264163 bytes).
+Output written on steady_state_circuits_handout.pdf (28 pages, 1265755 bytes).
 PDF statistics:
- 1510 PDF objects out of 1728 (max. 8388607)
- 1041 compressed objects within 11 object streams
+ 1557 PDF objects out of 1728 (max. 8388607)
+ 1087 compressed objects within 11 object streams
  88 named destinations out of 1000 (max. 500000)
- 179 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 299 words of extra memory for PDF output out of 10000 (max. 10000000)
 
