@@ -1,0 +1,98 @@
+\headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
+\headcommand {\beamer@framepages {1}{1}}
+\headcommand {\slideentry {0}{0}{2}{2/2}{}{0}}
+\headcommand {\beamer@framepages {2}{2}}
+\headcommand {\beamer@sectionpages {1}{2}}
+\headcommand {\beamer@subsectionpages {1}{2}}
+\headcommand {\sectionentry {1}{Classification of Signals}{3}{Classification of Signals}{0}}
+\headcommand {\slideentry {1}{0}{1}{3/3}{}{0}}
+\headcommand {\beamer@framepages {3}{3}}
+\headcommand {\beamer@subsectionpages {3}{3}}
+\headcommand {\beamer@subsectionentry {0}{1}{1}{4}{Introduction to Signal Concepts}}
+\headcommand {\slideentry {1}{1}{1}{4/4}{Introduction to Signal Concepts}{0}}
+\headcommand {\beamer@framepages {4}{4}}
+\headcommand {\slideentry {1}{1}{2}{5/5}{Introduction to Signal Concepts}{0}}
+\headcommand {\beamer@framepages {5}{5}}
+\headcommand {\beamer@subsectionpages {4}{5}}
+\headcommand {\beamer@subsectionentry {0}{1}{2}{6}{Analog, Discrete, or Digital}}
+\headcommand {\slideentry {1}{2}{1}{6/6}{Analog, Discrete, or Digital}{0}}
+\headcommand {\beamer@framepages {6}{6}}
+\headcommand {\slideentry {1}{2}{2}{7/7}{Analog, Discrete, or Digital}{0}}
+\headcommand {\beamer@framepages {7}{7}}
+\headcommand {\slideentry {1}{2}{3}{8/8}{Analog, Discrete, or Digital}{0}}
+\headcommand {\beamer@framepages {8}{8}}
+\headcommand {\slideentry {1}{2}{4}{9/9}{Analog, Discrete, or Digital}{0}}
+\headcommand {\beamer@framepages {9}{9}}
+\headcommand {\beamer@subsectionpages {6}{9}}
+\headcommand {\beamer@subsectionentry {0}{1}{3}{10}{Static or Dynamic}}
+\headcommand {\slideentry {1}{3}{1}{10/10}{Static or Dynamic}{0}}
+\headcommand {\beamer@framepages {10}{10}}
+\headcommand {\slideentry {1}{3}{2}{11/11}{Static or Dynamic}{0}}
+\headcommand {\beamer@framepages {11}{11}}
+\headcommand {\beamer@subsectionpages {10}{11}}
+\headcommand {\beamer@subsectionentry {0}{1}{4}{12}{Deterministic or Non-Deterministic}}
+\headcommand {\slideentry {1}{4}{1}{12/12}{Deterministic or Non-Deterministic}{0}}
+\headcommand {\beamer@framepages {12}{12}}
+\headcommand {\slideentry {1}{4}{2}{13/13}{Deterministic or Non-Deterministic}{0}}
+\headcommand {\beamer@framepages {13}{13}}
+\headcommand {\beamer@sectionpages {3}{13}}
+\headcommand {\beamer@subsectionpages {12}{13}}
+\headcommand {\sectionentry {2}{Signal Analysis}{14}{Signal Analysis}{0}}
+\headcommand {\slideentry {2}{0}{1}{14/14}{}{0}}
+\headcommand {\beamer@framepages {14}{14}}
+\headcommand {\beamer@subsectionpages {14}{14}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{15}{Signal Mean Value}}
+\headcommand {\slideentry {2}{1}{1}{15/15}{Signal Mean Value}{0}}
+\headcommand {\beamer@framepages {15}{15}}
+\headcommand {\slideentry {2}{1}{2}{16/16}{Signal Mean Value}{0}}
+\headcommand {\beamer@framepages {16}{16}}
+\headcommand {\beamer@subsectionpages {15}{16}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{17}{Power Dissipation}}
+\headcommand {\slideentry {2}{2}{1}{17/17}{Power Dissipation}{0}}
+\headcommand {\beamer@framepages {17}{17}}
+\headcommand {\beamer@subsectionpages {17}{17}}
+\headcommand {\beamer@subsectionentry {0}{2}{3}{18}{Signal Root Mean Square (RMS) Value}}
+\headcommand {\slideentry {2}{3}{1}{18/18}{Signal Root Mean Square (RMS) Value}{0}}
+\headcommand {\beamer@framepages {18}{18}}
+\headcommand {\slideentry {2}{3}{2}{19/19}{Signal Root Mean Square (RMS) Value}{0}}
+\headcommand {\beamer@framepages {19}{19}}
+\headcommand {\slideentry {2}{3}{3}{20/20}{Signal Root Mean Square (RMS) Value}{0}}
+\headcommand {\beamer@framepages {20}{20}}
+\headcommand {\beamer@subsectionpages {18}{20}}
+\headcommand {\beamer@subsectionentry {0}{2}{4}{21}{Discrete-Time or Digital Signals}}
+\headcommand {\slideentry {2}{4}{1}{21/21}{Discrete-Time or Digital Signals}{0}}
+\headcommand {\beamer@framepages {21}{21}}
+\headcommand {\slideentry {2}{4}{2}{22/22}{Discrete-Time or Digital Signals}{0}}
+\headcommand {\beamer@framepages {22}{22}}
+\headcommand {\beamer@sectionpages {14}{22}}
+\headcommand {\beamer@subsectionpages {21}{22}}
+\headcommand {\sectionentry {3}{Sampling and Aliasing}{23}{Sampling and Aliasing}{0}}
+\headcommand {\slideentry {3}{0}{1}{23/23}{}{0}}
+\headcommand {\beamer@framepages {23}{23}}
+\headcommand {\beamer@subsectionpages {23}{23}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{24}{Sampling}}
+\headcommand {\slideentry {3}{1}{1}{24/24}{Sampling}{0}}
+\headcommand {\beamer@framepages {24}{24}}
+\headcommand {\slideentry {3}{1}{2}{25/25}{Sampling}{0}}
+\headcommand {\beamer@framepages {25}{25}}
+\headcommand {\beamer@subsectionpages {24}{25}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{26}{The Aliasing Phenomenon}}
+\headcommand {\slideentry {3}{2}{1}{26/26}{The Aliasing Phenomenon}{0}}
+\headcommand {\beamer@framepages {26}{26}}
+\headcommand {\beamer@subsectionpages {26}{26}}
+\headcommand {\beamer@subsectionentry {0}{3}{3}{27}{The Aliasing Phenomenon}}
+\headcommand {\slideentry {3}{3}{1}{27/27}{The Aliasing Phenomenon}{0}}
+\headcommand {\beamer@framepages {27}{27}}
+\headcommand {\slideentry {3}{3}{2}{28/28}{The Aliasing Phenomenon}{0}}
+\headcommand {\beamer@framepages {28}{28}}
+\headcommand {\beamer@subsectionpages {27}{28}}
+\headcommand {\beamer@subsectionentry {0}{3}{4}{29}{MATLAB Example}}
+\headcommand {\slideentry {3}{4}{1}{29/29}{MATLAB Example}{0}}
+\headcommand {\beamer@framepages {29}{29}}
+\headcommand {\slideentry {3}{4}{2}{30/30}{MATLAB Example}{0}}
+\headcommand {\beamer@framepages {30}{30}}
+\headcommand {\beamer@partpages {1}{30}}
+\headcommand {\beamer@subsectionpages {29}{30}}
+\headcommand {\beamer@sectionpages {23}{30}}
+\headcommand {\beamer@documentpages {30}}
+\headcommand {\gdef \inserttotalframenumber {30}}

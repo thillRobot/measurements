@@ -1,0 +1,15 @@
+\beamer@sectionintoc {1}{Classification of Signals}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Introduction to Signal Concepts}{4}{0}{1}
+\beamer@subsectionintoc {1}{2}{Analog, Discrete, or Digital}{6}{0}{1}
+\beamer@subsectionintoc {1}{3}{Static or Dynamic}{10}{0}{1}
+\beamer@subsectionintoc {1}{4}{Deterministic or Non-Deterministic}{12}{0}{1}
+\beamer@sectionintoc {2}{Signal Analysis}{14}{0}{2}
+\beamer@subsectionintoc {2}{1}{Signal Mean Value}{15}{0}{2}
+\beamer@subsectionintoc {2}{2}{Power Dissipation}{17}{0}{2}
+\beamer@subsectionintoc {2}{3}{Signal Root Mean Square (RMS) Value}{18}{0}{2}
+\beamer@subsectionintoc {2}{4}{Discrete-Time or Digital Signals}{21}{0}{2}
+\beamer@sectionintoc {3}{Sampling and Aliasing}{23}{0}{3}
+\beamer@subsectionintoc {3}{1}{Sampling}{24}{0}{3}
+\beamer@subsectionintoc {3}{2}{The Aliasing Phenomenon}{26}{0}{3}
+\beamer@subsectionintoc {3}{3}{The Aliasing Phenomenon}{27}{0}{3}
+\beamer@subsectionintoc {3}{4}{MATLAB Example}{29}{0}{3}
