@@ -273,12 +273,20 @@
 			\begin{frame}[label=sectionIIsubsectionI]
 				\frametitle{\sectionIIsubsectionItitle}
 
+				The behavior of a circuit is dependent on time, and many common circuits can be represented by a {\it linear ordinary differential equation} which can be written in the following standard form. 
+
+\[ a_n\frac{d^nx}{dt^n}+a_{n-1}\frac{d^{n-1}x}{dt^{n-1}}+...+a_2\frac{d^2x}{dt^2}+a_1\frac{dx}{dt}+a_0x=f(t) \] 
+\vspace{0mm}
+	
+
+
+
 			\end{frame}
 
 		    \begin{frame}[label=sectionIIsubsectionI]
 				\frametitle{\sectionIIsubsectionItitle}
 
-			
+
 
 
 
@@ -291,6 +299,18 @@
 				\frametitle{\sectionIIsubsectionIItitle}
 
 
+				Many mechanical systems are also time dependent, or {\it dynamic} and a mechanical-electrical analog is often draw between the two.
+
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{ccc}
+\underline{Zero Order}&\underline{First Order}&\underline{Second Order}\\
+\includegraphics[scale=0.25]{images/r_circuit.png}&\includegraphics[scale=0.25]{images/rc_circuit.png}&\includegraphics[scale=0.25]{images/rlc_circuit.png}\\
+\includegraphics[scale=0.15]{images/hand_spring.png}&\includegraphics[scale=0.15]{images/water_tank.png}&\hspace{5mm}\includegraphics[scale=0.10]{images/mass_spring_damper.png}\\
+\end{tabular}
+
+This concept {\it was} used for analysis and simulation. 
+				
+
 
 			\end{frame}
 
@@ -300,7 +320,46 @@
 			\begin{frame}
 				\frametitle{\sectionIIsubsectionIIItitle}
 
+				The RC circuit is a first order system. The response to a step input $v_s$ is exponential which is described a single parameter the time constant $\tau$. 
+\vspc
+
+\begin{multicols}{2}
+\includegraphics[scale=0.5]{images/rc_circuit.png} 	
+	
+First Order Model
+\begin{fleqn}
+\[ RC\dot{v}_C+v_C=v_S \]
+\end{fleqn}
+
+Response Equation
+\begin{fleqn}
+\[v_C\left(t\right)=v_s\left(1-e^{-\frac{t}{RC}}\right) \]
+\end{fleqn}
+
+\end{multicols}
+
+
+			\end{frame}		
+
+			\begin{frame}
+				\frametitle{\sectionIIsubsectionIIItitle}
+
 				\bigskip
+
+				\begin{multicols}{2}
+
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|c|c|} \hline
+$time (s)$&$response (V)$\\ \hline
+&\\ \hline
+&\\ \hline
+&\\ \hline
+&\\ \hline
+\end{tabular}
+
+\includegraphics[scale=0.5]{images/voltage_versus_time.png} 	
+\end{multicols}
+
 
 
 			\end{frame}
@@ -326,13 +385,79 @@
 				\frametitle{\sectionIIsubsectionIVtitle}
 
 
+{\scriptsize \underline{Activity:} This should be completed by each student as an individual. You are encouraged to discuss with your peers. }
+
+Consider the bulb thermometer shown which can be modeled as a first order system.  Write the system model and the expected reponse.
+
+\[ \frac{dE}{dt}=\dot{Q}\hspace{15mm} \frac{dE}{dt}=mc_v\frac{T(t)}{dt} \hspace{15mm}\dot{Q}=hA_s\Delta T \]
+\[ \]
+
+\begin{multicols}{2}
+
+\includegraphics[scale=.35]{images/bulb_thermometer.png}
+
+First Order Model:
+\begin{fleqn}
+\[ mc_v\frac{T(t)}{dt}+hA_sT(t)=hA_sT_\infty \] 
+\end{fleqn}
+
+Response Equation:
+\begin{fleqn}
+\[ T(t)=T_\infty+\left[ T\left(0\right)-T_\infty \right]e^{-\frac{t}{\tau}} \] 
+\end{fleqn}
+
+
+\end{multicols}
+
+
 			\end{frame}
 
 			\begin{frame}
 				\frametitle{\sectionIIsubsectionIVtitle}
 
+				{\scriptsize \underline{Activity:} Fill out the table below and sketch a graph to represent the data. }
+
+\begin{multicols}{2}
+
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|c|c|} \hline
+$time (s)$&$response (^\circ C)$\\ \hline
+0&\\ \hline
+$1\tau$&\\ \hline
+$2\tau$&\\ \hline
+$3\tau$&\\ \hline
+$4\tau$&\\ \hline
+\end{tabular}
+
+\includegraphics[scale=0.5]{images/temp_versus_time.png} 	
+\end{multicols}
+
+
 
 			\end{frame}
+
+			\begin{frame}
+
+			{\scriptsize \underline{Activity:} Answer the following questions. }\\{ \tiny (hint: Think about the {\it general system model}.)}\\
+
+
+What is the time constant of the bulb thermometer system? 
+
+\vspace{5mm}
+\begin{fleqn}
+\[ \tau= \]
+\end{fleqn}
+\vspace{5mm}\\What is the static sensitivity? What are the units?
+\vspace{5mm}
+\begin{fleqn}
+\[ K= \]
+\end{fleqn}
+\vspace{8mm}
+
+
+			\end{frame}
+
+
 		
 	% Section III
 	\section{\sectionIIItitle}\label{sectionIII}

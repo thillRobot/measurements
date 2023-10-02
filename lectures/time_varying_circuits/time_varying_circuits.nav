@@ -58,41 +58,45 @@
 \headcommand {\beamer@framepages {19}{19}}
 \headcommand {\slideentry {2}{3}{3}{20/20}{Example: RC Circuit}{0}}
 \headcommand {\beamer@framepages {20}{20}}
-\headcommand {\beamer@subsectionpages {18}{20}}
-\headcommand {\beamer@subsectionentry {0}{2}{4}{21}{Activity: Bulb Thermometer}}
-\headcommand {\slideentry {2}{4}{1}{21/21}{Activity: Bulb Thermometer}{0}}
+\headcommand {\slideentry {2}{3}{4}{21/21}{Example: RC Circuit}{0}}
 \headcommand {\beamer@framepages {21}{21}}
-\headcommand {\slideentry {2}{4}{2}{22/22}{Activity: Bulb Thermometer}{0}}
+\headcommand {\beamer@subsectionpages {18}{21}}
+\headcommand {\beamer@subsectionentry {0}{2}{4}{22}{Activity: Bulb Thermometer}}
+\headcommand {\slideentry {2}{4}{1}{22/22}{Activity: Bulb Thermometer}{0}}
 \headcommand {\beamer@framepages {22}{22}}
-\headcommand {\beamer@sectionpages {14}{22}}
-\headcommand {\beamer@subsectionpages {21}{22}}
-\headcommand {\sectionentry {3}{---}{23}{---}{0}}
-\headcommand {\slideentry {3}{0}{1}{23/23}{}{0}}
+\headcommand {\slideentry {2}{4}{2}{23/23}{Activity: Bulb Thermometer}{0}}
 \headcommand {\beamer@framepages {23}{23}}
-\headcommand {\beamer@subsectionpages {23}{23}}
-\headcommand {\beamer@subsectionentry {0}{3}{1}{24}{---}}
-\headcommand {\slideentry {3}{1}{1}{24/24}{---}{0}}
+\headcommand {\slideentry {2}{4}{3}{24/24}{Activity: Bulb Thermometer}{0}}
 \headcommand {\beamer@framepages {24}{24}}
-\headcommand {\slideentry {3}{1}{2}{25/25}{---}{0}}
+\headcommand {\beamer@sectionpages {14}{24}}
+\headcommand {\beamer@subsectionpages {22}{24}}
+\headcommand {\sectionentry {3}{---}{25}{---}{0}}
+\headcommand {\slideentry {3}{0}{1}{25/25}{}{0}}
 \headcommand {\beamer@framepages {25}{25}}
-\headcommand {\beamer@subsectionpages {24}{25}}
-\headcommand {\beamer@subsectionentry {0}{3}{2}{26}{---}}
-\headcommand {\slideentry {3}{2}{1}{26/26}{---}{0}}
+\headcommand {\beamer@subsectionpages {25}{25}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{26}{---}}
+\headcommand {\slideentry {3}{1}{1}{26/26}{---}{0}}
 \headcommand {\beamer@framepages {26}{26}}
-\headcommand {\beamer@subsectionpages {26}{26}}
-\headcommand {\beamer@subsectionentry {0}{3}{3}{27}{---}}
-\headcommand {\slideentry {3}{3}{1}{27/27}{---}{0}}
+\headcommand {\slideentry {3}{1}{2}{27/27}{---}{0}}
 \headcommand {\beamer@framepages {27}{27}}
-\headcommand {\slideentry {3}{3}{2}{28/28}{---}{0}}
+\headcommand {\beamer@subsectionpages {26}{27}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{28}{---}}
+\headcommand {\slideentry {3}{2}{1}{28/28}{---}{0}}
 \headcommand {\beamer@framepages {28}{28}}
-\headcommand {\beamer@subsectionpages {27}{28}}
-\headcommand {\beamer@subsectionentry {0}{3}{4}{29}{---}}
-\headcommand {\slideentry {3}{4}{1}{29/29}{---}{0}}
+\headcommand {\beamer@subsectionpages {28}{28}}
+\headcommand {\beamer@subsectionentry {0}{3}{3}{29}{---}}
+\headcommand {\slideentry {3}{3}{1}{29/29}{---}{0}}
 \headcommand {\beamer@framepages {29}{29}}
-\headcommand {\slideentry {3}{4}{2}{30/30}{---}{0}}
+\headcommand {\slideentry {3}{3}{2}{30/30}{---}{0}}
 \headcommand {\beamer@framepages {30}{30}}
-\headcommand {\beamer@partpages {1}{30}}
 \headcommand {\beamer@subsectionpages {29}{30}}
-\headcommand {\beamer@sectionpages {23}{30}}
-\headcommand {\beamer@documentpages {30}}
-\headcommand {\gdef \inserttotalframenumber {30}}
+\headcommand {\beamer@subsectionentry {0}{3}{4}{31}{---}}
+\headcommand {\slideentry {3}{4}{1}{31/31}{---}{0}}
+\headcommand {\beamer@framepages {31}{31}}
+\headcommand {\slideentry {3}{4}{2}{32/32}{---}{0}}
+\headcommand {\beamer@framepages {32}{32}}
+\headcommand {\beamer@partpages {1}{32}}
+\headcommand {\beamer@subsectionpages {31}{32}}
+\headcommand {\beamer@sectionpages {25}{32}}
+\headcommand {\beamer@documentpages {32}}
+\headcommand {\gdef \inserttotalframenumber {32}}
