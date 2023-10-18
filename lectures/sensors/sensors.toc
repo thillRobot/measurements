@@ -3,7 +3,7 @@
 \beamer@subsectionintoc {1}{2}{Analog and Digital Sensors}{6}{0}{1}
 \beamer@subsectionintoc {1}{3}{Example 1: Distance or Range}{9}{0}{1}
 \beamer@subsectionintoc {1}{4}{Example 2: Rotation}{12}{0}{1}
-\beamer@subsectionintoc {1}{5}{Example 2: Rotation}{18}{0}{1}
+\beamer@subsectionintoc {1}{5}{Example 2: Orientation}{18}{0}{1}
 \beamer@sectionintoc {2}{IC and MEMS based Sensors}{21}{0}{2}
 \beamer@subsectionintoc {2}{1}{Integrated Circuits}{22}{0}{2}
 \beamer@subsectionintoc {2}{2}{Micro Electro-Mechanical Devices}{24}{0}{2}
