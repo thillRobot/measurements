@@ -24,11 +24,10 @@
 \newcommand{\sectionItitle}{Introduction and Overview}
 \newcommand{\sectionIItitle}{IC and MEMS based Sensors}
 
-\newcommand{\sectionIsubsectionItitle}{Classification of Sensors}
-\newcommand{\sectionIsubsectionIItitle}{Analog and Digital Sensors}
-\newcommand{\sectionIsubsectionIIItitle}{Example 1: Distance or Range}
-\newcommand{\sectionIsubsectionIVtitle}{Example 2: Rotation}
-\newcommand{\sectionIsubsectionVtitle}{Example 2: Orientation}
+\newcommand{\sectionIsubsectionItitle}{Analog and Digital Sensors}
+\newcommand{\sectionIsubsectionIItitle}{Example 1: Distance or Range}
+\newcommand{\sectionIsubsectionIIItitle}{Example 2: Rotation}
+\newcommand{\sectionIsubsectionIVtitle}{Example 3: Orientation}
 
 \newcommand{\sectionIIsubsectionItitle}{Integrated Circuits}
 \newcommand{\sectionIIsubsectionIItitle}{Micro Electro-Mechanical Devices}
@@ -94,31 +93,20 @@
 			\begin{frame}
 				\frametitle{\sectionIsubsectionItitle}
 
-	
+				Sensors are typically classified as either {\bf analog} or {\bf digital} based on the type of signal that is output from the sensor. \vspace{5mm} \\
 
-			\end{frame}
-
-		% section I subsection II
-		\subsection{\sectionIsubsectionIItitle}\label{sectionIsubsectionII}
-
-			\begin{frame}
-				\frametitle{\sectionIsubsectionIItitle}
-
-				Sensors are typically classified as either {\bf analog} or {\bf digital} based on the type of signal that is output from the sensor.
+				
+				However, this can be a misleading term. Many digital sensors operate based on analog circuit principles but require a digital circuit or MCU to operate or comminicate. \vspace{5mm} \\
 
 				\begin{tabular}{|c|c|c|} \hline
 				 	Analog \hspace*{10mm}& Digital \hspace*{10mm}& Both? \hspace*{10mm} \\ \hline   
 				\end{tabular}	
 
-				However, this can be a misleading term. Many digital sensors operate based on analog circuit principles but require a digital circuit or MCU to operate or comminicate. 
-
-				                             		
-				\btVFill
 
 			\end{frame}
 
 			\begin{frame}
-				\frametitle{\sectionIsubsectionIItitle}
+				\frametitle{\sectionIsubsectionItitle}
 
 				Other Classifications:
 				\begin{itemize}
@@ -133,9 +121,85 @@
 
 			\end{frame}
 
+		% section I subsection II
+		\subsection{\sectionIsubsectionIItitle}\label{sectionIsubsectionII}
+
 			\begin{frame}
 				\frametitle{\sectionIsubsectionIItitle}
+
+				{\bf Thought Exercise:} How do we measure {\BL distance} (aka range)?        
+	
+					\begin{itemize}
+					
+						\item What variable or quantity is used to describe {\BL distance}?                         
+						\begin{itemize}
+							\item
+							\item
+							\item	
+						\end{itemize} \vspace{5mm}
+						\item What type of sensor is used to measure this?
+						\begin{itemize}
+							\item
+							\item
+							\item	
+						\end{itemize}	
+
+					\end{itemize}
+				
+				\btVFill
+
+			\end{frame}
+
 		
+
+			\begin{frame}
+				\frametitle{\sectionIsubsectionIItitle}
+
+
+				\includegraphics[scale=.2]{images/LVDT.png}
+
+			 	\href{https://www.ni.com/en-us/innovations/white-papers/06/measuring-position-and-displacement-with-lvdts.html}{LVDTs with NI}\\
+			 	\href{https://www.rdpe.com/us/hiw-lvdt.htm}{LVDT Animation}
+
+			 	\btVFill
+		
+			\end{frame}
+
+			\begin{frame}
+				\frametitle{\sectionIsubsectionIItitle}
+				\includegraphics[scale=.2]{images/LVDT.png}
+				\btVFill
+			\end{frame}
+
+
+			\begin{frame}
+				\frametitle{\sectionIsubsectionIVtitle}
+
+				\begin{itemize}
+					\item What applications require this type of sensor?
+					\begin{itemize}
+						\item \vspace{5mm}
+						\item \vspace{5mm}
+						\item \vspace{5mm}	
+					\end{itemize}
+				\end{itemize}
+				
+				\btVFill
+			\end{frame}
+
+			\begin{frame}
+				\frametitle{\sectionIsubsectionIVtitle}
+				\begin{itemize}
+					\item How does this type of sensor work?
+					\begin{itemize}
+						\item \vspace{5mm}
+						\item \vspace{5mm}
+						\item \vspace{5mm}	
+					\end{itemize}
+				\end{itemize}
+				
+				\btVFill
+
 			\end{frame}
 
 
@@ -143,37 +207,8 @@
 		\subsection{\sectionIsubsectionIIItitle}\label{sectionIsubsectionIII}
 			\begin{frame} 
 				\frametitle{\sectionIsubsectionIIItitle}
-				Thought Exercise: How do we measure distance (aka range)?   
-				
-			\end{frame}	
 
-			\begin{frame} 
-				\frametitle{\sectionIsubsectionIIItitle}
-
-				 \includegraphics[scale=.2]{images/LVDT.png}
-
-			 	\href{https://www.ni.com/en-us/innovations/white-papers/06/measuring-position-and-displacement-with-lvdts.html}{LVDTs with NI}\\
-			 	\href{https://www.rdpe.com/us/hiw-lvdt.htm}{LVDT Animation}
-
-			 	\btVFill
-
-
-			\end{frame}	
-
-			\begin{frame}
-				\frametitle{\sectionIsubsectionIIItitle}
-				\includegraphics[scale=.2]{images/LVDT.png}
-				\btVFill
-
-			\end{frame}
-
-		% section I subsection IV
-		\subsection{\sectionIsubsectionIVtitle}\label{sectionIsubsectionIV}	
-
-			\begin{frame}
-				\frametitle{\sectionIsubsectionIVtitle}
-
-					{\bf Thought Exercise:} How do we measure {\BL rotation}?        
+				{\bf Thought Exercise:} How do we measure {\BL rotation}?        
 	
 					\begin{itemize}
 					
@@ -193,49 +228,46 @@
 					\end{itemize}
 				
 				\btVFill
-
+			  
 				
-			\end{frame}
+			\end{frame}	
 
-			\begin{frame}
-				\frametitle{\sectionIsubsectionIVtitle}
-				
+			\begin{frame} 
+				\frametitle{\sectionIsubsectionIIItitle}
+
 				Rotational Potentiometer 
 
 				\includegraphics[scale=.25]{images/rot_pot.png}
 
+				\btVFill	
 
-				\btVFill
-
-			\end{frame}
+			\end{frame}	
 
 			\begin{frame}
-				\frametitle{\sectionIsubsectionIVtitle}
-				
+				\frametitle{\sectionIsubsectionIIItitle}
+
 				Absolute Encoder  
 	
 				\includegraphics[scale=.35]{images/lecture1_fig1.jpg}	
 				\includegraphics[scale=.25]{images/lecture1_fig2.jpg}
 
 				\btVFill
-
+				
 			\end{frame}
 
 			\begin{frame}
-				\frametitle{\sectionIsubsectionIVtitle}
-				
+
 				Incremental Encoder  
 	
 				\includegraphics[scale=.35]{images/lecture1_fig3.jpg}	
 	
 
 				\btVFill
-
 			\end{frame}
 
 
 			\begin{frame}
-				\frametitle{\sectionIsubsectionIVtitle}
+				\frametitle{\sectionIsubsectionIIItitle}
 
 				\begin{itemize}
 					\item What applications require this type of sensor?
@@ -250,8 +282,9 @@
 
 			\end{frame}
 
+
 			\begin{frame}
-				\frametitle{\sectionIsubsectionIVtitle}
+				\frametitle{\sectionIsubsectionIIItitle}
 
 				\begin{itemize}
 					\item How does this type of sensor work?
@@ -264,13 +297,13 @@
 				
 				\btVFill
 
-			\end{frame}
+			\end{frame}	
 
-		% section I subsection V
-		\subsection{\sectionIsubsectionVtitle}\label{sectionIsubsectionV}		
+		% section I subsection IV
+		\subsection{\sectionIsubsectionIVtitle}\label{sectionIsubsectionIV}		
 
 			\begin{frame}
-				\frametitle{\sectionIsubsectionVtitle}
+				\frametitle{\sectionIsubsectionIVtitle}
 				{\bf Thought Exercise:} How do we measure {\PR orientation}?        
 	
 				\begin{itemize}
@@ -295,7 +328,13 @@
 			\end{frame}
 
 			\begin{frame}
-				\frametitle{\sectionIsubsectionVtitle}
+				\frametitle{\sectionIsubsectionIVtitle}
+				ADD EXAMPLE ORIENTATION SENSOR HERE
+
+			\end{frame}
+
+			\begin{frame}
+				\frametitle{\sectionIsubsectionIVtitle}
 
 				\begin{itemize}
 					\item What applications require this type of sensor?
@@ -310,7 +349,7 @@
 			\end{frame}
 
 			\begin{frame}
-				\frametitle{\sectionIsubsectionVtitle}
+				\frametitle{\sectionIsubsectionIVtitle}
 				\begin{itemize}
 					\item How does this type of sensor work?
 					\begin{itemize}
