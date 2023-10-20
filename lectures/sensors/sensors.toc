@@ -5,6 +5,6 @@
 \beamer@subsectionintoc {1}{4}{Example 3: Orientation}{18}{0}{1}
 \beamer@sectionintoc {2}{IC and MEMS based Sensors}{22}{0}{2}
 \beamer@subsectionintoc {2}{1}{Integrated Circuits}{23}{0}{2}
-\beamer@subsectionintoc {2}{2}{Micro Electro-Mechanical Devices}{25}{0}{2}
-\beamer@subsectionintoc {2}{3}{Example 1: Magnometer and Digital Compass}{27}{0}{2}
-\beamer@subsectionintoc {2}{4}{Example 2: Accelerometer}{32}{0}{2}
+\beamer@subsectionintoc {2}{2}{Micro Electro-Mechanical Devices}{26}{0}{2}
+\beamer@subsectionintoc {2}{3}{Example 1: Accelerometer}{28}{0}{2}
+\beamer@subsectionintoc {2}{4}{Example 2: Magnometer and Digital Compass}{33}{0}{2}
