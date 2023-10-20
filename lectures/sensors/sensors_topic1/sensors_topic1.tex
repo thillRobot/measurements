@@ -8,7 +8,7 @@
 
 \documentclass[fleqn]{beamer} % for presentation (has nav buttons at bottom)
 
-\usepackage{/home/tntech.edu/thill/courses/measurements/lectures/measurements_lectures}
+\usepackage{/home/thill/Documents/lectures/measurements_lectures/measurements_lectures}
 
 \newcommand{\MNUM}{5\hspace{2mm}} % Module number
 \newcommand{\TNUM}{1\hspace{2mm}} % Topic number 
@@ -18,7 +18,7 @@
 \newcommand{\sectiontitleI}{Classification of Sensors}
 \newcommand{\sectiontitleII}{Analog and Digital Sensors}
 \newcommand{\sectiontitleIII}{Example 1: Distance or Range}
-\newcommand{\sectiontitleIV}{Example 2: Motion}
+\newcommand{\sectiontitleIV}{Example 2: Rotation}
 \newcommand{\sectiontitleV}{Example 3: Orientation}
 
 \newcommand{\btVFill}{\vskip0pt plus 1filll}
@@ -103,16 +103,35 @@
 \frametitle{\sectiontitleIII}
 
 	Thought Exercise: How do we measure distance (aka range)?                                 
- 
+ 		
+
+
+
     \btVFill
 }
 
 % Section III - Frame II:
 \frame{  \small
 \frametitle{\sectiontitleIII}
- 
+ 	
+ 	\includegraphics[scale=.2]{LVDT.png}
+
+ 	
+ 	\href{https://www.ni.com/en-us/innovations/white-papers/06/measuring-position-and-displacement-with-lvdts.html}{LVDTs with NI}\\
+ 	\href{https://www.rdpe.com/us/hiw-lvdt.htm}{LVDT Animation}
 
 }
+
+% Section III - Frame II:
+\frame{  \small
+\frametitle{\sectiontitleIII}
+ 	
+ 	\includegraphics[scale=.2]{LVDT.png}
+
+
+
+}
+
 
 
 \section{\sectiontitleIV}
@@ -144,6 +163,40 @@
 
 
 }
+
+\frame{  \small
+	\frametitle{\sectiontitleIV}
+	
+	Rotational Potentiometer 
+
+	\includegraphics[scale=.25]{rot_pot.png}
+
+
+	\btVFill
+}
+
+\frame{  \small
+	\frametitle{\sectiontitleIV}
+	
+	Absolute Encoder  
+	
+	\includegraphics[scale=.35]{lecture1_fig1.jpg}	
+	\includegraphics[scale=.25]{lecture1_fig2.jpg}
+	
+	\btVFill
+}
+
+\frame{  \small
+	\frametitle{\sectiontitleIV}
+	
+	Incremental Encoder  
+	
+	\includegraphics[scale=.35]{lecture1_fig3.jpg}	
+	
+	
+	\btVFill
+}
+
 
 % Section IV - Frame II:
 \frame{  \small
@@ -206,6 +259,11 @@
 	
 	
 }
+
+
+
+
+
 
 % Section V - Frame II:
 \frame{  \small
