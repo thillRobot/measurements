@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.13)  31 OCT 2023 23:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.13)  1 NOV 2023 00:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1124,6 +1124,12 @@ LaTeX Warning: Label `sectionI<1>' multiply defined.
 LaTeX Warning: Label `sectionI' multiply defined.
 
 
+LaTeX Warning: Label `sectionII<1>' multiply defined.
+
+
+LaTeX Warning: Label `sectionII' multiply defined.
+
+
 LaTeX Warning: Label `sectionIV<1>' multiply defined.
 
 
@@ -1352,21 +1358,33 @@ l.145 	\end{frame}
 
 ] [6
 
-] [7
+]pdfTeX warning (ext4): destination with the same identifier (name{sectionII<1>
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.201 \end{frame}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{sectionII}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.201 \end{frame}
+                  [7
 
 ] [8
+
+] [9
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{sectionIV<1>
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.232 \end{frame}
+l.260 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{sectionIV}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.232 \end{frame}
-                  [9
+l.260 \end{frame}
+                  [10
 
 ]
 \tf@nav=\write7
@@ -1384,13 +1402,13 @@ LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `data_acquisition_topic2.out' has not changed
 .
-(rerunfilecheck)             Checksum: 5612466A8D3309C06337C1CA4C777588;218.
+(rerunfilecheck)             Checksum: C19FB44C91CDE2523B5B6EB3DCF17767;216.
  ) 
 Here is how much of TeX's memory you used:
- 29907 strings out of 480247
- 601140 string characters out of 5896151
- 1060910 words of memory out of 5000000
- 47200 multiletter control sequences out of 15000+600000
+ 29911 strings out of 480247
+ 601175 string characters out of 5896151
+ 1060950 words of memory out of 5000000
+ 47202 multiletter control sequences out of 15000+600000
  491866 words of font info for 78 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  99i,19n,104p,399b,593s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1406,10 +1424,10 @@ pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0600.60
 1095.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecs
 s1440.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ec
 sx0600.600pk>
-Output written on data_acquisition_topic2.pdf (9 pages, 99615 bytes).
+Output written on data_acquisition_topic2.pdf (10 pages, 104298 bytes).
 PDF statistics:
- 671 PDF objects out of 1000 (max. 8388607)
- 352 compressed objects within 4 object streams
- 31 named destinations out of 1000 (max. 500000)
+ 711 PDF objects out of 1000 (max. 8388607)
+ 383 compressed objects within 4 object streams
+ 33 named destinations out of 1000 (max. 500000)
  96 words of extra memory for PDF output out of 10000 (max. 10000000)
 
