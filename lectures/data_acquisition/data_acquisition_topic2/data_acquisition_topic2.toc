@@ -1,4 +1,4 @@
 \beamer@sectionintoc {1}{Signal Types and DAQ}{3}{0}{1}
-\beamer@sectionintoc {2}{Available Hardware}{5}{0}{2}
-\beamer@sectionintoc {3}{Software Integration}{6}{0}{3}
-\beamer@sectionintoc {4}{---}{8}{0}{4}
+\beamer@sectionintoc {2}{Noise Considerations}{6}{0}{2}
+\beamer@sectionintoc {3}{Available Hardware}{7}{0}{3}
+\beamer@sectionintoc {4}{Software Integration}{8}{0}{4}
