@@ -2,3 +2,4 @@
 \beamer@sectionintoc {2}{Types of Integers}{4}{0}{2}
 \beamer@sectionintoc {3}{Integers vs. Floating Point Numbers}{6}{0}{3}
 \beamer@sectionintoc {4}{Analog to Digital Conversion}{9}{0}{4}
+\beamer@sectionintoc {5}{Activity: ADC Resolution Calculation}{11}{0}{5}
