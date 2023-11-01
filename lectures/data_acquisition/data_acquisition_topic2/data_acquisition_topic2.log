@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.13)  31 OCT 2023 23:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.13)  31 OCT 2023 23:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1406,9 +1406,9 @@ pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0600.60
 1095.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecs
 s1440.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ec
 sx0600.600pk>
-Output written on data_acquisition_topic2.pdf (9 pages, 99817 bytes).
+Output written on data_acquisition_topic2.pdf (9 pages, 99615 bytes).
 PDF statistics:
- 672 PDF objects out of 1000 (max. 8388607)
+ 671 PDF objects out of 1000 (max. 8388607)
  352 compressed objects within 4 object streams
  31 named destinations out of 1000 (max. 500000)
  96 words of extra memory for PDF output out of 10000 (max. 10000000)
