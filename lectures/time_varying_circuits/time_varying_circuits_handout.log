@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.5.31)  2 OCT 2023 08:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.5.31)  19 FEB 2024 10:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1022,8 +1022,17 @@ Package hyperref Info: Option `pdfnewwindow' set `true' on input line 107.
 Package hyperref Info: Option `colorlinks' set `true' on input line 107.
 )
 \mybox=\box138
+ (./time_varying_circuits_handout.aux
 
-No file time_varying_circuits_handout.aux.
+LaTeX Warning: Label `sectionIIsubsectionI' multiply defined.
+
+
+LaTeX Warning: Label `sectionIIsubsectionI<1>' multiply defined.
+
+
+LaTeX Warning: Label `sectionIIsubsectionI' multiply defined.
+
+)
 \openout1 = `time_varying_circuits_handout.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
@@ -1042,6 +1051,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
 LaTeX Font Info:    ... okay on input line 54.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
 LaTeX Font Info:    ... okay on input line 54.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1116,6 +1126,8 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 54.
 LaTeX Info: Redefining \pageref on input line 54.
 LaTeX Info: Redefining \nameref on input line 54.
+
+(./time_varying_circuits_handout.out) (./time_varying_circuits_handout.out)
 \@outlinefile=\write6
 \openout6 = `time_varying_circuits_handout.out'.
 
@@ -1187,18 +1199,17 @@ ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 \c@lstlisting=\count368
-
-No file time_varying_circuits_handout.nav.
+ (./time_varying_circuits_handout.nav)
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
-) [1
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
+] [2
 
 ] [3
 
 ]
-<images/charges_plus_minus.png, id=119, 165.61874pt x 124.21407pt>
+<images/charges_plus_minus.png, id=203, 165.61874pt x 124.21407pt>
 File: images/charges_plus_minus.png Graphic file (type png)
 <use images/charges_plus_minus.png>
 Package pdftex.def Info: images/charges_plus_minus.png  used on input line 109.
@@ -1226,12 +1237,16 @@ LaTeX Font Info:    Trying to load font information for U+wasy on input line 15
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
-<images/Oliver_Heaviside.jpg, id=177, 514.92375pt x 791.95876pt>
+<images/Oliver_Heaviside.jpg, id=272, 514.92375pt x 791.95876pt>
 File: images/Oliver_Heaviside.jpg Graphic file (type jpg)
 <use images/Oliver_Heaviside.jpg>
 Package pdftex.def Info: images/Oliver_Heaviside.jpg  used on input line 154.
 (pdftex.def)             Requested size: 102.98293pt x 158.38895pt.
- [6
+
+Overfull \vbox (1.55833pt too high) detected at line 154
+ []
+
+[6
 
  <./images/Oliver_Heaviside.jpg>] [7
 
@@ -1244,7 +1259,7 @@ Package pdftex.def Info: images/Oliver_Heaviside.jpg  used on input line 154.
 ] [11
 
 ]
-<images/rc_circuit.png, id=351, 226.23653pt x 167.79208pt>
+<images/rc_circuit.png, id=485, 226.23653pt x 167.79208pt>
 File: images/rc_circuit.png Graphic file (type png)
 <use images/rc_circuit.png>
 Package pdftex.def Info: images/rc_circuit.png  used on input line 243.
@@ -1253,8 +1268,7 @@ Package pdftex.def Info: images/rc_circuit.png  used on input line 243.
 
  <./images/rc_circuit.png>] [13
 
-]
-[14
+] [14
 
 ] [15
 
@@ -1277,7 +1291,7 @@ l.293 			\end{frame}
                     	 [16
 
 ]
-<images/r_circuit.png, id=501, 122.54478pt x 155.22339pt>
+<images/r_circuit.png, id=668, 122.54478pt x 155.22339pt>
 File: images/r_circuit.png Graphic file (type png)
 <use images/r_circuit.png>
 Package pdftex.def Info: images/r_circuit.png  used on input line 315.
@@ -1286,22 +1300,22 @@ File: images/rc_circuit.png Graphic file (type png)
 <use images/rc_circuit.png>
 Package pdftex.def Info: images/rc_circuit.png  used on input line 315.
 (pdftex.def)             Requested size: 56.55899pt x 41.9479pt.
-<images/rlc_circuit.png, id=502, 174.70486pt x 175.3333pt>
+<images/rlc_circuit.png, id=669, 174.70486pt x 175.3333pt>
 File: images/rlc_circuit.png Graphic file (type png)
 <use images/rlc_circuit.png>
 Package pdftex.def Info: images/rlc_circuit.png  used on input line 315.
 (pdftex.def)             Requested size: 43.6761pt x 43.8332pt.
-<images/hand_spring.png, id=503, 468.24937pt x 354.57469pt>
+<images/hand_spring.png, id=670, 468.24937pt x 354.57469pt>
 File: images/hand_spring.png Graphic file (type png)
 <use images/hand_spring.png>
 Package pdftex.def Info: images/hand_spring.png  used on input line 315.
 (pdftex.def)             Requested size: 70.23436pt x 53.1839pt.
-<images/water_tank.png, id=504, 538.26094pt x 369.63094pt>
+<images/water_tank.png, id=671, 538.26094pt x 369.63094pt>
 File: images/water_tank.png Graphic file (type png)
 <use images/water_tank.png>
 Package pdftex.def Info: images/water_tank.png  used on input line 315.
 (pdftex.def)             Requested size: 80.73566pt x 55.44225pt.
-<images/mass_spring_damper.png, id=505, 824.32968pt x 566.115pt>
+<images/mass_spring_damper.png, id=672, 824.32968pt x 566.115pt>
 File: images/mass_spring_damper.png Graphic file (type png)
 <use images/mass_spring_damper.png>
 Package pdftex.def Info: images/mass_spring_damper.png  used on input line 315.
@@ -1318,7 +1332,7 @@ Package pdftex.def Info: images/rc_circuit.png  used on input line 342.
  [18
 
 ]
-<images/voltage_versus_time.png, id=567, 336.84105pt x 200.4707pt>
+<images/voltage_versus_time.png, id=747, 336.84105pt x 200.4707pt>
 File: images/voltage_versus_time.png Graphic file (type png)
 <use images/voltage_versus_time.png>
 Package pdftex.def Info: images/voltage_versus_time.png  used on input line 365
@@ -1336,19 +1350,19 @@ Overfull \hbox (19.77518pt too wide) in paragraph at lines 365--365
 ] [21
 
 ]
-<images/bulb_thermometer.png, id=649, 352.31625pt x 358.33875pt>
+<images/bulb_thermometer.png, id=848, 352.31625pt x 358.33875pt>
 File: images/bulb_thermometer.png Graphic file (type png)
 <use images/bulb_thermometer.png>
 Package pdftex.def Info: images/bulb_thermometer.png  used on input line 413.
 (pdftex.def)             Requested size: 123.31253pt x 125.42044pt.
 
-Overfull \vbox (27.94849pt too high) detected at line 413
+Overfull \vbox (59.92769pt too high) detected at line 413
  []
 
 [22
 
  <./images/bulb_thermometer.png>]
-<images/temp_versus_time.png, id=679, 336.84105pt x 200.4707pt>
+<images/temp_versus_time.png, id=884, 336.84105pt x 200.4707pt>
 File: images/temp_versus_time.png Graphic file (type png)
 <use images/temp_versus_time.png>
 Package pdftex.def Info: images/temp_versus_time.png  used on input line 437.
@@ -1394,29 +1408,22 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 538.
  (./time_varying_circuits_handout.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 538.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 538.
+Package rerunfilecheck Info: File `time_varying_circuits_handout.out' has not c
+hanged.
+(rerunfilecheck)             Checksum: 0A73E50CE815EA511E38B2A52C82690D;965.
 
 
-Package rerunfilecheck Warning: File `time_varying_circuits_handout.out' has ch
-anged.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `time_varying_circuits_handout.out':
-
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  0A73E50CE815EA511E38B2A52C82690D;965.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 25982 strings out of 483183
- 514362 string characters out of 5966292
- 985328 words of memory out of 5000000
- 40277 multiletter control sequences out of 15000+600000
+ 26124 strings out of 483183
+ 516232 string characters out of 5966292
+ 990640 words of memory out of 5000000
+ 40411 multiletter control sequences out of 15000+600000
  556464 words of font info for 80 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 62i,15n,73p,796b,564s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,19n,73p,796b,592s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/e
 csi0600.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/j
 knappen/ec/ecss0800.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts
@@ -1430,11 +1437,11 @@ me/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0700
 our/jknappen/ec/ecss1000.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/
 fonts/pk/ljfour/jknappen/ec/ecss1200.600pk> </home/tntech.edu/thill/.texlive201
 9/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1200.600pk> </home/tntech.edu/thill
-/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx0600.600pk> </home/tnte
-ch.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1440.600pk>
+/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1440.600pk> </home/tnte
+ch.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1095.600pk>
  </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecs
-s1095.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jkn
-appen/ec/ecss1440.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+s1440.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jkn
+appen/ec/ecsx0600.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></
@@ -1443,10 +1450,10 @@ are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on time_varying_circuits_handout.pdf (32 pages, 697537 bytes).
+Output written on time_varying_circuits_handout.pdf (32 pages, 715163 bytes).
 PDF statistics:
- 1416 PDF objects out of 1440 (max. 8388607)
- 971 compressed objects within 10 object streams
+ 1701 PDF objects out of 1728 (max. 8388607)
+ 1233 compressed objects within 13 object streams
  96 named destinations out of 1000 (max. 500000)
- 119 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 239 words of extra memory for PDF output out of 10000 (max. 10000000)
 
