@@ -31,8 +31,8 @@ figure(1);hold on
 for k=1:T_len
     subplot(T_len,1,k);hold on
     plot(t(1:length(vs)),vs(k,:),'k.-')
-    % plot(t(1:length(vc)),vc(k,:),'b.-')
-    % plot(t(1:length(err)),err(k,:),':')
+    plot(t(1:length(vc)),vc(k,:),'b.-')
+    plot(t(1:length(err)),err(k,:),':')
     grid on
     axis([0 tstop -.2*A 1.2*A])
     xlabel('Time (sec)')
@@ -40,7 +40,7 @@ for k=1:T_len
     tstr=sprintf('Square Wave %d - A: %.1f(volt), f: %.1f(Hz)',k,A,f(k));
     title(tstr)
     if(k==1)
-        legend("vs - source voltage")
+        legend('vs - source voltage', 'vc - capacitor voltage', 'err - error fraction')
     end
 end
 
