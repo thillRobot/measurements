@@ -1,0 +1,215 @@
+% !TeX document-id = {0ccc412d-c9f8-405b-8334-e990c4958e6d}
+% !TeX TXS-program:compile = txs:///pdflatex/[--shell-escape]
+%% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+
+% Spring 2020 - Summer 2020 - Fall 2020 - Spring 2021 - Spring 2024
+% Tristan Hill, May 07, 2020 - June 12, 2020 - July 08, 2020 - March 28, 2021
+% Lecture Module - Frequency Filters
+% Topic 1 - What is a Frequency Filter
+
+\documentclass[fleqn]{beamer} % for presentation (has nav buttons at bottom)
+
+\usepackage{/home/thill/courses/measurements/lectures/measurements_lectures}
+
+
+\author{ME3023 - Measurements in Mechanical Systems} % original formatting from Mike Renfro, September 21, 2004
+
+\newcommand{\MNUM}{7\hspace{2mm}} % Module number
+\newcommand{\TNUM}{1\hspace{2mm}} % Topic number 
+\newcommand{\moduletitle}{Frequency Filters}
+\newcommand{\topictitle}{What is a Frequency Filter} 
+
+\newcommand{\sectiontitleI}{Signal, Amplitude, and Frequency}
+\newcommand{\sectiontitleII}{Filter Concept}
+\newcommand{\sectiontitleIII}{High-Pass, Low-Pass, and Band-Pass}
+\newcommand{\sectiontitleIV}{Applications}
+\newcommand{\sectiontitleV}{MATLAB Activity}
+
+% custom box
+\newsavebox{\mybox}
+
+\title{Lecture Module - \moduletitle}
+
+\date{Mechanical Engineering\vspc Tennessee Technological University}
+
+\begin{document}
+
+\lstset{language=MATLAB,basicstyle=\ttfamily\small,showstringspaces=false}
+
+\frame{\titlepage \center\begin{framed}\Large \textbf{Topic \TNUM - \topictitle}\end{framed} \vspace{5mm}}
+
+% Section 0: Outline
+\frame{
+\large \textbf{Topic \TNUM - \topictitle} \vspace{3mm}\\
+
+\begin{itemize}
+
+	\item \sectiontitleI    \vspc % Section I
+	\item \sectiontitleII 	\vspc % Section II
+	\item \sectiontitleIII 	\vspc %Section III
+	\item \sectiontitleIV 	\vspc %Section IV
+	\item \sectiontitleV 	  \vspc %Section V
+
+\end{itemize}
+
+}
+
+% Section I:
+\section{\sectiontitleI}
+
+% Section I - Frame I:
+\frame{
+\frametitle{\sectiontitleI}
+
+{\RD Signal}, {\GR Amplitude}, and {\BL Frequency}\vspace{2mm}\\
+\includegraphics[scale=.25]{images/amplitude_frequency.png} 
+\includegraphics[scale=.25]{images/unit_circle.png}
+					
+What is the relationship between the unit circle and frequency?\vspace{5mm}\\
+
+
+}
+
+
+% Section I - Frame II:
+\frame{ \small
+\frametitle{\sectiontitleI}
+
+\begin{multicols}{2}
+Signals can be composed of multiple {\it frequency components}. \\ (see Fourier Analysis Ch2).\vspace{3mm}\\
+
+\includegraphics[scale=.4]{images/signal_addition.png}
+
+\includegraphics[scale=.30]{images/frequency_components.png}
+\end{multicols}
+
+}
+
+% Section I - Frame III:
+\frame{ \small
+\frametitle{\sectiontitleI}
+
+
+\includegraphics[scale=.35]{images/frequency_domain.png}
+
+}
+
+
+
+
+% Section II:
+\section{\sectiontitleII}
+
+% Section II - Frame I:
+\frame{ \small
+\frametitle{\sectiontitleII}
+
+A {\PR raw signal} is input to a {\OR frequency filter} and a {\PN filtered signal} is output. \vspace{5mm}
+
+\includegraphics[scale=.45]{images/filter_concept.png}
+
+} 
+
+% Section II - Frame II:
+\frame{
+\frametitle{\sectiontitleII}
+
+So what is inside the {\it grey box}? \vspace{10mm} \\
+
+\includegraphics[scale=.5]{images/grey_box.png} \vspace{5mm} \\
+
+How does it work? \vspace{3mm} \\
+
+Interesting fact: The RC circuit used as first order filter is known as the Butterworth filter. 
+
+}
+
+
+% Section II - Frame II:
+\frame{
+\frametitle{\sectiontitleII }
+
+Filters are constructed from time-varying circuits. The most basic of which is the {\BL RC filter}.
+\begin{multicols}{2}
+
+First Order Model
+\[ \tau \dot{y}+y=KA \sin(\omega t) \]
+
+Response Equation
+\includegraphics[scale=.5]{images/rc_circuit.png} \vspace{5mm} \\
+\end{multicols}
+
+\[ y(t)=Ce^{-\frac{t}{\tau}}+\frac{KA}{\sqrt{1+(\omega\tau)^2}}\sin(\omega t-\tan^{-1}(\omega\tau)) \]
+
+}
+
+
+% Section III:
+\section{\sectiontitleIII}
+
+% Section III - Frame I:
+\frame{\small
+\frametitle{\sectiontitleIII}
+	
+\includegraphics[scale=.25]{images/filter_types.png} \vspace{5mm} \\
+
+}
+
+% Section III - Frame II:
+\frame{\small
+\frametitle{\sectiontitleIII}
+Physical frequency filters do not behave in an ideal manner as the previous figure shows. The filter characteristics are frequency dependent. 
+
+\includegraphics[scale=.3]{images/bode_diagram.png} \vspace{5mm} \\
+
+	
+	
+}
+
+%% Section IV:
+\section{\sectiontitleIV}
+
+% Section IV - Frame I:
+\frame{\small
+\frametitle{\sectiontitleIV}
+
+	
+	Finally, what are filters used for? 
+	\begin{itemize}
+		\item 
+		\item 
+		\item	
+	\end{itemize}
+
+}
+	
+
+%% Section V:
+\section{\sectiontitleV}
+
+% Section V - Frame I:
+\frame{\small
+\frametitle{\sectiontitleV}
+
+Class Activity: Complete the activity as an individual. Discussion with your peers is encouraged.
+
+Overview: Consider the parameterized square wave shown in figure 1 as the input voltage to a first order filter. The input to the system is the source voltage and the output is the voltage across the capacitor.  
+
+\begin{enumerate}
+  
+  \item do some stuff
+
+  
+
+
+
+\end{enumerate}
+
+
+}
+
+\end{document}
+
+
+
