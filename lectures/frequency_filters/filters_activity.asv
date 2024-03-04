@@ -1,0 +1,43 @@
+% ME3023/VE3500 - Tennessee Technological University
+% Freqency filters demonstration - square wave + first order system
+
+clear variables
+clc 
+close all
+
+T=20  % period (sec)
+f=1/T % frequency (hz)
+w=2*pi*f
+
+A=2
+
+dt=1
+tstop=100
+t=0:dt:tstop
+
+y=square_wave(t,T,A)
+
+figure(1);hold on
+plot(t(1:length(y)),y,'o')
+grid on
+axis([0 tstop -.2*A 1.2*A])
+
+
+% user defined function to make a square wave
+function y = square_wave(t,T,A) 
+
+    % T_idx=0; % index for tracking period
+
+    for i=1:length(t)
+        N=floor(t(i)/T) % find the current period
+        tdiff=t(i)-N*T  % time from start of current period
+
+        if (tdiff>0) && (tdiff<=T/2) % first half of period
+            y(i)=0
+        elseif (tdiff>T/2) && (tdiff<=T) 
+            y(i)=A
+        end
+        
+    end
+    
+end
