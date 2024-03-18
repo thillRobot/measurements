@@ -12,13 +12,13 @@
  
 
 \documentclass[fleqn]{beamer} % for presentation (has nav buttons at bottom)
-\usepackage{/home/tntech.edu/thill/courses/measurements/lectures/measurements_lectures}
+%\usepackage{/home/tntech.edu/thill/courses/measurements/lectures/measurements_lectures}
 %\usepackage{/home/thill/courses/measurements/lectures/measurements_lectures}
-%\usepackage{/mnt/c/Users/thill/Documents/courses/measurements/lectures/measurements_lectures}
+\usepackage{/mnt/c/Users/thill/Documents/courses/measurements/lectures/measurements_lectures}
 
 \author{ME3023 - Measurements in Mechanical Systems} % original formatting from Mike Renfro, September 21, 2004
 
-\newcommand{\MNUM}{4\hspace{2mm}} % module number 
+%\newcommand{\MNUM}{4\hspace{2mm}} % module number 
 \newcommand{\moduletitle}{Sensors}
 
 \newcommand{\sectionItitle}{Introduction and Overview}
@@ -27,7 +27,7 @@
 \newcommand{\sectionIsubsectionItitle}{Analog and Digital Sensors}
 \newcommand{\sectionIsubsectionIItitle}{Example 1: Distance or Range}
 \newcommand{\sectionIsubsectionIIItitle}{Example 2: Rotation}
-\newcommand{\sectionIsubsectionIVtitle}{Example 3: Orientation}
+%\newcommand{\sectionIsubsectionIVtitle}{Example 3: Orientation}
 
 \newcommand{\sectionIIsubsectionItitle}{Integrated Circuits}
 \newcommand{\sectionIIsubsectionIItitle}{Micro Electro-Mechanical Devices}
@@ -51,7 +51,7 @@
 
 	% Module Outline
 	\begin{frame} 
-		\large \textbf{Module \MNUM - \moduletitle} \vspace{3mm}\\
+		\large \textbf{\moduletitle} \vspace{3mm}\\
 
 		\begin{itemize}
 			\item Topic 1 - \hyperlink{sectionI}{\sectionItitle} \vspc % section I
@@ -71,7 +71,7 @@
 				\item \hyperlink{sectionIsubsectionI}{\sectionIsubsectionItitle} \vspc %  section I subsection I
 				\item \hyperlink{sectionIsubsectionII}{\sectionIsubsectionIItitle} \vspc % section I subsection II
 				\item \hyperlink{sectionIsubsectionIII}{\sectionIsubsectionIIItitle} \vspc % section I subsection III
-				\item \hyperlink{sectionIsubsectionIV}{\sectionIsubsectionIVtitle} \vspc % section I subsection IV
+				%\item \hyperlink{sectionIsubsectionIV}{\sectionIsubsectionIVtitle} \vspc % section I subsection IV
 			\end{itemize}
 		\end{frame}
 		
@@ -173,7 +173,7 @@
 
 
 			\begin{frame}
-				\frametitle{\sectionIsubsectionIVtitle}
+				\frametitle{\sectionIsubsectionIItitle}
 
 				\begin{itemize}
 					\item What applications require this type of sensor?
@@ -188,7 +188,7 @@
 			\end{frame}
 
 			\begin{frame}
-				\frametitle{\sectionIsubsectionIVtitle}
+				\frametitle{\sectionIsubsectionIItitle}
 				\begin{itemize}
 					\item How does this type of sensor work?
 					\begin{itemize}
@@ -298,70 +298,6 @@
 				\btVFill
 
 			\end{frame}	
-
-		% section I subsection IV
-		\subsection{\sectionIsubsectionIVtitle}\label{sectionIsubsectionIV}		
-
-			\begin{frame}
-				\frametitle{\sectionIsubsectionIVtitle}
-				{\bf Thought Exercise:} How do we measure {\PR orientation}?        
-	
-				\begin{itemize}
-					
-					\item What variable or quantity is used to describe {\PR orientation}?                         
-					\begin{itemize}
-						\item
-						\item
-						\item	
-					\end{itemize} \vspace{5mm}
-					\item What type of sensor is used to measure this?
-					\begin{itemize}
-						\item
-						\item
-						\item	
-					\end{itemize}	
-					
-				\end{itemize}
-				
-				\btVFill
-	
-			\end{frame}
-
-			\begin{frame}
-				\frametitle{\sectionIsubsectionIVtitle}
-				ADD EXAMPLE ORIENTATION SENSOR HERE
-
-			\end{frame}
-
-			\begin{frame}
-				\frametitle{\sectionIsubsectionIVtitle}
-
-				\begin{itemize}
-					\item What applications require this type of sensor?
-					\begin{itemize}
-						\item \vspace{5mm}
-						\item \vspace{5mm}
-						\item \vspace{5mm}	
-					\end{itemize}
-				\end{itemize}
-				
-				\btVFill
-			\end{frame}
-
-			\begin{frame}
-				\frametitle{\sectionIsubsectionIVtitle}
-				\begin{itemize}
-					\item How does this type of sensor work?
-					\begin{itemize}
-						\item \vspace{5mm}
-						\item \vspace{5mm}
-						\item \vspace{5mm}	
-					\end{itemize}
-				\end{itemize}
-				
-				\btVFill
-
-			\end{frame}
 
 	
 	% Section II
@@ -494,37 +430,91 @@
 			 		
 			 		\item Seismometer or Seismograph
 
-			 		\item piezoelectric - charge in material resulting from mechanical stress
+			 		\item Piezoelectric - charge in material resulting from mechanical stress
 
-			 		\item piezoresistive - change in resistance resulting from mechanical stress
+			 		\item Piezoresistive - change in resistance resulting from mechanical stress
 
-			 		\item capacitive 
+			 		\item Capacitive 
+
+			 		\item Multi Axis - triaxial 
 
 			 	\end{itemize}
 
 			 
 			    \btVFill
+			    {\tiny \href{https://www.omega.com/en-us/resources/accelerometers}{Accelerometer Types - Omega} }
 
 			\end{frame}
 
 			\begin{frame}
 			\frametitle{\sectionIIsubsectionIIItitle}
 
-				piezoelectric accelerometer                                
+				Piezoelectric accelerometer (charge mode)                               
  
-			 	\includegraphics[scale=3.5]{images/PiezoAccel.jpg} 
 			 	\includegraphics[scale=.55]{images/Piezoelectric.png}
+			 	\includegraphics[scale=.35]{images/charge_accel_wiring.png}
 			    \btVFill
 
 			\end{frame}
 
 			\begin{frame}
 			\frametitle{\sectionIIsubsectionIIItitle}
+			\scriptsize	   
 
-				capacitive accelerometer                                
+				Peizoelectronic accelerometer with embedded amplifier circuit (ICP)                            
  
-			 	\includegraphics[scale=.55]{images/Capacitance.png}
+			 	\includegraphics[scale=.2]{images/ICP-accel1.jpg} 
+			    \includegraphics[scale=3.0]{images/PiezoAccel.jpg}
+			    \includegraphics[scale=.35]{images/icp_accel_wiring.png}
+			    
 			    \btVFill
+			    {\tiny \href{https://www.pcb.com/resources/technical-information/introduction-to-accelerometers}{ICP Accelerometers - PCB Peizotronics} }
+
+			\end{frame}
+
+
+			\begin{frame}
+			\frametitle{\sectionIIsubsectionIIItitle}
+			\scriptsize
+				Capacitive accelerometer                                  
+ 
+			 	\includegraphics[scale=.45]{images/Capacitance.png}
+			 	\includegraphics[scale=.30]{images/singleended_cap_accel.png}
+
+				\[V_{output}=-\frac{C_s}{C_F}V_{drive}\]
+				\[C=\epsilon\frac{A}{d}\]
+				\[V_{output}=-\frac{d_F}{d_s}V_{drive}\]			 	
+				\[V_{output}=\frac{d_F}{d_0+\Delta d}V_{drive}\]
+
+
+			    \btVFill
+			    {\tiny \href{https://www.allaboutcircuits.com/technical-articles/introduction-to-capacitive-accelerometer-measure-acceleration-capacitive-sensing/}{Capacitive Accelerometers - All About Circuits} }
+
+			\end{frame}
+
+
+			\begin{frame}
+			\frametitle{\sectionIIsubsectionIIItitle}
+			\scriptsize	
+				Capacitive accelerometer    
+
+ 				\includegraphics[scale=.45]{images/Capacitance.png}
+			 	\includegraphics[scale=.27]{images/syncdemod_cap_accel.png}
+			 	
+			 	\begin{multicols}{2}	
+			 	\[V_{bridge}=\frac{ C_{s1}V_{drive+}+C_{s2}V_{drive-} }{ C_{s1}+C_{s2} }\]
+			 	\[V_{bridge}=\frac{ d_{s2}V_{drive+}+d_{s1}V_{drive-} }{ d_{s1}+d_{s2} }\]
+
+			 	\[d_{s1}=d_0-\Delta d\]
+			 	\[d_{s2}=d_0+\Delta d\]
+			 	\[V_{drive+}=-V_{drive-}\]
+
+			 	\[V_{bridge}=\frac{\Delta d}{d_0}V_{drive+}\]	
+			 	\end{multicols}	
+
+			 	\btVFill	
+			 	\href{https://www.allaboutcircuits.com/technical-articles/introduction-to-capacitive-accelerometer-measure-acceleration-capacitive-sensing/}{capacitive accelerometer wiring}
+			 	\href{https://www.analog.com/media/en/training-seminars/design-handbooks/Practical-Design-Techniques-Sensor-Signal/Section6.PDF}{Position and motion sensors}
 
 			\end{frame}
 

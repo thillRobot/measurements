@@ -2,9 +2,8 @@
 \beamer@subsectionintoc {1}{1}{Analog and Digital Sensors}{4}{0}{1}
 \beamer@subsectionintoc {1}{2}{Example 1: Distance or Range}{7}{0}{1}
 \beamer@subsectionintoc {1}{3}{Example 2: Rotation}{12}{0}{1}
-\beamer@subsectionintoc {1}{4}{Example 3: Orientation}{18}{0}{1}
-\beamer@sectionintoc {2}{IC and MEMS based Sensors}{22}{0}{2}
-\beamer@subsectionintoc {2}{1}{Integrated Circuits}{23}{0}{2}
-\beamer@subsectionintoc {2}{2}{Micro Electro-Mechanical Devices}{26}{0}{2}
-\beamer@subsectionintoc {2}{3}{Example 1: Accelerometer}{28}{0}{2}
-\beamer@subsectionintoc {2}{4}{Example 2: Magnometer and Digital Compass}{33}{0}{2}
+\beamer@sectionintoc {2}{IC and MEMS based Sensors}{18}{0}{2}
+\beamer@subsectionintoc {2}{1}{Integrated Circuits}{19}{0}{2}
+\beamer@subsectionintoc {2}{2}{Micro Electro-Mechanical Devices}{22}{0}{2}
+\beamer@subsectionintoc {2}{3}{Example 1: Accelerometer}{24}{0}{2}
+\beamer@subsectionintoc {2}{4}{Example 2: Magnometer and Digital Compass}{31}{0}{2}
