@@ -24,23 +24,23 @@
 \newcommand{\moduletitle}{Data Acquisition}
 
 \newcommand{\sectionItitle}{Analog to Digitial Conversion}
-\newcommand{\sectionIItitle}{}
-\newcommand{\sectionIIItitle}{}
+\newcommand{\sectionIItitle}{DAQ Hardware and Applications}
+\newcommand{\sectionIIItitle}{Sampling and Aliasing}
 
 \newcommand{\sectionIsubsectionItitle}{DAQ and Computer Storage}
 \newcommand{\sectionIsubsectionIItitle}{Number Types}
 \newcommand{\sectionIsubsectionIIItitle}{Analog to Digital Conversion and DAQ}
 \newcommand{\sectionIsubsectionIVtitle}{Activity: ADC Resolution Calculation}
 
-\newcommand{\sectionIIsubsectionItitle}{}
-\newcommand{\sectionIIsubsectionIItitle}{}
-\newcommand{\sectionIIsubsectionIIItitle}{}
-\newcommand{\sectionIIsubsectionIVtitle}{}
+\newcommand{\sectionIIsubsectionItitle}{Signal Types and DAQ}
+\newcommand{\sectionIIsubsectionIItitle}{EMI Considerations}
+\newcommand{\sectionIIsubsectionIIItitle}{Available Hardware}
+\newcommand{\sectionIIsubsectionIVtitle}{Software Integration}
 
-\newcommand{\sectionIIIsubsectionItitle}{}
-\newcommand{\sectionIIIsubsectionIItitle}{}
-\newcommand{\sectionIIIsubsectionIIItitle}{}
-\newcommand{\sectionIIIsubsectionIVtitle}{}
+\newcommand{\sectionIIIsubsectionItitle}{Sampling}
+\newcommand{\sectionIIIsubsectionIItitle}{The Aliasing Phenomenon}
+\newcommand{\sectionIIIsubsectionIIItitle}{Example by Hand}
+\newcommand{\sectionIIIsubsectionIVtitle}{MATLAB Example}
 
  \newcommand{\btVFill}{\vskip0pt plus 1filll}
 
@@ -106,10 +106,6 @@
 				\frametitle{\sectionIsubsectionItitle}
 
 		
-	
-
-		
-
 			\end{frame}
 
 		% section I subsection II
@@ -256,21 +252,46 @@
 			\tiny{Text: Theory and Design for Mechanical Measurements}	
 			\end{frame}
 
+			\begin{frame}
 
+				\frametitle{\sectionIsubsectionIItitle} \small
+				\bigskip
 
+				\begin{multicols}{3}
+					\underline{Integer} \vspace{10mm}\\
+					Pros:\vspace{10mm}\\
+					Cons:\vspace{10mm}\\
+					Examples:
+
+					\underline{Floating Point} \vspace{10mm}\\	
+					Pros:\vspace{10mm}\\
+					Cons:\vspace{10mm}\\
+					Examples:
+
+					\underline{Fixed Point} \vspace{10mm}\\	
+					Pros:\vspace{10mm}\\
+					Cons:\vspace{10mm}\\
+					Examples:
+				\end{multicols}
+				
+				\btVFill
+				\tiny{Text: Theory and Design for Mechanical Measurements}	
+			\end{frame}
 
 
 		% section I subsection III
 		\subsection{\sectionIsubsectionIIItitle}\label{sectionIsubsectionIII}
 			\begin{frame} 
-				\frametitle{\sectionIsubsectionIIItitle}
+				\frametitle{\sectionIsubsectionIIItitle} \scriptsize
 
 				\bigskip
+				
+				In electronics, an {\BL analog-to-digital converter} (ADC, A/D, or A-to-D) is a system that converts an analog signal, such as a sound picked up by a microphone or light entering a digital camera, into a digital signal. An ADC may also provide an isolated measurement such as an electronic device that converts an analog input voltage or current to a digital number representing the magnitude of the voltage or current. Typically the digital output is a two's complement binary number that is proportional to the input, but there are other possibilities.
 
-					
+				\includegraphics[scale=.15]{images/WM_WM8775SEDS-AB.jpg} \hspace{5mm} \includegraphics[scale=.15]{images/ni_cdaq.jpg}
+
 				\btVFill
-				\tiny{Text: Theory and Design for Mechanical Measurements}	
-
+				\tiny{\href{https://en.wikipedia.org/wiki/Analog-to-digital_converter}{wikipedia,} \href{https://en.wikipedia.org/wiki/Analog-to-digital_converter\#/media/File:WM_WM8775SEDS-AB.jpg}{image} }	
 			\end{frame}	
 
 			\begin{frame} 
@@ -283,12 +304,15 @@
 		\subsection{\sectionIsubsectionIVtitle}\label{sectionIsubsectionIV}	
 
 			\begin{frame}
-				\frametitle{\sectionIsubsectionIVtitle}
+				\frametitle{\sectionIsubsectionIVtitle} \scriptsize
 				\bigskip
 
+				It is important to realize the potential for data loss resulting in a reduced quality measurement based on the parameters of the analog to digital conversion process. This issue can occur when designing systems around a low-level analog to digital converter as well as when using high-end DAQ equippment.  
+
+				\includegraphics[scale=.2]{images/ADC_voltage_resolution.png}
 
 				\btVFill
-				\tiny{Text: Theory and Design for Mechanical Measurements}
+				\tiny{some reference}	
 
 			\end{frame}
 
@@ -324,7 +348,37 @@
 		\subsection{\sectionIIsubsectionItitle}\label{sectionIIsubsectionI}
 
 			\begin{frame}[label=sectionIIsubsectionI]
-				\frametitle{\sectionIIsubsectionItitle}
+				\frametitle{\sectionIIsubsectionItitle} \scriptsize
+
+				\bigskip	
+
+				{\it Most} data acquisition devices and systems measure and record {\BL analog} voltage signals and possibly additional signal types. Signal {\GR generation} may also be a feature on some systems. \vspace{5mm}\\
+
+				A voltage signal requires a {\bf common} reference or {\bf ground}.	\vspace{2mm}\\
+
+				Signal Sources:
+				\begin{itemize}
+					\item Grounded or Ground-Referenced	\vspace{2mm}\\
+
+					\item Ungrounded or Floating \vspace{2mm}\\		
+
+				\end{itemize}	
+				\vspace*{5mm}
+
+				Measurement (DAQ) Systems:
+				\begin{itemize}
+					\item Common Ground \vspace{2mm}\\
+
+					\item Common Mode Voltage \vspace{2mm}\\
+
+					\item Isolated Ground \vspace{2mm}\\
+
+				\end{itemize}
+				
+
+				\btVFill
+				\tiny{\href{https://www.ni.com/en/support/documentation/supplemental/06/grounding-considerations---intermediate-analog-concepts.html}{NI},}
+				\tiny{\href{https://digilent.com/reference/daq-and-datalogging/documents/analog-input-signal-connections-1}{Digilent}}
 
 				\btVFill
 				\tiny{Text: Theory and Design for Mechanical Measurements}
@@ -332,27 +386,127 @@
 			\end{frame}
 
 		    \begin{frame}[label=sectionIIsubsectionI]
-				\frametitle{\sectionIIsubsectionItitle}
+				\frametitle{\sectionIIsubsectionItitle} \scriptsize
 
+				{\it Most} data acquisition devices and systems measure and record {\BL analog} voltage signals and possibly additional signal types. Signal {\GR generation} may also be a feature on some systems. \vspace{5mm}\\
+
+					%\begin{multicols}{2}
+					2 Major Configurations:
+					\begin{itemize}
+						\item
+						\underline{Single-Ended Signals} \vspace{0mm}\\
+						The signal is measured as a voltage between a {\PR single} conductor and the {\bf ground} which must be carried on a separate conductor or wire. \vspace{10mm}\\
+					
+						\item
+						\underline{Double-Ended (Differential) Signals} \vspace{0mm}\\			
+						The signal is measured as the {\PN difference} between two voltages ({\PN double}) carried on separate conductors, or wires. Typically a {\bf ground} is shared between the two devices requiring a third conductor. 
+					\end{itemize}
+				
+					%\end{multicols}
+					\btVFill
+					\tiny{Read more here: \href{https://www.mccdaq.com/TechTips/TechTip-4.aspx}{MCCDAQ}}
 
 			\end{frame}	
+
+			 \begin{frame}[label=sectionIIsubsectionI]
+				\frametitle{\sectionIIsubsectionItitle} \scriptsize
+
+				\begin{multicols}{2}
+					\underline{Single-Ended Signals} \vspace{10mm}\\
+					
+					Pros:\vspace{10mm}\\
+					Cons:\vspace{10mm}\\
+					Examples:
+					
+					\underline{Double-Ended Signals} \vspace{10mm}\\
+					
+					Pros:\vspace{10mm}\\
+					Cons:\vspace{10mm}\\
+					Examples:
+					
+					
+				\end{multicols}
+				\btVFill
+				\tiny{Text: Theory and Design for Mechanical Measurements}
+			\end{frame}
+
 
 		% section II subsection II
 		\subsection{\sectionIIsubsectionIItitle}\label{sectionIIsubsectionII}
 
 			\begin{frame}
-				\frametitle{\sectionIIsubsectionIItitle}
+				\frametitle{\sectionIIsubsectionIItitle} \scriptsize
+				\bigskip
+
+				{\RD Electromagnetic interference}  (EMI), also called radio-frequency interference (RFI) when in the radio frequency spectrum, is a disturbance generated by an external source that affects an electrical circuit by electromagnetic induction, electrostatic coupling, or conduction. \vspace{5mm}\\
 
 
+				A {\it combination} of naturally occuring and human made sources of interference is always present. The total EMI affecting a system is determined by the local conditions as well as global environmental influences. \vspace{5mm}\\
 
+
+				Sources of EMI:
+				\begin{itemize}
+
+					\item Televsion transimission, celular networks, AM FM radio 
+					\item Lightening storms, solar activity 
+					\item Power transmission Lines	
+					\item Electronic devices such as computers, power supplies, motors, welders
+				 
+					\item Intentional (weaponized) EMI	
+
+				\end{itemize}
+
+
+				\btVFill
+				\tiny{\href{https://csrc.nist.gov/glossary/term/electromagnetic_interference}{NIST}}		
+			\end{frame}
+
+		% section II subsection II
+		\subsection{\sectionIIsubsectionIItitle}\label{sectionIIsubsectionII}
+
+			\begin{frame}
+				\frametitle{\sectionIIsubsectionIItitle} \scriptsize
+	
+				\bigskip
+
+				In data acquisition, electromagnetic interference (EMI) can cause reduction of signal quality and data loss due in the form of {\BR noise} and or {\GR drift}. \vspace{10mm}
+
+				Consider the case of an analog signal transmitted from a sensor to a DAQ device. What can be done to avoid issues associated with EMI?  \vspace{5mm}\\
+
+				Methods of reducing EMI affects:
+				\begin{itemize}
+					\item Proximity - reduce length of signal conductors to minimum, if possible locate on same PCB or in same enclosure
+
+					\item Differential signal - double ended signals are preferred when EMI is expected and close proxity is not available 
+
+					\item Noise rejection cables/wires - twisted pair, foil sheild, wire braided sheild, combos 
+
+				\end{itemize}
+
+
+				\btVFill
+				\tiny{\href{https://en.wikipedia.org/wiki/Twisted_pair}{wikipedia: twisted pair,}\href{https://www.mouser.com/pdfdocs/alphawire-Understanding-Shielded-Cable.pdf}{Mouser-Alphawire}}		
 			\end{frame}
 
 		% section II subsection III
 		\subsection{\sectionIIsubsectionIIItitle}\label{sectionIIsubsectionIII}
 
 			\begin{frame}
-				\frametitle{\sectionIIsubsectionIIItitle}
+				\frametitle{\sectionIIsubsectionIIItitle} 
 
+				\bigskip
+
+				\begin{itemize}
+					
+					\item National Instruments \vspace{6mm}\\
+					
+					\item Measurement Computing  \vspace{6mm}\\
+					
+					\item dSPACE  \vspace{6mm}\\
+					
+					\item Arduino or other 
+					
+				\end{itemize}
 
 				\btVFill
 				\tiny{ : Theory and Design for Mechanical Measurements}
@@ -364,6 +518,16 @@
 
 				\bigskip
 
+				\begin{itemize}
+					\item National Instruments \vspace{6mm}\\
+					
+					\item Measurement Computing  \vspace{6mm}\\
+					
+					\item dSPACE  \vspace{6mm}\\
+					
+					\item Arduino or other 
+					
+				\end{itemize}
 
 				\btVFill
 				\tiny{: Theory and Design for Mechanical Measurements}	
@@ -418,8 +582,16 @@
 			\begin{frame}
 				\frametitle{\sectionIIIsubsectionItitle}
 
+				\bigskip
+						...
+				A discrete time signal usually
+				results from the sampling of a continuous variable at repeated finite time intervals.
+				...	
+				\includegraphics[scale=.3]{images/sampling_fig7_1.png}
 			
-				
+				\btVFill
+				\tiny{Text,Figure: Theory and Design for Mechanical Measurements Ch. 7}
+
 			\end{frame}
 
 			\begin{frame}
@@ -433,7 +605,12 @@
 			\begin{frame}
 				\frametitle{\sectionIIIsubsectionIItitle}
 
-	
+				\bigskip
+				\includegraphics[scale=.2]{images/aliasing_fig7_2.png}
+
+
+				\btVFill
+				\tiny{Figure: Theory and Design for Mechanical Measurements Ch. 7}		
 
 			\end{frame}
 
@@ -443,7 +620,12 @@
 			\begin{frame}
 				\frametitle{\sectionIIIsubsectionIIItitle}
 
-		
+				\bigskip
+				\includegraphics[scale=.35]{images/cartesian_6x12.png}
+
+
+				\btVFill
+				\tiny{Image: T.Hill}
 
 			\end{frame}
 
@@ -457,18 +639,47 @@
 		% section III subsection IV
 		\subsection{\sectionIIIsubsectionIVtitle}\label{sectionIIIsubsectionIV}	
 
-			\begin{frame}
-				\frametitle{\sectionIIIsubsectionIVtitle}
+			\begin{frame}[containsverbatim]
+				\frametitle{\sectionIIIsubsectionIVtitle}\scriptsize
 
-			
+				\begin{lstlisting}
+				% ME3023 - Tennessee Technological University 
+				% Tristan Hill - October 10, 2019 - April 14, 2021
+				% Data Acquisition Topic 3 - Sampling and Aliasing
 
+				clear variables; close all; clc
+
+				% simulate a continuous signal
+				A1=5; f1=3;
+				w1=2*pi*f1;
+
+				dt_sim=0.001; t_stop=6;
+				t_sim=0:dt_sim:t_stop;
+				y_sim=A1*sin(w1*t_sim);
+				\end{lstlisting}
 
 			\end{frame}
 
-			\begin{frame}
-				\frametitle{\sectionIIIsubsectionIVtitle}
+			\begin{frame}[containsverbatim]
+				\frametitle{\sectionIIIsubsectionIVtitle}\scriptsize
 				
+				\begin{lstlisting}
 
+				% simulate sampling the signal
+				dt_sam = 0.3;
+				t_sam=0:dt_sam:t_stop;
+				y_sam=A1*sin(w1*t_sam);
+
+				% show the figure
+				figure(1); hold on
+				plot(t_sim,y_sim,'-',t_sam,y_sam,'o')
+				axis([0 t_stop -1.2*A1 1.2*A1])
+				grid on
+				\end{lstlisting}
+
+
+			
+				\tiny{MATLAB code: T. Hill}	
 
 			\end{frame}
 
