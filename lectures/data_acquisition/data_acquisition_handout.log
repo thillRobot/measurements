@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.13)  24 MAR 2024 23:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.13)  24 MAR 2024 23:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1323,45 +1323,45 @@ LaTeX Font Info:    Trying to load font information for U+wasy on input line 10
 
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
-)
-<images/cartesian_6x6_B.png, id=207, 452.4403pt x 452.4403pt>
-File: images/cartesian_6x6_B.png Graphic file (type png)
-<use images/cartesian_6x6_B.png>
-Package pdftex.def Info: images/cartesian_6x6_B.png  used on input line 103.
-(pdftex.def)             Requested size: 135.73314pt x 135.73314pt.
-
-Overfull \vbox (1.99216pt too high) detected at line 103
- []
-
-[4
-
- <./images/cartesian_6x6_B.png>] [5
-
-] [6
+) [4
 
 ]
-Overfull \hbox (0.27199pt too wide) in paragraph at lines 182--182
+<images/cartesian_6x6_B.png, id=240, 452.4403pt x 452.4403pt>
+File: images/cartesian_6x6_B.png Graphic file (type png)
+<use images/cartesian_6x6_B.png>
+Package pdftex.def Info: images/cartesian_6x6_B.png  used on input line 118.
+(pdftex.def)             Requested size: 135.73314pt x 135.73314pt.
+
+Overfull \vbox (1.99216pt too high) detected at line 118
+ []
+
+[5
+
+ <./images/cartesian_6x6_B.png>] [6
+
+]
+Overfull \hbox (0.27199pt too wide) in paragraph at lines 191--191
 [][]  
  []
 
 
-Overfull \hbox (0.27199pt too wide) in paragraph at lines 182--182
+Overfull \hbox (0.27199pt too wide) in paragraph at lines 191--191
 [][]  
  []
 
 
-Overfull \vbox (0.39253pt too high) detected at line 182
+Overfull \vbox (0.39253pt too high) detected at line 191
  []
 
 [7
 
 ]
-Overfull \hbox (17.88403pt too wide) in paragraph at lines 226--226
+Overfull \hbox (17.88403pt too wide) in paragraph at lines 235--235
 [][]  
  []
 
 
-Overfull \vbox (0.39253pt too high) detected at line 226
+Overfull \vbox (0.39253pt too high) detected at line 235
  []
 
 [8
@@ -1370,7 +1370,7 @@ Overfull \vbox (0.39253pt too high) detected at line 226
 <images/ieee754_bits.png, id=381, 2890.8pt x 367.3725pt>
 File: images/ieee754_bits.png Graphic file (type png)
 <use images/ieee754_bits.png>
-Package pdftex.def Info: images/ieee754_bits.png  used on input line 244.
+Package pdftex.def Info: images/ieee754_bits.png  used on input line 253.
 (pdftex.def)             Requested size: 289.09694pt x 36.7394pt.
  [9
 
@@ -1382,12 +1382,12 @@ Package pdftex.def Info: images/ieee754_bits.png  used on input line 244.
 <images/WM_WM8775SEDS-AB.jpg, id=483, 803.0pt x 602.25pt>
 File: images/WM_WM8775SEDS-AB.jpg Graphic file (type jpg)
 <use images/WM_WM8775SEDS-AB.jpg>
-Package pdftex.def Info: images/WM_WM8775SEDS-AB.jpg  used on input line 295.
+Package pdftex.def Info: images/WM_WM8775SEDS-AB.jpg  used on input line 304.
 (pdftex.def)             Requested size: 120.4448pt x 90.33359pt.
 <images/ni_cdaq.jpg, id=484, 903.375pt x 653.44125pt>
 File: images/ni_cdaq.jpg Graphic file (type jpg)
 <use images/ni_cdaq.jpg>
-Package pdftex.def Info: images/ni_cdaq.jpg  used on input line 295.
+Package pdftex.def Info: images/ni_cdaq.jpg  used on input line 304.
 (pdftex.def)             Requested size: 135.5004pt x 98.01195pt.
  [12
 
@@ -1398,10 +1398,10 @@ Package pdftex.def Info: images/ni_cdaq.jpg  used on input line 295.
 File: images/ADC_voltage_resolution.png Graphic file (type png)
 <use images/ADC_voltage_resolution.png>
 Package pdftex.def Info: images/ADC_voltage_resolution.png  used on input line 
-317.
+326.
 (pdftex.def)             Requested size: 158.99118pt x 155.37775pt.
 
-Overfull \vbox (21.47037pt too high) detected at line 317
+Overfull \vbox (21.47037pt too high) detected at line 326
  []
 
 [14
@@ -1411,7 +1411,7 @@ Overfull \vbox (21.47037pt too high) detected at line 317
 ] [16
 
 ]
-Overfull \vbox (2.55495pt too high) detected at line 386
+Overfull \vbox (2.55495pt too high) detected at line 395
  []
 
 [17
@@ -1420,29 +1420,29 @@ pdfTeX warning (ext4): destination with the same identifier (name{sectionIIsubs
 ectionI}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.386 			\end{frame}
+l.395 			\end{frame}
                     ]pdfTeX warning (ext4): destination with the same identifie
 r (name{sectionIIsubsectionI<1>}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.409 			\end{frame}
+l.418 			\end{frame}
                     	pdfTeX warning (ext4): destination with the same identifie
 r (name{sectionIIsubsectionI}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.409 			\end{frame}
+l.418 			\end{frame}
                     	 [18
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{sectionIIsub
 sectionI<1>}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.431 			\end{frame}
+l.440 			\end{frame}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{sectionIIsubsectionI}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.431 			\end{frame}
+l.440 			\end{frame}
                      [19
 
 ] [20
@@ -1451,7 +1451,7 @@ l.431 			\end{frame}
 sectionII}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.488 			\end{frame}
+l.497 			\end{frame}
                      [21
 
 ] [22
@@ -1470,7 +1470,7 @@ l.488 			\end{frame}
 <images/sampling_fig7_1.png, id=1062, 837.1275pt x 456.70625pt>
 File: images/sampling_fig7_1.png Graphic file (type png)
 <use images/sampling_fig7_1.png>
-Package pdftex.def Info: images/sampling_fig7_1.png  used on input line 594.
+Package pdftex.def Info: images/sampling_fig7_1.png  used on input line 603.
 (pdftex.def)             Requested size: 251.14018pt x 137.01292pt.
  [28
 
@@ -1480,7 +1480,7 @@ Package pdftex.def Info: images/sampling_fig7_1.png  used on input line 594.
 <images/aliasing_fig7_2.png, id=1130, 941.5175pt x 847.165pt>
 File: images/aliasing_fig7_2.png Graphic file (type png)
 <use images/aliasing_fig7_2.png>
-Package pdftex.def Info: images/aliasing_fig7_2.png  used on input line 614.
+Package pdftex.def Info: images/aliasing_fig7_2.png  used on input line 623.
 (pdftex.def)             Requested size: 188.30016pt x 169.43pt.
  [30
 
@@ -1488,10 +1488,10 @@ Package pdftex.def Info: images/aliasing_fig7_2.png  used on input line 614.
 <images/cartesian_6x12.png, id=1164, 904.1278pt x 452.4403pt>
 File: images/cartesian_6x12.png Graphic file (type png)
 <use images/cartesian_6x12.png>
-Package pdftex.def Info: images/cartesian_6x12.png  used on input line 629.
+Package pdftex.def Info: images/cartesian_6x12.png  used on input line 638.
 (pdftex.def)             Requested size: 316.44946pt x 158.35648pt.
 
-Overfull \hbox (9.15959pt too wide) in paragraph at lines 629--629
+Overfull \hbox (9.15959pt too wide) in paragraph at lines 638--638
 [][]  
  []
 
@@ -1501,12 +1501,12 @@ Overfull \hbox (9.15959pt too wide) in paragraph at lines 629--629
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6
-44.
+53.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Overfull \vbox (15.16423pt too high) detected at line 660
+Overfull \vbox (15.16423pt too high) detected at line 669
  []
 
 [33
@@ -1552,9 +1552,9 @@ pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx0800.60
 s1095.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ec
 ss1440.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/e
 csx0600.600pk>
-Output written on data_acquisition_handout.pdf (34 pages, 582570 bytes).
+Output written on data_acquisition_handout.pdf (34 pages, 583300 bytes).
 PDF statistics:
- 1780 PDF objects out of 2073 (max. 8388607)
+ 1782 PDF objects out of 2073 (max. 8388607)
  1283 compressed objects within 13 object streams
  101 named destinations out of 1000 (max. 500000)
  238 words of extra memory for PDF output out of 10000 (max. 10000000)

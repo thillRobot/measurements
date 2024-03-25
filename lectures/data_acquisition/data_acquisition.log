@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.13)  24 MAR 2024 23:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.13)  24 MAR 2024 23:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1305,72 +1305,72 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 
 ] [3
 
+] [4
+
 ]
-<images/cartesian_6x6_B.png, id=207, 452.4403pt x 452.4403pt>
+<images/cartesian_6x6_B.png, id=241, 452.4403pt x 452.4403pt>
 File: images/cartesian_6x6_B.png Graphic file (type png)
 <use images/cartesian_6x6_B.png>
-Package pdftex.def Info: images/cartesian_6x6_B.png  used on input line 103.
+Package pdftex.def Info: images/cartesian_6x6_B.png  used on input line 119.
 (pdftex.def)             Requested size: 135.73314pt x 135.73314pt.
 
-Overfull \vbox (1.99216pt too high) detected at line 103
+Overfull \vbox (1.99216pt too high) detected at line 119
  []
 
-[4
+[5
 
- <./images/cartesian_6x6_B.png>] [5
-
-] [6
+ <./images/cartesian_6x6_B.png>] [6
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 182
+LaTeX Font Info:    Trying to load font information for U+msa on input line 193
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 182
+LaTeX Font Info:    Trying to load font information for U+msb on input line 193
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 18
-2.
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 19
+3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
-Overfull \hbox (0.27199pt too wide) in paragraph at lines 182--182
+Overfull \hbox (0.27199pt too wide) in paragraph at lines 193--193
 [][]  
  []
 
 
-Overfull \hbox (0.27199pt too wide) in paragraph at lines 182--182
+Overfull \hbox (0.27199pt too wide) in paragraph at lines 193--193
 [][]  
  []
 
 
-Overfull \vbox (0.39253pt too high) detected at line 182
+Overfull \vbox (0.39253pt too high) detected at line 193
  []
 
 [7
 
 ]
-Overfull \hbox (17.88403pt too wide) in paragraph at lines 226--226
+Overfull \hbox (17.88403pt too wide) in paragraph at lines 237--237
 [][]  
  []
 
 
-Overfull \vbox (0.39253pt too high) detected at line 226
+Overfull \vbox (0.39253pt too high) detected at line 237
  []
 
 [8
 
 ]
-<images/ieee754_bits.png, id=381, 2890.8pt x 367.3725pt>
+<images/ieee754_bits.png, id=382, 2890.8pt x 367.3725pt>
 File: images/ieee754_bits.png Graphic file (type png)
 <use images/ieee754_bits.png>
-Package pdftex.def Info: images/ieee754_bits.png  used on input line 244.
+Package pdftex.def Info: images/ieee754_bits.png  used on input line 255.
 (pdftex.def)             Requested size: 289.09694pt x 36.7394pt.
  [9
 
@@ -1379,29 +1379,29 @@ Package pdftex.def Info: images/ieee754_bits.png  used on input line 244.
 ] [11
 
 ]
-<images/WM_WM8775SEDS-AB.jpg, id=483, 803.0pt x 602.25pt>
+<images/WM_WM8775SEDS-AB.jpg, id=484, 803.0pt x 602.25pt>
 File: images/WM_WM8775SEDS-AB.jpg Graphic file (type jpg)
 <use images/WM_WM8775SEDS-AB.jpg>
-Package pdftex.def Info: images/WM_WM8775SEDS-AB.jpg  used on input line 295.
+Package pdftex.def Info: images/WM_WM8775SEDS-AB.jpg  used on input line 306.
 (pdftex.def)             Requested size: 120.4448pt x 90.33359pt.
-<images/ni_cdaq.jpg, id=484, 903.375pt x 653.44125pt>
+<images/ni_cdaq.jpg, id=485, 903.375pt x 653.44125pt>
 File: images/ni_cdaq.jpg Graphic file (type jpg)
 <use images/ni_cdaq.jpg>
-Package pdftex.def Info: images/ni_cdaq.jpg  used on input line 295.
+Package pdftex.def Info: images/ni_cdaq.jpg  used on input line 306.
 (pdftex.def)             Requested size: 135.5004pt x 98.01195pt.
  [12
 
  <./images/WM_WM8775SEDS-AB.jpg> <./images/ni_cdaq.jpg>] [13
 
 ]
-<images/ADC_voltage_resolution.png, id=555, 794.97pt x 776.9025pt>
+<images/ADC_voltage_resolution.png, id=556, 794.97pt x 776.9025pt>
 File: images/ADC_voltage_resolution.png Graphic file (type png)
 <use images/ADC_voltage_resolution.png>
 Package pdftex.def Info: images/ADC_voltage_resolution.png  used on input line 
-317.
+328.
 (pdftex.def)             Requested size: 158.99118pt x 155.37775pt.
 
-Overfull \vbox (21.22554pt too high) detected at line 317
+Overfull \vbox (21.22554pt too high) detected at line 328
  []
 
 [14
@@ -1411,7 +1411,7 @@ Overfull \vbox (21.22554pt too high) detected at line 317
 ] [16
 
 ]
-Overfull \vbox (2.55495pt too high) detected at line 386
+Overfull \vbox (2.55495pt too high) detected at line 397
  []
 
 [17
@@ -1420,29 +1420,29 @@ pdfTeX warning (ext4): destination with the same identifier (name{sectionIIsubs
 ectionI}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.386 			\end{frame}
+l.397 			\end{frame}
                     ]pdfTeX warning (ext4): destination with the same identifie
 r (name{sectionIIsubsectionI<1>}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.409 			\end{frame}
+l.420 			\end{frame}
                     	pdfTeX warning (ext4): destination with the same identifie
 r (name{sectionIIsubsectionI}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.409 			\end{frame}
+l.420 			\end{frame}
                     	 [18
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{sectionIIsub
 sectionI<1>}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.431 			\end{frame}
+l.442 			\end{frame}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{sectionIIsubsectionI}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.431 			\end{frame}
+l.442 			\end{frame}
                      [19
 
 ] [20
@@ -1451,7 +1451,7 @@ l.431 			\end{frame}
 sectionII}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.489 			\end{frame}
+l.500 			\end{frame}
                      [21
 
 ] [22
@@ -1467,31 +1467,31 @@ l.489 			\end{frame}
 ] [27
 
 ]
-<images/sampling_fig7_1.png, id=1062, 837.1275pt x 456.70625pt>
+<images/sampling_fig7_1.png, id=1063, 837.1275pt x 456.70625pt>
 File: images/sampling_fig7_1.png Graphic file (type png)
 <use images/sampling_fig7_1.png>
-Package pdftex.def Info: images/sampling_fig7_1.png  used on input line 595.
+Package pdftex.def Info: images/sampling_fig7_1.png  used on input line 606.
 (pdftex.def)             Requested size: 251.14018pt x 137.01292pt.
  [28
 
  <./images/sampling_fig7_1.png>] [29
 
 ]
-<images/aliasing_fig7_2.png, id=1130, 941.5175pt x 847.165pt>
+<images/aliasing_fig7_2.png, id=1131, 941.5175pt x 847.165pt>
 File: images/aliasing_fig7_2.png Graphic file (type png)
 <use images/aliasing_fig7_2.png>
-Package pdftex.def Info: images/aliasing_fig7_2.png  used on input line 615.
+Package pdftex.def Info: images/aliasing_fig7_2.png  used on input line 626.
 (pdftex.def)             Requested size: 188.30016pt x 169.43pt.
  [30
 
  <./images/aliasing_fig7_2.png>]
-<images/cartesian_6x12.png, id=1164, 904.1278pt x 452.4403pt>
+<images/cartesian_6x12.png, id=1165, 904.1278pt x 452.4403pt>
 File: images/cartesian_6x12.png Graphic file (type png)
 <use images/cartesian_6x12.png>
-Package pdftex.def Info: images/cartesian_6x12.png  used on input line 630.
+Package pdftex.def Info: images/cartesian_6x12.png  used on input line 641.
 (pdftex.def)             Requested size: 316.44946pt x 158.35648pt.
 
-Overfull \hbox (9.15959pt too wide) in paragraph at lines 630--630
+Overfull \hbox (9.15959pt too wide) in paragraph at lines 641--641
 [][]  
  []
 
@@ -1501,12 +1501,12 @@ Overfull \hbox (9.15959pt too wide) in paragraph at lines 630--630
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6
-45.
+56.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Overfull \vbox (15.16423pt too high) detected at line 661
+Overfull \vbox (15.16423pt too high) detected at line 672
  []
 
 [33
@@ -1531,11 +1531,11 @@ Package rerunfilecheck Info: File `data_acquisition.out' has not changed.
 (rerunfilecheck)             Checksum: 9EE5A7EF6DCF381B4D0EA42D7098E197;1109.
  ) 
 Here is how much of TeX's memory you used:
- 30996 strings out of 480247
- 614210 string characters out of 5896151
+ 30998 strings out of 480247
+ 614236 string characters out of 5896151
  1093337 words of memory out of 5000000
- 48204 multiletter control sequences out of 15000+600000
- 492179 words of font info for 79 fonts, out of 8000000 for 9000
+ 48205 multiletter control sequences out of 15000+600000
+ 492954 words of font info for 80 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  99i,19n,104p,577b,1775s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.600
@@ -1544,17 +1544,18 @@ pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx0800.60
 00pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0800.
 600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1000
 .600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss060
-0.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss12
-00.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1
+0.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx10
+95.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1
 200.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx
-1440.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecs
-s1095.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ec
-ss1440.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/e
-csx0600.600pk>
-Output written on data_acquisition.pdf (34 pages, 584034 bytes).
+1200.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecs
+x1440.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ec
+ss1095.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/e
+css1440.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/
+ecsx0600.600pk>
+Output written on data_acquisition.pdf (34 pages, 589031 bytes).
 PDF statistics:
- 1786 PDF objects out of 2073 (max. 8388607)
- 1283 compressed objects within 13 object streams
+ 1807 PDF objects out of 2073 (max. 8388607)
+ 1287 compressed objects within 13 object streams
  101 named destinations out of 1000 (max. 500000)
  238 words of extra memory for PDF output out of 10000 (max. 10000000)
 
