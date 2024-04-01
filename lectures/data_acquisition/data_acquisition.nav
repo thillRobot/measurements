@@ -103,8 +103,12 @@
 \headcommand {\beamer@framepages {34}{34}}
 \headcommand {\slideentry {3}{4}{2}{35/35}{MATLAB Example}{0}}
 \headcommand {\beamer@framepages {35}{35}}
-\headcommand {\beamer@partpages {1}{35}}
 \headcommand {\beamer@subsectionpages {34}{35}}
-\headcommand {\beamer@sectionpages {28}{35}}
-\headcommand {\beamer@documentpages {35}}
-\headcommand {\gdef \inserttotalframenumber {35}}
+\headcommand {\beamer@subsectionentry {0}{3}{5}{36}{Actvity}}
+\headcommand {\slideentry {3}{5}{1}{36/36}{Actvity}{0}}
+\headcommand {\beamer@framepages {36}{36}}
+\headcommand {\beamer@partpages {1}{36}}
+\headcommand {\beamer@subsectionpages {36}{36}}
+\headcommand {\beamer@sectionpages {28}{36}}
+\headcommand {\beamer@documentpages {36}}
+\headcommand {\gdef \inserttotalframenumber {36}}

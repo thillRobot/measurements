@@ -2,7 +2,6 @@
 % Tristan Hill - September 15, 2021, September 21, 2022, March 31, 2024
 % Data Acquisition - Sampling and Aliasing Demo
 
-
 function samplingDemo
     
     ap.f_signal=25;
@@ -22,26 +21,20 @@ function samplingDemo
     hold(ax,'on')
     p1=plot(ax,t_sig,y_sig,'-')
     p2=plot(ax,t_sam,y_sam,'r-o')
-    title(ax,"Simulated Sampling")
+    title(ax,"ME3023 - Sampling Demo")
     xlabel(ax,"time(s)")
     ylabel(ax,"amplitude")
     legend(ax,"Input Signal", "Sampled Signal")
-    % p1=plot(ax,t_sig,y_sig,'-')
-    % p2=plot(ax,t_sam,y_sam,'r-o')
+
     hold(ax,"off")
     grid(ax,"on")
-    
-    % axis([0 t_stop -1.2*A1 1.2*A1])
-    % grid on
-
     
     sld1 = uislider(g, ...
         "Limits",[0 1000], ...
         "Value",[ap.f_signal]);
     
-   
     sld2 = uislider(g, ...
-        "Limits",[0 1000], ...
+        "Limits",[0 2000], ...
         "Value",[ap.f_sample]);
 
     sld1.ValueChangingFcn = @(src,event) updateFigure1(src,event,p1,ap,sld1,sld2);

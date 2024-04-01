@@ -14,3 +14,4 @@
 \beamer@subsectionintoc {3}{2}{The Aliasing Phenomenon}{31}{0}{3}
 \beamer@subsectionintoc {3}{3}{The Aliasing Phenomenon}{32}{0}{3}
 \beamer@subsectionintoc {3}{4}{MATLAB Example}{34}{0}{3}
+\beamer@subsectionintoc {3}{5}{Actvity}{36}{0}{3}
