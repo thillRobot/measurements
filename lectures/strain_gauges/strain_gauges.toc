@@ -10,7 +10,6 @@
 \beamer@subsectionintoc {2}{4}{Gauge Sensitivity}{21}{0}{2}
 \beamer@sectionintoc {3}{P3 Strain Indicator}{23}{0}{3}
 \beamer@subsectionintoc {3}{1}{Units of Microstrain}{24}{0}{3}
-\beamer@subsectionintoc {3}{2}{Quarter, Half, and Full Configurations}{26}{0}{3}
-\beamer@subsectionintoc {3}{3}{Quarter, Half, and Full Configurations}{28}{0}{3}
-\beamer@subsectionintoc {3}{4}{Operating the P3}{30}{0}{3}
-\beamer@subsectionintoc {3}{5}{Alternative Solutions}{32}{0}{3}
+\beamer@subsectionintoc {3}{2}{Quarter, Half, and Full Configuration}{26}{0}{3}
+\beamer@subsectionintoc {3}{3}{Operating the P3}{30}{0}{3}
+\beamer@subsectionintoc {3}{4}{Alternative Solutions}{32}{0}{3}
