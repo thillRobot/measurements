@@ -1,0 +1,17 @@
+\beamer@sectionintoc {1}{Analog to Digitial Conversion}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{DAQ and Computer Storage}{4}{0}{1}
+\beamer@subsectionintoc {1}{2}{Number Types}{6}{0}{1}
+\beamer@subsectionintoc {1}{3}{Analog to Digital Conversion and DAQ}{12}{0}{1}
+\beamer@subsectionintoc {1}{4}{Activity: ADC Resolution Calculation}{14}{0}{1}
+\beamer@sectionintoc {2}{DAQ Hardware and Applications}{17}{0}{2}
+\beamer@subsectionintoc {2}{1}{Signal Types and DAQ}{18}{0}{2}
+\beamer@subsectionintoc {2}{2}{EMI Considerations}{21}{0}{2}
+\beamer@subsectionintoc {2}{3}{EMI Considerations}{22}{0}{2}
+\beamer@subsectionintoc {2}{4}{Available Hardware}{23}{0}{2}
+\beamer@subsectionintoc {2}{5}{Software Integration}{26}{0}{2}
+\beamer@sectionintoc {3}{Sampling and Aliasing}{28}{0}{3}
+\beamer@subsectionintoc {3}{1}{Sampling}{29}{0}{3}
+\beamer@subsectionintoc {3}{2}{The Aliasing Phenomenon}{31}{0}{3}
+\beamer@subsectionintoc {3}{3}{The Aliasing Phenomenon}{32}{0}{3}
+\beamer@subsectionintoc {3}{4}{MATLAB Example}{34}{0}{3}
+\beamer@subsectionintoc {3}{5}{Actvity}{36}{0}{3}

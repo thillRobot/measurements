@@ -1,0 +1,114 @@
+\headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
+\headcommand {\beamer@framepages {1}{1}}
+\headcommand {\slideentry {0}{0}{2}{2/2}{}{0}}
+\headcommand {\beamer@framepages {2}{2}}
+\headcommand {\beamer@sectionpages {1}{2}}
+\headcommand {\beamer@subsectionpages {1}{2}}
+\headcommand {\sectionentry {1}{Analog to Digitial Conversion}{3}{Analog to Digitial Conversion}{0}}
+\headcommand {\slideentry {1}{0}{1}{3/3}{}{0}}
+\headcommand {\beamer@framepages {3}{3}}
+\headcommand {\beamer@subsectionpages {3}{3}}
+\headcommand {\beamer@subsectionentry {0}{1}{1}{4}{DAQ and Computer Storage}}
+\headcommand {\slideentry {1}{1}{1}{4/4}{DAQ and Computer Storage}{0}}
+\headcommand {\beamer@framepages {4}{4}}
+\headcommand {\slideentry {1}{1}{2}{5/5}{DAQ and Computer Storage}{0}}
+\headcommand {\beamer@framepages {5}{5}}
+\headcommand {\beamer@subsectionpages {4}{5}}
+\headcommand {\beamer@subsectionentry {0}{1}{2}{6}{Number Types}}
+\headcommand {\slideentry {1}{2}{1}{6/6}{Number Types}{0}}
+\headcommand {\beamer@framepages {6}{6}}
+\headcommand {\slideentry {1}{2}{2}{7/7}{Number Types}{0}}
+\headcommand {\beamer@framepages {7}{7}}
+\headcommand {\slideentry {1}{2}{3}{8/8}{Number Types}{0}}
+\headcommand {\beamer@framepages {8}{8}}
+\headcommand {\slideentry {1}{2}{4}{9/9}{Number Types}{0}}
+\headcommand {\beamer@framepages {9}{9}}
+\headcommand {\slideentry {1}{2}{5}{10/10}{Number Types}{0}}
+\headcommand {\beamer@framepages {10}{10}}
+\headcommand {\slideentry {1}{2}{6}{11/11}{Number Types}{0}}
+\headcommand {\beamer@framepages {11}{11}}
+\headcommand {\beamer@subsectionpages {6}{11}}
+\headcommand {\beamer@subsectionentry {0}{1}{3}{12}{Analog to Digital Conversion and DAQ}}
+\headcommand {\slideentry {1}{3}{1}{12/12}{Analog to Digital Conversion and DAQ}{0}}
+\headcommand {\beamer@framepages {12}{12}}
+\headcommand {\slideentry {1}{3}{2}{13/13}{Analog to Digital Conversion and DAQ}{0}}
+\headcommand {\beamer@framepages {13}{13}}
+\headcommand {\beamer@subsectionpages {12}{13}}
+\headcommand {\beamer@subsectionentry {0}{1}{4}{14}{Activity: ADC Resolution Calculation}}
+\headcommand {\slideentry {1}{4}{1}{14/14}{Activity: ADC Resolution Calculation}{0}}
+\headcommand {\beamer@framepages {14}{14}}
+\headcommand {\slideentry {1}{4}{2}{15/15}{Activity: ADC Resolution Calculation}{0}}
+\headcommand {\beamer@framepages {15}{15}}
+\headcommand {\slideentry {1}{4}{3}{16/16}{Activity: ADC Resolution Calculation}{0}}
+\headcommand {\beamer@framepages {16}{16}}
+\headcommand {\beamer@sectionpages {3}{16}}
+\headcommand {\beamer@subsectionpages {14}{16}}
+\headcommand {\sectionentry {2}{DAQ Hardware and Applications}{17}{DAQ Hardware and Applications}{0}}
+\headcommand {\slideentry {2}{0}{1}{17/17}{}{0}}
+\headcommand {\beamer@framepages {17}{17}}
+\headcommand {\beamer@subsectionpages {17}{17}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{18}{Signal Types and DAQ}}
+\headcommand {\slideentry {2}{1}{1}{18/18}{Signal Types and DAQ}{0}}
+\headcommand {\beamer@framepages {18}{18}}
+\headcommand {\slideentry {2}{1}{2}{19/19}{Signal Types and DAQ}{0}}
+\headcommand {\beamer@framepages {19}{19}}
+\headcommand {\slideentry {2}{1}{3}{20/20}{Signal Types and DAQ}{0}}
+\headcommand {\beamer@framepages {20}{20}}
+\headcommand {\beamer@subsectionpages {18}{20}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{21}{EMI Considerations}}
+\headcommand {\slideentry {2}{2}{1}{21/21}{EMI Considerations}{0}}
+\headcommand {\beamer@framepages {21}{21}}
+\headcommand {\beamer@subsectionpages {21}{21}}
+\headcommand {\beamer@subsectionentry {0}{2}{3}{22}{EMI Considerations}}
+\headcommand {\slideentry {2}{3}{1}{22/22}{EMI Considerations}{0}}
+\headcommand {\beamer@framepages {22}{22}}
+\headcommand {\beamer@subsectionpages {22}{22}}
+\headcommand {\beamer@subsectionentry {0}{2}{4}{23}{Available Hardware}}
+\headcommand {\slideentry {2}{4}{1}{23/23}{Available Hardware}{0}}
+\headcommand {\beamer@framepages {23}{23}}
+\headcommand {\slideentry {2}{4}{2}{24/24}{Available Hardware}{0}}
+\headcommand {\beamer@framepages {24}{24}}
+\headcommand {\slideentry {2}{4}{3}{25/25}{Available Hardware}{0}}
+\headcommand {\beamer@framepages {25}{25}}
+\headcommand {\beamer@subsectionpages {23}{25}}
+\headcommand {\beamer@subsectionentry {0}{2}{5}{26}{Software Integration}}
+\headcommand {\slideentry {2}{5}{1}{26/26}{Software Integration}{0}}
+\headcommand {\beamer@framepages {26}{26}}
+\headcommand {\slideentry {2}{5}{2}{27/27}{Software Integration}{0}}
+\headcommand {\beamer@framepages {27}{27}}
+\headcommand {\beamer@sectionpages {17}{27}}
+\headcommand {\beamer@subsectionpages {26}{27}}
+\headcommand {\sectionentry {3}{Sampling and Aliasing}{28}{Sampling and Aliasing}{0}}
+\headcommand {\slideentry {3}{0}{1}{28/28}{}{0}}
+\headcommand {\beamer@framepages {28}{28}}
+\headcommand {\beamer@subsectionpages {28}{28}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{29}{Sampling}}
+\headcommand {\slideentry {3}{1}{1}{29/29}{Sampling}{0}}
+\headcommand {\beamer@framepages {29}{29}}
+\headcommand {\slideentry {3}{1}{2}{30/30}{Sampling}{0}}
+\headcommand {\beamer@framepages {30}{30}}
+\headcommand {\beamer@subsectionpages {29}{30}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{31}{The Aliasing Phenomenon}}
+\headcommand {\slideentry {3}{2}{1}{31/31}{The Aliasing Phenomenon}{0}}
+\headcommand {\beamer@framepages {31}{31}}
+\headcommand {\beamer@subsectionpages {31}{31}}
+\headcommand {\beamer@subsectionentry {0}{3}{3}{32}{The Aliasing Phenomenon}}
+\headcommand {\slideentry {3}{3}{1}{32/32}{The Aliasing Phenomenon}{0}}
+\headcommand {\beamer@framepages {32}{32}}
+\headcommand {\slideentry {3}{3}{2}{33/33}{The Aliasing Phenomenon}{0}}
+\headcommand {\beamer@framepages {33}{33}}
+\headcommand {\beamer@subsectionpages {32}{33}}
+\headcommand {\beamer@subsectionentry {0}{3}{4}{34}{MATLAB Example}}
+\headcommand {\slideentry {3}{4}{1}{34/34}{MATLAB Example}{0}}
+\headcommand {\beamer@framepages {34}{34}}
+\headcommand {\slideentry {3}{4}{2}{35/35}{MATLAB Example}{0}}
+\headcommand {\beamer@framepages {35}{35}}
+\headcommand {\beamer@subsectionpages {34}{35}}
+\headcommand {\beamer@subsectionentry {0}{3}{5}{36}{Actvity}}
+\headcommand {\slideentry {3}{5}{1}{36/36}{Actvity}{0}}
+\headcommand {\beamer@framepages {36}{36}}
+\headcommand {\beamer@partpages {1}{36}}
+\headcommand {\beamer@subsectionpages {36}{36}}
+\headcommand {\beamer@sectionpages {28}{36}}
+\headcommand {\beamer@documentpages {36}}
+\headcommand {\gdef \inserttotalframenumber {36}}

@@ -11,7 +11,7 @@ w=2*pi*f; % frequency (radians/sec)
 
 A=1; % amplitude of the square wave
 
-dt=.01;  % timestep
+dt=.1;  % timestep
 tstop=20;  % stop time
 t=0:dt:tstop; % range of time values
 t_len=length(t); % number of time values
@@ -31,13 +31,18 @@ figure(1);hold on
 for k=1:T_len
     subplot(T_len,1,k);hold on
     plot(t(1:length(vs)),vs(k,:),'k.-')
-    plot(t(1:length(vc)),vc(k,:),'b.-')
-    plot(t(1:length(err)),err(k,:),':')
-    grid on
-    axis([0 tstop -.2*A 1.2*A])
+%     plot(t(1:length(vc)),vc(k,:),'b.-')
+%     plot(t(1:length(err)),err(k,:),':')
+    for i=1:length(vs)
+        plot(t(i),vc(k,i),'b.-')
+        plot(t(i),err(k,i),':')
+        pause(.1)
+        grid on
+        axis([0 tstop -.2*A 1.2*A])
+    end
     xlabel('Time (sec)')
     ylabel('Amplitude (volt)')
-    tstr=sprintf('Square Wave %d - A: %.1f(volt), f: %.1f(Hz)',k,A,f(k));
+    tstr=sprintf('Square Wave %d - A: %.1f(volt), f: %.1f(Hz)',k,A,f(k))
     title(tstr)
     if(k==1)
         legend('vs - source voltage', 'vc - capacitor voltage', 'err - error fraction')
