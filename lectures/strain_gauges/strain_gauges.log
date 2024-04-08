@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.13)  8 APR 2024 00:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.13)  8 APR 2024 01:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1121,35 +1121,29 @@ LaTeX Warning: Label `sectionIIsubsectionI<1>' multiply defined.
 LaTeX Warning: Label `sectionIIsubsectionI' multiply defined.
 
 
-LaTeX Warning: Label `sectionIIsubsectionI<1>' multiply defined.
-
-
-LaTeX Warning: Label `sectionIIsubsectionI' multiply defined.
-
-
-LaTeX Warning: Label `sectionIIsubsectionII' multiply defined.
+LaTeX Warning: Label `sectionIIIsubsectionIII' multiply defined.
 
 )
 \openout1 = `strain_gauges.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1207,7 +1201,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring ON on input line 51.
+Package hyperref Info: Link coloring ON on input line 50.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1220,56 +1214,56 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count462
 )
-LaTeX Info: Redefining \ref on input line 51.
-LaTeX Info: Redefining \pageref on input line 51.
-LaTeX Info: Redefining \nameref on input line 51.
+LaTeX Info: Redefining \ref on input line 50.
+LaTeX Info: Redefining \pageref on input line 50.
+LaTeX Info: Redefining \nameref on input line 50.
 
 (./strain_gauges.out) (./strain_gauges.out)
 \@outlinefile=\write6
 \openout6 = `strain_gauges.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 51.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 50.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 51.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 50.
 \symnumbers=\mathgroup7
 \sympureletters=\mathgroup8
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 51.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 51.
+(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 50.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/cmss/b/n on input line 51.
+(Font)                  OT1/cmr/bx/n --> T1/cmss/b/n on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/cmss/b/n on input line 51.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 51.
+(Font)                  OT1/cmr/bx/n --> T1/cmss/b/n on input line 50.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmss/m/n on input line 51.
+(Font)                  OT1/cmss/m/n --> T1/cmss/m/n on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/cmss/m/n on input line 51.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 51.
+(Font)                  OT1/cmss/bx/n --> T1/cmss/m/n on input line 50.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/cmss/m/it on input line 51.
+(Font)                  OT1/cmr/m/it --> T1/cmss/m/it on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/cmss/m/it on input line 51.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 51.
+(Font)                  OT1/cmr/bx/it --> T1/cmss/m/it on input line 50.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 51.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 51.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 50.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 51.
+(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 50.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 51.
+(Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> T1/cmr/b/n on input line 51.
+(Font)                  OT1/cmss/b/n --> T1/cmr/b/n on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/cmss/b/n --> T1/cmss/b/n on input line 51.
+(Font)                  T1/cmss/b/n --> T1/cmss/b/n on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 51.
+(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 51.
+(Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 50.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/cmtt/m/n --> T1/cmtt/b/n on input line 51.
+(Font)                  T1/cmtt/m/n --> T1/cmtt/b/n on input line 50.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -1310,74 +1304,74 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 ] [5
 
 ]
-<images/strain_fig1.png, id=277, 725.71124pt x 513.92pt>
+<images/strain_fig1.png, id=273, 725.71124pt x 513.92pt>
 File: images/strain_fig1.png Graphic file (type png)
 <use images/strain_fig1.png>
-Package pdftex.def Info: images/strain_fig1.png  used on input line 125.
+Package pdftex.def Info: images/strain_fig1.png  used on input line 124.
 (pdftex.def)             Requested size: 181.42737pt x 128.47968pt.
 
-Overfull \hbox (32.78244pt too wide) in paragraph at lines 125--125
+Overfull \hbox (32.78244pt too wide) in paragraph at lines 124--124
 [][]  
  []
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 125
+LaTeX Font Info:    Trying to load font information for U+msa on input line 124
 .
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 125
+LaTeX Font Info:    Trying to load font information for U+msb on input line 124
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+wasy on input line 12
-5.
+4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 ) [6
 
  <./images/strain_fig1.png>]
-<images/strain_fig2.png, id=321, 760.8425pt x 239.89626pt>
+<images/strain_fig2.png, id=317, 760.8425pt x 239.89626pt>
 File: images/strain_fig2.png Graphic file (type png)
 <use images/strain_fig2.png>
-Package pdftex.def Info: images/strain_fig2.png  used on input line 135.
+Package pdftex.def Info: images/strain_fig2.png  used on input line 134.
 (pdftex.def)             Requested size: 152.1658pt x 47.9784pt.
-<images/stress_strain_fig1.png, id=322, 598.89835pt x 847.13008pt>
+<images/stress_strain_fig1.png, id=318, 598.89835pt x 847.13008pt>
 File: images/stress_strain_fig1.png Graphic file (type png)
 <use images/stress_strain_fig1.png>
-Package pdftex.def Info: images/stress_strain_fig1.png  used on input line 135.
+Package pdftex.def Info: images/stress_strain_fig1.png  used on input line 134.
 
 (pdftex.def)             Requested size: 299.44844pt x 423.56401pt.
 
-Overfull \vbox (305.0014pt too high) detected at line 135
+Overfull \vbox (305.0014pt too high) detected at line 134
  []
 
 [7
 
  <./images/strain_fig2.png> <./images/stress_strain_fig1.png>]
-<images/unmounted_strain_gauge.jpg, id=359, 596.2275pt x 387.4475pt>
+<images/unmounted_strain_gauge.jpg, id=355, 596.2275pt x 387.4475pt>
 File: images/unmounted_strain_gauge.jpg Graphic file (type jpg)
 <use images/unmounted_strain_gauge.jpg>
 Package pdftex.def Info: images/unmounted_strain_gauge.jpg  used on input line 
-153.
+152.
 (pdftex.def)             Requested size: 119.24338pt x 77.48811pt.
-<images/mounted_gages.png, id=360, 358.33875pt x 140.525pt>
+<images/mounted_gages.png, id=356, 358.33875pt x 140.525pt>
 File: images/mounted_gages.png Graphic file (type png)
 <use images/mounted_gages.png>
-Package pdftex.def Info: images/mounted_gages.png  used on input line 153.
+Package pdftex.def Info: images/mounted_gages.png  used on input line 152.
 (pdftex.def)             Requested size: 143.33296pt x 56.20898pt.
  [8
 
  <./images/unmounted_strain_gauge.jpg> <./images/mounted_gages.png>]
-<images/axial_gaged_beam.png, id=397, 351.714pt x 356.532pt>
+<images/axial_gaged_beam.png, id=392, 351.714pt x 356.532pt>
 File: images/axial_gaged_beam.png Graphic file (type png)
 <use images/axial_gaged_beam.png>
-Package pdftex.def Info: images/axial_gaged_beam.png  used on input line 166.
+Package pdftex.def Info: images/axial_gaged_beam.png  used on input line 165.
 (pdftex.def)             Requested size: 140.6831pt x 142.61026pt.
 
-Overfull \vbox (23.15982pt too high) detected at line 166
+Overfull \vbox (23.15982pt too high) detected at line 165
  []
 
 [9
@@ -1390,72 +1384,160 @@ Overfull \vbox (23.15982pt too high) detected at line 166
 
 ] [13
 
-] [14
+]
+<images/stretched_gauge.png, id=573, 274.626pt x 90.739pt>
+File: images/stretched_gauge.png Graphic file (type png)
+<use images/stretched_gauge.png>
+Package pdftex.def Info: images/stretched_gauge.png  used on input line 250.
+(pdftex.def)             Requested size: 137.31265pt x 45.36937pt.
+ [14
 
 pdfTeX warning (ext4): destination with the same identifier (name{sectionIIsubs
 ectionI}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.238 			\end{frame}
-                    ]pdfTeX warning (ext4): destination with the same identifie
-r (name{sectionIIsubsectionI<1>}) has been already used, duplicate ignored
+l.250 			\end{frame}
+                     <./images/stretched_gauge.png>]pdfTeX warning (ext4): dest
+ination with the same identifier (name{sectionIIsubsectionI<1>}) has been alrea
+dy used, duplicate ignored
 <to be read again> 
                    \relax 
-l.246 			\end{frame}
+l.267 			\end{frame}
                     	pdfTeX warning (ext4): destination with the same identifie
 r (name{sectionIIsubsectionI}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.246 			\end{frame}
-                    	 [15
+l.267 			\end{frame}
+                    	
+File: images/strain_fig2.png Graphic file (type png)
+<use images/strain_fig2.png>
+Package pdftex.def Info: images/strain_fig2.png  used on input line 267.
+(pdftex.def)             Requested size: 190.21016pt x 59.9739pt.
+ [15
 
-]pdfTeX warning (ext4): destination with the same identifier (name{sectionIIsub
-sectionI<1>}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.253 			\end{frame}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{sectionIIsubsectionI}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.253 			\end{frame}
-                     [16
+]
+<images/gauged_beam_bridge.png, id=648, 794.97pt x 602.25pt>
+File: images/gauged_beam_bridge.png Graphic file (type png)
+<use images/gauged_beam_bridge.png>
+Package pdftex.def Info: images/gauged_beam_bridge.png  used on input line 288.
 
-] [17
+(pdftex.def)             Requested size: 198.742pt x 150.56212pt.
 
-]pdfTeX warning (ext4): destination with the same identifier (name{sectionIIsub
-sectionII}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.281 			\end{frame}
-                     [18
+Overfull \hbox (50.09708pt too wide) in paragraph at lines 288--288
+[][] 
+ []
 
-] [19
+[16
+
+ <./images/gauged_beam_bridge.png>]
+<images/bridge_circuit.png, id=683, 329.92827pt x 278.3966pt>
+File: images/bridge_circuit.png Graphic file (type png)
+<use images/bridge_circuit.png>
+Package pdftex.def Info: images/bridge_circuit.png  used on input line 308.
+(pdftex.def)             Requested size: 115.47662pt x 97.44026pt.
+ [17
+
+ <./images/bridge_circuit.png>]
+<images/gauge_in_bridge_quarter.png, id=720, 491.8375pt x 452.69125pt>
+File: images/gauge_in_bridge_quarter.png Graphic file (type png)
+<use images/gauge_in_bridge_quarter.png>
+Package pdftex.def Info: images/gauge_in_bridge_quarter.png  used on input line
+ 328.
+(pdftex.def)             Requested size: 98.36575pt x 90.53664pt.
+
+Overfull \vbox (6.10538pt too high) detected at line 328
+ []
+
+[18
+
+ <./images/gauge_in_bridge_quarter.png>] [19
 
 ] [20
 
-] [21
+]
+<images/calibration_curve.png, id=822, 1099.10625pt x 857.2025pt>
+File: images/calibration_curve.png Graphic file (type png)
+<use images/calibration_curve.png>
+Package pdftex.def Info: images/calibration_curve.png  used on input line 369.
+(pdftex.def)             Requested size: 153.87383pt x 120.00752pt.
 
-] [22
+Overfull \hbox (5.2289pt too wide) in paragraph at lines 369--369
+[][]  
+ []
+
+[21
+
+ <./images/calibration_curve.png>] [22
 
 ] [23
 
-] [24
+]
+File: images/strain_fig1.png Graphic file (type png)
+<use images/strain_fig1.png>
+Package pdftex.def Info: images/strain_fig1.png  used on input line 407.
+(pdftex.def)             Requested size: 181.42737pt x 128.47968pt.
+ [24
 
 ] [25
 
-] [26
-
-] [27
-
-] [28
-
 ]
+File: images/gauge_in_bridge_quarter.png Graphic file (type png)
+<use images/gauge_in_bridge_quarter.png>
+Package pdftex.def Info: images/gauge_in_bridge_quarter.png  used on input line
+ 428.
+(pdftex.def)             Requested size: 98.36575pt x 90.53664pt.
+<images/gauge_in_bridge_half.png, id=1004, 849.1725pt x 361.35pt>
+File: images/gauge_in_bridge_half.png Graphic file (type png)
+<use images/gauge_in_bridge_half.png>
+Package pdftex.def Info: images/gauge_in_bridge_half.png  used on input line 42
+8.
+(pdftex.def)             Requested size: 169.83148pt x 72.2687pt.
+<images/gauge_in_bridge_full.png, id=1005, 702.625pt x 519.9425pt>
+File: images/gauge_in_bridge_full.png Graphic file (type png)
+<use images/gauge_in_bridge_full.png>
+Package pdftex.def Info: images/gauge_in_bridge_full.png  used on input line 42
+8.
+(pdftex.def)             Requested size: 112.42229pt x 83.19249pt.
+ [26
+
+ <./images/gauge_in_bridge_half.png> <./images/gauge_in_bridge_full.png>]
+<images/gauge_configurations.png, id=1043, 932.48375pt x 627.34375pt>
+File: images/gauge_configurations.png Graphic file (type png)
+<use images/gauge_configurations.png>
+Package pdftex.def Info: images/gauge_configurations.png  used on input line 43
+8.
+(pdftex.def)             Requested size: 279.74728pt x 188.20457pt.
+
+Overfull \vbox (7.4972pt too high) detected at line 438
+ []
+
+[27
+
+ <./images/gauge_configurations.png>]
+<images/quarter_half_full.png, id=1078, 1276.97948pt x 538.5686pt>
+File: images/quarter_half_full.png Graphic file (type png)
+<use images/quarter_half_full.png>
+Package pdftex.def Info: images/quarter_half_full.png  used on input line 451.
+(pdftex.def)             Requested size: 280.93636pt x 118.48544pt.
+ [28
+
+ <./images/quarter_half_full.png>]
 [29
 
-] [30
+]pdfTeX warning (ext4): destination with the same identifier (name{sectionIIIsu
+bsectionIII}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.464 				\frametitle
+                     {\sectionIIIsubsectionIIItitle}\scriptsize
+<images/p3500_fig1.png, id=1148, 892.33376pt x 607.26875pt>
+File: images/p3500_fig1.png Graphic file (type png)
+<use images/p3500_fig1.png>
+Package pdftex.def Info: images/p3500_fig1.png  used on input line 475.
+(pdftex.def)             Requested size: 203.44876pt x 138.455pt.
+ [30
 
-] [31
+ <./images/p3500_fig1.png>] [31
 
 ] [32
 
@@ -1474,17 +1556,22 @@ l.281 			\end{frame}
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `strain_gauges.out' has not changed.
-(rerunfilecheck)             Checksum: D514D23B1949DC988FE22E058AFFDFF3;903.
+(rerunfilecheck)             Checksum: 8C51A4A938CDCD2C9D51088947DEE5B9;1096.
  ) 
 Here is how much of TeX's memory you used:
- 30081 strings out of 480247
- 603781 string characters out of 5896151
- 1061306 words of memory out of 5000000
- 47306 multiletter control sequences out of 15000+600000
- 486726 words of font info for 62 fonts, out of 8000000 for 9000
+ 30201 strings out of 480247
+ 607186 string characters out of 5896151
+ 1062185 words of memory out of 5000000
+ 47409 multiletter control sequences out of 15000+600000
+ 491091 words of font info for 77 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 99i,19n,104p,661b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0800.600
+ 99i,19n,104p,661b,612s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{sectionIIIsubsectionV} has been referenced but do
+es not exist, replaced by a fixed one
+
+ </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0500.600pk
+> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0600.600p
+k> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0800.600
 pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0800.60
 0pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi1000.6
 00pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0500.
@@ -1497,13 +1584,18 @@ pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0800.60
 x1440.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ec
 ss1095.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/e
 css1440.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/
-ecsx0600.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-mi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
-Output written on strain_gauges.pdf (32 pages, 308821 bytes).
+ecsx0600.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmext
+ra/cmex8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on strain_gauges.pdf (32 pages, 1591783 bytes).
 PDF statistics:
- 1589 PDF objects out of 1728 (max. 8388607)
- 1239 compressed objects within 13 object streams
- 99 named destinations out of 1000 (max. 500000)
- 230 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1743 PDF objects out of 2073 (max. 8388607)
+ 1252 compressed objects within 13 object streams
+ 98 named destinations out of 1000 (max. 500000)
+ 278 words of extra memory for PDF output out of 10000 (max. 10000000)
 

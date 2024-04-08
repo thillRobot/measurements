@@ -20,24 +20,23 @@
 \newcommand{\moduletitle}{Strain Gauges}
 
 \newcommand{\sectionItitle}{Measuring Strain}
-\newcommand{\sectionIItitle}{}
-\newcommand{\sectionIIItitle}{}
+\newcommand{\sectionIItitle}{The Wheatstone Bridge}
+\newcommand{\sectionIIItitle}{P3 Strain Indicator}
 
 \newcommand{\sectionIsubsectionItitle}{Motivation in Design}
 \newcommand{\sectionIsubsectionIItitle}{Stress and Strain}
 \newcommand{\sectionIsubsectionIIItitle}{The Strain Gauge}
 \newcommand{\sectionIsubsectionIVtitle}{Engineering Applications}
 
-\newcommand{\sectionIIsubsectionItitle}{}
-\newcommand{\sectionIIsubsectionIItitle}{}
-\newcommand{\sectionIIsubsectionIIItitle}{}
-\newcommand{\sectionIIsubsectionIVtitle}{}
+\newcommand{\sectionIIsubsectionItitle}{Resistive Gauges}
+\newcommand{\sectionIIsubsectionIItitle}{The Bridge Circuit}
+\newcommand{\sectionIIsubsectionIIItitle}{Balancing the Bridge}
+\newcommand{\sectionIIsubsectionIVtitle}{Gauge Sensitivity}
 
-\newcommand{\sectionIIIsubsectionItitle}{}
-\newcommand{\sectionIIIsubsectionIItitle}{}
-\newcommand{\sectionIIIsubsectionIIItitle}{}
-\newcommand{\sectionIIIsubsectionIVtitle}{}
-\newcommand{\sectionIIIsubsectionVtitle}{}
+\newcommand{\sectionIIIsubsectionItitle}{Units of Microstrain}
+\newcommand{\sectionIIIsubsectionIItitle}{Quarter, Half, and Full Configurations}
+\newcommand{\sectionIIIsubsectionIIItitle}{Operating the P3}
+\newcommand{\sectionIIIsubsectionIVtitle}{Alternative Solutions}
 
  \newcommand{\btVFill}{\vskip0pt plus 1filll}
 
@@ -171,7 +170,7 @@
 			\begin{frame}
 				\frametitle{\sectionIsubsectionIVtitle} \scriptsize
 				\bigskip
-				
+
 				\begin{itemize}
 
 				\item Segway back to {\it Motivation in Design} (Slide 1) ... \vspc
@@ -180,7 +179,7 @@
 
 				\item Infrastructure \vspc
 
-				\item Please read this article \href{https://medium.com/@encardio/strain-gauge-principle-types-features-and-applications-357f6fed86a5}{here}. We will cover the mathematics and theory in class but this article has a short section on applications of strain gauges that I want you to see. 
+				\item Short article on applications \href{https://medium.com/@encardio/strain-gauge-principle-types-features-and-applications-357f6fed86a5}{here}. 
 
 				\end{itemize}
 			
@@ -231,26 +230,41 @@
 				\frametitle{\sectionIIsubsectionItitle} \scriptsize
 
 				\bigskip	
+				The resistive strain gauge, aka {\it metallic gauge}, is bonded to the surface so that is deforms with the specimen. The change in length of the bonded gauge causes a change in resistance which is used as a measure of strain. \vspccc
 
+				\scalebox{1}{$R=\rho_eL/A_c=fn(L, ...)$}
+
+				\begin{multicols}{2}
+
+				\includegraphics[scale=0.5]{images/stretched_gauge.png}
+
+				This is an exaggerated picture so the change is  very small...
+
+				\end{multicols}
+
+				
+				
 				\btVFill
-				\tiny{Text: Theory and Design for Mechanical Measurements}
+				{\tiny Images: T.Hill}
 		
 			\end{frame}
 
 		    \begin{frame}[label=sectionIIsubsectionI]
 				\frametitle{\sectionIIsubsectionItitle} \scriptsize
 
-				
+				The {\PN Gauge Factor} is typically used instead of the physical parameters. \vspcc
+
+				\scalebox{1}{$GF \equiv \frac{\delta R/R}{\delta L/L}=\frac{\delta R/R}{\epsilon_a}$}\vspcc
+
+				This number relates the relative change in resistance to the measured strain. \vspc
+
+				\includegraphics[scale=.25]{images/strain_fig2.png}
+
 				\btVFill
+
+				{\tiny Images: \href{https://www.ni.com/en-us/innovations/white-papers/07/measuring-strain-with-strain-gages.html}{NI}}
 					
 			\end{frame}	
-
-			 \begin{frame}[label=sectionIIsubsectionI]
-				\frametitle{\sectionIIsubsectionItitle} \scriptsize
-
-				\btVFill
-				\tiny{Text: Theory and Design for Mechanical Measurements}
-			\end{frame}
 
 
 		% section II subsection II
@@ -260,23 +274,36 @@
 				\frametitle{\sectionIIsubsectionIItitle} \scriptsize
 				\bigskip
 
-				
+				\begin{multicols}{2}
 
+				\includegraphics[scale=.25]{images/gauged_beam_bridge.png} \vspace{15mm} 
+
+				A {\PR transducer} converts the sensed information into a detectable signal. The signal might be mechanical, electrical, optical, or may take any other form that can be meaningfully recorded.
+
+				\end{multicols}
 
 				\btVFill
-				\tiny{\href{https://csrc.nist.gov/glossary/term/electromagnetic_interference}{NIST}}		
-			\end{frame}
+				{\tiny Text. Images: Theory and Design for Mechanical Measurements}
 
-		% section II subsection II
-		\subsection{\sectionIIsubsectionIItitle}\label{sectionIIsubsectionII}
+			\end{frame}
 
 			\begin{frame}
 				\frametitle{\sectionIIsubsectionIItitle} \scriptsize
 	
 				\bigskip
 
+				\begin{multicols}{2}
 
+				\includegraphics[scale=.35]{images/bridge_circuit.png} \vspace{15mm} 
+
+				How does the bridge circuit work as a transducer? \vspc Use KVL and the voltage divider rule find the relationship between the two voltages. \vspc
+
+				\scalebox{1}{$V_b=\left( \frac{R_3}{R_3+R_4}-\frac{R_2}{R_1+R_2}\right)\times V_s$}
+
+				\end{multicols}
+				 
 				\btVFill
+				{\tiny Images: T.Hill}
 				
 			\end{frame}
 
@@ -288,8 +315,15 @@
 
 				\bigskip
 
+				If all four resistors are equal the bridge voltage will equal zero and the bridge is said it be {\BL balanced}. 
+				One or more resistors in the circuit is replaced by a strain gauge and bridge voltage is used as a measure of change in resistance and therefore strain. \vspc
+
+				\includegraphics[scale=.2]{images/gauge_in_bridge_quarter.png} 
+
+				This gives a linear {\PR calibration curve} with a convenient {\RD zero offset}. \vspc 
+				
 				\btVFill
-	
+				{\tiny Text. Images: Theory and Design for Mechanical Measurements}
 
 			\end{frame}
 
@@ -319,6 +353,18 @@
 			\begin{frame}
 				\frametitle{\sectionIIsubsectionIVtitle}
 
+				\begin{multicols}{2}
+
+				\includegraphics[scale=.14]{images/calibration_curve.png} 
+
+				\small
+				Assume $R=120\Omega$ for all resistors and the bridge is balanced in a condition of zero strain. What is the {\PN static sensitivity} of the gauge and bridge circuit described? \vspc
+
+				\scalebox{1}{K=}\vspc
+
+				\end{multicols}
+
+				{\tiny Text. Images: Theory and Design for Mechanical Measurements}
 
 			\end{frame}
 
@@ -352,7 +398,8 @@
 				\frametitle{\sectionIIIsubsectionItitle}
 
 				\bigskip
-			
+
+				\includegraphics[scale=.25]{images/strain_fig1.png}
 			
 				\btVFill
 			
@@ -372,7 +419,20 @@
 
 				\bigskip
 
+				\includegraphics[scale=.2]{images/gauge_in_bridge_quarter.png} 
+				\includegraphics[scale=.2]{images/gauge_in_bridge_half.png} 
+				\includegraphics[scale=.16]{images/gauge_in_bridge_full.png}
 
+				\btVFill
+
+			\end{frame}
+
+			\begin{frame}
+				\frametitle{\sectionIIIsubsectionIItitle}
+
+				\bigskip
+				\includegraphics[scale=.3]{images/gauge_configurations.png}
+			
 				\btVFill
 
 			\end{frame}
@@ -384,7 +444,8 @@
 				\frametitle{\sectionIIIsubsectionIIItitle}
 
 				\bigskip
-				
+				\includegraphics[scale=.22]{images/quarter_half_full.png}
+
 				\btVFill
 				
 			\end{frame}
@@ -396,29 +457,57 @@
 
 			\end{frame}
 
+		% section III subsection III
+		\subsection{\sectionIIIsubsectionIIItitle}\label{sectionIIIsubsectionIII}	
+
+			\begin{frame}[containsverbatim]
+				\frametitle{\sectionIIIsubsectionIIItitle}\scriptsize
+
+
+				\begin{itemize}
+
+					\item The instructions are on the unit. 
+
+					\item The balancing process is completed after changing any wiring. 
+
+				\end{itemize}
+
+				\includegraphics[scale=.228]{images/p3500_fig1.png}
+
+			\end{frame}
+
+			\begin{frame}[containsverbatim]
+				\frametitle{\sectionIIIsubsectionIIItitle}\scriptsize
+			
+
+			
+			\end{frame}
+
 		% section III subsection IV
 		\subsection{\sectionIIIsubsectionIVtitle}\label{sectionIIIsubsectionIV}	
-
-			\begin{frame}[containsverbatim]
-				\frametitle{\sectionIIIsubsectionIVtitle}\scriptsize
-
-
-			\end{frame}
-
-			\begin{frame}[containsverbatim]
-				\frametitle{\sectionIIIsubsectionIVtitle}\scriptsize
-			
-
-			
-			\end{frame}
-
-		% section III subsection V
-		\subsection{\sectionIIIsubsectionVtitle}\label{sectionIIIsubsectionV}	
 		
-		% section III subsection V - Frame I
+		% section III subsection IV - Frame I
 		\begin{frame} \scriptsize
-		\frametitle{\sectionIIIsubsectionVtitle}
+		\frametitle{\sectionIIIsubsectionIVtitle}
 		\bigskip
+
+
+			\begin{itemize}
+
+			\item The P3500/P3 is expensive, but it is a reliable instument. The ME department has used them for years with success. \vspc
+
+			\item The manufacturer {\it Vishay Group} has a {\it more} modern solution with DAQ and multiple channels. \vspc
+
+			\item There are a variety of low cost alternative options available.
+
+			\begin{itemize}
+			\item \href{https://learn.sparkfun.com/tutorials/getting-started-with-load-cells/strain-gauge-basics}{Sparkfun - strain gauge basics}
+			\item \href{https://www.robotshop.com/en/strain-gauge-load-cell-amplifier-shield-2ch.html}{Robot Shop}
+
+			\item \href{https://www.elecrow.com/strain-gauge-module-p-735.html}{elecrow}
+			\end{itemize}
+
+			\end{itemize}
 
 
 		\btVFill
