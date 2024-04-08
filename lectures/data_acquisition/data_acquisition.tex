@@ -14,9 +14,9 @@
 
 \documentclass[fleqn]{beamer} % for presentation (has nav buttons at bottom)
 
-%\usepackage{/home/tntech.edu/thill/courses/measurements/lectures/measurements_lectures}
+\usepackage{/home/tntech.edu/thill/courses/measurements/lectures/measurements_lectures}
 %\usepackage{/home/thill/courses/measurements/lectures/measurements_lectures}
-\usepackage{/mnt/c/Users/thill/Documents/courses/measurements/lectures/measurements_lectures}
+%\usepackage{/mnt/c/Users/thill/Documents/courses/measurements/lectures/measurements_lectures}
 
 \author{ME3023 - Measurements in Mechanical Systems} 
 
@@ -41,6 +41,7 @@
 \newcommand{\sectionIIIsubsectionIItitle}{The Aliasing Phenomenon}
 \newcommand{\sectionIIIsubsectionIIItitle}{Example by Hand}
 \newcommand{\sectionIIIsubsectionIVtitle}{MATLAB Example}
+\newcommand{\sectionIIIsubsectionVtitle}{Actvity}
 
  \newcommand{\btVFill}{\vskip0pt plus 1filll}
 
@@ -328,13 +329,64 @@
 			\end{frame}
 
 			\begin{frame}
-				\frametitle{\sectionIsubsectionIVtitle}
+				\frametitle{\sectionIsubsectionIVtitle} \scriptsize
+
+				%\bigskip
+
+				% Problem 3 - Signals and Data Acquisition  	
+				\textbf{Activity:} - Consider setting up a data acquisition system to record pressure measurements in a vehicle system. Multiple sensors are available, and the DAQ device has different operating modes. Each sensor and DAQ mode has a different input and output signal ranges and different sampling frequencies. \vspc
+				
+				
+				\textbf{Signal}
+				\begin{itemize}
+					\item Measure Variable: Pressure (psi) in automobile tire 
+					\item Expected Range:	0-100 psi 
+				\end{itemize}
+				\vspace*{2mm}
+				%\begin{left}	
+					\begin{tabular}{ cc c c}
+						{\bf Sensor+Transducer} & Input Range (psi) & Output Range (volts)\\ 
+						A & 0-200	& 0-3.0 \\
+						B & 0-120  & 0-0.50 \\  
+						   
+					\end{tabular}
+				%\end{left}
+				\vspace*{2mm}
+				%\begin{left}
+					\begin{tabular}{ c c c }
+						{\bf DAQ Mode} & Input Range (volts) & ADC Resolution \\ 
+						1 & 0 to 3.3	& 10bit \\
+						2 & 0 to 10  & 12bit  \\  
+						     
+					\end{tabular}
+				%\end{left}
+
+			\end{frame}
+
+
+			\begin{frame}
+				\frametitle{\sectionIsubsectionIVtitle} \scriptsize
 
 				\bigskip
 
+				% Problem 3 - Signals and Data Acquisition  	
+				\textbf{Activity (continued):} 
+					
+				\begin{enumerate}
+					
+					\item Choose a {\bf sensor+transducer} pair and an appropriate {\bf DAQ mode} to record the signal shown with best (lowest) possible resolution. Support your choices with a resolution calculation for smallest detectable voltage $(volts)$ and smallest detectable pressure $(psi)$ \vspace{10mm}\\
+
+					\item Approximate the sensivity of the measuement system in units of $\frac{psi}{volts}$. 
+
+			
+		
+				\end{enumerate}	
+
+
 
 				\btVFill
-				\tiny{: Theory and Design for Mechanical Measurements}
+	
+				{\tiny \href{https://www.ni.com/docs/en-US/bundle/daqhelp/page/codewidth.html}{NI - Smallest Detectable Change}}
 										
 			\end{frame}
 
@@ -583,6 +635,7 @@
 				\item \hyperlink{sectionIIIsubsectionII}{\sectionIIIsubsectionIItitle} \vspc % section III subsection II
 				\item \hyperlink{sectionIIIsubsectionIII}{\sectionIIIsubsectionIIItitle} \vspc % section III subsection III
 				\item \hyperlink{sectionIIIsubsectionIV}{\sectionIIIsubsectionIVtitle} \vspc % section III subsection IV
+				\item \hyperlink{sectionIIIsubsectionV}{\sectionIIIsubsectionIVtitle} \vspc % section III subsection V
 			\end{itemize}
 
 		\end{frame}
@@ -693,6 +746,39 @@
 				\tiny{MATLAB code: T. Hill}	
 
 			\end{frame}
+
+
+		
+		% section III subsection V
+		\subsection{\sectionIIIsubsectionVtitle}\label{sectionIIIsubsectionV}	
+% section III subsection V - Frame I
+\begin{frame} \scriptsize
+\frametitle{\sectionIIIsubsectionVtitle}
+\bigskip
+
+{\textbf Activity: Sampling Demonstration}
+
+Use the provided MATLAB program {\it samplingDemo.m} to accomplish the following: \vspace{5mm}\\ 
+
+\begin{enumerate} \tiny
+
+	\item Adjust the input signal frequency to plot a sinusoidal signal $y(t)=Asin(\omega\cdot t)=Asin(2\pi f \cdot t)$ with an amplitude $A=1$ (units) and approximate frequency $f=100$ (Hz). This is the {\it input signal}. \vspace{8mm}\\ 
+	
+	\item Adjust the sampling frequency until the sampled signal correctly represents the input amplitude. Find the minimum ratio of sampling frequency to input frquency that would allow for a reasonable measurement of amplitude. \vspace{8mm}\\ 
+
+	\item Adjust the sampling frequency until the sampled signal correctly represents the input frequency. Find the minimum ratio of sampling frequency to input frquency that would allow for a reasonable measurement of frequency.	
+
+\end{enumerate}
+
+\btVFill
+
+\tiny
+{\textbf Deliverables: Submit answers to all discussion questions. Include a separate screen captures or saved images as justification for the answers to part 2 and part 3. }
+
+
+
+\end{frame}
+	
 
 \end{document}
 

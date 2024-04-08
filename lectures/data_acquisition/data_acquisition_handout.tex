@@ -14,9 +14,9 @@
 
 \documentclass[fleqn]{beamer} % for presentation (has nav buttons at bottom)
 
-%\usepackage{/home/tntech.edu/thill/courses/measurements/lectures/measurements_lectures}
+\usepackage{/home/tntech.edu/thill/courses/measurements/lectures/measurements_lectures}
 %\usepackage{/home/thill/courses/measurements/lectures/measurements_lectures}
-\usepackage{/mnt/c/Users/thill/Documents/courses/measurements/lectures/measurements_lectures}
+%\usepackage{/mnt/c/Users/thill/Documents/courses/measurements/lectures/measurements_lectures}
 
 \author{ME3023 - Measurements in Mechanical Systems} 
 
@@ -316,7 +316,7 @@
 				\frametitle{\sectionIsubsectionIVtitle} \scriptsize
 				\bigskip
 
-				It is important to realize the potential for \underline{\hspace{20mm}} resulting in a reduced quality measurement based on the parameters of the analog to digital conversion process. This issue can occur when designing systems around a \underline{\hspace{20mm}} analog to digital converter as well as when using \underline{\hspace{20mm}} DAQ equippment.  
+				It is important to realize the potential for data loss resulting in a reduced quality measurement based on the parameters of the analog to digital conversion process. This issue can occur when designing systems around a low-level analog to digital converter as well as when using high-end DAQ equippment.  
 
 				\includegraphics[scale=.2]{images/ADC_voltage_resolution.png}
 
@@ -326,16 +326,66 @@
 			\end{frame}
 
 			\begin{frame}
-				\frametitle{\sectionIsubsectionIVtitle}
+				\frametitle{\sectionIsubsectionIVtitle} \scriptsize
+
+				%\bigskip
+
+				% Problem 3 - Signals and Data Acquisition  	
+				\textbf{Activity:} - Consider setting up a data acquisition system to record pressure measurements in a vehicle system. Multiple sensors are available, and the DAQ device has different operating modes. Each sensor and DAQ mode has a different input and output signal ranges and different sampling frequencies. \vspc
+				
+				
+				\textbf{Signal}
+				\begin{itemize}
+					\item Measure Variable: Pressure (psi) in automobile tire 
+					\item Expected Range:	0-100 psi 
+				\end{itemize}
+				\vspace*{2mm}
+				%\begin{left}	
+					\begin{tabular}{ cc c c}
+						{\bf Sensor+Transducer} & Input Range (psi) & Output Range (volts)\\ 
+						A & 0-200	& 0-3.0 \\
+						B & 0-120  & 0-0.50 \\  
+						   
+					\end{tabular}
+				%\end{left}
+				\vspace*{2mm}
+				%\begin{left}
+					\begin{tabular}{ c c c }
+						{\bf DAQ Mode} & Input Range (volts) & ADC Resolution \\ 
+						1 & 0 to 3.3	& 10bit \\
+						2 & 0 to 10  & 12bit  \\  
+						     
+					\end{tabular}
+				%\end{left}
+
+			\end{frame}
+
+
+			\begin{frame}
+				\frametitle{\sectionIsubsectionIVtitle} \scriptsize
 
 				\bigskip
 
+				% Problem 3 - Signals and Data Acquisition  	
+				\textbf{Activity (continued):} 
+					
+				\begin{enumerate}
+					
+					\item Choose a {\bf sensor+transducer} pair and an appropriate {\bf DAQ mode} to record the signal shown with best (lowest) possible resolution. Support your choices with a resolution calculation for smallest detectable voltage $(volts)$ and smallest detectable pressure $(psi)$ \vspace{10mm}\\
+
+					\item Approximate the sensivity of the measuement system in units of $\frac{psi}{volts}$. 
+
+			
+		
+				\end{enumerate}	
+
+
 
 				\btVFill
-				\tiny{: Theory and Design for Mechanical Measurements}
+	
+				{\tiny \href{https://www.ni.com/docs/en-US/bundle/daqhelp/page/codewidth.html}{NI - Smallest Detectable Change}}
 										
 			\end{frame}
-
 	
 	% Section II
 	\section{\sectionIItitle}\label{sectionII}
