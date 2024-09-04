@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.15)  4 SEP 2024 10:50
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.4.29)  26 AUG 2024 10:30
+>>>>>>> 4f855e13c1edadde637e7fb64b5f11a5139285ef
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -655,8 +659,8 @@ Package: amsthm 2017/10/31 v2.20.4
 \beamer@dimb=\dimen277
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty)))
-(/home/tntech.edu/thill/courses/measurements/lectures/measurements_lectures.sty
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+(/mnt/c/Users/thill/Documents/courses/measurements/lectures/measurements_lectur
+es.sty (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
 )
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
@@ -1024,6 +1028,9 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 107.
 \mybox=\box138
  (./introduction.aux
 
+LaTeX Warning: Label `sectionIsubsectionIII' multiply defined.
+
+
 LaTeX Warning: Label `sectionIIsubsectionI' multiply defined.
 
 )
@@ -1205,7 +1212,11 @@ File: lstlang1.sty 2019/09/10 1.8c listings language file
 ] [4
 
 ]
+<<<<<<< HEAD
 <images/measurement_stages.png, id=246, 911.65594pt x 516.42938pt>
+=======
+<images/measurement_stages.png, id=253, 911.65594pt x 516.42938pt>
+>>>>>>> 4f855e13c1edadde637e7fb64b5f11a5139285ef
 File: images/measurement_stages.png Graphic file (type png)
 <use images/measurement_stages.png>
 Package pdftex.def Info: images/measurement_stages.png  used on input line 112.
@@ -1214,12 +1225,20 @@ Package pdftex.def Info: images/measurement_stages.png  used on input line 112.
  [5
 
  <./images/measurement_stages.png>]
+<<<<<<< HEAD
 <images/sensor_stage.png, id=282, 481.8pt x 167.62625pt>
+=======
+<images/sensor_stage.png, id=290, 481.8pt x 167.62625pt>
+>>>>>>> 4f855e13c1edadde637e7fb64b5f11a5139285ef
 File: images/sensor_stage.png Graphic file (type png)
 <use images/sensor_stage.png>
 Package pdftex.def Info: images/sensor_stage.png  used on input line 122.
 (pdftex.def)             Requested size: 96.35829pt x 33.52464pt.
+<<<<<<< HEAD
 <images/sensor_transducer_stage.png, id=284, 509.905pt x 473.77pt>
+=======
+<images/sensor_transducer_stage.png, id=292, 509.905pt x 473.77pt>
+>>>>>>> 4f855e13c1edadde637e7fb64b5f11a5139285ef
 File: images/sensor_transducer_stage.png Graphic file (type png)
 <use images/sensor_transducer_stage.png>
 Package pdftex.def Info: images/sensor_transducer_stage.png  used on input line
@@ -1228,7 +1247,11 @@ Package pdftex.def Info: images/sensor_transducer_stage.png  used on input line
  [6
 
  <./images/sensor_stage.png> <./images/sensor_transducer_stage.png>]
+<<<<<<< HEAD
 <images/signal_noise.png, id=321, 821.0675pt x 674.52pt>
+=======
+<images/signal_noise.png, id=330, 821.0675pt x 674.52pt>
+>>>>>>> 4f855e13c1edadde637e7fb64b5f11a5139285ef
 File: images/signal_noise.png Graphic file (type png)
 <use images/signal_noise.png>
 Package pdftex.def Info: images/signal_noise.png  used on input line 145.
@@ -1238,12 +1261,20 @@ Package pdftex.def Info: images/signal_noise.png  used on input line 145.
  <./images/signal_noise.png>] [8
 
 ]
+<<<<<<< HEAD
 <images/bulb_thermometer.png, id=393, 441.65pt x 547.04375pt>
+=======
+<images/bulb_thermometer.png, id=404, 441.65pt x 547.04375pt>
+>>>>>>> 4f855e13c1edadde637e7fb64b5f11a5139285ef
 File: images/bulb_thermometer.png Graphic file (type png)
 <use images/bulb_thermometer.png>
 Package pdftex.def Info: images/bulb_thermometer.png  used on input line 166.
 (pdftex.def)             Requested size: 110.41222pt x 136.76059pt.
+<<<<<<< HEAD
 <images/thermocouple.jpg, id=394, 228.855pt x 289.08pt>
+=======
+<images/thermocouple.jpg, id=405, 228.855pt x 289.08pt>
+>>>>>>> 4f855e13c1edadde637e7fb64b5f11a5139285ef
 File: images/thermocouple.jpg Graphic file (type jpg)
 <use images/thermocouple.jpg>
 Package pdftex.def Info: images/thermocouple.jpg  used on input line 166.
@@ -1255,106 +1286,130 @@ Overfull \vbox (5.74825pt too high) detected at line 166
 [9
 
  <./images/bulb_thermometer.png> <./images/thermocouple.jpg>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 201
+LaTeX Font Info:    Trying to load font information for U+msa on input line 192
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 201
+LaTeX Font Info:    Trying to load font information for U+msb on input line 192
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 20
-1.
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 19
+2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
+<<<<<<< HEAD
 <images/Brainstorm_room.png, id=429, 142.5325pt x 128.48pt>
+=======
+<images/Brainstorm_room.png, id=441, 142.5325pt x 128.48pt>
+>>>>>>> 4f855e13c1edadde637e7fb64b5f11a5139285ef
 File: images/Brainstorm_room.png Graphic file (type png)
 <use images/Brainstorm_room.png>
-Package pdftex.def Info: images/Brainstorm_room.png  used on input line 201.
+Package pdftex.def Info: images/Brainstorm_room.png  used on input line 192.
 (pdftex.def)             Requested size: 71.26607pt x 64.23984pt.
+ [10
 
-Overfull \vbox (43.47404pt too high) detected at line 201
- []
+ <./images/Brainstorm_room.png>]pdfTeX warning (ext4): destination with the sam
+e identifier (name{sectionIsubsectionIII}) has been already used, duplicate ign
+ored
+<to be read again> 
+                   \relax 
+l.206 			\end{frame}
+                    	 [11
 
-[10
-
+<<<<<<< HEAD
  <./images/Brainstorm_room.png>]
 <images/IDETC_technical_session.png, id=468, 1284.8pt x 722.7pt>
+=======
+]
+<images/IDETC_technical_session.png, id=514, 1284.8pt x 722.7pt>
+>>>>>>> 4f855e13c1edadde637e7fb64b5f11a5139285ef
 File: images/IDETC_technical_session.png Graphic file (type png)
 <use images/IDETC_technical_session.png>
 Package pdftex.def Info: images/IDETC_technical_session.png  used on input line
- 212.
+ 217.
 (pdftex.def)             Requested size: 160.59961pt x 90.33727pt.
- [11
+ [12
 
  <./images/IDETC_technical_session.png>]
 File: images/IDETC_technical_session.png Graphic file (type png)
 <use images/IDETC_technical_session.png>
 Package pdftex.def Info: images/IDETC_technical_session.png  used on input line
- 221.
+ 226.
 (pdftex.def)             Requested size: 160.59961pt x 90.33727pt.
-[12
+ [13
 
 ]
 File: images/IDETC_technical_session.png Graphic file (type png)
 <use images/IDETC_technical_session.png>
 Package pdftex.def Info: images/IDETC_technical_session.png  used on input line
- 229.
+ 234.
 (pdftex.def)             Requested size: 160.59961pt x 90.33727pt.
- [13
 
-] [14
+[14
 
 ] [15
+
+] [16
 
 pdfTeX warning (ext4): destination with the same identifier (name{sectionIIsubs
 ectionI}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.257 			\end{frame}
-                    ] [16
-
-] [17
+l.262 			\end{frame}
+                    ] [17
 
 ] [18
 
+] [19
+
 ]
+<<<<<<< HEAD
 <images/proximity_sensor.jpg, id=758, 170.04706pt x 84.09358pt>
+=======
+<images/proximity_sensor.jpg, id=808, 170.04706pt x 84.09358pt>
+>>>>>>> 4f855e13c1edadde637e7fb64b5f11a5139285ef
 File: images/proximity_sensor.jpg Graphic file (type jpg)
 <use images/proximity_sensor.jpg>
-Package pdftex.def Info: images/proximity_sensor.jpg  used on input line 346.
+Package pdftex.def Info: images/proximity_sensor.jpg  used on input line 351.
 (pdftex.def)             Requested size: 68.01761pt x 33.63683pt.
+<<<<<<< HEAD
 <images/sharp_ranger_circuit.png, id=759, 752.8125pt x 558.085pt>
+=======
+<images/sharp_ranger_circuit.png, id=809, 752.8125pt x 558.085pt>
+>>>>>>> 4f855e13c1edadde637e7fb64b5f11a5139285ef
 File: images/sharp_ranger_circuit.png Graphic file (type png)
 <use images/sharp_ranger_circuit.png>
-Package pdftex.def Info: images/sharp_ranger_circuit.png  used on input line 34
-6.
+Package pdftex.def Info: images/sharp_ranger_circuit.png  used on input line 35
+1.
 (pdftex.def)             Requested size: 135.5004pt x 100.45096pt.
 
-Overfull \vbox (4.92192pt too high) detected at line 346
+Overfull \vbox (4.92192pt too high) detected at line 351
  []
-
-[19
-
- <./images/proximity_sensor.jpg> <./images/sharp_ranger_circuit.png>]
-<images/thermocouple_atd.png, id=799, 358.33875pt x 411.03563pt>
-File: images/thermocouple_atd.png Graphic file (type png)
-<use images/thermocouple_atd.png>
-Package pdftex.def Info: images/thermocouple_atd.png  used on input line 384.
-(pdftex.def)             Requested size: 71.66647pt x 82.20566pt.
 
 [20
 
- <./images/thermocouple_atd.png>] [21
+ <./images/proximity_sensor.jpg> <./images/sharp_ranger_circuit.png>]
+<<<<<<< HEAD
+<images/thermocouple_atd.png, id=799, 358.33875pt x 411.03563pt>
+=======
+<images/thermocouple_atd.png, id=847, 358.33875pt x 411.03563pt>
+>>>>>>> 4f855e13c1edadde637e7fb64b5f11a5139285ef
+File: images/thermocouple_atd.png Graphic file (type png)
+<use images/thermocouple_atd.png>
+Package pdftex.def Info: images/thermocouple_atd.png  used on input line 389.
+(pdftex.def)             Requested size: 71.66647pt x 82.20566pt.
 
-] [22
+[21
+
+ <./images/thermocouple_atd.png>] [22
 
 ] [23
 
@@ -1376,6 +1431,7 @@ Package pdftex.def Info: images/thermocouple_atd.png  used on input line 384.
 \tf@snm=\write9
 \openout9 = `introduction.snm'.
 
+<<<<<<< HEAD
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 552.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 552.
 
@@ -1384,22 +1440,40 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 552.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 552.
 Package rerunfilecheck Info: File `introduction.out' has not changed.
 (rerunfilecheck)             Checksum: 8A72179FDD7CAEC01516F69B288FAD56;1271.
+=======
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 519.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 519.
+
+(./introduction.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 519.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 519.
+Package rerunfilecheck Info: File `introduction.out' has not changed.
+(rerunfilecheck)             Checksum: 773B22D742015C6EC792A3191E98EF59;1344.
+>>>>>>> 4f855e13c1edadde637e7fb64b5f11a5139285ef
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  26160 strings out of 483183
  517569 string characters out of 5966292
  994161 words of memory out of 5000000
  40453 multiletter control sequences out of 15000+600000
+=======
+ 26164 strings out of 483183
+ 517655 string characters out of 5966292
+ 995203 words of memory out of 5000000
+ 40456 multiletter control sequences out of 15000+600000
+>>>>>>> 4f855e13c1edadde637e7fb64b5f11a5139285ef
  554318 words of font info for 71 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  62i,19n,73p,775b,735s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{sectionIV} has been referenced but does not exist
 , replaced by a fixed one
 
+<<<<<<< HEAD
  </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecs
 i0600.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jkn
 appen/ec/ecsi1095.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/p
@@ -1422,4 +1496,26 @@ PDF statistics:
  1082 compressed objects within 11 object streams
  91 named destinations out of 1000 (max. 500000)
  261 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+ </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0600.600pk
+> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0800.600p
+k> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx0800.600
+pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0900.60
+0pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0900.6
+00pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0600.
+600pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1200
+.600pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx120
+0.600pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx14
+40.600pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1
+095.600pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss
+1440.600pk> </home/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecs
+x0600.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8
+.pfb>
+Output written on introduction.pdf (27 pages, 2449647 bytes).
+PDF statistics:
+ 1594 PDF objects out of 1728 (max. 8388607)
+ 1092 compressed objects within 11 object streams
+ 92 named destinations out of 1000 (max. 500000)
+ 269 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> 4f855e13c1edadde637e7fb64b5f11a5139285ef
 
