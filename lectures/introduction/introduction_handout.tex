@@ -13,9 +13,9 @@
 
 \documentclass[fleqn]{beamer} % for presentation (has nav buttons at bottom)
 
-%\usepackage{/home/tntech.edu/thill/courses/measurements/lectures/measurements_lectures}
+\usepackage{/home/tntech.edu/thill/courses/measurements/lectures/measurements_lectures}
 %\usepackage{/home/thill/courses/measurements/lectures/measurements_lectures}
-\usepackage{/mnt/c/Users/thill/Documents/courses/measurements/lectures/measurements_lectures}
+%\usepackage{/mnt/c/Users/thill/Documents/courses/measurements/lectures/measurements_lectures}
 
 \author{ME3023 - Measurements in Mechanical Systems} % original formatting from Mike Renfro, September 21, 2004
 
@@ -171,7 +171,7 @@
 				\frametitle{\sectionIsubsectionIIItitle}
 				
 				\begin{multicols}{2}
-					\scriptsize
+					\tiny
 
 					{\bf Activity:} Team Brainstorm
 
@@ -181,27 +181,22 @@
 
 					\includegraphics[scale=0.5]{images/Brainstorm_room.png}
 
-					{\bf Overview:} Measurement Concepts Discussion
+					{\bf Topic:} Remote Probe Concept
 					\begin{itemize}
-						\item Answer each of the following discussions with a thoughtful respose. Discuss your ideas with your peers, and include references if available.  		        
-					\end{itemize}
+						\item You are designing a remote probe to inspect an environment which can only be accessed from above. 
+						\item The goal is to collect as much information as possible from the environment to prepare for a robotic maintinence task. 
+			        \end{itemize}
 
+			    \end{multicols}	
+
+			    {\bf Requirements:}	
+				\begin{itemize}
+					\item Probe must enter environment through hole $\sim 100mm$ wide 
+					\item Probe must exit through same hole leaving nothing behind
+					\item The alllowable EFI and RFI is limited. No wifi communication is available \vspace{4mm}
+				\end{itemize}
 
 				{\bf Deliverable:} Submit a copy of your team brainstorming notes including text, images, and diagrams to the activity assignment on ilearn. Include names of all team members.
-			    \end{multicols}	
-			\end{frame}
-		
-		\subsection{\sectionIsubsectionIIItitle}\label{sectionIsubsectionIII}
-			\begin{frame} \scriptsize
-				\frametitle{\sectionIsubsectionIIItitle}
-
-			    {\bf Discussion Questions:}	
-				\begin{itemize}
-					\item Briefly describe three different ways to measure distance. What type of instruments are used?\vspace{10mm}
-					\item Briefly describe three ways to describe position. What type of instruments are used?\vspace{10mm}
-					\item What is the main difference between measuring distance as compared to position? What additional information is required to measure position? \vspace{4mm}
-					\item How is meausurements related to modern engineering, robotics, or automation?\vspace{4mm}
-				\end{itemize}
 
 			\end{frame}	
 
@@ -255,7 +250,7 @@
 			\begin{frame}[label=sectionIIsubsectionI]
 				\frametitle{\sectionIIsubsectionItitle}
 
-				\large{``A {\BL measurement} is an act of assigning a specific value to a physical variable. That physical variable
+				\large{``A  {\PR \underline{\hspace{30mm}}} is an act of assigning a specific value to a physical variable. That physical variable
 				is the {\GR measured variable}.''} \vspc
 				{\tiny Text: Theory and Design of Mech. Meas.}
 
@@ -269,8 +264,8 @@
 
 				{``If a change in one variable will not affect the value of some other variable, the
 				two are considered independent of each other. A variable that can be changed independently of other
-				variables is known as an {\PR independent variable}. A variable that is affected by changes in one or more
-				other variables is known as a {\BR dependent variable}. Normally, the variable that we measure depends on
+				variables is known as an {\PR \underline{\hspace{30mm}}}. A variable that is affected by changes in one or more
+				other variables is known as a {\BR \underline{\hspace{30mm}}}. Normally, the variable that we measure depends on
 				the value of the variables that control the process.''} \vspc
 				{\tiny Text: Theory and Design of Mech. Meas.}
 
@@ -282,11 +277,11 @@
 			\begin{frame}
 				\frametitle{\sectionIIsubsectionIIItitle}
 
-				{``A variable is {\BL controlled} if it can be held at a constant value
+				{``A variable is {\BL \underline{\hspace{30mm}}} if it can be held at a constant value
 				or at some prescribed condition during a measurement... ...complete control of a variable is not usually
-				possible. We use the adjective {\BL controlled} to refer to a variable that can be held as prescribed, at
+				possible. We use the adjective {\BL \underline{\hspace{30mm}}} to refer to a variable that can be held as prescribed, at
 				least in a nominal sense... \vspc
-				...we define a {\GR parameter} as a functional grouping of variables. For example, a moment of inertia or a Reynolds number... ...A {\GR parameter} that has an effect on the behavior of the measured variable is called a control parameter....''} \vspc
+				...we define a {\GR \underline{\hspace{30mm}}} as a functional grouping of variables. For example, a moment of inertia or a Reynolds number... ...A {\GR \underline{\hspace{30mm}}} that has an effect on the behavior of the measured variable is called a control {\GR \underline{\hspace{30mm}}}....''} \vspc
 				{\tiny Text: Theory and Design of Mech. Meas.}
 
 			\end{frame}
@@ -298,9 +293,9 @@
 				\frametitle{\sectionIIsubsectionIVtitle}
 
 				{``Variables that are not or cannot be controlled during measurement but that affect the value of the
-				variable measured are called {\RD extraneous variables}. Their influence can confuse the clear relation
-				between cause and effect in a measurement... ...The effects due to {\RD extraneous variables} can take the form of signals superimposed
-				onto the measured signal with such forms as {\PR noise} and drift.''} \vspc
+				variable measured are called {\RD \underline{\hspace{30mm}}  \underline{\hspace{30mm}}}. Their influence can confuse the clear relation
+				between cause and effect in a measurement... ...The effects due to {\RD \underline{\hspace{30mm}} \underline{\hspace{30mm}}} can take the form of signals superimposed
+				onto the measured signal with such forms as {\PR \underline{\hspace{30mm}}} and drift.''} \vspc
 				{\tiny Text: Theory and Design of Mech. Meas.}
 
 			\end{frame}

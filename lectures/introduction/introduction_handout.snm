@@ -2,7 +2,6 @@
 \beamer@slide {sectionIsubsectionI}{4}
 \beamer@slide {sectionIsubsectionII}{5}
 \beamer@slide {sectionIsubsectionIII}{10}
-<<<<<<< HEAD
 \beamer@slide {sectionIsubsectionIV}{11}
 \beamer@slide {sectionII}{14}
 \beamer@slide {sectionIIsubsectionI}{15}
@@ -12,18 +11,6 @@
 \beamer@slide {sectionIIsubsectionIII}{17}
 \beamer@slide {sectionIIsubsectionIV}{18}
 \beamer@slide {sectionIIsubsectionV}{19}
-=======
-\beamer@slide {sectionIsubsectionIII}{11}
-\beamer@slide {sectionIsubsectionIV}{12}
-\beamer@slide {sectionII}{15}
-\beamer@slide {sectionIIsubsectionI}{16}
-\beamer@slide {sectionIIsubsectionI<1>}{16}
-\beamer@slide {sectionIIsubsectionI}{16}
-\beamer@slide {sectionIIsubsectionII}{17}
-\beamer@slide {sectionIIsubsectionIII}{18}
-\beamer@slide {sectionIIsubsectionIV}{19}
-\beamer@slide {sectionIIsubsectionV}{20}
->>>>>>> 4f855e13c1edadde637e7fb64b5f11a5139285ef
 \beamer@slide {sectionIII}{22}
 \beamer@slide {sectionIIIsubsectionI}{23}
 \beamer@slide {sectionIIIsubsectionII}{24}
