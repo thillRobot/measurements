@@ -1,15 +1,15 @@
-% Lecture Template for ME3023 -  Measurements in Mechanical Systems - Tennessee Technological University
+ % Lecture Template for ME3023 -  Measurements in Mechanical Systems - Tennessee Technological University
 % Spring 2020 - Summer 2020 - Fall 2020 - Spring 2021 - Summer 2021 - Fall 2023
-% Tristan Hill, May 07, 2020 - June 12, 2020 - July 08, 2020 - Novemeber 02, 2020 - March 28, 2021 - May 25, 2021 - August 21, 2022 - September 02, 2023 - September 09, 2023
+% Tristan Hill, May 07, 2020 - June 12, 2020 - July 08, 2020 - Novemeber 02, 2020 - March 28, 2021 - May 25, 2021 - August 21, 2022 - September 02, 2023 - September 09, 2023, October  14, 2024
 
 % Fall 2023 - condensing and streamlining lectures by combining topics into a single PDF under the module name
 %			  this will simplify file and link management as well as make lectures easier to use in class
 %			- added image/ to clean directory and reduce redundancy, specific to module for now  
 
-% Module Name: - Steady State Circuits
-% Topic 1 - Components, Units, and Symbols
-% Topic 2 - Fundamental Laws
-% Topic 3 - Circuit Applications
+% Module Name: - Electric Signals
+% Topic 1 - Classification
+% Topic 2 - Signal Analysis
+% Topic 3 - Sampling and Aliasing
 
 
 \documentclass[fleqn]{beamer} % for presentation (has nav buttons at bottom)
@@ -406,14 +406,16 @@ repetition. A non-deterministic signal cannot be prescribed before it occurs, al
 
 			\begin{frame}
 				\frametitle{\sectionIIIsubsectionItitle}
-
+				\bigskip
+						...
+						A discrete time signal usually
+						results from the sampling of a continuous variable at repeated finite time intervals.
+						...	
+						\includegraphics[scale=.3]{images/sampling_fig7_1.png}
+					
+						\btVFill
+						\tiny{Text,Figure: Theory and Design for Mechanical Measurements Ch. 7}
 			
-				
-			\end{frame}
-
-			\begin{frame}
-				\frametitle{\sectionIIIsubsectionItitle}
-		
 			\end{frame}
 
 		% section III subsection II
@@ -421,9 +423,13 @@ repetition. A non-deterministic signal cannot be prescribed before it occurs, al
 
 			\begin{frame}
 				\frametitle{\sectionIIIsubsectionIItitle}
+				\bigskip
+				\includegraphics[scale=.2]{images/aliasing_fig7_2.png}
 
-	
 
+				\btVFill
+				\tiny{Figure: Theory and Design for Mechanical Measurements Ch. 7}	
+					
 			\end{frame}
 
 		% section III subsection III
@@ -431,9 +437,13 @@ repetition. A non-deterministic signal cannot be prescribed before it occurs, al
 
 			\begin{frame}
 				\frametitle{\sectionIIIsubsectionIIItitle}
+				\bigskip
+				\includegraphics[scale=.35]{images/cartesian_6x12.png}
 
+
+				\btVFill
+				\tiny{Image: T.Hill}		
 		
-
 			\end{frame}
 
 			\begin{frame}
@@ -448,10 +458,37 @@ repetition. A non-deterministic signal cannot be prescribed before it occurs, al
 
 			\begin{frame}
 				\frametitle{\sectionIIIsubsectionIVtitle}
+				\bigskip
 
+				{\textbf Activity: Sampling Demonstration}
+
+				Use the MATLAB program provided to accomplish the following:
+
+				\begin{enumerate} \tiny
+
+					\item Plot a sinusoidal signal $y(t)=Asin(\omega\cdot t)=Asin(2\pi f \cdot t)$ with an amplitude $A=10$ (units) and frequency $f=1000$ (Hz). This is the {\it ideal signal} source. 
+					\begin{itemize} \tiny
+						\item Include axis labels and gridlines. 
+						\item Choose ampitude and time scales so that 15 to 20 periods or the waveform are shown. \vspace{5mm}\\
+					\end{itemize} 
+					\item Simulate the samping of the signal by plotting the same function with a reduced time step. Plot the sampled signal on the same figure. Use a different marker and include a legend to differentiate the signals. \vspace{5mm}\\ 
+
+					\item Use your code to determine the minimum sampling frequency required to measure the following quantities (note: use the sampled signal only, the {\it ideal signal} is not accessible).	
+
+					\begin{itemize} \tiny
+						\item {\bf Frequency} of the {\it ideal signal}
+						\item {\bf Amplitude} of the {\it ideal signal}
+					\end{itemize}
+
+
+
+				\end{enumerate}
+
+				\btVFill
+
+				\tiny
+				{\textbf Deliverables: Submit answers to all questsions to the appropriate ilearn folder. If you work with a partner, include all names with the responses. All group members must submit the assignment.}
 			
-
-
 			\end{frame}
 
 			\begin{frame}

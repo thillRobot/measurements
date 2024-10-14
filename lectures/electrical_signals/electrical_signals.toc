@@ -10,6 +10,6 @@
 \beamer@subsectionintoc {2}{4}{Discrete-Time or Digital Signals}{21}{0}{2}
 \beamer@sectionintoc {3}{Sampling and Aliasing}{23}{0}{3}
 \beamer@subsectionintoc {3}{1}{Sampling}{24}{0}{3}
-\beamer@subsectionintoc {3}{2}{The Aliasing Phenomenon}{26}{0}{3}
-\beamer@subsectionintoc {3}{3}{The Aliasing Phenomenon}{27}{0}{3}
-\beamer@subsectionintoc {3}{4}{MATLAB Example}{29}{0}{3}
+\beamer@subsectionintoc {3}{2}{The Aliasing Phenomenon}{25}{0}{3}
+\beamer@subsectionintoc {3}{3}{The Aliasing Phenomenon}{26}{0}{3}
+\beamer@subsectionintoc {3}{4}{MATLAB Example}{28}{0}{3}
