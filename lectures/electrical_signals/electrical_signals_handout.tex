@@ -391,6 +391,7 @@ repetition. A non-deterministic signal cannot be prescribed before it occurs, al
 
 			\end{frame}
 		
+	
 	% Section III
 	\section{\sectionIIItitle}\label{sectionIII}
 
@@ -412,14 +413,16 @@ repetition. A non-deterministic signal cannot be prescribed before it occurs, al
 
 			\begin{frame}
 				\frametitle{\sectionIIIsubsectionItitle}
-
+				\bigskip
+						...
+						A discrete time signal usually
+						results from the sampling of a continuous variable at repeated finite time intervals.
+						...	
+						\includegraphics[scale=.3]{images/sampling_fig7_1.png}
+					
+						\btVFill
+						\tiny{Text,Figure: Theory and Design for Mechanical Measurements Ch. 7}
 			
-				
-			\end{frame}
-
-			\begin{frame}
-				\frametitle{\sectionIIIsubsectionItitle}
-		
 			\end{frame}
 
 		% section III subsection II
@@ -427,9 +430,13 @@ repetition. A non-deterministic signal cannot be prescribed before it occurs, al
 
 			\begin{frame}
 				\frametitle{\sectionIIIsubsectionIItitle}
+				\bigskip
+				\includegraphics[scale=.2]{images/aliasing_fig7_2.png}
 
-	
 
+				\btVFill
+				\tiny{Figure: Theory and Design for Mechanical Measurements Ch. 7}	
+					
 			\end{frame}
 
 		% section III subsection III
@@ -437,9 +444,13 @@ repetition. A non-deterministic signal cannot be prescribed before it occurs, al
 
 			\begin{frame}
 				\frametitle{\sectionIIIsubsectionIIItitle}
+				\bigskip
+				\includegraphics[scale=.35]{images/cartesian_6x12.png}
 
+
+				\btVFill
+				\tiny{Image: T.Hill}		
 		
-
 			\end{frame}
 
 			\begin{frame}
@@ -454,10 +465,37 @@ repetition. A non-deterministic signal cannot be prescribed before it occurs, al
 
 			\begin{frame}
 				\frametitle{\sectionIIIsubsectionIVtitle}
+				\bigskip
 
+				{\textbf Activity: Sampling Demonstration}
+
+				Use the MATLAB program provided to accomplish the following:
+
+				\begin{enumerate} \tiny
+
+					\item Plot a sinusoidal signal $y(t)=Asin(\omega\cdot t)=Asin(2\pi f \cdot t)$ with an amplitude $A=10$ (units) and frequency $f=1000$ (Hz). This is the {\it ideal signal} source. 
+					\begin{itemize} \tiny
+						\item Include axis labels and gridlines. 
+						\item Choose ampitude and time scales so that 15 to 20 periods or the waveform are shown. \vspace{5mm}\\
+					\end{itemize} 
+					\item Simulate the samping of the signal by plotting the same function with a reduced time step. Plot the sampled signal on the same figure. Use a different marker and include a legend to differentiate the signals. \vspace{5mm}\\ 
+
+					\item Use your code to determine the minimum sampling frequency required to measure the following quantities (note: use the sampled signal only, the {\it ideal signal} is not accessible).	
+
+					\begin{itemize} \tiny
+						\item {\bf Frequency} of the {\it ideal signal}
+						\item {\bf Amplitude} of the {\it ideal signal}
+					\end{itemize}
+
+
+
+				\end{enumerate}
+
+				\btVFill
+
+				\tiny
+				{\textbf Deliverables: Submit answers to all questsions to the appropriate ilearn folder. If you work with a partner, include all names with the responses. All group members must submit the assignment.}
 			
-
-
 			\end{frame}
 
 			\begin{frame}
