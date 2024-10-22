@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.23)  7 SEP 2022 10:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.15)  22 OCT 2024 15:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**toerr_ishuman_topic1.tex
+**toerr_ishuman_topic1
 (./toerr_ishuman_topic1.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14>
@@ -655,7 +655,7 @@ Package: amsthm 2017/10/31 v2.20.4
 \beamer@dimb=\dimen277
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty)))
-(/home/tntech.edu/thill/courses/measurements_lectures/measurements_lectures.sty
+(../../measurements_lectures.sty
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
 )
@@ -1050,22 +1050,22 @@ LaTeX Warning: Label `sectionIV' multiply defined.
 )
 \openout1 = `toerr_ishuman_topic1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1125,7 +1125,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box140
-Package hyperref Info: Link coloring ON on input line 33.
+Package hyperref Info: Link coloring ON on input line 30.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1138,56 +1138,56 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count367
 )
-LaTeX Info: Redefining \ref on input line 33.
-LaTeX Info: Redefining \pageref on input line 33.
-LaTeX Info: Redefining \nameref on input line 33.
+LaTeX Info: Redefining \ref on input line 30.
+LaTeX Info: Redefining \pageref on input line 30.
+LaTeX Info: Redefining \nameref on input line 30.
 
 (./toerr_ishuman_topic1.out) (./toerr_ishuman_topic1.out)
 \@outlinefile=\write6
 \openout6 = `toerr_ishuman_topic1.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 33.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 30.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 33.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 30.
 \symnumbers=\mathgroup7
 \sympureletters=\mathgroup8
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 33.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 33.
+(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 30.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/cmss/b/n on input line 33.
+(Font)                  OT1/cmr/bx/n --> T1/cmss/b/n on input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/cmss/b/n on input line 33.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 33.
+(Font)                  OT1/cmr/bx/n --> T1/cmss/b/n on input line 30.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmss/m/n on input line 33.
+(Font)                  OT1/cmss/m/n --> T1/cmss/m/n on input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/cmss/m/n on input line 33.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 33.
+(Font)                  OT1/cmss/bx/n --> T1/cmss/m/n on input line 30.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/cmss/m/it on input line 33.
+(Font)                  OT1/cmr/m/it --> T1/cmss/m/it on input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/cmss/m/it on input line 33.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 33.
+(Font)                  OT1/cmr/bx/it --> T1/cmss/m/it on input line 30.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 33.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 33.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 30.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 33.
+(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 30.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 33.
+(Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> T1/cmr/b/n on input line 33.
+(Font)                  OT1/cmss/b/n --> T1/cmr/b/n on input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/cmss/b/n --> T1/cmss/b/n on input line 33.
+(Font)                  T1/cmss/b/n --> T1/cmss/b/n on input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 33.
+(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 33.
+(Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/cmtt/m/n --> T1/cmtt/b/n on input line 33.
+(Font)                  T1/cmtt/m/n --> T1/cmtt/b/n on input line 30.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -1222,19 +1222,19 @@ File: lstlang1.sty 2019/09/10 1.8c listings language file
 ] [2
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 72.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 69.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 72.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 69.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 72
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 69
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
@@ -1249,17 +1249,17 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.128 	\end{frame}
+l.125 	\end{frame}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{sectionIV}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.128 	\end{frame}
+l.125 	\end{frame}
                   
 <GPS-IIR.jpeg, id=216, 1806.75pt x 1806.75pt>
 File: GPS-IIR.jpeg Graphic file (type jpg)
 <use GPS-IIR.jpeg>
-Package pdftex.def Info: GPS-IIR.jpeg  used on input line 128.
+Package pdftex.def Info: GPS-IIR.jpeg  used on input line 125.
 (pdftex.def)             Requested size: 135.5004pt x 135.5004pt.
  [6
 
@@ -1267,29 +1267,29 @@ Package pdftex.def Info: GPS-IIR.jpeg  used on input line 128.
 name{sectionIV<1>}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.152 	\end{frame}
+l.149 	\end{frame}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{sectionIV}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.152 	\end{frame}
+l.149 	\end{frame}
                   
-Overfull \hbox (1.05922pt too wide) in paragraph at lines 152--152
+Overfull \hbox (1.05922pt too wide) in paragraph at lines 149--149
 [][]  
  []
 
 <lat_lon_grid.png, id=252, 156.585pt x 152.82094pt>
 File: lat_lon_grid.png Graphic file (type png)
 <use lat_lon_grid.png>
-Package pdftex.def Info: lat_lon_grid.png  used on input line 152.
+Package pdftex.def Info: lat_lon_grid.png  used on input line 149.
 (pdftex.def)             Requested size: 156.58461pt x 152.82054pt.
 
-Overfull \hbox (7.93968pt too wide) in paragraph at lines 152--152
+Overfull \hbox (7.93968pt too wide) in paragraph at lines 149--149
 [][] 
  []
 
 
-Overfull \vbox (2.15776pt too high) detected at line 152
+Overfull \vbox (2.15776pt too high) detected at line 149
  []
 
 [7
@@ -1298,28 +1298,28 @@ Overfull \vbox (2.15776pt too high) detected at line 152
 er (name{sectionIV<1>}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.182 	\end{frame}
+l.179 	\end{frame}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{sectionIV}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.182 	\end{frame}
+l.179 	\end{frame}
                   
-Overfull \hbox (5.30818pt too wide) in paragraph at lines 182--182
+Overfull \hbox (5.30818pt too wide) in paragraph at lines 179--179
 [][]  
  []
 
 File: lat_lon_grid.png Graphic file (type png)
 <use lat_lon_grid.png>
-Package pdftex.def Info: lat_lon_grid.png  used on input line 182.
+Package pdftex.def Info: lat_lon_grid.png  used on input line 179.
 (pdftex.def)             Requested size: 156.58461pt x 152.82054pt.
 
-Overfull \hbox (7.93968pt too wide) in paragraph at lines 182--182
+Overfull \hbox (7.93968pt too wide) in paragraph at lines 179--179
 [][] 
  []
 
 
-Overfull \vbox (2.3572pt too high) detected at line 182
+Overfull \vbox (2.3572pt too high) detected at line 179
  []
 
 [8
@@ -1328,22 +1328,22 @@ Overfull \vbox (2.3572pt too high) detected at line 182
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.202 	\end{frame}
+l.199 	\end{frame}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{sectionIV}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.202 	\end{frame}
+l.199 	\end{frame}
                   
 <thinker_rodin.png, id=317, 722.7pt x 1084.05pt>
 File: thinker_rodin.png Graphic file (type png)
 <use thinker_rodin.png>
-Package pdftex.def Info: thinker_rodin.png  used on input line 202.
+Package pdftex.def Info: thinker_rodin.png  used on input line 199.
 (pdftex.def)             Requested size: 72.27423pt x 108.41135pt.
 <thinker_dc_comics.png, id=318, 250.9375pt x 375.4025pt>
 File: thinker_dc_comics.png Graphic file (type png)
 <use thinker_dc_comics.png>
-Package pdftex.def Info: thinker_dc_comics.png  used on input line 202.
+Package pdftex.def Info: thinker_dc_comics.png  used on input line 199.
 (pdftex.def)             Requested size: 62.7342pt x 93.85039pt.
  [9
 
@@ -1357,12 +1357,12 @@ Package pdftex.def Info: thinker_dc_comics.png  used on input line 202.
 \tf@snm=\write9
 \openout9 = `toerr_ishuman_topic1.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 204.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 204.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 201.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 201.
 
 (./toerr_ishuman_topic1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 204.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 204.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 201.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 201.
 Package rerunfilecheck Info: File `toerr_ishuman_topic1.out' has not changed.
 (rerunfilecheck)             Checksum: 06ACCCEE88B4CC208C3425FC22AE1D67;212.
 
@@ -1372,12 +1372,12 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  25913 strings out of 483183
- 512670 string characters out of 5966292
- 992477 words of memory out of 5000000
+ 512341 string characters out of 5966292
+ 992383 words of memory out of 5000000
  40278 multiletter control sequences out of 15000+600000
  551964 words of font info for 68 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 62i,19n,73p,787b,574s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,19n,73p,823b,574s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{sectionIII} has been referenced but does not exis
 t, replaced by a fixed one
 

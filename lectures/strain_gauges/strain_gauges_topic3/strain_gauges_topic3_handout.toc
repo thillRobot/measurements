@@ -1,5 +1,0 @@
-\beamer@sectionintoc {1}{Units of Microstrain}{3}{0}{1}
-\beamer@sectionintoc {2}{Quarter, Half, and Full Configurations}{4}{0}{2}
-\beamer@sectionintoc {3}{Wiring the P3500}{6}{0}{3}
-\beamer@sectionintoc {4}{Operating the P3500}{7}{0}{4}
-\beamer@sectionintoc {5}{Modern Solution}{8}{0}{5}
