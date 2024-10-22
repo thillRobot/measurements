@@ -1,4 +1,0 @@
-\beamer@sectionintoc {1}{Parameter Design Plan}{3}{0}{1}
-\beamer@sectionintoc {2}{System and Tolerance Design Plan}{4}{0}{2}
-\beamer@sectionintoc {3}{Data Reduction Design Plan}{5}{0}{3}
-\beamer@sectionintoc {4}{Experimental Design Strategies }{6}{0}{4}
