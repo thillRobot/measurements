@@ -1,4 +1,0 @@
-\beamer@sectionintoc {1}{Review Electrical Quantities}{3}{0}{1}
-\beamer@sectionintoc {2}{Resistance and Impedance}{5}{0}{2}
-\beamer@sectionintoc {3}{Capacitance and Inductance}{7}{0}{3}
-\beamer@sectionintoc {4}{Example: RC Circuit}{9}{0}{4}

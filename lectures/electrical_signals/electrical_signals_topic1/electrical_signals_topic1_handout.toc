@@ -1,4 +1,0 @@
-\beamer@sectionintoc {1}{Introduction to Signal Concepts}{3}{0}{1}
-\beamer@sectionintoc {2}{Analog, Discrete, or Digital}{5}{0}{2}
-\beamer@sectionintoc {3}{Static or Dynamic}{9}{0}{3}
-\beamer@sectionintoc {4}{Deterministic or Non-Deterministic}{10}{0}{4}

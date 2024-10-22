@@ -1,4 +1,0 @@
-\beamer@sectionintoc {1}{Circuits in Mechanical Engineering}{3}{0}{1}
-\beamer@sectionintoc {2}{Drain Pipe Theory}{5}{0}{2}
-\beamer@sectionintoc {3}{Example 1: LED Circuit}{6}{0}{3}
-\beamer@sectionintoc {4}{Example 2: LDR circuit}{9}{0}{4}
