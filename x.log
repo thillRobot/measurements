@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.5.31)  17 OCT 2023 23:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.13)  22 OCT 2024 23:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**sensors
+**error_and_uncertainty_handout.tex
 (/usr/share/texlive/texmf-dist/tex/latex/tools/x.tex
-LaTeX2e <2020-02-02> patch level 2
-L3 programming layer <2020-02-14>
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21>
 ! .
 l.38   \batchmode \errmessage{}
                                \csname @@end\endcsname \end
@@ -16,13 +16,13 @@ and deduce the truth by order and method.
 
  ) 
 Here is how much of TeX's memory you used:
- 18 strings out of 483183
- 508 string characters out of 5966292
- 231602 words of memory out of 5000000
- 15133 multiletter control sequences out of 15000+600000
- 532338 words of font info for 24 fonts, out of 8000000 for 9000
+ 19 strings out of 480247
+ 540 string characters out of 5896151
+ 283961 words of memory out of 5000000
+ 18060 multiletter control sequences out of 15000+600000
+ 469259 words of font info for 28 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 12i,0n,15p,87b,8s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 13i,0n,12p,113b,10s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 No pages of output.
 PDF statistics:

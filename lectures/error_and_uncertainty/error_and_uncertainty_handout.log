@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.13)  22 OCT 2024 23:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.13)  22 OCT 2024 23:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1110,8 +1110,17 @@ Package hyperref Info: Option `pdfnewwindow' set `true' on input line 107.
 Package hyperref Info: Option `colorlinks' set `true' on input line 107.
 )
 \mybox=\box139
+ (./error_and_uncertainty_handout.aux
 
-No file error_and_uncertainty_handout.aux.
+LaTeX Warning: Label `sectionIIsubsectionI' multiply defined.
+
+
+LaTeX Warning: Label `sectionIIsubsectionI<1>' multiply defined.
+
+
+LaTeX Warning: Label `sectionIIsubsectionI' multiply defined.
+
+)
 \openout1 = `error_and_uncertainty_handout.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
@@ -1132,6 +1141,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
 LaTeX Font Info:    ... okay on input line 51.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 51.
 LaTeX Font Info:    ... okay on input line 51.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1204,6 +1214,8 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 51.
 LaTeX Info: Redefining \pageref on input line 51.
 LaTeX Info: Redefining \nameref on input line 51.
+
+(./error_and_uncertainty_handout.out) (./error_and_uncertainty_handout.out)
 \@outlinefile=\write6
 \openout6 = `error_and_uncertainty_handout.out'.
 
@@ -1275,13 +1287,12 @@ ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 \c@lstlisting=\count463
-
-No file error_and_uncertainty_handout.nav.
+ (./error_and_uncertainty_handout.nav)
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
-) [1
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
+] [2
 
 ] [3
 
@@ -1319,7 +1330,7 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 ] [10
 
 ]
-<images/GPS-IIR.jpeg, id=313, 1806.75pt x 1806.75pt>
+<images/GPS-IIR.jpeg, id=440, 1806.75pt x 1806.75pt>
 File: images/GPS-IIR.jpeg Graphic file (type jpg)
 <use images/GPS-IIR.jpeg>
 Package pdftex.def Info: images/GPS-IIR.jpeg  used on input line 192.
@@ -1331,7 +1342,7 @@ Overfull \hbox (1.05922pt too wide) in paragraph at lines 216--216
 [][]  
  []
 
-<images/lat_lon_grid.png, id=346, 156.585pt x 152.82094pt>
+<images/lat_lon_grid.png, id=478, 156.585pt x 152.82094pt>
 File: images/lat_lon_grid.png Graphic file (type png)
 <use images/lat_lon_grid.png>
 Package pdftex.def Info: images/lat_lon_grid.png  used on input line 216.
@@ -1339,6 +1350,10 @@ Package pdftex.def Info: images/lat_lon_grid.png  used on input line 216.
 
 Overfull \hbox (7.93968pt too wide) in paragraph at lines 216--216
 [][] 
+ []
+
+
+Overfull \vbox (2.15776pt too high) detected at line 216
  []
 
 [12
@@ -1357,15 +1372,19 @@ Overfull \hbox (7.93968pt too wide) in paragraph at lines 247--247
 [][] 
  []
 
+
+Overfull \vbox (2.3572pt too high) detected at line 247
+ []
+
 [13
 
 ]
-<images/thinker_rodin.png, id=404, 722.7pt x 1084.05pt>
+<images/thinker_rodin.png, id=551, 722.7pt x 1084.05pt>
 File: images/thinker_rodin.png Graphic file (type png)
 <use images/thinker_rodin.png>
 Package pdftex.def Info: images/thinker_rodin.png  used on input line 268.
 (pdftex.def)             Requested size: 72.27423pt x 108.41135pt.
-<images/thinker_dc_comics.png, id=405, 250.9375pt x 375.4025pt>
+<images/thinker_dc_comics.png, id=552, 250.9375pt x 375.4025pt>
 File: images/thinker_dc_comics.png Graphic file (type png)
 <use images/thinker_dc_comics.png>
 Package pdftex.def Info: images/thinker_dc_comics.png  used on input line 268.
@@ -1397,7 +1416,7 @@ l.322 			\end{frame}
                     	 [18
 
 ]
-<images/dart_throw.png, id=550, 1038.88126pt x 383.4325pt>
+<images/dart_throw.png, id=732, 1038.88126pt x 383.4325pt>
 File: images/dart_throw.png Graphic file (type png)
 <use images/dart_throw.png>
 Package pdftex.def Info: images/dart_throw.png  used on input line 339.
@@ -1414,7 +1433,7 @@ Package pdftex.def Info: images/dart_throw.png  used on input line 339.
 [23
 
 ]
-<images/sample_uncertainties.png, id=690, 1086.0575pt x 660.4675pt>
+<images/sample_uncertainties.png, id=902, 1086.0575pt x 660.4675pt>
 File: images/sample_uncertainties.png Graphic file (type png)
 <use images/sample_uncertainties.png>
 Package pdftex.def Info: images/sample_uncertainties.png  used on input line 39
@@ -1455,27 +1474,20 @@ Package pdftex.def Info: images/sample_uncertainties.png  used on input line 39
 
  (./error_and_uncertainty_handout.aux)
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `error_and_uncertainty_handout.out' has ch
-anged.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `error_and_uncertainty_handout.out':
-
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  F2A84DC13F85D27584C7772E1AD8A011;1033.
+Package rerunfilecheck Info: File `error_and_uncertainty_handout.out' has not c
+hanged.
+(rerunfilecheck)             Checksum: F2A84DC13F85D27584C7772E1AD8A011;1033.
  ) 
 Here is how much of TeX's memory you used:
- 29952 strings out of 480247
- 602092 string characters out of 5896151
- 1060733 words of memory out of 5000000
- 47179 multiletter control sequences out of 15000+600000
+ 30098 strings out of 480247
+ 603997 string characters out of 5896151
+ 1067304 words of memory out of 5000000
+ 47317 multiletter control sequences out of 15000+600000
  488885 words of font info for 72 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 99i,15n,104p,446b,580s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 99i,19n,104p,446b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0600.600
 pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0800.60
 0pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0800.6
@@ -1485,17 +1497,17 @@ pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0800.60
 0.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss12
 00.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1
 200.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx
-0600.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecs
-x1440.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ec
-ss1095.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/e
-css1440.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cme
+1440.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecs
+s1095.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ec
+ss1440.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/e
+csx0600.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cme
 x10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on error_and_uncertainty_handout.pdf (34 pages, 2760834 bytes).
+Output written on error_and_uncertainty_handout.pdf (34 pages, 2780273 bytes).
 PDF statistics:
- 1423 PDF objects out of 1440 (max. 8388607)
- 1002 compressed objects within 11 object streams
+ 1721 PDF objects out of 1728 (max. 8388607)
+ 1278 compressed objects within 13 object streams
  100 named destinations out of 1000 (max. 500000)
- 94 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 214 words of extra memory for PDF output out of 10000 (max. 10000000)
 
