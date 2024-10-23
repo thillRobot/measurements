@@ -1,3 +1,0 @@
-\beamer@sectionintoc {1}{Instrument Repeatability}{3}{0}{1}
-\beamer@sectionintoc {2}{Conditions for Repeatability}{4}{0}{2}
-\beamer@sectionintoc {3}{Reproducibility and Instrument Uncertainty}{5}{0}{3}

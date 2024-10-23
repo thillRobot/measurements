@@ -1,4 +1,0 @@
-\beamer@sectionintoc {1}{Accuracy and Error}{3}{0}{1}
-\beamer@sectionintoc {2}{Estimating Error}{4}{0}{2}
-\beamer@sectionintoc {3}{Activity with Data!}{5}{0}{3}
-\beamer@sectionintoc {4}{Activity with Data!}{6}{0}{4}
