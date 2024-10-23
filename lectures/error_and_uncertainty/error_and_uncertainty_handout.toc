@@ -1,0 +1,15 @@
+\beamer@sectionintoc {1}{Accuracy and Error}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Accuracy and Error}{4}{0}{1}
+\beamer@subsectionintoc {1}{2}{Estimating Error}{6}{0}{1}
+\beamer@subsectionintoc {1}{3}{Uncertainty Interval}{9}{0}{1}
+\beamer@subsectionintoc {1}{4}{GPS Activity}{11}{0}{1}
+\beamer@sectionintoc {2}{Errors, Residuals, and Uncertainty}{16}{0}{2}
+\beamer@subsectionintoc {2}{1}{Random and Systematic Errors}{17}{0}{2}
+\beamer@subsectionintoc {2}{2}{Dart Board Example}{19}{0}{2}
+\beamer@subsectionintoc {2}{3}{Types of Errors}{20}{0}{2}
+\beamer@subsectionintoc {2}{4}{Sample Uncertainty Data}{24}{0}{2}
+\beamer@sectionintoc {3}{Repeatability and Testing}{27}{0}{3}
+\beamer@subsectionintoc {3}{1}{Instrument Repeatability}{28}{0}{3}
+\beamer@subsectionintoc {3}{2}{Conditions for Repeatability}{30}{0}{3}
+\beamer@subsectionintoc {3}{3}{Reproducibility and Instrument Uncertainty}{31}{0}{3}
+\beamer@subsectionintoc {3}{4}{---}{33}{0}{3}
