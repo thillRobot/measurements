@@ -1,6 +1,5 @@
 % sensorlogger data analysis
-% ME3023 - TNTech 
-% Tristan Hill - Fall 2024
+% ME3023 - TNTech - Tristan Hill - Fall 2024
 % This script will 
 % 1) load location data from a CSV file created by Sensor Logger app
 % 2) show the latitude, longitude, and altitude data vs. sample # 
