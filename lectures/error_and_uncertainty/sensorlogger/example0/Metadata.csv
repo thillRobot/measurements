@@ -1,0 +1,2 @@
+version,device name,recording epoch time,recording time,recording timezone,platform,appVersion,device id,sensors,sampleRateMs,standardisation
+3,SM-G981U1,1729696528839,2024-10-23_15-15-28,America/Chicago,android,1.38.0,dcdc49d1-1597-4032-89a3-c6b536358e86,Accelerometer|Gravity|Gyroscope|Orientation|Magnetometer|Barometer|Location|Annotation|TotalAcceleration|MagnetometerUncalibrated|GyroscopeUncalibrated|AccelerometerUncalibrated,10|10|10|10|10|0|0||10|10|10|10,false
