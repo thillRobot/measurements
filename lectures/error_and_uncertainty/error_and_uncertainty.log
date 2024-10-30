@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.15)  24 OCT 2024 14:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.20)  29 OCT 2024 19:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -489,6 +489,12 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty
+Package: sansmathaccent 2020/01/31
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2020/01/24 v3.29 KOMA-Script package (loading files)
 )))
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator.sty
@@ -1173,6 +1179,21 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 51.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  T1/cmtt/m/n --> T1/cmtt/b/n on input line 51.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 51.
+LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
+(Font)              `pureletters' in the math version `normal' on input line 51
+.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
+(Font)                  T1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 51
+.
+LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
+(Font)              `pureletters' in the math version `bold' on input line 51.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  T1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 51
+.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
+ut line 51.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -1209,24 +1230,32 @@ File: lstlang1.sty 2019/09/10 1.8c listings language file
 ] [3
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 104
+LaTeX Font Info:    Trying to load font information for U+msa on input line 105
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 104
+LaTeX Font Info:    Trying to load font information for U+msb on input line 105
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+wasy on input line 10
-4.
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
-) [4
+)
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
+ut line 105.
+
+(/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
+File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+)
+[4
 
 ] [5
 
@@ -1234,8 +1263,7 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 
 ] [7
 
-]
-[8
+] [8
 
 ] [9
 
@@ -1245,43 +1273,43 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 <images/GPS-IIR.jpeg, id=440, 1806.75pt x 1806.75pt>
 File: images/GPS-IIR.jpeg Graphic file (type jpg)
 <use images/GPS-IIR.jpeg>
-Package pdftex.def Info: images/GPS-IIR.jpeg  used on input line 192.
+Package pdftex.def Info: images/GPS-IIR.jpeg  used on input line 193.
 (pdftex.def)             Requested size: 135.5004pt x 135.5004pt.
  [11
 
  <./images/GPS-IIR.jpeg>]
-Overfull \hbox (1.05922pt too wide) in paragraph at lines 217--217
+Overfull \hbox (0.67865pt too wide) in paragraph at lines 218--218
 [][]  
  []
 
 <images/lat_lon_grid.png, id=478, 156.585pt x 152.82094pt>
 File: images/lat_lon_grid.png Graphic file (type png)
 <use images/lat_lon_grid.png>
-Package pdftex.def Info: images/lat_lon_grid.png  used on input line 217.
+Package pdftex.def Info: images/lat_lon_grid.png  used on input line 218.
 (pdftex.def)             Requested size: 125.26816pt x 122.2569pt.
 [12
 
  <./images/lat_lon_grid.png>]
-Overfull \hbox (5.30818pt too wide) in paragraph at lines 249--249
+Overfull \hbox (4.92761pt too wide) in paragraph at lines 250--250
 [][]  
  []
 
 File: images/lat_lon_grid.png Graphic file (type png)
 <use images/lat_lon_grid.png>
-Package pdftex.def Info: images/lat_lon_grid.png  used on input line 249.
+Package pdftex.def Info: images/lat_lon_grid.png  used on input line 250.
 (pdftex.def)             Requested size: 125.26816pt x 122.2569pt.
 [13
 
 ]
-<images/thinker_rodin.png, id=551, 722.7pt x 1084.05pt>
+<images/thinker_rodin.png, id=550, 722.7pt x 1084.05pt>
 File: images/thinker_rodin.png Graphic file (type png)
 <use images/thinker_rodin.png>
-Package pdftex.def Info: images/thinker_rodin.png  used on input line 270.
+Package pdftex.def Info: images/thinker_rodin.png  used on input line 271.
 (pdftex.def)             Requested size: 72.27423pt x 108.41135pt.
-<images/thinker_dc_comics.png, id=552, 250.9375pt x 375.4025pt>
+<images/thinker_dc_comics.png, id=551, 250.9375pt x 375.4025pt>
 File: images/thinker_dc_comics.png Graphic file (type png)
 <use images/thinker_dc_comics.png>
-Package pdftex.def Info: images/thinker_dc_comics.png  used on input line 270.
+Package pdftex.def Info: images/thinker_dc_comics.png  used on input line 271.
 (pdftex.def)             Requested size: 62.7342pt x 93.85039pt.
  [14
 
@@ -1297,24 +1325,24 @@ ectionI}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.322 			\end{frame}
+l.321 			\end{frame}
                     ]pdfTeX warning (ext4): destination with the same identifie
 r (name{sectionIIsubsectionI<1>}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.331 			\end{frame}
+l.330 			\end{frame}
                     	pdfTeX warning (ext4): destination with the same identifie
 r (name{sectionIIsubsectionI}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.331 			\end{frame}
+l.330 			\end{frame}
                     	 [18
 
 ]
-<images/dart_throw.png, id=736, 1038.88126pt x 383.4325pt>
+<images/dart_throw.png, id=735, 1038.88126pt x 383.4325pt>
 File: images/dart_throw.png Graphic file (type png)
 <use images/dart_throw.png>
-Package pdftex.def Info: images/dart_throw.png  used on input line 348.
+Package pdftex.def Info: images/dart_throw.png  used on input line 347.
 (pdftex.def)             Requested size: 207.77257pt x 76.68513pt.
  [19
 
@@ -1328,7 +1356,7 @@ Package pdftex.def Info: images/dart_throw.png  used on input line 348.
 [23
 
 ]
-<images/sample_uncertainties.png, id=907, 1086.0575pt x 660.4675pt>
+<images/sample_uncertainties.png, id=908, 1086.0575pt x 660.4675pt>
 File: images/sample_uncertainties.png Graphic file (type png)
 <use images/sample_uncertainties.png>
 Package pdftex.def Info: images/sample_uncertainties.png  used on input line 40
@@ -1380,37 +1408,34 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 26123 strings out of 483183
- 515878 string characters out of 5966292
- 995863 words of memory out of 5000000
- 40413 multiletter control sequences out of 15000+600000
- 553500 words of font info for 70 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 62i,19n,73p,821b,592s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/e
-css1000.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/j
-knappen/ec/ecsx1095.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts
-/pk/ljfour/jknappen/ec/ecsi0600.600pk> </home/tntech.edu/thill/.texlive2019/tex
-mf-var/fonts/pk/ljfour/jknappen/ec/ecsi0800.600pk> </home/tntech.edu/thill/.tex
-live2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0800.600pk> </home/tntech.ed
-u/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx0800.600pk> </ho
-me/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi1095
-.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen
-/ec/ecss0600.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljf
-our/jknappen/ec/ecss1200.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/
-fonts/pk/ljfour/jknappen/ec/ecsx1200.600pk> </home/tntech.edu/thill/.texlive201
-9/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1440.600pk> </home/tntech.edu/thill
-/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1095.600pk> </home/tnte
-ch.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1440.600pk>
- </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecs
-x0600.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex1
-0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on error_and_uncertainty.pdf (34 pages, 2790096 bytes).
+ 26499 strings out of 481239
+ 525271 string characters out of 5920377
+ 1003900 words of memory out of 5000000
+ 41026 multiletter control sequences out of 15000+600000
+ 553677 words of font info for 73 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 67i,19n,83p,821b,600s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmssi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy9.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsi090
+0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss0500.pfb></usr/share/te
+xmf/fonts/type1/public/cm-super/sfss0600.pfb></usr/share/texmf/fonts/type1/publ
+ic/cm-super/sfss0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss0900
+.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1000.pfb></usr/share/tex
+mf/fonts/type1/public/cm-super/sfss1200.pfb></usr/share/texmf/fonts/type1/publi
+c/cm-super/sfss1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx0600.
+pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx0800.pfb></usr/share/texm
+f/fonts/type1/public/cm-super/sfsx0900.pfb></usr/share/texmf/fonts/type1/public
+/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.p
+fb>
+Output written on error_and_uncertainty.pdf (34 pages, 2884162 bytes).
 PDF statistics:
- 1773 PDF objects out of 2073 (max. 8388607)
- 1287 compressed objects within 13 object streams
+ 1369 PDF objects out of 1440 (max. 8388607)
+ 1277 compressed objects within 13 object streams
  100 named destinations out of 1000 (max. 500000)
  220 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -50,6 +50,7 @@
 
 \begin{document}
 
+  \footnotesize
 	\lstset{language=MATLAB,basicstyle=\ttfamily\small,showstringspaces=false}
 
 	\frame{\titlepage \center\begin{framed}\Large \textbf{Module \MNUM - \moduletitle}\end{framed} \vspace{5mm}}
@@ -269,7 +270,6 @@
 				
 			\end{frame}
 
-
 			\begin{frame}
 				\frametitle{\sectionIsubsectionIVtitle}
 				\textbf{Deliverables:}
@@ -285,9 +285,8 @@
 					\item Figures generated during activity (.png, .jpg)
 				\end{itemize}
 				
-
-
 			\end{frame}
+
 
 	% Section II
 	\section{\sectionIItitle}\label{sectionII}
@@ -357,12 +356,13 @@
 
 				\begin{itemize}
 					
-					\item Linearity Error \vspc
+					\item Linearity Error, $y_L(x)=a_0+a_1x$, $u_L(x)=y(x)-y_L(x)$ \vspc $\% u_{L max}=\frac{u_{L max}}{r_o}\times 100$
 					\item Sensitivity \vspc
 					\item Zero (offset) Error \vspc
-					\item Hysteresis Error \vspc
+					\item Hysteresis Error, $u_h=y_{upscale}-y_{downscale}, \%u_{h max}=\frac{u_{h max}}{r_o}\times 100$\vspc
 					\item Overall Instrument Error \vspc
-				\end{itemize}
+				
+        \end{itemize}
 
 				\[u_c=\sqrt{u_1^2+u_2^2+...+u_M^2}\]
 
