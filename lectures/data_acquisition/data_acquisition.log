@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.15)  22 OCT 2024 14:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.15)  30 OCT 2024 10:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1325,7 +1325,7 @@ Overfull \vbox (21.22554pt too high) detected at line 327
 ] [17
 
 ]
-Overfull \vbox (2.55495pt too high) detected at line 447
+Overfull \vbox (2.55495pt too high) detected at line 448
  []
 
 [18
@@ -1335,29 +1335,29 @@ ectionI}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.447 			\end{frame}
+l.448 			\end{frame}
                     ]pdfTeX warning (ext4): destination with the same identifie
 r (name{sectionIIsubsectionI<1>}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.470 			\end{frame}
+l.471 			\end{frame}
                     	pdfTeX warning (ext4): destination with the same identifie
 r (name{sectionIIsubsectionI}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.470 			\end{frame}
+l.471 			\end{frame}
                     	 [19
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{sectionIIsub
 sectionI<1>}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.492 			\end{frame}
+l.493 			\end{frame}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{sectionIIsubsectionI}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.492 			\end{frame}
+l.493 			\end{frame}
                      [20
 
 ] [21
@@ -1366,7 +1366,7 @@ l.492 			\end{frame}
 sectionII}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.550 			\end{frame}
+l.551 			\end{frame}
                      [22
 
 ] [23
@@ -1385,7 +1385,7 @@ l.550 			\end{frame}
 <images/sampling_fig7_1.png, id=1106, 837.1275pt x 456.70625pt>
 File: images/sampling_fig7_1.png Graphic file (type png)
 <use images/sampling_fig7_1.png>
-Package pdftex.def Info: images/sampling_fig7_1.png  used on input line 657.
+Package pdftex.def Info: images/sampling_fig7_1.png  used on input line 658.
 (pdftex.def)             Requested size: 251.14018pt x 137.01292pt.
  [29
 
@@ -1395,7 +1395,7 @@ Package pdftex.def Info: images/sampling_fig7_1.png  used on input line 657.
 <images/aliasing_fig7_2.png, id=1176, 941.5175pt x 847.165pt>
 File: images/aliasing_fig7_2.png Graphic file (type png)
 <use images/aliasing_fig7_2.png>
-Package pdftex.def Info: images/aliasing_fig7_2.png  used on input line 677.
+Package pdftex.def Info: images/aliasing_fig7_2.png  used on input line 678.
 (pdftex.def)             Requested size: 188.30016pt x 169.43pt.
  [31
 
@@ -1403,10 +1403,10 @@ Package pdftex.def Info: images/aliasing_fig7_2.png  used on input line 677.
 <images/cartesian_6x12.png, id=1212, 904.1278pt x 452.4403pt>
 File: images/cartesian_6x12.png Graphic file (type png)
 <use images/cartesian_6x12.png>
-Package pdftex.def Info: images/cartesian_6x12.png  used on input line 692.
+Package pdftex.def Info: images/cartesian_6x12.png  used on input line 693.
 (pdftex.def)             Requested size: 316.44946pt x 158.35648pt.
 
-Overfull \hbox (9.15959pt too wide) in paragraph at lines 692--692
+Overfull \hbox (9.15959pt too wide) in paragraph at lines 693--693
 [][]  
  []
 
@@ -1416,12 +1416,12 @@ Overfull \hbox (9.15959pt too wide) in paragraph at lines 692--692
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 7
-07.
+08.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Overfull \vbox (15.16423pt too high) detected at line 723
+Overfull \vbox (15.16423pt too high) detected at line 724
  []
 
 [34
@@ -1440,13 +1440,13 @@ Overfull \vbox (15.16423pt too high) detected at line 723
 \tf@snm=\write9
 \openout9 = `data_acquisition.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 781.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 781.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 782.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 782.
  (./data_acquisition.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 781.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 781.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 782.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 782.
 Package rerunfilecheck Info: File `data_acquisition.out' has not changed.
-(rerunfilecheck)             Checksum: 0A2222699A908C028397B9C8633F7647;1167.
+(rerunfilecheck)             Checksum: F9C3E130B50CE0C31B85F15299006D65;1166.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1455,7 +1455,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  27025 strings out of 483183
  525781 string characters out of 5966292
- 1011095 words of memory out of 5000000
+ 1011091 words of memory out of 5000000
  41299 multiletter control sequences out of 15000+600000
  556033 words of font info for 76 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1479,7 +1479,7 @@ ch.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1440.600pk>
 x0600.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
-Output written on data_acquisition.pdf (36 pages, 632661 bytes).
+Output written on data_acquisition.pdf (36 pages, 632522 bytes).
 PDF statistics:
  1964 PDF objects out of 2073 (max. 8388607)
  1381 compressed objects within 14 object streams
