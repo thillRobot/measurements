@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.15)  22 OCT 2024 15:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.15)  13 NOV 2024 10:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**strain_gauges
+**strain_gauges.tex
 (./strain_gauges.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14>
@@ -1340,19 +1340,19 @@ Overfull \hbox (50.09708pt too wide) in paragraph at lines 285--285
 [16
 
  <./images/gauged_beam_bridge.png>]
-<images/bridge_circuit.png, id=679, 329.92827pt x 278.3966pt>
+<images/bridge_circuit.png, id=679, 465.04173pt x 236.29147pt>
 File: images/bridge_circuit.png Graphic file (type png)
 <use images/bridge_circuit.png>
-Package pdftex.def Info: images/bridge_circuit.png  used on input line 305.
-(pdftex.def)             Requested size: 115.47662pt x 97.44026pt.
+Package pdftex.def Info: images/bridge_circuit.png  used on input line 307.
+(pdftex.def)             Requested size: 162.76704pt x 82.70325pt.
  [17
 
  <./images/bridge_circuit.png>]
-<images/gauge_in_bridge_quarter.png, id=716, 491.8375pt x 452.69125pt>
+<images/gauge_in_bridge_quarter.png, id=715, 491.8375pt x 452.69125pt>
 File: images/gauge_in_bridge_quarter.png Graphic file (type png)
 <use images/gauge_in_bridge_quarter.png>
 Package pdftex.def Info: images/gauge_in_bridge_quarter.png  used on input line
- 325.
+ 327.
 (pdftex.def)             Requested size: 98.36575pt x 90.53664pt.
 
 [18
@@ -1362,13 +1362,13 @@ Package pdftex.def Info: images/gauge_in_bridge_quarter.png  used on input line
 ] [20
 
 ]
-<images/calibration_curve.png, id=817, 1099.10625pt x 857.2025pt>
+<images/calibration_curve.png, id=816, 1099.10625pt x 857.2025pt>
 File: images/calibration_curve.png Graphic file (type png)
 <use images/calibration_curve.png>
-Package pdftex.def Info: images/calibration_curve.png  used on input line 366.
+Package pdftex.def Info: images/calibration_curve.png  used on input line 368.
 (pdftex.def)             Requested size: 153.87383pt x 120.00752pt.
 
-Overfull \hbox (5.2289pt too wide) in paragraph at lines 366--366
+Overfull \hbox (5.2289pt too wide) in paragraph at lines 368--368
 [][]  
  []
 
@@ -1381,7 +1381,7 @@ Overfull \hbox (5.2289pt too wide) in paragraph at lines 366--366
 ]
 File: images/strain_fig1.png Graphic file (type png)
 <use images/strain_fig1.png>
-Package pdftex.def Info: images/strain_fig1.png  used on input line 403.
+Package pdftex.def Info: images/strain_fig1.png  used on input line 405.
 (pdftex.def)             Requested size: 181.42737pt x 128.47968pt.
  [24
 
@@ -1391,57 +1391,66 @@ Package pdftex.def Info: images/strain_fig1.png  used on input line 403.
 File: images/gauge_in_bridge_quarter.png Graphic file (type png)
 <use images/gauge_in_bridge_quarter.png>
 Package pdftex.def Info: images/gauge_in_bridge_quarter.png  used on input line
- 424.
+ 426.
 (pdftex.def)             Requested size: 98.36575pt x 90.53664pt.
-<images/gauge_in_bridge_half.png, id=994, 849.1725pt x 361.35pt>
+<images/gauge_in_bridge_half.png, id=993, 849.1725pt x 361.35pt>
 File: images/gauge_in_bridge_half.png Graphic file (type png)
 <use images/gauge_in_bridge_half.png>
 Package pdftex.def Info: images/gauge_in_bridge_half.png  used on input line 42
-4.
+6.
 (pdftex.def)             Requested size: 169.83148pt x 72.2687pt.
-<images/gauge_in_bridge_full.png, id=995, 702.625pt x 519.9425pt>
+<images/gauge_in_bridge_full.png, id=994, 702.625pt x 519.9425pt>
 File: images/gauge_in_bridge_full.png Graphic file (type png)
 <use images/gauge_in_bridge_full.png>
 Package pdftex.def Info: images/gauge_in_bridge_full.png  used on input line 42
-4.
+6.
 (pdftex.def)             Requested size: 112.42229pt x 83.19249pt.
  [26
 
  <./images/gauge_in_bridge_half.png> <./images/gauge_in_bridge_full.png>]
-<images/gauge_configurations.png, id=1033, 932.48375pt x 627.34375pt>
+<images/gauge_configurations.png, id=1032, 932.48375pt x 627.34375pt>
 File: images/gauge_configurations.png Graphic file (type png)
 <use images/gauge_configurations.png>
 Package pdftex.def Info: images/gauge_configurations.png  used on input line 43
-4.
+6.
 (pdftex.def)             Requested size: 279.74728pt x 188.20457pt.
 
-Overfull \vbox (0.76291pt too high) detected at line 434
+Overfull \vbox (0.76291pt too high) detected at line 436
  []
 
 [27
 
  <./images/gauge_configurations.png>]
-<images/quarter_half_full.png, id=1068, 1276.97948pt x 538.5686pt>
+<images/quarter_half_full.png, id=1066, 1276.97948pt x 538.5686pt>
 File: images/quarter_half_full.png Graphic file (type png)
 <use images/quarter_half_full.png>
-Package pdftex.def Info: images/quarter_half_full.png  used on input line 444.
+Package pdftex.def Info: images/quarter_half_full.png  used on input line 447.
 (pdftex.def)             Requested size: 280.93636pt x 118.48544pt.
  [28
 
  <./images/quarter_half_full.png>]
-[29
-
-]
-<images/p3500_fig1.png, id=1134, 892.33376pt x 607.26875pt>
+<images/p3500_fig1.png, id=1100, 892.33376pt x 607.26875pt>
 File: images/p3500_fig1.png Graphic file (type png)
 <use images/p3500_fig1.png>
-Package pdftex.def Info: images/p3500_fig1.png  used on input line 468.
-(pdftex.def)             Requested size: 203.44876pt x 138.455pt.
- [30
+Package pdftex.def Info: images/p3500_fig1.png  used on input line 464.
+(pdftex.def)             Requested size: 133.84428pt x 91.08638pt.
 
- <./images/p3500_fig1.png>] [31
+[29
 
-] [32
+ <./images/p3500_fig1.png>]
+<images/p3_strain_indicator.png, id=1135, 2605.735pt x 3654.65375pt>
+File: images/p3_strain_indicator.png Graphic file (type png)
+<use images/p3_strain_indicator.png>
+Package pdftex.def Info: images/p3_strain_indicator.png  used on input line 488
+.
+(pdftex.def)             Requested size: 130.29437pt x 182.7434pt.
+
+Overfull \vbox (3.24539pt too high) detected at line 495
+ []
+
+[30
+
+ <./images/p3_strain_indicator.png>] [31
 
 ]
 \tf@nav=\write7
@@ -1453,55 +1462,54 @@ Package pdftex.def Info: images/p3500_fig1.png  used on input line 468.
 \tf@snm=\write9
 \openout9 = `strain_gauges.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 511.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 511.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 531.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 531.
  (./strain_gauges.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 511.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 511.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 531.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 531.
 Package rerunfilecheck Info: File `strain_gauges.out' has not changed.
-(rerunfilecheck)             Checksum: ABA7D6991CADD25AD2A9D08EF1DB4523;1006.
+(rerunfilecheck)             Checksum: 36EE965F53F64775FB460F84C0B4F25C;1006.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 26174 strings out of 483183
- 517406 string characters out of 5966292
- 989688 words of memory out of 5000000
- 40457 multiletter control sequences out of 15000+600000
+ 26181 strings out of 483183
+ 517716 string characters out of 5966292
+ 989616 words of memory out of 5000000
+ 40465 multiletter control sequences out of 15000+600000
  554170 words of font info for 73 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 62i,19n,73p,813b,598s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,19n,73p,817b,598s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/e
-css0500.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/j
-knappen/ec/ecsi0600.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts
-/pk/ljfour/jknappen/ec/ecsi0800.600pk> </home/tntech.edu/thill/.texlive2019/tex
-mf-var/fonts/pk/ljfour/jknappen/ec/ecss0800.600pk> </home/tntech.edu/thill/.tex
-live2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi1000.600pk> </home/tntech.ed
-u/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0500.600pk> </ho
-me/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0700
+csi0600.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/j
+knappen/ec/ecsi0800.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts
+/pk/ljfour/jknappen/ec/ecss0800.600pk> </home/tntech.edu/thill/.texlive2019/tex
+mf-var/fonts/pk/ljfour/jknappen/ec/ecsi1000.600pk> </home/tntech.edu/thill/.tex
+live2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0500.600pk> </home/tntech.ed
+u/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0700.600pk> </ho
+me/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1000
 .600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen
-/ec/ecss1000.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljf
-our/jknappen/ec/ecss0600.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/
-fonts/pk/ljfour/jknappen/ec/ecss1200.600pk> </home/tntech.edu/thill/.texlive201
-9/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1200.600pk> </home/tntech.edu/thill
-/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1440.600pk> </home/tnte
-ch.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1095.600pk>
+/ec/ecss0600.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljf
+our/jknappen/ec/ecss1200.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/
+fonts/pk/ljfour/jknappen/ec/ecsx1200.600pk> </home/tntech.edu/thill/.texlive201
+9/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1440.600pk> </home/tntech.edu/thill
+/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1095.600pk> </home/tnte
+ch.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1440.600pk>
  </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecs
-s1440.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jkn
-appen/ec/ecsx0600.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cmextra/cmex8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on strain_gauges.pdf (32 pages, 1584587 bytes).
+x0600.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/
+cmex8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on strain_gauges.pdf (31 pages, 14625562 bytes).
 PDF statistics:
- 1718 PDF objects out of 1728 (max. 8388607)
- 1235 compressed objects within 13 object streams
- 96 named destinations out of 1000 (max. 500000)
- 270 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1683 PDF objects out of 1728 (max. 8388607)
+ 1199 compressed objects within 12 object streams
+ 94 named destinations out of 1000 (max. 500000)
+ 275 words of extra memory for PDF output out of 10000 (max. 10000000)
 
