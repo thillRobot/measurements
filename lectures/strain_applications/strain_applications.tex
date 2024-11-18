@@ -18,7 +18,7 @@
 
 \newcommand{\sectionItitle}{Beam Models}
 \newcommand{\sectionIItitle}{Multiple Gauge Bridge}
-\newcommand{\sectionIIItitle}{}
+\newcommand{\sectionIIItitle}{Principal Strains}
 
 \newcommand{\sectionIsubsectionItitle}{Euler–Bernoulli Beam Theory}
 \newcommand{\sectionIsubsectionIItitle}{Force-Deflection Model}
@@ -30,10 +30,10 @@
 \newcommand{\sectionIIsubsectionIIItitle}{Apparent Strain and Temperature}
 \newcommand{\sectionIIsubsectionIVtitle}{Example: Digital Scale}
 
-\newcommand{\sectionIIIsubsectionItitle}{}
-\newcommand{\sectionIIIsubsectionIItitle}{}
-\newcommand{\sectionIIIsubsectionIIItitle}{}
-\newcommand{\sectionIIIsubsectionIVtitle}{}
+\newcommand{\sectionIIIsubsectionItitle}{Motivation}
+\newcommand{\sectionIIIsubsectionIItitle}{Principal Stress and Strain}
+\newcommand{\sectionIIIsubsectionIIItitle}{Determining Principal Stresses}
+\newcommand{\sectionIIIsubsectionIVtitle}{Example: A Pressure Vessel}
 
  \newcommand{\btVFill}{\vskip0pt plus 1filll}
 
@@ -451,11 +451,12 @@ Does it matter where you place item? Why or why not?
 
 				\bigskip
 
-				
-			
+				The design of load-carrying components for machines and structures requires information concerning the {\BL distribution of forces within the particular component}. Proper design of devices such as shafts, pressure vessels, and support structures must consider {\PR load-carrying capacity and allowable deflections}. Mechanics of materials provides a basis for predicting these essential characteristics of a mechanical design, and provides the fundamental understanding of the behavior of load-carrying parts. However, theoretical analysis is often not sufficient, and {\PN experimental measurements} are required to achieve a final design.
+
+				{\tiny Text: Theory and Design of Mechanical Measurements}
+
 				\btVFill
 			
-
 			\end{frame}
 
 			\begin{frame}
@@ -471,7 +472,7 @@ Does it matter where you place item? Why or why not?
 
 				\bigskip
 
-				
+				\includegraphics[scale=.5]{images/stress_states.png}
 
 				\btVFill
 
@@ -482,6 +483,8 @@ Does it matter where you place item? Why or why not?
 
 				\bigskip
 			
+				\includegraphics[scale=.45]{images/mohrs_circle.png}\\
+				{\tiny Image: \href{https://en.wikipedia.org/wiki/Mohr\%27s_circle}{Wikipedia}}
 			
 				\btVFill
 
@@ -503,20 +506,76 @@ Does it matter where you place item? Why or why not?
 
 			\begin{frame}[containsverbatim]
 				\frametitle{\sectionIIIsubsectionIIItitle}\scriptsize
+
+				A strain gauge rosette can be mounted on a physical component to measure the principle strains and their directions. Depending on what is known about the stress state this may be done in one of four ways.
+
+				\begin{itemize}
+				\item Case 1: Uniaxial Stress \vspc
+				\item Case 2: Isotropic Stress \vspc
+				\item Case 3: Pure Torsional Stress \vspc
+				\item Case 4: Biaxial Stress 
+					\begin{itemize}
+						\item with known principle directions 
+						\item or with unknown principle directions 
+					\end{itemize}
+				\end{itemize}
+
+				\vspace{2mm}
+				{\tiny Reference: \href{http://courses.me.metu.edu.tr/courses/me410/exp5/ME410_exp5_theory.pdf}{METU}}
 				
-						
-			
 			\end{frame}
 
 
 			\begin{frame}[containsverbatim]
 				\frametitle{\sectionIIIsubsectionIIItitle}\scriptsize
 
-				
+				\begin{multicols}{2}
+					\underline{Case 1: Uniaxial Stress} 
+					\includegraphics[scale=.18]{images/metu_fig1.png} \vspc
+					\underline{Case 2: Isotropic Stress} 
+					\includegraphics[scale=.18]{images/metu_fig2.png}
 
-				
+					\scalebox{1}{$\sigma_{xx}=E\epsilon_{xx}$} \vspace{25mm}\\
+
+					\scalebox{1}{$\sigma_{xx}=\sigma_{yy}=\sigma_1=\sigma_2=\sigma=\frac{E\nu}{1-\nu}$}\vspc
+					\scalebox{1}{$\tau_{xy}=0$}\vspc
+
+					\vspace{10mm}
+					{\tiny Images, Reference: \href{http://courses.me.metu.edu.tr/courses/me410/exp5/ME410_exp5_theory.pdf}{METU}}
+				\end{multicols}
 
 			\end{frame}
+
+
+			\begin{frame}[containsverbatim]
+				\frametitle{\sectionIIIsubsectionIIItitle}\scriptsize
+
+				\underline{Case 3: Pure Torsional Stress} 
+				\includegraphics[scale=.18]{images/metu_fig3.png}
+
+				\scalebox{1}{$\tau_{xy}=\tau_{max}=G\gamma_{xy}$ \hspc with\hspc $\gamma=2\epsilon$}\vspc
+
+				\underline{Case 4a: Biaxial Stress} - The principle directions are known.\vspc
+				\includegraphics[scale=.20]{images/metu_fig4.png}
+
+				\scalebox{1}{$\sigma_1=\frac{E}{1-\nu^2}\left(\epsilon_1+\nu\epsilon_2\right)$ \hspc and \hspc $\sigma_2=\frac{E}{1-\nu^2}\left(\epsilon_2+\nu\epsilon_1\right)$}\vspc
+				
+			\end{frame}
+
+
+			\begin{frame}[containsverbatim]
+				\frametitle{\sectionIIIsubsectionIIItitle}\scriptsize
+
+				\underline{Case 4b: Biaxial Stress} - The principle directions are not known.\vspc
+\includegraphics[scale=.25]{images/metu_fig5.png}
+\includegraphics[scale=.3]{images/metu_fig8.png}\includegraphics[scale=.3]{images/metu_fig9.png}\includegraphics[scale=.3]{images/metu_fig10.png}
+
+
+\vspace{10mm}
+{\tiny Images, Reference: \href{http://courses.me.metu.edu.tr/courses/me410/exp5/ME410_exp5_theory.pdf}{METU}}
+				
+			\end{frame}
+
 
 			
 
@@ -527,6 +586,13 @@ Does it matter where you place item? Why or why not?
 		\begin{frame} \scriptsize
 		\frametitle{\sectionIIIsubsectionIVtitle}
 		\bigskip
+
+		A practical example of this can be seen \href{http://cecs.wright.edu/~rsrin/Courses/Egr190-191/PV-EGR191.pdf}{\PR here} in which a strain gauge is used to measure the pressure in a tank from a strain reading alone. \vspc
+
+Which case from above are do they use?
+
+\includegraphics[scale=.4]{images/pressure_vessel.jpg}
+{\tiny Image: \href{https://en.wikipedia.org/wiki/Pressure_vessel}{Wikipedia} }
 
 
 
