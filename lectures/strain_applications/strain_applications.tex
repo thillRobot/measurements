@@ -17,7 +17,7 @@
 \newcommand{\moduletitle}{Strain Applications}
 
 \newcommand{\sectionItitle}{Beam Models}
-\newcommand{\sectionIItitle}{}
+\newcommand{\sectionIItitle}{Multiple Gauge Bridge}
 \newcommand{\sectionIIItitle}{}
 
 \newcommand{\sectionIsubsectionItitle}{Euler–Bernoulli Beam Theory}
@@ -25,10 +25,10 @@
 \newcommand{\sectionIsubsectionIIItitle}{Cantilevered Beam}
 \newcommand{\sectionIsubsectionIVtitle}{Deflection and Strain}
 
-\newcommand{\sectionIIsubsectionItitle}{}
-\newcommand{\sectionIIsubsectionIItitle}{}
-\newcommand{\sectionIIsubsectionIIItitle}{}
-\newcommand{\sectionIIsubsectionIVtitle}{}
+\newcommand{\sectionIIsubsectionItitle}{The Quarter Bridge}
+\newcommand{\sectionIIsubsectionIItitle}{Using Multiple Gauges}
+\newcommand{\sectionIIsubsectionIIItitle}{Apparent Strain and Temperature}
+\newcommand{\sectionIIsubsectionIVtitle}{Example: Digital Scale}
 
 \newcommand{\sectionIIIsubsectionItitle}{}
 \newcommand{\sectionIIIsubsectionIItitle}{}
@@ -264,7 +264,14 @@
 				\frametitle{\sectionIIsubsectionItitle} \scriptsize
 
 				\bigskip	
-				
+
+				Hooke's law describes the linear relationship between stress and strain of an elastic member with modulus of elasticity E.\vspc
+\scalebox{1}{$\sigma=E\epsilon$} \vspc
+\begin{multicols}{2}
+If the loading is known the beam models can be applied. \vspc
+\includegraphics[scale=.30]{images/simple_loading.png} \includegraphics[scale=.18]{images/gauged_beam_bridge.png} \vspace{15mm} 
+\end{multicols}
+
 				\btVFill
 				
 		
@@ -273,12 +280,40 @@
 		    \begin{frame}[label=sectionIIsubsectionI]
 				\frametitle{\sectionIIsubsectionItitle} \scriptsize
 
+\begin{multicols}{2}
+Consider the quarter bridge case in which the gauge is $R_1$ and $R_1=R_2=R_3=R_4$ in a condition of zero strain. \vspcc
+
+\includegraphics[scale=.18]{images/bridge_circuit_fig2.png}
+\end{multicols}
+
+\scalebox{1}{$E_{out}=E_{in}\times\left( \frac{R_1}{R_1+R_2}-\frac{R_3}{R_3+R_4}\right)\implies E_{out}=E_{in}\frac{\left(R_1R_4-R_2R_3\right)}{\left(R_1+R_2\right)\left(R_3+R_4\right)}$}\vspcc
+Now, $R_1$ changes by $\delta R$ causing $E_{out}$ to change by $\delta E_{out}$. \vspcc
+\scalebox{1}{$E_{out}+\delta E_{out}=E_{in}\frac{\left(\left(R_1+\delta R\right)R_4-R_2R_3\right)}{\left(\left(R_1+\delta R\right)+R_2\right)\left(R_3+R_4\right)}$}\vspc
+
 				
 				\btVFill
 
 			
 					
 			\end{frame}	
+
+			  \begin{frame}[label=sectionIIsubsectionI]
+				\frametitle{\sectionIIsubsectionItitle} \scriptsize
+
+				In practice the bridge is balanced in a condition of zero strain which gives an output voltage of $E_{out}=0v$. Then any additional strain causes a $\delta E_{out}$ which is measured. \vspc
+
+The previous equation is commonly written in the following practical form. \vspcc
+
+\scalebox{1}{$\frac{\delta E_{out}}{E_{in}}=\frac{\delta R/R}{4+2\left(\delta R/R\right)}\approx \frac{\delta R/R}{4}$} \hspc or \hspc \scalebox{1}{$\frac{\delta E_{out}}{E_{in}}=\frac{GF\epsilon}{4+2GF\epsilon}\approx \frac{ GF\epsilon}{4}$} \vspcc
+with Gage Factor defined as \hspc \scalebox{1}{$GF\equiv \frac{\delta R/R}{\delta L/L}=\frac{\delta R/R}{\epsilon}$}
+
+
+				\btVFill
+
+			
+					
+			\end{frame}	
+
 
 
 		% section II subsection II
@@ -287,6 +322,16 @@
 			\begin{frame}
 				\frametitle{\sectionIIsubsectionIItitle} \scriptsize
 				\bigskip
+
+				An improved system uses a set of gauges known as a {\PN rosette} with the wheatstone bridge in a half or full bridge configuration. \vspc
+
+\begin{multicols}{2}
+\includegraphics[scale=.2]{images/bridge_circuit_fig2.png}
+
+\includegraphics[scale=.2]{images/delta_rosette.jpg}
+\end{multicols}
+\includegraphics[scale=.4]{images/gauge_geometries.png}			
+
 
 				
 				\btVFill
@@ -298,6 +343,18 @@
 				\frametitle{\sectionIIsubsectionIItitle} \scriptsize
 	
 				\bigskip
+
+				\begin{multicols}{2}
+If multiple gauges are used the relationship between strain and output voltage is derived with a similar process (see page 479).   \vspcc
+
+\includegraphics[scale=.2]{images/half_bridge_beam.png}
+\end{multicols}
+
+The result gives an expression relating the output voltage, the gauge factor, and all four measured strains. \vspcc
+
+\scalebox{1}{$\frac{\delta E_{out}}{E_{in}}=\frac{GF}{4}\left(\epsilon_1-\epsilon_2+\epsilon_4-\epsilon_3\right)$}\vspcc
+
+%The constant $\kappa$ is known as the bridge constant.
 
 				
 				\btVFill
@@ -313,6 +370,12 @@
 
 				\bigskip
 
+				Equation 11.22 shows that for a bridge containing one or more strain gauges, equal strains on opposite bridge arms sum, whereas equal strains on adjacent arms of the bridge cancel. These characteristics can be used to increase the output of the bridge, to provide temperature compensation, or to cancel unwanted components of strain. \vspc
+
+{\tiny Text: Theory and Design of Mechanical Measurements} \vspcc
+
+This summarizes the reasons to use a wheatstone instead of a operational amplifier when measuring strain with a metallic strain gauge. 
+
 				
 				\btVFill
 				
@@ -323,6 +386,9 @@
 				\frametitle{\sectionIIsubsectionIIItitle}
 
 				\bigskip
+
+				\includegraphics[scale=.28]{images/gauge_configurations.png}\\
+For more details read this document from \href{https://www.ni.com/en-us/innovations/white-papers/07/measuring-strain-with-strain-gages.html}{NI}.
 
 
 				\btVFill
@@ -344,6 +410,14 @@
 
 			\begin{frame}
 				\frametitle{\sectionIIsubsectionIVtitle}
+
+				\begin{multicols}{2}
+Have you ever wondered how a digital scale works? \vspcc
+
+Does it matter where you place item? Why or why not?
+
+\includegraphics[scale=.2]{images/digital_scale.jpg}
+\end{multicols}
 
 			\end{frame}
 
