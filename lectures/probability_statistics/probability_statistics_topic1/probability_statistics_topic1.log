@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.15)  22 OCT 2024 14:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.15)  29 JAN 2025 10:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1264,10 +1264,10 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 <topic2_histogram_fig1.png, id=316, 1445.4pt x 743.8992pt>
 File: topic2_histogram_fig1.png Graphic file (type png)
 <use topic2_histogram_fig1.png>
-Package pdftex.def Info: topic2_histogram_fig1.png  used on input line 191.
+Package pdftex.def Info: topic2_histogram_fig1.png  used on input line 193.
 (pdftex.def)             Requested size: 361.34912pt x 185.97433pt.
 
-Overfull \hbox (54.05925pt too wide) in paragraph at lines 191--191
+Overfull \hbox (54.05925pt too wide) in paragraph at lines 193--193
 [][]  
  []
 
@@ -1277,10 +1277,10 @@ Overfull \hbox (54.05925pt too wide) in paragraph at lines 191--191
 <topic2_histogram_fig2.png, id=347, 1445.4pt x 743.8992pt>
 File: topic2_histogram_fig2.png Graphic file (type png)
 <use topic2_histogram_fig2.png>
-Package pdftex.def Info: topic2_histogram_fig2.png  used on input line 200.
+Package pdftex.def Info: topic2_histogram_fig2.png  used on input line 202.
 (pdftex.def)             Requested size: 361.34912pt x 185.97433pt.
 
-Overfull \hbox (54.05925pt too wide) in paragraph at lines 200--200
+Overfull \hbox (54.05925pt too wide) in paragraph at lines 202--202
 [][]  
  []
 
@@ -1290,10 +1290,10 @@ Overfull \hbox (54.05925pt too wide) in paragraph at lines 200--200
 <topic2_histogram_fig3.png, id=379, 1445.4pt x 743.8992pt>
 File: topic2_histogram_fig3.png Graphic file (type png)
 <use topic2_histogram_fig3.png>
-Package pdftex.def Info: topic2_histogram_fig3.png  used on input line 209.
+Package pdftex.def Info: topic2_histogram_fig3.png  used on input line 211.
 (pdftex.def)             Requested size: 361.34912pt x 185.97433pt.
 
-Overfull \hbox (54.05925pt too wide) in paragraph at lines 209--209
+Overfull \hbox (54.05925pt too wide) in paragraph at lines 211--211
 [][]  
  []
 
@@ -1303,15 +1303,15 @@ Overfull \hbox (54.05925pt too wide) in paragraph at lines 209--209
 <topic2_histogram_fig4.png, id=409, 1445.4pt x 813.2784pt>
 File: topic2_histogram_fig4.png Graphic file (type png)
 <use topic2_histogram_fig4.png>
-Package pdftex.def Info: topic2_histogram_fig4.png  used on input line 218.
+Package pdftex.def Info: topic2_histogram_fig4.png  used on input line 220.
 (pdftex.def)             Requested size: 361.34912pt x 203.31909pt.
 
-Overfull \hbox (54.05925pt too wide) in paragraph at lines 218--218
+Overfull \hbox (54.05925pt too wide) in paragraph at lines 220--220
 [][]  
  []
 
 
-Overfull \vbox (7.87743pt too high) detected at line 218
+Overfull \vbox (7.87743pt too high) detected at line 220
  []
 
 [12
@@ -1322,24 +1322,24 @@ Overfull \vbox (7.87743pt too high) detected at line 218
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.252 	\end{frame}
+l.254 	\end{frame}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{sectionIV}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.252 	\end{frame}
+l.254 	\end{frame}
                    [14
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{sectionIV<1>
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.259 	\end{frame}
+l.261 	\end{frame}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{sectionIV}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.259 	\end{frame}
+l.261 	\end{frame}
                    [15
 
 ]
@@ -1352,11 +1352,11 @@ l.259 	\end{frame}
 \tf@snm=\write9
 \openout9 = `probability_statistics_topic1.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 263.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 263.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 265.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 265.
  (./probability_statistics_topic1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 263.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 263.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 265.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 265.
 Package rerunfilecheck Info: File `probability_statistics_topic1.out' has not c
 hanged.
 (rerunfilecheck)             Checksum: 656D4729539760A4CC94DD62F2F598B9;232.
@@ -1394,9 +1394,9 @@ appen/ec/ecsx0600.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
 0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on probability_statistics_topic1.pdf (15 pages, 1240856 bytes).
+Output written on probability_statistics_topic1.pdf (15 pages, 1242487 bytes).
 PDF statistics:
- 956 PDF objects out of 1000 (max. 8388607)
+ 976 PDF objects out of 1000 (max. 8388607)
  556 compressed objects within 6 object streams
  43 named destinations out of 1000 (max. 500000)
  131 words of extra memory for PDF output out of 10000 (max. 10000000)
