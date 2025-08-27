@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.15)  27 AUG 2025 10:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.15)  27 AUG 2025 10:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1209,17 +1209,17 @@ File: lstlang1.sty 2019/09/10 1.8c listings language file
 ] [3
 
 ]
-<images/bearing_fig1.jpg, id=171, 703.62875pt x 722.7pt>
+<images/bearing_fig1.jpg, id=203, 703.62875pt x 722.7pt>
 File: images/bearing_fig1.jpg Graphic file (type jpg)
 <use images/bearing_fig1.jpg>
 Package pdftex.def Info: images/bearing_fig1.jpg  used on input line 106.
 (pdftex.def)             Requested size: 70.36699pt x 72.27423pt.
-<images/bearing_fig2.png, id=172, 673.01437pt x 542.025pt>
+<images/bearing_fig2.png, id=204, 673.01437pt x 542.025pt>
 File: images/bearing_fig2.png Graphic file (type png)
 <use images/bearing_fig2.png>
 Package pdftex.def Info: images/bearing_fig2.png  used on input line 106.
 (pdftex.def)             Requested size: 67.30537pt x 54.20567pt.
-<images/bearing_fig3.jpeg, id=173, 901.3675pt x 722.7pt>
+<images/bearing_fig3.jpeg, id=205, 901.3675pt x 722.7pt>
 File: images/bearing_fig3.jpeg Graphic file (type jpg)
 <use images/bearing_fig3.jpeg>
 Package pdftex.def Info: images/bearing_fig3.jpeg  used on input line 106.
@@ -1254,9 +1254,15 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 ] [8
 
 ]
+<images/graph_paper_80_30.png, id=382, 1243.64626pt x 850.17625pt>
+File: images/graph_paper_80_30.png Graphic file (type png)
+<use images/graph_paper_80_30.png>
+Package pdftex.def Info: images/graph_paper_80_30.png  used on input line 177.
+(pdftex.def)             Requested size: 248.72484pt x 170.03223pt.
+
 [9
 
-] [10
+ <./images/graph_paper_80_30.png>] [10
 
 ] [11
 
@@ -1271,55 +1277,55 @@ ectionI}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.248 			\end{frame}
+l.249 			\end{frame}
                     ]pdfTeX warning (ext4): destination with the same identifie
 r (name{sectionIIsubsectionI<1>}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.260 			\end{frame}
+l.261 			\end{frame}
                     	pdfTeX warning (ext4): destination with the same identifie
 r (name{sectionIIsubsectionI}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.260 			\end{frame}
+l.261 			\end{frame}
                     	 [15
 
 ]
-<images/topic2_measured_fig2.png, id=594, 1363.9758pt x 755.9442pt>
+<images/topic2_measured_fig2.png, id=629, 1363.9758pt x 755.9442pt>
 File: images/topic2_measured_fig2.png Graphic file (type png)
 <use images/topic2_measured_fig2.png>
 Package pdftex.def Info: images/topic2_measured_fig2.png  used on input line 28
-1.
+2.
 (pdftex.def)             Requested size: 272.79033pt x 151.18616pt.
 
-Overfull \hbox (81.46628pt too wide) in paragraph at lines 281--281
+Overfull \hbox (81.46628pt too wide) in paragraph at lines 282--282
 []| []  
  []
 
 [16
 
  <./images/topic2_measured_fig2.png (PNG copy)>]
-<images/lecture1_fig1.png, id=636, 413.29407pt x 310.15875pt>
+<images/lecture1_fig1.png, id=672, 413.29407pt x 310.15875pt>
 File: images/lecture1_fig1.png Graphic file (type png)
 <use images/lecture1_fig1.png>
-Package pdftex.def Info: images/lecture1_fig1.png  used on input line 285.
+Package pdftex.def Info: images/lecture1_fig1.png  used on input line 286.
 (pdftex.def)             Requested size: 206.64651pt x 155.079pt.
  [17
 
  <./images/lecture1_fig1.png>]
 File: images/lecture1_fig1.png Graphic file (type png)
 <use images/lecture1_fig1.png>
-Package pdftex.def Info: images/lecture1_fig1.png  used on input line 289.
+Package pdftex.def Info: images/lecture1_fig1.png  used on input line 290.
 (pdftex.def)             Requested size: 206.64651pt x 155.079pt.
  [18
 
 ] [19
 
 ]
-<images/topic2_fig4.png, id=739, 653.44125pt x 475.7775pt>
+<images/topic2_fig4.png, id=773, 653.44125pt x 475.7775pt>
 File: images/topic2_fig4.png Graphic file (type png)
 <use images/topic2_fig4.png>
-Package pdftex.def Info: images/topic2_fig4.png  used on input line 317.
+Package pdftex.def Info: images/topic2_fig4.png  used on input line 318.
 (pdftex.def)             Requested size: 163.35991pt x 118.94408pt.
  [20
 
@@ -1328,15 +1334,15 @@ Package pdftex.def Info: images/topic2_fig4.png  used on input line 317.
 ] [22
 
 ]
-<images/topic2_fig2.png, id=840, 692.5875pt x 662.475pt>
+<images/topic2_fig2.png, id=873, 692.5875pt x 662.475pt>
 File: images/topic2_fig2.png Graphic file (type png)
 <use images/topic2_fig2.png>
-Package pdftex.def Info: images/topic2_fig2.png  used on input line 352.
+Package pdftex.def Info: images/topic2_fig2.png  used on input line 353.
 (pdftex.def)             Requested size: 173.14644pt x 165.61835pt.
-<images/topic2_fig3.png, id=841, 287.0725pt x 191.71625pt>
+<images/topic2_fig3.png, id=874, 287.0725pt x 191.71625pt>
 File: images/topic2_fig3.png Graphic file (type png)
 <use images/topic2_fig3.png>
-Package pdftex.def Info: images/topic2_fig3.png  used on input line 352.
+Package pdftex.def Info: images/topic2_fig3.png  used on input line 353.
 (pdftex.def)             Requested size: 129.18143pt x 86.2715pt.
  [23
 
@@ -1346,20 +1352,46 @@ Package pdftex.def Info: images/topic2_fig3.png  used on input line 352.
 
 ] [26
 
-] [27
+]
+File: images/topic2_fig2.png Graphic file (type png)
+<use images/topic2_fig2.png>
+Package pdftex.def Info: images/topic2_fig2.png  used on input line 395.
+(pdftex.def)             Requested size: 207.77785pt x 198.74403pt.
+File: images/topic2_fig3.png Graphic file (type png)
+<use images/topic2_fig3.png>
+Package pdftex.def Info: images/topic2_fig3.png  used on input line 395.
+(pdftex.def)             Requested size: 86.1224pt x 57.5153pt.
+
+Overfull \vbox (3.30237pt too high) detected at line 395
+ []
+
+[27
 
 ] [28
 
 ] [29
 
-] [30
-
 ]
-[31
+<images/topic3_fig1.png, id=1118, 1366.10374pt x 815.045pt>
+File: images/topic3_fig1.png Graphic file (type png)
+<use images/topic3_fig1.png>
+Package pdftex.def Info: images/topic3_fig1.png  used on input line 434.
+(pdftex.def)             Requested size: 273.21591pt x 163.0061pt.
+
+Overfull \vbox (82.25134pt too high) detected at line 434
+ []
+
+[30
+
+ <./images/topic3_fig1.png>] [31
 
 ] [32
 
 ] [33
+
+] [34
+
+] [35
 
 ]
 \tf@nav=\write7
@@ -1371,29 +1403,25 @@ Package pdftex.def Info: images/topic2_fig3.png  used on input line 352.
 \tf@snm=\write9
 \openout9 = `probability_statistics.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 445.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 445.
- (./probability_statistics.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 445.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 445.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 481.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 481.
 
+(./probability_statistics.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 481.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 481.
+Package rerunfilecheck Info: File `probability_statistics.out' has not changed.
 
-Package rerunfilecheck Warning: File `probability_statistics.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+(rerunfilecheck)             Checksum: 1A294C8C122B74FA6E4F78B34B5F7F51;1043.
 
-Package rerunfilecheck Info: Checksums for `probability_statistics.out':
-(rerunfilecheck)             Before: 9CF33FC7293DBDB7D4BCEA2640CFF924;508
-(rerunfilecheck)             After:  FA796D60DC0722C294122ACB29702953;993.
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 26922 strings out of 483183
- 523683 string characters out of 5966292
- 1056013 words of memory out of 5000000
- 41212 multiletter control sequences out of 15000+600000
+ 26954 strings out of 483183
+ 524248 string characters out of 5966292
+ 1057010 words of memory out of 5000000
+ 41238 multiletter control sequences out of 15000+600000
  552739 words of font info for 69 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  62i,19n,73p,822b,1665s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1423,10 +1451,10 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on probability_statistics.pdf (33 pages, 978608 bytes).
+Output written on probability_statistics.pdf (35 pages, 1056508 bytes).
 PDF statistics:
- 1724 PDF objects out of 1728 (max. 8388607)
- 1241 compressed objects within 13 object streams
- 98 named destinations out of 1000 (max. 500000)
- 160 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1833 PDF objects out of 2073 (max. 8388607)
+ 1329 compressed objects within 14 object streams
+ 102 named destinations out of 1000 (max. 500000)
+ 234 words of extra memory for PDF output out of 10000 (max. 10000000)
 
