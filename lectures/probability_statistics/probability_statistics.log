@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.15)  27 AUG 2025 10:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.15)  3 SEP 2025 10:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1032,6 +1032,24 @@ LaTeX Warning: Label `sectionIIsubsectionI<1>' multiply defined.
 
 LaTeX Warning: Label `sectionIIsubsectionI' multiply defined.
 
+
+LaTeX Warning: Label `sectionIIsubsectionI<1>' multiply defined.
+
+
+LaTeX Warning: Label `sectionIIsubsectionI' multiply defined.
+
+
+LaTeX Warning: Label `sectionIIsubsectionI<1>' multiply defined.
+
+
+LaTeX Warning: Label `sectionIIsubsectionI' multiply defined.
+
+
+LaTeX Warning: Label `sectionIIsubsectionI<1>' multiply defined.
+
+
+LaTeX Warning: Label `sectionIIsubsectionI' multiply defined.
+
 )
 \openout1 = `probability_statistics.aux'.
 
@@ -1277,121 +1295,216 @@ ectionI}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.249 			\end{frame}
+l.251 			\end{frame}
                     ]pdfTeX warning (ext4): destination with the same identifie
 r (name{sectionIIsubsectionI<1>}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.261 			\end{frame}
-                    	pdfTeX warning (ext4): destination with the same identifie
-r (name{sectionIIsubsectionI}) has been already used, duplicate ignored
+l.262 			\end{frame}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{sectionIIsubsectionI}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.261 			\end{frame}
-                    	 [15
+l.262 			\end{frame}
+                     [15
 
-]
-<images/topic2_measured_fig2.png, id=629, 1363.9758pt x 755.9442pt>
-File: images/topic2_measured_fig2.png Graphic file (type png)
-<use images/topic2_measured_fig2.png>
-Package pdftex.def Info: images/topic2_measured_fig2.png  used on input line 28
-2.
-(pdftex.def)             Requested size: 272.79033pt x 151.18616pt.
+]pdfTeX warning (ext4): destination with the same identifier (name{sectionIIsub
+sectionI<1>}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.283       \end{frame}
+                       pdfTeX warning (ext4): destination with the same identif
+ier (name{sectionIIsubsectionI}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.283       \end{frame}
+                       
+<images/distribution_axes.png, id=631, 324.46219pt x 188.20313pt>
+File: images/distribution_axes.png Graphic file (type png)
+<use images/distribution_axes.png>
+Package pdftex.def Info: images/distribution_axes.png  used on input line 283.
+(pdftex.def)             Requested size: 73.00578pt x 42.34674pt.
+File: images/distribution_axes.png Graphic file (type png)
+<use images/distribution_axes.png>
+Package pdftex.def Info: images/distribution_axes.png  used on input line 283.
+(pdftex.def)             Requested size: 73.00578pt x 42.34674pt.
+File: images/distribution_axes.png Graphic file (type png)
+<use images/distribution_axes.png>
+Package pdftex.def Info: images/distribution_axes.png  used on input line 283.
+(pdftex.def)             Requested size: 73.00578pt x 42.34674pt.
+File: images/distribution_axes.png Graphic file (type png)
+<use images/distribution_axes.png>
+Package pdftex.def Info: images/distribution_axes.png  used on input line 283.
+(pdftex.def)             Requested size: 73.00578pt x 42.34674pt.
 
-Overfull \hbox (81.46628pt too wide) in paragraph at lines 282--282
-[]| []  
+Overfull \hbox (3.68332pt too wide) in paragraph at lines 283--283
+[][] 
+ []
+
+
+Overfull \hbox (3.68332pt too wide) in paragraph at lines 283--283
+[] 
+ []
+
+
+Overfull \hbox (3.68332pt too wide) in paragraph at lines 283--283
+[] 
+ []
+
+
+Overfull \hbox (3.68332pt too wide) in paragraph at lines 283--283
+[]  
  []
 
 [16
 
+ <./images/distribution_axes.png>]pdfTeX warning (ext4): destination with the s
+ame identifier (name{sectionIIsubsectionI<1>}) has been already used, duplicate
+ ignored
+<to be read again> 
+                   \relax 
+l.299     \end{frame}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{sectionIIsubsectionI}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.299     \end{frame}
+                     
+File: images/distribution_axes.png Graphic file (type png)
+<use images/distribution_axes.png>
+Package pdftex.def Info: images/distribution_axes.png  used on input line 299.
+(pdftex.def)             Requested size: 162.23068pt x 94.10132pt.
+
+Overfull \hbox (13.58575pt too wide) in paragraph at lines 299--299
+[][]  
+ []
+
+
+Overfull \hbox (14.2945pt too wide) detected at line 299
+ $\T1/cmss/m/it/8 p\OT1/cmss/m/n/8 (\T1/cmss/m/it/8 x\OT1/cmss/m/n/8 ) = []\T1/
+cmss/m/it/8 exp []$ 
+ []
+
+[17
+
+]pdfTeX warning (ext4): destination with the same identifier (name{sectionIIsub
+sectionI<1>}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.312 			\end{frame}
+                    	pdfTeX warning (ext4): destination with the same identifie
+r (name{sectionIIsubsectionI}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.312 			\end{frame}
+                    	 [18
+
+] [19
+
+] [20
+
+]
+<images/topic2_measured_fig2.png, id=805, 1363.9758pt x 755.9442pt>
+File: images/topic2_measured_fig2.png Graphic file (type png)
+<use images/topic2_measured_fig2.png>
+Package pdftex.def Info: images/topic2_measured_fig2.png  used on input line 35
+7.
+(pdftex.def)             Requested size: 272.79033pt x 151.18616pt.
+
+Overfull \hbox (81.46628pt too wide) in paragraph at lines 357--357
+[]| []  
+ []
+
+[21
+
  <./images/topic2_measured_fig2.png (PNG copy)>]
-<images/lecture1_fig1.png, id=672, 413.29407pt x 310.15875pt>
+<images/lecture1_fig1.png, id=841, 413.29407pt x 310.15875pt>
 File: images/lecture1_fig1.png Graphic file (type png)
 <use images/lecture1_fig1.png>
-Package pdftex.def Info: images/lecture1_fig1.png  used on input line 286.
+Package pdftex.def Info: images/lecture1_fig1.png  used on input line 361.
 (pdftex.def)             Requested size: 206.64651pt x 155.079pt.
- [17
+ [22
 
  <./images/lecture1_fig1.png>]
 File: images/lecture1_fig1.png Graphic file (type png)
 <use images/lecture1_fig1.png>
-Package pdftex.def Info: images/lecture1_fig1.png  used on input line 290.
+Package pdftex.def Info: images/lecture1_fig1.png  used on input line 365.
 (pdftex.def)             Requested size: 206.64651pt x 155.079pt.
- [18
-
-] [19
-
-]
-<images/topic2_fig4.png, id=773, 653.44125pt x 475.7775pt>
-File: images/topic2_fig4.png Graphic file (type png)
-<use images/topic2_fig4.png>
-Package pdftex.def Info: images/topic2_fig4.png  used on input line 318.
-(pdftex.def)             Requested size: 163.35991pt x 118.94408pt.
- [20
-
- <./images/topic2_fig4.png>] [21
-
-] [22
-
-]
-<images/topic2_fig2.png, id=873, 692.5875pt x 662.475pt>
-File: images/topic2_fig2.png Graphic file (type png)
-<use images/topic2_fig2.png>
-Package pdftex.def Info: images/topic2_fig2.png  used on input line 353.
-(pdftex.def)             Requested size: 173.14644pt x 165.61835pt.
-<images/topic2_fig3.png, id=874, 287.0725pt x 191.71625pt>
-File: images/topic2_fig3.png Graphic file (type png)
-<use images/topic2_fig3.png>
-Package pdftex.def Info: images/topic2_fig3.png  used on input line 353.
-(pdftex.def)             Requested size: 129.18143pt x 86.2715pt.
  [23
 
- <./images/topic2_fig2.png> <./images/topic2_fig3.png>] [24
+] [24
 
-] [25
+]
+<images/topic2_fig4.png, id=941, 653.44125pt x 475.7775pt>
+File: images/topic2_fig4.png Graphic file (type png)
+<use images/topic2_fig4.png>
+Package pdftex.def Info: images/topic2_fig4.png  used on input line 393.
+(pdftex.def)             Requested size: 163.35991pt x 118.94408pt.
+ [25
 
-] [26
+ <./images/topic2_fig4.png>] [26
+
+] [27
+
+]
+<images/topic2_fig2.png, id=1042, 692.5875pt x 662.475pt>
+File: images/topic2_fig2.png Graphic file (type png)
+<use images/topic2_fig2.png>
+Package pdftex.def Info: images/topic2_fig2.png  used on input line 428.
+(pdftex.def)             Requested size: 173.14644pt x 165.61835pt.
+<images/topic2_fig3.png, id=1043, 287.0725pt x 191.71625pt>
+File: images/topic2_fig3.png Graphic file (type png)
+<use images/topic2_fig3.png>
+Package pdftex.def Info: images/topic2_fig3.png  used on input line 428.
+(pdftex.def)             Requested size: 129.18143pt x 86.2715pt.
+ [28
+
+ <./images/topic2_fig2.png> <./images/topic2_fig3.png>] [29
+
+] [30
+
+] [31
 
 ]
 File: images/topic2_fig2.png Graphic file (type png)
 <use images/topic2_fig2.png>
-Package pdftex.def Info: images/topic2_fig2.png  used on input line 395.
+Package pdftex.def Info: images/topic2_fig2.png  used on input line 470.
 (pdftex.def)             Requested size: 207.77785pt x 198.74403pt.
 File: images/topic2_fig3.png Graphic file (type png)
 <use images/topic2_fig3.png>
-Package pdftex.def Info: images/topic2_fig3.png  used on input line 395.
+Package pdftex.def Info: images/topic2_fig3.png  used on input line 470.
 (pdftex.def)             Requested size: 86.1224pt x 57.5153pt.
 
-Overfull \vbox (3.30237pt too high) detected at line 395
+Overfull \vbox (3.30237pt too high) detected at line 470
  []
 
-[27
-
-] [28
-
-] [29
-
-]
-<images/topic3_fig1.png, id=1118, 1366.10374pt x 815.045pt>
-File: images/topic3_fig1.png Graphic file (type png)
-<use images/topic3_fig1.png>
-Package pdftex.def Info: images/topic3_fig1.png  used on input line 434.
-(pdftex.def)             Requested size: 273.21591pt x 163.0061pt.
-
-Overfull \vbox (82.25134pt too high) detected at line 434
- []
-
-[30
-
- <./images/topic3_fig1.png>] [31
-
-] [32
+[32
 
 ] [33
 
 ] [34
 
-] [35
+]
+<images/topic3_fig1.png, id=1287, 1366.10374pt x 815.045pt>
+File: images/topic3_fig1.png Graphic file (type png)
+<use images/topic3_fig1.png>
+Package pdftex.def Info: images/topic3_fig1.png  used on input line 509.
+(pdftex.def)             Requested size: 273.21591pt x 163.0061pt.
+
+Overfull \vbox (82.25134pt too high) detected at line 509
+ []
+
+[35
+
+ <./images/topic3_fig1.png>] [36
+
+] [37
+
+] [38
+
+] [39
+
+] [40
 
 ]
 \tf@nav=\write7
@@ -1403,58 +1516,57 @@ Overfull \vbox (82.25134pt too high) detected at line 434
 \tf@snm=\write9
 \openout9 = `probability_statistics.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 481.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 481.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 556.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 556.
 
 (./probability_statistics.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 481.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 481.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 556.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 556.
 Package rerunfilecheck Info: File `probability_statistics.out' has not changed.
 
-(rerunfilecheck)             Checksum: 1A294C8C122B74FA6E4F78B34B5F7F51;1043.
+(rerunfilecheck)             Checksum: 5848E90DB14377C4F78112D3D4BF85AD;1043.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 26954 strings out of 483183
- 524248 string characters out of 5966292
- 1057010 words of memory out of 5000000
- 41238 multiletter control sequences out of 15000+600000
+ 26980 strings out of 483183
+ 524613 string characters out of 5966292
+ 1057307 words of memory out of 5000000
+ 41253 multiletter control sequences out of 15000+600000
  552739 words of font info for 69 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  62i,19n,73p,822b,1665s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/e
-csi0500.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/j
-knappen/ec/ecsi0600.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts
-/pk/ljfour/jknappen/ec/ecss0500.600pk> </home/tntech.edu/thill/.texlive2019/tex
-mf-var/fonts/pk/ljfour/jknappen/ec/ecsx0800.600pk> </home/tntech.edu/thill/.tex
-live2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0800.600pk> </home/tntech.ed
-u/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0800.600pk> </ho
-me/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi1095
+csi0600.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/j
+knappen/ec/ecsx0800.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts
+/pk/ljfour/jknappen/ec/ecsi0800.600pk> </home/tntech.edu/thill/.texlive2019/tex
+mf-var/fonts/pk/ljfour/jknappen/ec/ecss0800.600pk> </home/tntech.edu/thill/.tex
+live2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi1095.600pk> </home/tntech.ed
+u/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1095.600pk> </ho
+me/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0600
 .600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen
-/ec/ecsx1095.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljf
-our/jknappen/ec/ecss0600.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/
-fonts/pk/ljfour/jknappen/ec/ecss1200.600pk> </home/tntech.edu/thill/.texlive201
-9/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1200.600pk> </home/tntech.edu/thill
-/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1440.600pk> </home/tnte
-ch.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1095.600pk>
- </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecs
-s1440.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jkn
-appen/ec/ecsx0600.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cmextra/cmex7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on probability_statistics.pdf (35 pages, 1056508 bytes).
+/ec/ecss1200.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljf
+our/jknappen/ec/ecsx1200.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/
+fonts/pk/ljfour/jknappen/ec/ecsx1440.600pk> </home/tntech.edu/thill/.texlive201
+9/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1095.600pk> </home/tntech.edu/thill
+/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1440.600pk> </home/tnte
+ch.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx0600.600pk>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy8.pfb>
+Output written on probability_statistics.pdf (40 pages, 1086279 bytes).
 PDF statistics:
- 1833 PDF objects out of 2073 (max. 8388607)
- 1329 compressed objects within 14 object streams
- 102 named destinations out of 1000 (max. 500000)
- 234 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2025 PDF objects out of 2073 (max. 8388607)
+ 1490 compressed objects within 15 object streams
+ 112 named destinations out of 1000 (max. 500000)
+ 239 words of extra memory for PDF output out of 10000 (max. 10000000)
 
