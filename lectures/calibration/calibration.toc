@@ -2,15 +2,15 @@
 \beamer@subsectionintoc {1}{1}{Thought Experiment Continued}{4}{0}{1}
 \beamer@subsectionintoc {1}{2}{Standards and Calibration}{5}{0}{1}
 \beamer@subsectionintoc {1}{3}{Base Dimensions and Units}{7}{0}{1}
-\beamer@subsectionintoc {1}{4}{Hierarchy of Standards}{11}{0}{1}
-\beamer@sectionintoc {2}{The Calibration Curve}{13}{0}{2}
-\beamer@subsectionintoc {2}{1}{What is Calibration?}{14}{0}{2}
-\beamer@subsectionintoc {2}{2}{Generalized Curve}{15}{0}{2}
-\beamer@subsectionintoc {2}{3}{Static Sensitivity and Zero Offet}{18}{0}{2}
-\beamer@subsectionintoc {2}{4}{Example: IR Distance Sensor}{22}{0}{2}
-\beamer@sectionintoc {3}{Linear Regression}{25}{0}{3}
-\beamer@subsectionintoc {3}{1}{Motivation - Functional Relationship}{26}{0}{3}
-\beamer@subsectionintoc {3}{2}{Least Squares Regression}{28}{0}{3}
-\beamer@subsectionintoc {3}{3}{Least Squares Regression}{29}{0}{3}
-\beamer@subsectionintoc {3}{4}{Example: IR Sensor Calibration}{32}{0}{3}
-\beamer@subsectionintoc {3}{5}{Activity: IR Sensor Calibration}{37}{0}{3}
+\beamer@subsectionintoc {1}{4}{Hierarchy of Standards}{10}{0}{1}
+\beamer@sectionintoc {2}{The Calibration Curve}{12}{0}{2}
+\beamer@subsectionintoc {2}{1}{What is Calibration?}{13}{0}{2}
+\beamer@subsectionintoc {2}{2}{Generalized Curve}{14}{0}{2}
+\beamer@subsectionintoc {2}{3}{Static Sensitivity and Zero Offet}{15}{0}{2}
+\beamer@subsectionintoc {2}{4}{Example: IR Distance Sensor}{17}{0}{2}
+\beamer@sectionintoc {3}{Linear Regression}{18}{0}{3}
+\beamer@subsectionintoc {3}{1}{Motivation - Functional Relationship}{19}{0}{3}
+\beamer@subsectionintoc {3}{2}{Least Squares Regression}{21}{0}{3}
+\beamer@subsectionintoc {3}{3}{Least Squares Regression}{22}{0}{3}
+\beamer@subsectionintoc {3}{4}{Example: IR Sensor Calibration}{23}{0}{3}
+\beamer@subsectionintoc {3}{5}{Activity: IR Sensor Calibration}{28}{0}{3}
