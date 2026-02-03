@@ -11,17 +11,8 @@
 % Topic 1 - General Measurement System
 % Topic 2 - Types of Variables 
 % Topic 3 - Experimental Test Plan  ! needs improvement ! 
-% this does not work, might never work w Beamer :(
 
-\DocumentMetadata{
-  lang        = de,
-  pdfstandard = ua-2,
-  pdfstandard = a-4f, %or a-4
-  tagging=on,
-  tagging-setup={math/setup=mathml-SE}
-}
-
-\documentclass[fleqn]{ltx-talk} % for presentation (has nav buttons at bottom)
+\documentclass[fleqn]{beamer} % for presentation (has nav buttons at bottom)
 
 \usepackage{../measurements_lectures}
 
@@ -29,6 +20,7 @@
 
 \newcommand{\MNUM}{1\hspace{2mm}} % module number 
 \newcommand{\moduletitle}{Introduction}
+%\newcommand{\topictitle}{General Measurement System} 
 
 \newcommand{\sectionItitle}{General Measurement System}
 \newcommand{\sectionIItitle}{Types of Variables}
@@ -65,23 +57,19 @@
 
 \begin{document}
 
-this is a test
-
 	\lstset{language=MATLAB,basicstyle=\ttfamily\small,showstringspaces=false}
-        
-        \begin{frame}
-	    \begin{framed}\Large \textbf{Topic \MNUM - \moduletitle}\end{framed}
-        \end{frame}
 
-        % module outline
-        \begin{frame}
+	\frame{\titlepage \center\begin{framed}\Large \textbf{Topic \MNUM - \moduletitle}\end{framed} \vspace{5mm}}
+
+	% Module Outline
+	\begin{frame} 
 		\large \textbf{Module \MNUM - \moduletitle} \vspace{3mm}\\
 
 		\begin{itemize}
-			\item Topic 1 - \hyperref[sectionI]{\sectionItitle} \vspc % section I
-			\item Topic 2 - \hyperref[sectionII]{\sectionIItitle} \vspc % section II
-			\item Topic 3 - \hyperref[sectionIII]{\sectionIIItitle} \vspc % section III
-			\item Topic 4 - \hyperref[sectionIV]{\sectionIVtitle} \vspc % section IV
+			\item Topic 1 - \hyperlink{sectionI}{\sectionItitle} \vspc % section I
+			\item Topic 2 - \hyperlink{sectionII}{\sectionIItitle} \vspc % section II
+			\item Topic 3 - \hyperlink{sectionIII}{\sectionIIItitle} \vspc % section III
+			\item Topic 4 - \hyperlink{sectionIV}{\sectionIVtitle} \vspc % section IV
 		\end{itemize}
 
 	\end{frame}
@@ -94,20 +82,20 @@ this is a test
 			\large \textbf{Topic 1 - \sectionItitle} \vspace{3mm}\\
 
 			\begin{itemize}
-				\item \hyperref[sectionIsubsectionI]{\sectionIsubsectionItitle} \vspc %  section I subsection I
-				\item \hyperref[sectionIsubsectionII]{\sectionIsubsectionIItitle} \vspc % section I subsection II
-				\item \hyperref[sectionIsubsectionIII]{\sectionIsubsectionIIItitle} \vspc % section I subsection III
-				\item \hyperref[sectionIsubsectionIV]{\sectionIsubsectionIVtitle} \vspc % section I subsection IV
+				\item \hyperlink{sectionIsubsectionI}{\sectionIsubsectionItitle} \vspc %  section I subsection I
+				\item \hyperlink{sectionIsubsectionII}{\sectionIsubsectionIItitle} \vspc % section I subsection II
+				\item \hyperlink{sectionIsubsectionIII}{\sectionIsubsectionIIItitle} \vspc % section I subsection III
+				\item \hyperlink{sectionIsubsectionIV}{\sectionIsubsectionIVtitle} \vspc % section I subsection IV
 			\end{itemize}
 		\end{frame}
-       	
+		
 		% section I subsection I 
 		\subsection{\sectionIsubsectionItitle}\label{sectionIsubsectionI}
 
 			\begin{frame}
 				\frametitle{\sectionIsubsectionItitle}
 
-				\large{``A {\bfseries \BL measurement} is an act of assigning a specific value to a physical variable.''} \vspc
+				\large{``A {\bf \BL measurement} is an act of assigning a specific value to a physical variable.''} \vspc
 				{\tiny Text: Theory and Design of Mech. Meas.}
 
 			\end{frame}
@@ -118,14 +106,14 @@ this is a test
 			\begin{frame}
 				\frametitle{\sectionIsubsectionIItitle}
 
-				\includegraphics[scale=.325, alt={a block diagram of the stages of a measurement system}]{images/measurement_stages.png} \\
+				\includegraphics[scale=.325]{images/measurement_stages.png} \\
 				{\tiny Image: Theory and Design of Mech. Meas.}
 			\end{frame}
 
 			\begin{frame}
 				\frametitle{Sensor-Transducer Stage}
 				a {\PR sensor}, a physical element that employs some natural phenomenon... ...to sense the variable being measured
-				\includegraphics[scale=0.20, alt={a touch probe for surface microscope}]{images/sensor_stage.png}\hspace{5mm}\includegraphics[scale=0.20, alt={a touch probe for surface microscope with optical transducer}]{images/sensor_transducer_stage.png}\\
+				\includegraphics[scale=0.20]{images/sensor_stage.png}\hspace{5mm}\includegraphics[scale=0.20]{images/sensor_transducer_stage.png}\\
                	{\footnotesize \hspace{10mm} {\PR Sensor} Stage \hspace{15mm} Sensor + {\GR Transducer} Stage} \vspace{3mm}
 
 				A {\GR transducer} converts sensed information into a detectable signal \\
@@ -136,7 +124,7 @@ this is a test
 				\frametitle{Signal Conditioning Stage}
 
 				\begin{multicols}{2}
-				\includegraphics[scale=0.18, alt={a graph of a sinusoidal function with noise and drift}]{images/signal_noise.png}
+				\includegraphics[scale=0.18]{images/signal_noise.png}
 
 				\begin{itemize}
 				\item Filtering
@@ -158,11 +146,11 @@ this is a test
 			\begin{frame}
 				\frametitle{Defintion of a signal} {\footnotesize
 				Signal (noun):
-				{\itshape 4 a : an object used to transmit or convey information beyond the range of human voice 
+				{\it 4 a : an object used to transmit or convey information beyond the range of human voice 
 				  	 b : the sound or image conveyed in telegraphy, telephony, radio, radar, or television 
 				  	 c : a detectable physical quantity or impulse (such as a voltage, current, or magnetic field strength) by which messages or information can be transmitted } - \href{https://www.merriam-webster.com/dictionary/signal}{Merrian Webster} \vspace{3mm}
 
-				{\itshape In signal processing, a signal is a function that conveys information about a phenomenon.[1] Any quantity that can vary over space or time can be used as a signal to share messages between observers.[2] The IEEE Transactions on Signal Processing includes audio, video, speech, image, sonar, and radar as examples of signals.[3] A signal may also be defined as any observable change in a quantity over space or time (a time series), even if it does not carry information.} - \href{https://en.wikipedia.org/wiki/Signal}{Wikipedia}
+				{\it  	 In signal processing, a signal is a function that conveys information about a phenomenon.[1] Any quantity that can vary over space or time can be used as a signal to share messages between observers.[2] The IEEE Transactions on Signal Processing includes audio, video, speech, image, sonar, and radar as examples of signals.[3] A signal may also be defined as any observable change in a quantity over space or time (a time series), even if it does not carry information.} - \href{https://en.wikipedia.org/wiki/Signal}{Wikipedia}
 				}  	 	
 			\end{frame}
 
@@ -171,7 +159,7 @@ this is a test
 				The {\BR output stage} indicates or records the value measured. This might be a simple readout
 				display, a marked scale, or even a recording device such as a computer disk drive.
 
-				\includegraphics[scale=0.25, alt={a picture of a bulb type thermometer}]{images/bulb_thermometer.png} \hspace{10mm}\includegraphics[scale=0.3, alt={a thermocouple plugged into a digital multimeter}]{images/thermocouple.jpg}
+				\includegraphics[scale=0.25]{images/bulb_thermometer.png} \hspace{10mm}\includegraphics[scale=0.3]{images/thermocouple.jpg}
 
 				{\tiny Image: Theory and Design of Mech. Meas. \hspace{20mm} Image: \href{https://en.wikipedia.org/wiki/Thermocouple}{Wikipedia} }
 			\end{frame}
@@ -184,29 +172,29 @@ this is a test
 				\begin{multicols}{2}
 					\scriptsize
 
-					{\bfseries Activity:} Team Brainstorm
+					{\bf Activity:} Team Brainstorm
 
-					{\bfseries Duration:} $\sim 10$ minutes
+					{\bf Duration:} $\sim 10$ minutes
 
-					{\bfseries Groups:} 2-3 members
+					{\bf Groups:} 2-3 members
 
-					\includegraphics[scale=0.5, alt={a drawing of a group brainstorming}]{images/Brainstorm_room.png}
+					\includegraphics[scale=0.5]{images/Brainstorm_room.png}
 
-					{\bfseries Overview:} Measurement Concepts Discussion
+					{\bf Overview:} Measurement Concepts Discussion
 					\begin{itemize}
 						\item Answer each of the following discussions with a thoughtful respose. Discuss your ideas with your peers, and include references if available.  		        
 					\end{itemize}
 
 
-				{\bfseries Deliverable:} Submit a copy of your team brainstorming notes including text, images, and diagrams to the activity assignment on ilearn. Include names of all team members.
+				{\bf Deliverable:} Submit a copy of your team brainstorming notes including text, images, and diagrams to the activity assignment on ilearn. Include names of all team members.
 			    \end{multicols}	
 			\end{frame}
 		
-		%\subsection{\sectionIsubsectionIIItitle}\label{sectionIsubsectionIII}
+		\subsection{\sectionIsubsectionIIItitle}\label{sectionIsubsectionIII}
 			\begin{frame} \scriptsize
 				\frametitle{\sectionIsubsectionIIItitle}
 
-			    {\bfseries Discussion Questions:}	
+			    {\bf Discussion Questions:}	
 				\begin{itemize}
 					\item Briefly describe three different ways to measure distance. What type of instruments are used?\vspace{10mm}
 					\item Briefly describe three ways to describe position. What type of instruments are used?\vspace{10mm}
@@ -216,33 +204,33 @@ this is a test
 
 			\end{frame}	
 
-%		% section I subsection IV
-%		\subsection{\sectionIsubsectionIVtitle}\label{sectionIsubsectionIV}	
-%
-%			\begin{frame}
-%				\frametitle{\sectionIsubsectionIVtitle}
-%				\href{https://events-platform.asmeconferences.org/event/idetc-cie-2022/planning/UGxhbm5pbmdfOTcxMjI2}{IDETC2022-96785: Development of an Instrumented Rear Suspension to Measure the Tire Forces of a Race Car During Track Driving}\vspace{5mm}\\
-%
-%				\includegraphics[scale=0.125]{images/IDETC_technical_session.png}
-%
-%			\end{frame}
-%
-%			\begin{frame}
-%				\frametitle{\sectionIsubsectionIVtitle}
-%
-%				\href{https://events-platform.asmeconferences.org/event/idetc-cie-2022/planning/UGxhbm5pbmdfOTcxMzIx}{IDETC2022-91154: Photometric Stereo Enhanced Light Sectioning Measurement for Microtexture Road Profiling}\vspace{5mm}\\
-%
-%				\includegraphics[scale=0.125]{images/IDETC_technical_session.png}
-%			 
-%			\end{frame}
-%
-%			\begin{frame}
-%				\frametitle{\sectionIsubsectionIVtitle}
-%				\href{https://events-platform.asmeconferences.org/event/idetc-cie-2022/planning/UGxhbm5pbmdfOTcxNDk4}{IDETC2022-90082: Automated Weld Path Generation Using Random Sample Consensus and Iterative Closest Point Workpiece Localization}\vspace{5mm}\\
-%
-%				\includegraphics[scale=0.125]{images/IDETC_technical_session.png}
-%
-%			\end{frame}	
+		% section I subsection IV
+		\subsection{\sectionIsubsectionIVtitle}\label{sectionIsubsectionIV}	
+
+			\begin{frame}
+				\frametitle{\sectionIsubsectionIVtitle}
+				\href{https://events-platform.asmeconferences.org/event/idetc-cie-2022/planning/UGxhbm5pbmdfOTcxMjI2}{IDETC2022-96785: Development of an Instrumented Rear Suspension to Measure the Tire Forces of a Race Car During Track Driving}\vspace{5mm}\\
+
+				\includegraphics[scale=0.125]{images/IDETC_technical_session.png}
+
+			\end{frame}
+
+			\begin{frame}
+				\frametitle{\sectionIsubsectionIVtitle}
+
+				\href{https://events-platform.asmeconferences.org/event/idetc-cie-2022/planning/UGxhbm5pbmdfOTcxMzIx}{IDETC2022-91154: Photometric Stereo Enhanced Light Sectioning Measurement for Microtexture Road Profiling}\vspace{5mm}\\
+
+				\includegraphics[scale=0.125]{images/IDETC_technical_session.png}
+			 
+			\end{frame}
+
+			\begin{frame}
+				\frametitle{\sectionIsubsectionIVtitle}
+				\href{https://events-platform.asmeconferences.org/event/idetc-cie-2022/planning/UGxhbm5pbmdfOTcxNDk4}{IDETC2022-90082: Automated Weld Path Generation Using Random Sample Consensus and Iterative Closest Point Workpiece Localization}\vspace{5mm}\\
+
+				\includegraphics[scale=0.125]{images/IDETC_technical_session.png}
+
+			\end{frame}	
 
 
 	% Section II
@@ -253,17 +241,17 @@ this is a test
 			\large \textbf{Topic 2 - \sectionIItitle} \vspace{3mm}\\
 
 			\begin{itemize}
-				\item \hyperref[sectionIIsubsectionI]{\sectionIIsubsectionItitle} \vspc %  section II subsection I
-				\item \hyperref[sectionIIsubsectionII]{\sectionIIsubsectionIItitle} \vspc % section II subsection II
-				\item \hyperref[sectionIIsubsectionIII]{\sectionIIsubsectionIIItitle} \vspc % section II subsection III
-				\item \hyperref[sectionIIsubsectionIV]{\sectionIIsubsectionIVtitle} \vspc % section II subsection IV
+				\item \hyperlink{sectionIIsubsectionI}{\sectionIIsubsectionItitle} \vspc %  section II subsection I
+				\item \hyperlink{sectionIIsubsectionII}{\sectionIIsubsectionIItitle} \vspc % section II subsection II
+				\item \hyperlink{sectionIIsubsectionIII}{\sectionIIsubsectionIIItitle} \vspc % section II subsection III
+				\item \hyperlink{sectionIIsubsectionIV}{\sectionIIsubsectionIVtitle} \vspc % section II subsection IV
 			\end{itemize}
 		\end{frame}
 
 		% section II subsection I
 		\subsection{\sectionIIsubsectionItitle}\label{sectionIIsubsectionI}
 
-			\begin{frame}
+			\begin{frame}[label=sectionIIsubsectionI]
 				\frametitle{\sectionIIsubsectionItitle}
 
 				\large{``A {\BL measurement} is an act of assigning a specific value to a physical variable. That physical variable
@@ -324,13 +312,13 @@ this is a test
 				\frametitle{\sectionIIsubsectionVtitle}
 				\tiny
 
-				Indiviual Activity: Complete the activity and submit your work on ilearn {\itshape as an indiviual}.
+				Indiviual Activity: Complete the activity and submit your work on ilearn {\it as an indiviual}.
 
 				\begin{multicols}{2}
 
 				\textbf{Example 1: SHARP IR Ranger } \vspc
-				\includegraphics[scale=0.4, alt={a picture of an IR range sensor}]{images/proximity_sensor.jpg}
-				\includegraphics[scale=0.18, alt={a schematic of the IR range sensor components}]{images/sharp_ranger_circuit.png} \vspc
+				\includegraphics[scale=0.4]{images/proximity_sensor.jpg}
+				\includegraphics[scale=0.18]{images/sharp_ranger_circuit.png} \vspc
 
 				{\tiny Image, More Info: \href{https://en.wikipedia.org/wiki/Proximity_sensor}{Wikipedia-proximity sensor} }\hspace{40mm} 
 				{\tiny Image, More Info: \href{https://en.wikipedia.org/wiki/Position_sensitive_device}{Wikipedia-PSD} }		
@@ -356,6 +344,9 @@ this is a test
 
 				\end{multicols}	
 
+
+				
+
 			\end{frame}
 
 			% section II subsection V frame II
@@ -363,12 +354,12 @@ this is a test
 				\frametitle{\sectionIIsubsectionVtitle}
 				\tiny
 
-				Indiviual Activity: Complete the activity and submit your work on ilearn {\itshape as an individual}.	
+				Indiviual Activity: Complete the activity and submit your work on ilearn {\it as an individual}.	
 
 				\begin{multicols}{2}
 
 				\textbf{Example 2: Thermocouple with DMM} \vspc
-				\includegraphics[scale=0.2, alt={a drawing of a thermocouple bi-metal junction}]{images/thermocouple_atd.png} \vspc
+				\includegraphics[scale=0.2]{images/thermocouple_atd.png} \vspc
 
 				Identify the following measurement stages 
 				\begin{itemize}
@@ -377,6 +368,7 @@ this is a test
 				\item Signal Conditioning: \hspcu
 				\item Output: \hspcu
 				\end{itemize}
+
 
 				Name at least one for each category 
 
@@ -400,7 +392,7 @@ this is a test
 				\frametitle{\sectionIIsubsectionVtitle}
 				\tiny
 
-				Indiviual Activity: Complete the activity and submit your work on ilearn {\itshape as an individual}.	
+				Indiviual Activity: Complete the activity and submit your work on ilearn {\it as an individual}.	
 
 				\begin{multicols}{2}
 
@@ -442,10 +434,10 @@ this is a test
 			\large \textbf{Topic 3 - \sectionIIItitle} \vspace{3mm}\\
 
 			\begin{itemize}
-				\item \hyperref[sectionIIIsubsectionI]{\sectionIIIsubsectionItitle} \vspc %  section III subsection I
-				\item \hyperref[sectionIIIsubsectionII]{\sectionIIIsubsectionIItitle} \vspc % section III subsection II
-				\item \hyperref[sectionIIIsubsectionIII]{\sectionIIIsubsectionIIItitle} \vspc % section III subsection III
-				\item \hyperref[sectionIIIsubsectionIV]{\sectionIIIsubsectionIVtitle} \vspc % section III subsection IV
+				\item \hyperlink{sectionIIIsubsectionI}{\sectionIIIsubsectionItitle} \vspc %  section III subsection I
+				\item \hyperlink{sectionIIIsubsectionII}{\sectionIIIsubsectionIItitle} \vspc % section III subsection II
+				\item \hyperlink{sectionIIIsubsectionIII}{\sectionIIIsubsectionIIItitle} \vspc % section III subsection III
+				\item \hyperlink{sectionIIIsubsectionIV}{\sectionIIIsubsectionIVtitle} \vspc % section III subsection IV
 			\end{itemize}
 		\end{frame}
 
@@ -523,7 +515,7 @@ this is a test
 				\frametitle{\sectionIIIsubsectionVtitle}
 				\tiny
 
-				Group Activity: Find a group of 2-3 students. Complete the activity and submit your work on ilearn {\itshape as an individual}. You may submit the same or similar answers as your group members.	
+				Group Activity: Find a group of 2-3 students. Complete the activity and submit your work on ilearn {\it as an indiviual}. You may submit the same or similar answers as your group members.	
 
 				\begin{multicols}{2}
 					\textbf{Experimental Test Plan: Fuel/Energy Economy} \\
@@ -555,4 +547,15 @@ this is a test
 
 			\end{frame}			
 
+
+	% Section IV
+	\section{\sectionIVtitle}\label{sectionIV}
+
+
+
 \end{document}
+
+
+
+
+
