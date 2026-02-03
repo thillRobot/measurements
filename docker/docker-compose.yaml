@@ -1,0 +1,9 @@
+services:
+  bash:
+    build: .
+    command: /bin/bash
+    user: "1000:1000"
+    environment:
+      DISPLAY: $DISPLAY
+    volumes:
+      - $ACCESS_WS/shared:/home/shared
