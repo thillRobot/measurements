@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.3)  3 FEB 2026 22:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.3)  4 FEB 2026 16:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -828,11 +828,8 @@ Package: keystroke 2010/04/23 v1.6 3D keystrokes (SuSE GmbH/RN)
 \keystroke@left=\box117
 \keystroke@right=\box118
 \keystroke@middle=\box119
-
-! I can't write on file `probability_statistics.pdf'.
-(Press Enter to retry, or Control-D to exit; default file extension is `.pdf')
-Please type another file name for output: ^^[[A
 <keystroke_left.pdf, id=22, 42.1575pt x 195.73125pt>
+
 
 Package tagpdf Warning: Alternative text for graphic is missing.
 (tagpdf)                Using 'keystroke_left.pdf' instead.
@@ -1543,20 +1540,25 @@ LaTeX Font Info:    Trying to load font information for TS1+lmss on input line
 File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [2
 
-{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}] [3
+{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
+
+LaTeX Warning: Hyper reference `sectionIsubsectionIV' on page 3 undefined on in
+put line 94.
+
+[3
 
 ]
-<images/bearing_fig1.jpg, id=165, 703.62875pt x 722.7pt>
+<images/bearing_fig1.jpg, id=159, 703.62875pt x 722.7pt>
 File: images/bearing_fig1.jpg Graphic file (type jpg)
 <use images/bearing_fig1.jpg>
 Package pdftex.def Info: images/bearing_fig1.jpg  used on input line 116.
 (pdftex.def)             Requested size: 70.36699pt x 72.27423pt.
-<images/bearing_fig2.png, id=168, 673.01437pt x 542.025pt>
+<images/bearing_fig2.png, id=163, 673.01437pt x 542.025pt>
 File: images/bearing_fig2.png Graphic file (type png)
 <use images/bearing_fig2.png>
 Package pdftex.def Info: images/bearing_fig2.png  used on input line 116.
 (pdftex.def)             Requested size: 67.30537pt x 54.20567pt.
-<images/bearing_fig3.jpeg, id=171, 901.3675pt x 722.7pt>
+<images/bearing_fig3.jpeg, id=166, 901.3675pt x 722.7pt>
 File: images/bearing_fig3.jpeg Graphic file (type jpg)
 <use images/bearing_fig3.jpeg>
 Package pdftex.def Info: images/bearing_fig3.jpeg  used on input line 116.
@@ -1568,13 +1570,12 @@ Package pdftex.def Info: images/bearing_fig3.jpeg  used on input line 116.
 
 ] [6
 
-]
-[7
+] [7
 
 ] [8
 
 ]
-<images/graph_paper_80_30.png, id=293, 932.73468pt x 637.63219pt>
+<images/graph_paper_80_30.png, id=287, 932.73468pt x 637.63219pt>
 File: images/graph_paper_80_30.png Graphic file (type png)
 <use images/graph_paper_80_30.png>
 Package pdftex.def Info: images/graph_paper_80_30.png  used on input line 219.
@@ -1584,9 +1585,7 @@ Package pdftex.def Info: images/graph_paper_80_30.png  used on input line 219.
  <./images/graph_paper_80_30.png>] [10
 
 ]
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 251.
- [11
+[11
 
 ] [12
 
@@ -1594,13 +1593,11 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
 
 ] [14
 
-] [15
-
 ]
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <10.95> not available
 (Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 325.
 
-<images/distribution_axes.png, id=533, 324.46219pt x 188.20313pt>
+<images/distribution_axes.png, id=483, 324.46219pt x 188.20313pt>
 File: images/distribution_axes.png Graphic file (type png)
 <use images/distribution_axes.png>
 Package pdftex.def Info: images/distribution_axes.png  used on input line 325.
@@ -1617,24 +1614,24 @@ File: images/distribution_axes.png Graphic file (type png)
 <use images/distribution_axes.png>
 Package pdftex.def Info: images/distribution_axes.png  used on input line 325.
 (pdftex.def)             Requested size: 73.00578pt x 42.34674pt.
-
-[16
+ [15
 
  <./images/distribution_axes.png>]
 File: images/distribution_axes.png Graphic file (type png)
 <use images/distribution_axes.png>
 Package pdftex.def Info: images/distribution_axes.png  used on input line 341.
 (pdftex.def)             Requested size: 162.23068pt x 94.10132pt.
- [17
+ [16
+
+] [17
 
 ] [18
 
-] [19
-
-] [20
+]
+[19
 
 ]
-<images/topic2_measured_fig2.png, id=678, 1363.9758pt x 755.9442pt>
+<images/topic2_measured_fig2.png, id=627, 1363.9758pt x 755.9442pt>
 File: images/topic2_measured_fig2.png Graphic file (type png)
 <use images/topic2_measured_fig2.png>
 Package pdftex.def Info: images/topic2_measured_fig2.png  used on input line 39
@@ -1645,30 +1642,35 @@ Overfull \hbox (5.65057pt too wide) in paragraph at lines 399--399
 [][][]| [][] 
  []
 
-[21
+[20
 
  <./images/topic2_measured_fig2.png (PNG copy)>]
-<images/lecture1_fig1.png, id=690, 413.29407pt x 310.15875pt>
+<images/lecture1_fig1.png, id=638, 413.29407pt x 310.15875pt>
 File: images/lecture1_fig1.png Graphic file (type png)
 <use images/lecture1_fig1.png>
 Package pdftex.def Info: images/lecture1_fig1.png  used on input line 403.
 (pdftex.def)             Requested size: 206.64651pt x 155.079pt.
- [22
+ [21
 
  <./images/lecture1_fig1.png>]
 File: images/lecture1_fig1.png Graphic file (type png)
 <use images/lecture1_fig1.png>
 Package pdftex.def Info: images/lecture1_fig1.png  used on input line 407.
 (pdftex.def)             Requested size: 206.64651pt x 155.079pt.
+ [22
+
+]
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 425.
  [23
 
 ] [24
 
 ]
-<images/topic2_fig4.png, id=733, 653.44125pt x 475.7775pt>
+<images/topic2_fig4.png, id=725, 653.44125pt x 475.7775pt>
 File: images/topic2_fig4.png Graphic file (type png)
 <use images/topic2_fig4.png>
-Package pdftex.def Info: images/topic2_fig4.png  used on input line 435.
+Package pdftex.def Info: images/topic2_fig4.png  used on input line 453.
 (pdftex.def)             Requested size: 163.35991pt x 118.94408pt.
  [25
 
@@ -1677,15 +1679,15 @@ Package pdftex.def Info: images/topic2_fig4.png  used on input line 435.
 ] [27
 
 ]
-<images/topic2_fig2.png, id=789, 692.5875pt x 662.475pt>
+<images/topic2_fig2.png, id=781, 692.5875pt x 662.475pt>
 File: images/topic2_fig2.png Graphic file (type png)
 <use images/topic2_fig2.png>
-Package pdftex.def Info: images/topic2_fig2.png  used on input line 470.
+Package pdftex.def Info: images/topic2_fig2.png  used on input line 488.
 (pdftex.def)             Requested size: 173.14644pt x 165.61835pt.
-<images/topic2_fig3.png, id=792, 287.0725pt x 191.71625pt>
+<images/topic2_fig3.png, id=785, 287.0725pt x 191.71625pt>
 File: images/topic2_fig3.png Graphic file (type png)
 <use images/topic2_fig3.png>
-Package pdftex.def Info: images/topic2_fig3.png  used on input line 470.
+Package pdftex.def Info: images/topic2_fig3.png  used on input line 488.
 (pdftex.def)             Requested size: 129.18143pt x 86.2715pt.
  [28
 
@@ -1698,11 +1700,11 @@ Package pdftex.def Info: images/topic2_fig3.png  used on input line 470.
 ]
 File: images/topic2_fig2.png Graphic file (type png)
 <use images/topic2_fig2.png>
-Package pdftex.def Info: images/topic2_fig2.png  used on input line 512.
+Package pdftex.def Info: images/topic2_fig2.png  used on input line 530.
 (pdftex.def)             Requested size: 173.14644pt x 165.61835pt.
 File: images/topic2_fig3.png Graphic file (type png)
 <use images/topic2_fig3.png>
-Package pdftex.def Info: images/topic2_fig3.png  used on input line 512.
+Package pdftex.def Info: images/topic2_fig3.png  used on input line 530.
 (pdftex.def)             Requested size: 129.18143pt x 86.2715pt.
  [32
 
@@ -1711,13 +1713,13 @@ Package pdftex.def Info: images/topic2_fig3.png  used on input line 512.
 ] [34
 
 ]
-<images/topic3_fig1.png, id=920, 1366.10374pt x 815.045pt>
+<images/topic3_fig1.png, id=912, 1366.10374pt x 815.045pt>
 File: images/topic3_fig1.png Graphic file (type png)
 <use images/topic3_fig1.png>
-Package pdftex.def Info: images/topic3_fig1.png  used on input line 551.
+Package pdftex.def Info: images/topic3_fig1.png  used on input line 569.
 (pdftex.def)             Requested size: 273.21591pt x 163.0061pt.
 
-Overfull \vbox (24.7851pt too high) detected at line 551
+Overfull \vbox (24.7851pt too high) detected at line 569
  []
 
 [35
@@ -1739,12 +1741,21 @@ L3 programming layer <2026-01-19>
  ***********
 
 
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
 Package tagpdf Info: Finalizing the tagging structure:
-(tagpdf)             Writing out ~542 structure objects
-(tagpdf)             with ~446 'MC' leaf nodes.
+(tagpdf)             Writing out ~539 structure objects
+(tagpdf)             with ~444 'MC' leaf nodes.
 (tagpdf)             Be patient if there are lots of objects!
 
 Package tagpdf Info: writing ParentTree
+
+Package tagpdf Warning: something is wrong with the mcid--rerun
+
 Package tagpdf Info: writing IDTree
 Package tagpdf Info: writing RoleMap
 Package tagpdf Info: writing ClassMap
@@ -1753,13 +1764,13 @@ Package tagpdf Info: writing StructElems
 Package tagpdf Info: writing Root
  ) 
 Here is how much of TeX's memory you used:
- 36115 strings out of 467533
- 790510 string characters out of 5419496
- 1533204 words of memory out of 5000000
- 64230 multiletter control sequences out of 15000+600000
+ 36194 strings out of 467533
+ 791815 string characters out of 5419496
+ 1531662 words of memory out of 5000000
+ 64312 multiletter control sequences out of 15000+600000
  689999 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 118i,8n,122p,595b,1562s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 118i,8n,122p,595b,1590s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><
 /usr/local/texlive/2025/texmf-dist/fonts/type1/public/sansmathfonts/cmssex10.pf
@@ -1779,10 +1790,10 @@ al/texlive/2025/texmf-dist/fonts/type1/public/lm/lmssbo10.pfb></usr/local/texli
 ve/2025/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2025/
 texmf-dist/fonts/type1/public/lm/lmsso8.pfb></usr/local/texlive/2025/texmf-dist
 /fonts/type1/public/pdftex/pdftexspace.pfb>
-Output written on ^^[[A.pdf (40 pages, 1131785 bytes).
+Output written on probability_statistics.pdf (40 pages, 1131150 bytes).
 PDF statistics:
- 1166 PDF objects out of 1200 (max. 8388607)
- 1043 compressed objects within 11 object streams
- 94 named destinations out of 1000 (max. 500000)
- 2671 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1156 PDF objects out of 1200 (max. 8388607)
+ 1033 compressed objects within 11 object streams
+ 93 named destinations out of 1000 (max. 500000)
+ 2647 words of extra memory for PDF output out of 10000 (max. 10000000)
 
