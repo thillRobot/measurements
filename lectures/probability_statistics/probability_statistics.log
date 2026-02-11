@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.3)  4 FEB 2026 16:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.3)  11 FEB 2026 15:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**probability_statistics
+**probability_statistics.tex
 (./probability_statistics.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -1399,62 +1399,62 @@ File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO
 \BKM@id=\count508
 ))
 
-LaTeX template Info: Declaring instance 'basic' of type item on line 61.
+LaTeX template Info: Declaring instance 'basic' of type item on line 66.
 
 
-LaTeX template Info: Declaring instance 'description' of type item on line 61.
+LaTeX template Info: Declaring instance 'description' of type item on line 66.
 
 
 (./probability_statistics.aux)
 \openout1 = `probability_statistics.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmssm/m/it on input line 61.
+LaTeX Font Info:    Checking defaults for OML/cmssm/m/it on input line 66.
 LaTeX Font Info:    Trying to load font information for OML+cmssm on input line
- 61.
+ 66.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/sansmathfonts/omlcmssm.fd
 File: omlcmssm.fd 2024/10/15
 )
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMS/cmsssy/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMS/cmsssy/m/n on input line 66.
 LaTeX Font Info:    Trying to load font information for OMS+cmsssy on input lin
-e 61.
+e 66.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/sansmathfonts/omscmsssy.fd
 File: omscmsssy.fd 2024/10/15
 )
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMX/cmssex/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMX/cmssex/m/n on input line 66.
 LaTeX Font Info:    Trying to load font information for OMX+cmssex on input lin
-e 61.
+e 66.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/sansmathfonts/omxcmssex.fd
 File: omxcmssex.fd 2024/10/15
 )
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for U/xcmss/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for U/xcmss/m/n on input line 66.
 LaTeX Font Info:    Trying to load font information for U+xcmss on input line 6
-1.
+6.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/sansmathfonts/uxcmss.fd
 File: uxcmss.fd 2024/10/15
 )
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
 
-LaTeX template Info: Declaring instance 'wallpaper' of type header on line 61.
+LaTeX template Info: Declaring instance 'wallpaper' of type header on line 66.
 
 
-LaTeX template Info: Declaring instance 'wallpaper' of type footer on line 61.
+LaTeX template Info: Declaring instance 'wallpaper' of type footer on line 66.
 
 
 *geometry* driver: auto-detecting
@@ -1491,7 +1491,7 @@ LaTeX template Info: Declaring instance 'wallpaper' of type footer on line 61.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 61.
+Package hyperref Info: Link coloring OFF on input line 66.
 (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count509
@@ -1518,12 +1518,12 @@ e
 \g__talk_saved_lstlisting_int=\count516
 <<sRGB.icc>>
 LaTeX Font Info:    Trying to load font information for OT1+cmsmf on input line
- 61.
+ 66.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/sansmathfonts/ot1cmsmf.fd
 File: ot1cmsmf.fd 2024/10/15
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 61
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 66
 .
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/wasysym/uwasy.fd
@@ -1534,7 +1534,7 @@ File: lstlang1.sty 2025/11/14 1.11b listings language file
 ) [1{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr
 /local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}]
 LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
-79.
+84.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmss.fd
 File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -1543,25 +1543,25 @@ File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 {/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
 
 LaTeX Warning: Hyper reference `sectionIsubsectionIV' on page 3 undefined on in
-put line 94.
+put line 99.
 
 [3
 
 ]
-<images/bearing_fig1.jpg, id=159, 703.62875pt x 722.7pt>
+<images/bearing_fig1.jpg, id=160, 703.62875pt x 722.7pt>
 File: images/bearing_fig1.jpg Graphic file (type jpg)
 <use images/bearing_fig1.jpg>
-Package pdftex.def Info: images/bearing_fig1.jpg  used on input line 116.
+Package pdftex.def Info: images/bearing_fig1.jpg  used on input line 121.
 (pdftex.def)             Requested size: 70.36699pt x 72.27423pt.
 <images/bearing_fig2.png, id=163, 673.01437pt x 542.025pt>
 File: images/bearing_fig2.png Graphic file (type png)
 <use images/bearing_fig2.png>
-Package pdftex.def Info: images/bearing_fig2.png  used on input line 116.
+Package pdftex.def Info: images/bearing_fig2.png  used on input line 121.
 (pdftex.def)             Requested size: 67.30537pt x 54.20567pt.
 <images/bearing_fig3.jpeg, id=166, 901.3675pt x 722.7pt>
 File: images/bearing_fig3.jpeg Graphic file (type jpg)
 <use images/bearing_fig3.jpeg>
-Package pdftex.def Info: images/bearing_fig3.jpeg  used on input line 116.
+Package pdftex.def Info: images/bearing_fig3.jpeg  used on input line 121.
 (pdftex.def)             Requested size: 90.14203pt x 72.27423pt.
  [4
 
@@ -1575,10 +1575,10 @@ Package pdftex.def Info: images/bearing_fig3.jpeg  used on input line 116.
 ] [8
 
 ]
-<images/graph_paper_80_30.png, id=287, 932.73468pt x 637.63219pt>
+<images/graph_paper_80_30.png, id=288, 932.73468pt x 637.63219pt>
 File: images/graph_paper_80_30.png Graphic file (type png)
 <use images/graph_paper_80_30.png>
-Package pdftex.def Info: images/graph_paper_80_30.png  used on input line 219.
+Package pdftex.def Info: images/graph_paper_80_30.png  used on input line 224.
 (pdftex.def)             Requested size: 209.87048pt x 143.47078pt.
  [9
 
@@ -1595,31 +1595,31 @@ Package pdftex.def Info: images/graph_paper_80_30.png  used on input line 219.
 
 ]
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 325.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 330.
 
 <images/distribution_axes.png, id=483, 324.46219pt x 188.20313pt>
 File: images/distribution_axes.png Graphic file (type png)
 <use images/distribution_axes.png>
-Package pdftex.def Info: images/distribution_axes.png  used on input line 325.
+Package pdftex.def Info: images/distribution_axes.png  used on input line 330.
 (pdftex.def)             Requested size: 73.00578pt x 42.34674pt.
 File: images/distribution_axes.png Graphic file (type png)
 <use images/distribution_axes.png>
-Package pdftex.def Info: images/distribution_axes.png  used on input line 325.
+Package pdftex.def Info: images/distribution_axes.png  used on input line 330.
 (pdftex.def)             Requested size: 73.00578pt x 42.34674pt.
 File: images/distribution_axes.png Graphic file (type png)
 <use images/distribution_axes.png>
-Package pdftex.def Info: images/distribution_axes.png  used on input line 325.
+Package pdftex.def Info: images/distribution_axes.png  used on input line 330.
 (pdftex.def)             Requested size: 73.00578pt x 42.34674pt.
 File: images/distribution_axes.png Graphic file (type png)
 <use images/distribution_axes.png>
-Package pdftex.def Info: images/distribution_axes.png  used on input line 325.
+Package pdftex.def Info: images/distribution_axes.png  used on input line 330.
 (pdftex.def)             Requested size: 73.00578pt x 42.34674pt.
  [15
 
  <./images/distribution_axes.png>]
 File: images/distribution_axes.png Graphic file (type png)
 <use images/distribution_axes.png>
-Package pdftex.def Info: images/distribution_axes.png  used on input line 341.
+Package pdftex.def Info: images/distribution_axes.png  used on input line 346.
 (pdftex.def)             Requested size: 162.23068pt x 94.10132pt.
  [16
 
@@ -1634,43 +1634,43 @@ Package pdftex.def Info: images/distribution_axes.png  used on input line 341.
 <images/topic2_measured_fig2.png, id=627, 1363.9758pt x 755.9442pt>
 File: images/topic2_measured_fig2.png Graphic file (type png)
 <use images/topic2_measured_fig2.png>
-Package pdftex.def Info: images/topic2_measured_fig2.png  used on input line 39
-9.
+Package pdftex.def Info: images/topic2_measured_fig2.png  used on input line 40
+4.
 (pdftex.def)             Requested size: 272.79033pt x 151.18616pt.
 
-Overfull \hbox (5.65057pt too wide) in paragraph at lines 399--399
+Overfull \hbox (5.65057pt too wide) in paragraph at lines 404--404
 [][][]| [][] 
  []
 
 [20
 
  <./images/topic2_measured_fig2.png (PNG copy)>]
-<images/lecture1_fig1.png, id=638, 413.29407pt x 310.15875pt>
+<images/lecture1_fig1.png, id=639, 413.29407pt x 310.15875pt>
 File: images/lecture1_fig1.png Graphic file (type png)
 <use images/lecture1_fig1.png>
-Package pdftex.def Info: images/lecture1_fig1.png  used on input line 403.
+Package pdftex.def Info: images/lecture1_fig1.png  used on input line 408.
 (pdftex.def)             Requested size: 206.64651pt x 155.079pt.
  [21
 
  <./images/lecture1_fig1.png>]
 File: images/lecture1_fig1.png Graphic file (type png)
 <use images/lecture1_fig1.png>
-Package pdftex.def Info: images/lecture1_fig1.png  used on input line 407.
+Package pdftex.def Info: images/lecture1_fig1.png  used on input line 412.
 (pdftex.def)             Requested size: 206.64651pt x 155.079pt.
  [22
 
 ]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 425.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 430.
  [23
 
 ] [24
 
 ]
-<images/topic2_fig4.png, id=725, 653.44125pt x 475.7775pt>
+<images/topic2_fig4.png, id=726, 653.44125pt x 475.7775pt>
 File: images/topic2_fig4.png Graphic file (type png)
 <use images/topic2_fig4.png>
-Package pdftex.def Info: images/topic2_fig4.png  used on input line 453.
+Package pdftex.def Info: images/topic2_fig4.png  used on input line 458.
 (pdftex.def)             Requested size: 163.35991pt x 118.94408pt.
  [25
 
@@ -1679,15 +1679,15 @@ Package pdftex.def Info: images/topic2_fig4.png  used on input line 453.
 ] [27
 
 ]
-<images/topic2_fig2.png, id=781, 692.5875pt x 662.475pt>
+<images/topic2_fig2.png, id=782, 692.5875pt x 662.475pt>
 File: images/topic2_fig2.png Graphic file (type png)
 <use images/topic2_fig2.png>
-Package pdftex.def Info: images/topic2_fig2.png  used on input line 488.
+Package pdftex.def Info: images/topic2_fig2.png  used on input line 493.
 (pdftex.def)             Requested size: 173.14644pt x 165.61835pt.
 <images/topic2_fig3.png, id=785, 287.0725pt x 191.71625pt>
 File: images/topic2_fig3.png Graphic file (type png)
 <use images/topic2_fig3.png>
-Package pdftex.def Info: images/topic2_fig3.png  used on input line 488.
+Package pdftex.def Info: images/topic2_fig3.png  used on input line 493.
 (pdftex.def)             Requested size: 129.18143pt x 86.2715pt.
  [28
 
@@ -1700,11 +1700,11 @@ Package pdftex.def Info: images/topic2_fig3.png  used on input line 488.
 ]
 File: images/topic2_fig2.png Graphic file (type png)
 <use images/topic2_fig2.png>
-Package pdftex.def Info: images/topic2_fig2.png  used on input line 530.
+Package pdftex.def Info: images/topic2_fig2.png  used on input line 534.
 (pdftex.def)             Requested size: 173.14644pt x 165.61835pt.
 File: images/topic2_fig3.png Graphic file (type png)
 <use images/topic2_fig3.png>
-Package pdftex.def Info: images/topic2_fig3.png  used on input line 530.
+Package pdftex.def Info: images/topic2_fig3.png  used on input line 534.
 (pdftex.def)             Requested size: 129.18143pt x 86.2715pt.
  [32
 
@@ -1713,13 +1713,13 @@ Package pdftex.def Info: images/topic2_fig3.png  used on input line 530.
 ] [34
 
 ]
-<images/topic3_fig1.png, id=912, 1366.10374pt x 815.045pt>
+<images/topic3_fig1.png, id=913, 1366.10374pt x 815.045pt>
 File: images/topic3_fig1.png Graphic file (type png)
 <use images/topic3_fig1.png>
-Package pdftex.def Info: images/topic3_fig1.png  used on input line 569.
+Package pdftex.def Info: images/topic3_fig1.png  used on input line 573.
 (pdftex.def)             Requested size: 273.21591pt x 163.0061pt.
 
-Overfull \vbox (24.7851pt too high) detected at line 569
+Overfull \vbox (24.7851pt too high) detected at line 573
  []
 
 [35
@@ -1733,6 +1733,30 @@ Overfull \vbox (24.7851pt too high) detected at line 569
 ] [39
 
 ] [40
+
+] [41
+
+] [42
+
+]
+<images/students_tnum_table4_4.png, id=1061, 521.95pt x 622.325pt>
+
+
+Package tagpdf Warning: Alternative text for graphic is missing.
+(tagpdf)                Using 'images/students_tnum_table4_4.png' instead.
+
+File: images/students_tnum_table4_4.png Graphic file (type png)
+<use images/students_tnum_table4_4.png>
+Package pdftex.def Info: images/students_tnum_table4_4.png  used on input line 
+688.
+(pdftex.def)             Requested size: 182.68523pt x 217.817pt.
+
+Overfull \vbox (3.09131pt too high) detected at line 688
+ []
+
+[43
+
+ <./images/students_tnum_table4_4.png>] [44
 
 ]<<latex-list-css.html>><<latex-align-css.html>> (./probability_statistics.aux)
  ***********
@@ -1748,14 +1772,11 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package tagpdf Info: Finalizing the tagging structure:
-(tagpdf)             Writing out ~539 structure objects
-(tagpdf)             with ~444 'MC' leaf nodes.
+(tagpdf)             Writing out ~609 structure objects
+(tagpdf)             with ~495 'MC' leaf nodes.
 (tagpdf)             Be patient if there are lots of objects!
 
 Package tagpdf Info: writing ParentTree
-
-Package tagpdf Warning: something is wrong with the mcid--rerun
-
 Package tagpdf Info: writing IDTree
 Package tagpdf Info: writing RoleMap
 Package tagpdf Info: writing ClassMap
@@ -1764,13 +1785,13 @@ Package tagpdf Info: writing StructElems
 Package tagpdf Info: writing Root
  ) 
 Here is how much of TeX's memory you used:
- 36194 strings out of 467533
- 791815 string characters out of 5419496
- 1531662 words of memory out of 5000000
- 64312 multiletter control sequences out of 15000+600000
+ 36488 strings out of 467533
+ 799971 string characters out of 5419496
+ 1557067 words of memory out of 5000000
+ 64588 multiletter control sequences out of 15000+600000
  689999 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 118i,8n,122p,595b,1590s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 118i,8n,122p,627b,1728s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><
 /usr/local/texlive/2025/texmf-dist/fonts/type1/public/sansmathfonts/cmssex10.pf
@@ -1790,10 +1811,10 @@ al/texlive/2025/texmf-dist/fonts/type1/public/lm/lmssbo10.pfb></usr/local/texli
 ve/2025/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2025/
 texmf-dist/fonts/type1/public/lm/lmsso8.pfb></usr/local/texlive/2025/texmf-dist
 /fonts/type1/public/pdftex/pdftexspace.pfb>
-Output written on probability_statistics.pdf (40 pages, 1131150 bytes).
+Output written on probability_statistics.pdf (44 pages, 1173540 bytes).
 PDF statistics:
- 1156 PDF objects out of 1200 (max. 8388607)
- 1033 compressed objects within 11 object streams
- 93 named destinations out of 1000 (max. 500000)
- 2647 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1277 PDF objects out of 1440 (max. 8388607)
+ 1147 compressed objects within 12 object streams
+ 102 named destinations out of 1000 (max. 500000)
+ 2976 words of extra memory for PDF output out of 10000 (max. 10000000)
 
