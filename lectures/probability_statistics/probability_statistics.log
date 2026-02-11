@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.3)  11 FEB 2026 15:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.3)  11 FEB 2026 16:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1768,16 +1768,23 @@ Package tagpdf Warning: Alternative text for graphic is missing.
 File: images/sample_means_distribution_fig4_5.png Graphic file (type png)
 <use images/sample_means_distribution_fig4_5.png>
 Package pdftex.def Info: images/sample_means_distribution_fig4_5.png  used on i
-nput line 715.
+nput line 714.
 (pdftex.def)             Requested size: 184.79314pt x 129.63625pt.
 
-Overfull \vbox (68.96846pt too high) detected at line 715
+Overfull \vbox (68.96846pt too high) detected at line 714
  []
 
 [44
 
- <./images/sample_means_distribution_fig4_5.png>]<<latex-list-css.html>><<latex
--align-css.html>> (./probability_statistics.aux)
+ <./images/sample_means_distribution_fig4_5.png>]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 4
+.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) [45
+
+]<<latex-list-css.html>><<latex-align-css.html>> (./probability_statistics.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -1787,18 +1794,12 @@ L3 programming layer <2026-01-19>
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
 Package tagpdf Info: Finalizing the tagging structure:
-(tagpdf)             Writing out ~624 structure objects
-(tagpdf)             with ~505 'MC' leaf nodes.
+(tagpdf)             Writing out ~652 structure objects
+(tagpdf)             with ~520 'MC' leaf nodes.
 (tagpdf)             Be patient if there are lots of objects!
 
 Package tagpdf Info: writing ParentTree
-
-Package tagpdf Warning: something is wrong with the mcid--rerun
-
 Package tagpdf Info: writing IDTree
 Package tagpdf Info: writing RoleMap
 Package tagpdf Info: writing ClassMap
@@ -1807,13 +1808,13 @@ Package tagpdf Info: writing StructElems
 Package tagpdf Info: writing Root
  ) 
 Here is how much of TeX's memory you used:
- 36582 strings out of 467533
- 802533 string characters out of 5419496
- 1568141 words of memory out of 5000000
- 64680 multiletter control sequences out of 15000+600000
- 689999 words of font info for 100 fonts, out of 8000000 for 9000
+ 36767 strings out of 467533
+ 806773 string characters out of 5419496
+ 1574702 words of memory out of 5000000
+ 64853 multiletter control sequences out of 15000+600000
+ 690318 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 118i,8n,122p,627b,1768s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 118i,8n,122p,627b,1826s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><
 /usr/local/texlive/2025/texmf-dist/fonts/type1/public/sansmathfonts/cmssex10.pf
@@ -1832,11 +1833,12 @@ b></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/loc
 al/texlive/2025/texmf-dist/fonts/type1/public/lm/lmssbo10.pfb></usr/local/texli
 ve/2025/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2025/
 texmf-dist/fonts/type1/public/lm/lmsso8.pfb></usr/local/texlive/2025/texmf-dist
-/fonts/type1/public/pdftex/pdftexspace.pfb>
-Output written on probability_statistics.pdf (44 pages, 1202602 bytes).
+/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2025/texmf-dist/fonts/typ
+e1/public/pdftex/pdftexspace.pfb>
+Output written on probability_statistics.pdf (45 pages, 1226290 bytes).
 PDF statistics:
- 1301 PDF objects out of 1440 (max. 8388607)
- 1169 compressed objects within 12 object streams
- 103 named destinations out of 1000 (max. 500000)
- 3053 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1347 PDF objects out of 1440 (max. 8388607)
+ 1211 compressed objects within 13 object streams
+ 107 named destinations out of 1000 (max. 500000)
+ 3169 words of extra memory for PDF output out of 10000 (max. 10000000)
 
