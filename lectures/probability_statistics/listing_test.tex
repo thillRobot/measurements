@@ -1,0 +1,35 @@
+% testing lstlisting with ltx-talk
+
+\DocumentMetadata{
+   tagging=on,
+}
+
+\documentclass{ltx-talk} % for presentation (has nav buttons at bottom)
+\usepackage{listings}
+
+\lstset{
+    language=Python,
+    basicstyle=\footnotesize\ttfamily,
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    frame=single,
+    framesep=5pt,
+    rulecolor=\color{black},
+    backgroundcolor=\color{gray!10},
+    breaklines=true,
+}
+
+\begin{document}
+
+        \begin{frame*}
+        
+            %\begin{lstlisting}
+            \begin{verbatim}
+                asdf asdf asdf         
+            \end{verbatim}
+            %\end{lstlisting}
+        
+        \end{frame*}
+
+\end{document}
+
