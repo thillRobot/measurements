@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.1.31)  16 FEB 2026 03:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.1.31)  16 FEB 2026 15:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1691,9 +1691,6 @@ L3 programming layer <2026-01-19>
  ***********
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
 Package tagpdf Info: Finalizing the tagging structure:
 (tagpdf)             Writing out ~666 structure objects
 (tagpdf)             with ~510 'MC' leaf nodes.
@@ -1708,13 +1705,13 @@ Package tagpdf Info: writing StructElems
 Package tagpdf Info: writing Root
  ) 
 Here is how much of TeX's memory you used:
- 36661 strings out of 467533
- 805921 string characters out of 5419495
- 1573318 words of memory out of 5000000
- 64812 multiletter control sequences out of 15000+600000
+ 36617 strings out of 467533
+ 804710 string characters out of 5419495
+ 1572920 words of memory out of 5000000
+ 64768 multiletter control sequences out of 15000+600000
  681230 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 118i,8n,122p,510b,1914s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 118i,8n,122p,510b,1886s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><
 /usr/local/texlive/2025/texmf-dist/fonts/type1/public/sansmathfonts/cmssmi10.pf
@@ -1729,7 +1726,7 @@ al/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/
 mf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2025/texmf-dist/f
 onts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1
 /public/pdftex/pdftexspace.pfb>
-Output written on calibration.pdf (28 pages, 2146684 bytes).
+Output written on calibration.pdf (28 pages, 2146697 bytes).
 PDF statistics:
  1196 PDF objects out of 1200 (max. 8388607)
  1099 compressed objects within 11 object streams

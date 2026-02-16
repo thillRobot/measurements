@@ -12,8 +12,16 @@
 % Topic 1 - Standards and Units
 % Topic 2 - The Calibration Curve
 % Topic 3 - Linear Regression
+\DocumentMetadata{
+   lang        = de,
+   pdfstandard = ua-2,
+   pdfstandard = a-4f, %or a-4
+   tagging=on,
+   tagging-setup={math/setup=mathml-SE}
+}
 
-\documentclass[fleqn]{beamer} % for presentation (has nav buttons at bottom)
+\documentclass[fleqn]{ltx-talk} % for presentation (has nav buttons at bottom)
+
 \usepackage{../measurements_lectures}
 \usepackage{listings}
 
@@ -43,7 +51,6 @@
 \newcommand{\sectionIIIsubsectionVtitle}{Activity: IR Sensor Calibration}
 
  \newcommand{\btVFill}{\vskip0pt plus 1filll}
-
 \newcommand{\ublank}{\underline{\hspace{20mm}}}
 
 % custom box
@@ -57,16 +64,19 @@
 
 	\lstset{language=MATLAB,basicstyle=\ttfamily\small,showstringspaces=false}
 
-	\frame{\titlepage \center\begin{framed}\Large \textbf{Module \MNUM - \moduletitle}\end{framed} \vspace{5mm}}
+	%\frame{\titlepage \center\begin{framed}\Large \textbf{Module \MNUM - \moduletitle}\end{framed} \vspace{5mm}}
+        \begin{frame}
+	    \begin{framed}\Large \textbf{Module \MNUM - \moduletitle}\end{framed}
+        \end{frame}
 
 	% Module Outline
 	\begin{frame} 
 		\large \textbf{Module \MNUM - \moduletitle} \vspace{3mm}\\
 
 		\begin{itemize}
-			\item Topic 1 - \hyperlink{sectionI}{\sectionItitle} \vspc % section I
-			\item Topic 2 - \hyperlink{sectionII}{\sectionIItitle} \vspc % section II
-			\item Topic 3 - \hyperlink{sectionIII}{\sectionIIItitle} \vspc % section III
+			\item Topic 1 - \hyperref[sectionI]{\sectionItitle} \vspc % section I
+			\item Topic 2 - \hyperref[sectionII]{\sectionIItitle} \vspc % section II
+			\item Topic 3 - \hyperref[sectionIII]{\sectionIIItitle} \vspc % section III
 		\end{itemize}
 
 	\end{frame}
@@ -79,10 +89,10 @@
 			\large \textbf{Topic 1 - \sectionItitle} \vspace{3mm}\\
 
 			\begin{itemize}
-				\item \hyperlink{sectionIsubsectionI}{\sectionIsubsectionItitle} \vspc %  section I subsection I
-				\item \hyperlink{sectionIsubsectionII}{\sectionIsubsectionIItitle} \vspc % section I subsection II
-				\item \hyperlink{sectionIsubsectionIII}{\sectionIsubsectionIIItitle} \vspc % section I subsection III
-				\item \hyperlink{sectionIsubsectionIV}{\sectionIsubsectionIVtitle} \vspc % section I subsection IV
+				\item \hyperref[sectionIsubsectionI]{\sectionIsubsectionItitle} \vspc %  section I subsection I
+				\item \hyperref[sectionIsubsectionII]{\sectionIsubsectionIItitle} \vspc % section I subsection II
+				\item \hyperref[sectionIsubsectionIII]{\sectionIsubsectionIIItitle} \vspc % section I subsection III
+				\item \hyperref[sectionIsubsectionIV]{\sectionIsubsectionIVtitle} \vspc % section I subsection IV
 			\end{itemize}
 		\end{frame}
 		
@@ -94,11 +104,11 @@
 
 			\begin{frame}
 				\frametitle{\sectionIsubsectionItitle}
-				\bigskip
+			%	\bigskip
 
-					{\bf Thought Experiment}: Look around the room and choose an object. It can be anything. Ask yourself the following questions. \vspc
+					{\bfseries Thought Experiment}: Look around the room and choose an object. It can be anything. Ask yourself the following questions. \vspc
 \begin{itemize}
-\item What is the {\bf\GR \ublank}  length of the object? \vspc
+\item What is the {\GR \ublank} length of the object? \vspc
 \item What is the physical {\PR \ublank} of that number? \vspc
 \item What do the {\BL \ublank} relate to?
 \end{itemize}
@@ -115,7 +125,10 @@
 
 			\begin{frame}
 				\frametitle{\sectionIsubsectionIItitle}
-When a measurement system is {\PN \ublank}, its indicated value is compared directly with a {\BR \ublank \ublank}. This {\BR \ublank \ublank} forms the basis of the comparison and is known as the {\OR \ublank}. This {\OR \ublank} may be based on the output from a piece of equipment, from an object having a well-defined physical attribute to be used as a comparison, or from a well-accepted technique known to produce a reliable value.\vspace{5mm}\\
+When a measurement system is {\PN \ublank}, its indicated value is compared directly with a {\BR \ublank}. This {\BR  \ublank \ublank} forms the basis of the comparison and is known as the {\OR \ublank}. This
+{\OR \ublank} may be based on the output from a piece of equipment, from an object having a well-
+defined physical attribute to be used as a comparison, or from a well-accepted technique known to
+produce a reliable value.\vspace{5mm}\\
 
 {\tiny Text: \underline{Theory and Design of Mechanical Measurements, 5th Edition}}
 			
@@ -125,9 +138,8 @@ When a measurement system is {\PN \ublank}, its indicated value is compared dire
 
 			\begin{frame}
 				\frametitle{\sectionIsubsectionIItitle}
-A {\GR \ublank} defines a physical variable that is used to describe some aspect of a physical system.\vspace{5mm}\\ 
-
-A{\PN \ublank} defines a quantitative measure of a dimension.\vspace{15mm}\\
+A {\GR \ublank} defines a physical variable that is used to describe some aspect of a physical system. A
+{\PN \ublank} defines a quantitative measure of a dimension.\vspace{15mm}\\
 
 {\tiny Text: \underline{Theory and Design of Mechanical Measurements, 5th Edition}}
 			\end{frame}
@@ -155,7 +167,7 @@ still defined in terms of a material object.
 			\begin{frame}[containsverbatim] 
 				\frametitle{\sectionIsubsectionIIItitle}
 
-				The {\BL \ublank} units relate directly to a standard (historically).\vspc
+				The {\BL \ublank \ublank} relate directly to a standard (historically).\vspc
 
 \renewcommand{\arraystretch}{1.2}
 \begin{tabular}{|c|cc|cc|} \hline
@@ -179,7 +191,7 @@ Light Intensity&candela&$(cd)$&candela&$(cd)$\\ \hline
 				\frametitle{\sectionIsubsectionIIItitle}
 				\bigskip
 
-				Common {\PN \ublank} units are defined in terms of the the base units. \vspc
+				Common {\PN \ublank \ublank} are defined in terms of the the base units. \vspc
 \renewcommand{\arraystretch}{1.2}
 \begin{tabular}{|c|cc|cc|} \hline
 \textbf{Unit}&\textbf{SI} &&\textbf{I-P}&\\ \hline\hline
@@ -210,7 +222,7 @@ Power&watt&$(W)$&foot-pound per second&$(ft-lb/sec)$\\ \hline
 So how do we pick this standard, and how good is it? \vspc
 ... primary standards are impractical as standards for normal calibration use ... there exists a hierarchy of reference and secondary standards used to duplicate the primary standards. \vspc
 \begin{tabular}{|lcl|}\hline\hline
-{\OR \ublank} standard&---&Maintained as absolute unit standard\\ \hline
+{\OR \ublank} standard&---&Maintained as \ublank unit standard\\ \hline
 {\PN \ublank} standard&---&Used to calibrate \ublank standards\\ \hline
 {\PR \ublank} standard&---&Used to calibrate \ublank standards\\ \hline
 {\BL \ublank} standard&---&Used to calibrate \ublank instruments\\ \hline 
@@ -247,10 +259,10 @@ Examples of standards or using a standard:
 			\large \textbf{Topic 2 - \sectionIItitle} \vspace{3mm}\\
 
 			\begin{itemize}
-				\item \hyperlink{sectionIIsubsectionI}{\sectionIIsubsectionItitle} \vspc %  section II subsection I
-				\item \hyperlink{sectionIIsubsectionII}{\sectionIIsubsectionIItitle} \vspc % section II subsection II
-				\item \hyperlink{sectionIIsubsectionIII}{\sectionIIsubsectionIIItitle} \vspc % section II subsection III
-				\item \hyperlink{sectionIIsubsectionIV}{\sectionIIsubsectionIVtitle} \vspc % section II subsection IV
+				\item \hyperref[sectionIIsubsectionI]{\sectionIIsubsectionItitle} \vspc %  section II subsection I
+				\item \hyperref[sectionIIsubsectionII]{\sectionIIsubsectionIItitle} \vspc % section II subsection II
+				\item \hyperref[sectionIIsubsectionIII]{\sectionIIsubsectionIIItitle} \vspc % section II subsection III
+				\item \hyperref[sectionIIsubsectionIV]{\sectionIIsubsectionIVtitle} \vspc % section II subsection IV
 			\end{itemize}
 
 		\end{frame}
@@ -258,11 +270,13 @@ Examples of standards or using a standard:
 		% section II subsection I
 		\subsection{\sectionIIsubsectionItitle}\label{sectionIIsubsectionI}
 
-			\begin{frame}[label=sectionIIsubsectionI]
+			\begin{frame}
 				\frametitle{\sectionIIsubsectionItitle}
 
 
-A {\BL \ublank} applies a known {\PN \ublank \ublank} to a measurement system for the purpose of observing the system {\PR \ublank \ublank}. It establishes the relationship between the input and output values. The known value used for the {\BL \ublank} is called the {\OR \ublank}. \vspc
+A {\BL \ublank} applies a known {\PN \ublank \ublank} to a measurement system for the purpose of observing the
+system {\PR \ublank \ublank}. It establishes the relationship between the input and output values. The known
+value used for the {\BL \ublank} is called the {\OR \ublank}. \vspc
 
 \begin{itemize}
 \item A range of input values can be used to form a calibration curve.
@@ -288,9 +302,9 @@ the measurement system.
 
         \includegraphics[scale=0.165]{images/calibration_curve.png}
 
-        \hspace{20mm} {\bf y}: measured signal\vspc 
+        \hspace{20mm} {\bfseries y}: measured signal\vspc 
         \hspace{25mm} (output) \vspcc
-        \hspace{20mm} {\bf x}: known standard\vspc
+        \hspace{20mm} {\bfseries x}: known standard\vspc
         \hspace{25mm} (input) \\
         \end{multicols}
 
@@ -350,11 +364,11 @@ You have learned about these by a a different name. \vspcc
 			\large \textbf{Topic 3 - \sectionIIItitle} \vspace{3mm}\\
 
 			\begin{itemize}
-				\item \hyperlink{sectionIIIsubsectionI}{\sectionIIIsubsectionItitle} \vspc %  section III subsection I
-				\item \hyperlink{sectionIIIsubsectionII}{\sectionIIIsubsectionIItitle} \vspc % section III subsection II
-				\item \hyperlink{sectionIIIsubsectionIII}{\sectionIIIsubsectionIIItitle} \vspc % section III subsection III
-				\item \hyperlink{sectionIIIsubsectionIV}{\sectionIIIsubsectionIVtitle} \vspc % section III subsection IV
-				\item \hyperlink{sectionIIIsubsectionV}{\sectionIIIsubsectionVtitle} \vspc % section III subsection V
+				\item \hyperref[sectionIIIsubsectionI]{\sectionIIIsubsectionItitle} \vspc %  section III subsection I
+				\item \hyperref[sectionIIIsubsectionII]{\sectionIIIsubsectionIItitle} \vspc % section III subsection II
+				\item \hyperref[sectionIIIsubsectionIII]{\sectionIIIsubsectionIIItitle} \vspc % section III subsection III
+				\item \hyperref[sectionIIIsubsectionIV]{\sectionIIIsubsectionIVtitle} \vspc % section III subsection IV
+				\item \hyperref[sectionIIIsubsectionV]{\sectionIIIsubsectionVtitle} \vspc % section III subsection V
 			\end{itemize}
 
 		\end{frame}
@@ -420,13 +434,14 @@ Other functions such as exponential and log fits can also be used.
 			\begin{frame}
 				\frametitle{\sectionIIIsubsectionIIItitle}
 
-		 Most spreadsheet and engineering software packages can perform a regression analysis on a given data set. Examples will be shown throughout the course in MATLAB and EXCEL.\vspcc
+		 Most spreadsheet and engineering software packages can perform a {\GR regression analysis} on a
+data set. Examples will be shown throughout the course in MATLAB and EXCEL.\vspcc
 	\begin{itemize}
 	
-	\item MATLAB - curve fitting toolbox - {\it polyfit()}
-	\item Excel - {\it linest()}
-	\item Python - {\it numpy.linalg.lstsq() }
-	\item Labview - {\it Linear Fit VI, Exponential Fit VI, etc.}
+	\item MATLAB - curve fitting toolbox - {\itshape polyfit()}
+	\item Excel - {\itshape linest()}
+	\item Python - {\itshape numpy.linalg.lstsq() }
+	\item Labview - {\itshape Linear Fit VI, Exponential Fit VI, etc.}
 	\item and many more...
 	
 	\end{itemize}
@@ -434,7 +449,7 @@ Other functions such as exponential and log fits can also be used.
 
 			\end{frame}
 
-		
+	
 % section III subsection IV
 		\subsection{\sectionIIIsubsectionIVtitle}\label{sectionIIIsubsectionIV}	
 
@@ -462,12 +477,14 @@ Functional Relationship: \\
 
 			\end{frame}
 
-			\begin{frame}[containsverbatim]
+			\begin{frame*}
 				\frametitle{\sectionIIIsubsectionIVtitle}
 				\frametitle{ Linear Regression in MATLAB - Manual}
 
-\begin{lrbox}{\mybox}
-\begin{lstlisting}
+%\begin{lrbox}{\mybox}
+
+\begin{verbatim}
+
 clear variables;close all;clc
 
 x=[];
@@ -486,21 +503,23 @@ P1=polyfit(x,y,1);
 
 x_f1=5.0:1.0:25;
 y_f1=
-\end{lstlisting}
-\end{lrbox}
+
+\end{verbatim}
+
+%\end{lrbox}
 
 \scalebox{0.8}{\usebox{\mybox}}
 
+\end{frame*}
 
-			\end{frame}
 
-
-			\begin{frame}[containsverbatim]
+			\begin{frame*}
 				\frametitle{\sectionIIIsubsectionIVtitle}
 			\frametitle{ Linear Regression in MATLAB - Manual}
 
-\begin{lrbox}{\mybox}
-\begin{lstlisting}
+%\begin{lrbox}{\mybox}
+
+\begin{verbatim}
 figure(1);hold on
 
 plot(x,y,'r*')
@@ -512,13 +531,14 @@ xlabel('Known Distance (m)')
 ylabel('Measured Voltage (V)')
 legend('Raw Data','Linear Fit (T.Hill)','Linear Fit (polyfit)')
 grid on
-\end{lstlisting}
-\end{lrbox}
+\end{verbatim}
+
+%\end{lrbox}
 
 \scalebox{0.8}{\usebox{\mybox}}	
 
 
-			\end{frame}
+			\end{frame*}
 
 
 			\begin{frame}
@@ -556,7 +576,7 @@ grid on
 
 	\textbf{Instructions:}
 	\begin{enumerate} \scriptsize
-		\item Use the sample calibration data provided to calculate the {\bf static sensitivity} and {\bf zero offset} of a 1st order regression line using a MATLAB program.  
+		\item Use the sample calibration data provided to calculate the {\bfseries static sensitivity} and {\bfseries zero offset} of a 1st order regression line using a MATLAB program.  
 		\item Show the calibration data and calibration curve on the same graph. Label the graph and show a legend.
 		\item Show how the calibration curve could be used for a measurement application. Show two(2) example data points. 
 		\item Modify your program to calculate an improved calibration curve using a different mathematical model. Discuss the qualities of each curve. Are there benifits and tradeoffs?
