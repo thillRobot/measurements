@@ -22,6 +22,7 @@
 
 \documentclass[fleqn]{ltx-talk} % for presentation (has nav buttons at bottom)
 
+\usepackage{tagpdf}
 \usepackage{../measurements_lectures}
 \usepackage{listings}
 
@@ -170,6 +171,7 @@ still defined in terms of a material object.
 				The {\BL \ublank \ublank} relate directly to a standard (historically).\vspc
 
 \renewcommand{\arraystretch}{1.2}
+\tagpdfsetup{table/header-rows={1}}
 \begin{tabular}{|c|cc|cc|} \hline
 \textbf{Unit}&\textbf{SI}&&\textbf{I-P}&\\ \hline\hline
 Length&meter&$(m)$&foot&$(ft)$\\ \hline
@@ -193,6 +195,7 @@ Light Intensity&candela&$(cd)$&candela&$(cd)$\\ \hline
 
 				Common {\PN \ublank \ublank} are defined in terms of the the base units. \vspc
 \renewcommand{\arraystretch}{1.2}
+\tagpdfsetup{table/header-rows={1}}
 \begin{tabular}{|c|cc|cc|} \hline
 \textbf{Unit}&\textbf{SI} &&\textbf{I-P}&\\ \hline\hline
 Force&newton&$(N)$&pound-force&$(lb_f)$\\ \hline
@@ -221,6 +224,7 @@ Power&watt&$(W)$&foot-pound per second&$(ft-lb/sec)$\\ \hline
 				The known value applied to a measurement system during calibration becomes the standard on which the calibration is based. \vspc 
 So how do we pick this standard, and how good is it? \vspc
 ... primary standards are impractical as standards for normal calibration use ... there exists a hierarchy of reference and secondary standards used to duplicate the primary standards. \vspc
+\tagpdfsetup{table/header-rows={1}}
 \begin{tabular}{|lcl|}\hline\hline
 {\OR \ublank} standard&---&Maintained as \ublank unit standard\\ \hline
 {\PN \ublank} standard&---&Used to calibrate \ublank standards\\ \hline
@@ -457,7 +461,7 @@ data set. Examples will be shown throughout the course in MATLAB and EXCEL.\vspc
 				\frametitle{\sectionIIIsubsectionIVtitle}
 
 \frametitle{Sample Calibration Data}
-
+\tagpdfsetup{table/header-rows={1}}
 \begin{tabular}{|c|c|c|}\hline
 Sample \# & Known Distance $x_i (m)$ & Measured Voltage $y_i (V)$ \\ \hline \hline
 1&6	&1.67 \\ \hline

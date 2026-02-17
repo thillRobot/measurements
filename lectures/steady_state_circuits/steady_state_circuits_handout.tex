@@ -11,8 +11,16 @@
 % Topic 2 - Fundamental Laws
 % Topic 3 - Circuit Applications
 
+\DocumentMetadata{
+   lang        = de,
+   pdfstandard = ua-2,
+   pdfstandard = a-4f, %or a-4
+   tagging=on,
+   tagging-setup={math/setup=mathml-SE}
+}
 
-\documentclass[fleqn]{beamer} % for presentation (has nav buttons at bottom)
+\documentclass[fleqn]{ltx-talk} % for presentation (has nav buttons at bottom)
+\usepackage{tagpdf}
 \usepackage{../measurements_lectures}
 
 \author{ME3023 - Measurements in Mechanical Systems} % original formatting from Mike Renfro, September 21, 2004
@@ -39,6 +47,8 @@
 \newcommand{\sectionIIIsubsectionIIItitle}{Example 1: LED Circuit}
 \newcommand{\sectionIIIsubsectionIVtitle}{Example 2: LDR circuit}
 
+\newcommand{\ublank}{\underline{\hspace{20mm}}}
+
 % custom box
 \newsavebox{\mybox}
 
@@ -50,16 +60,20 @@
 
 	\lstset{language=MATLAB,basicstyle=\ttfamily\small,showstringspaces=false}
 
-	\frame{\titlepage \center\begin{framed}\Large \textbf{Module \MNUM - \moduletitle}\end{framed} \vspace{5mm}}
+%	\frame{\titlepage \center\begin{framed}\Large \textbf{Module \MNUM - \moduletitle}\end{framed} \vspace{5mm}}
+  
+  \begin{frame}
+      \begin{framed}\Large \textbf{Module \MNUM - \moduletitle}\end{framed} \vspace{5mm}
+  \end{frame}
 
 	% Module Outline
 	\begin{frame} 
 		\large \textbf{Module \MNUM - \moduletitle} \vspace{3mm}\\
 
 		\begin{itemize}
-			\item Topic 1 - \hyperlink{sectionI}{\sectionItitle} \vspc % section I
-			\item Topic 2 - \hyperlink{sectionII}{\sectionIItitle} \vspc % section II
-			\item Topic 3 - \hyperlink{sectionIII}{\sectionIIItitle} \vspc % section III
+			\item Topic 1 - \hyperref[sectionI]{\sectionItitle} \vspc % section I
+			\item Topic 2 - \hyperref[sectionII]{\sectionIItitle} \vspc % section II
+			\item Topic 3 - \hyperref[sectionIII]{\sectionIIItitle} \vspc % section III
 		\end{itemize}
 
 	\end{frame}
@@ -72,10 +86,10 @@
 			\large \textbf{Topic 1 - \sectionItitle} \vspace{3mm}\\
 
 			\begin{itemize}
-				\item \hyperlink{sectionIsubsectionI}{\sectionIsubsectionItitle} \vspc %  section I subsection I
-				\item \hyperlink{sectionIsubsectionII}{\sectionIsubsectionIItitle} \vspc % section I subsection II
-				\item \hyperlink{sectionIsubsectionIII}{\sectionIsubsectionIIItitle} \vspc % section I subsection III
-				\item \hyperlink{sectionIsubsectionIV}{\sectionIsubsectionIVtitle} \vspc % section I subsection IV
+				\item \hyperref[sectionIsubsectionI]{\sectionIsubsectionItitle} \vspc %  section I subsection I
+				\item \hyperref[sectionIsubsectionII]{\sectionIsubsectionIItitle} \vspc % section I subsection II
+				\item \hyperref[sectionIsubsectionIII]{\sectionIsubsectionIIItitle} \vspc % section I subsection III
+				\item \hyperref[sectionIsubsectionIV]{\sectionIsubsectionIVtitle} \vspc % section I subsection IV
 			\end{itemize}
 		\end{frame}
 		
@@ -88,9 +102,9 @@
 				Passive components affect the behavior of a circuit in different ways but they do   not generate power and can only absorb energy or transform it into heat. Active components on the other hand...
 
 				\begin{itemize}
-				\item 
-				\item
-				\item
+				\item \ublank 
+				\item \ublank
+				\item \ublank
 				\end{itemize}
 
 				Most circuits require an active power source for operation. A voltage source is used in most applications however current sources are also available and are needed for specialized electrical applications. 
@@ -116,14 +130,14 @@
 				\begin{itemize}
 
 					\begin{multicols}{2}
-					\item {\BL\underline{\hspace{30mm}}} - the physical property of matter that causes it to experience a force when placed in an electromagnetic field.
+					\item {\BL \ublank} - the physical property of matter that causes it to experience a force when placed in an electromagnetic field.
 					
 					\includegraphics[scale=.5]{images/charges_plus_minus.png}
 					\end{multicols}
 					
-					\item {\PR \BL\underline{\hspace{30mm}}} - the difference in electric potential between two points ... can be caused by electric charge, by electric current through a magnetic field, by time-varying magnetic fields, or some combination of these three.
+					\item {\PR \ublank} - the difference in electric potential between two points ... can be caused by electric charge, by electric current through a magnetic field, by time-varying magnetic fields, or some combination of these three.
 					
-					\item {\RD \BL\underline{\hspace{30mm}}} - the rate of flow of electric charge past a point or region. An electric current is said to exist when there is a net flow of electric charge through a region.
+					\item {\RD \ublank} - the rate of flow of electric charge past a point or region. An electric current is said to exist when there is a net flow of electric charge through a region.
 
 				\end{itemize}	
 
@@ -134,11 +148,11 @@
 				
 				\begin{itemize}
 
-					\item {\BL \BL\underline{\hspace{30mm}}} - a measure of a components opposition to the flow of electric current. The inverse quantity is electrical conductance, and is the ease with which an electric current passes.  
+					\item {\BL \ublank} - a measure of a components opposition to the flow of electric current. The inverse quantity is electrical conductance, and is the ease with which an electric current passes.  
 							
-					\item {\PR \BL\underline{\hspace{30mm}}} - the ratio of the change in electric charge of a system to the corresponding change in its electric potential (voltage).
+					\item {\PR \ublank} - the ratio of the change in electric charge of a system to the corresponding change in its electric potential (voltage).
 					
-					\item {\RD \BL\underline{\hspace{30mm}}} - the tendency of an electrical conductor to oppose a change in the electric current flowing through it. The flow of electric current creates a magnetic field around the conductor. The field strength depends on the magnitude of the current, and follows any changes in current.
+					\item {\RD \ublank} - the tendency of an electrical conductor to oppose a change in the electric current flowing through it. The flow of electric current creates a magnetic field around the conductor. The field strength depends on the magnitude of the current, and follows any changes in current.
 
 				\end{itemize}
 
@@ -151,6 +165,7 @@
 				\frametitle{\sectionIsubsectionIIItitle}
 
 				\renewcommand{\arraystretch}{1.2}
+        \tagpdfsetup{table/header-rows={1}}
 				\begin{tabular}{|c|c|c|c|} \hline
 					Quantity & Symbol & Unit & Abbr. \\ \hline\hline
 				    Charge & Q,q & Coulomb & C \\ \hline
@@ -206,9 +221,9 @@
 
 				Toggle switches are are possibly the most commonly used switches and they come in many different forms.\vspace{5mm}\\
 
-				{\bf Poles } - The numbers of poles refers to the number of independent conductors or circuits in a switch that are controlled by the same toggle or input.
+				{\bfseries \ublank } - The numbers of poles refers to the number of independent conductors or circuits in a switch that are controlled by the same toggle or input.
 				
-				{\bf Throws} - The numbers of throws refers to the number of output terminals of a switch per pole. \vspace{5mm}\\
+				{\bfseries \ublank} - The numbers of throws refers to the number of output terminals of a switch per pole. \vspace{5mm}\\
 				
 				\includegraphics[scale=.7]{images/spst_symbol.png} \hspace{5mm} \includegraphics[scale=.7]{images/spdt_symbol.png} \hspace{5mm}
 				\includegraphics[scale=.7]{images/dpst_symbol.png} \hspace{5mm} \includegraphics[scale=.7]{images/dpdt_symbol.png}
@@ -224,10 +239,10 @@
 			\large \textbf{Topic 2 - \sectionIItitle} \vspace{3mm}\\
 
 			\begin{itemize}
-				\item \hyperlink{sectionIIsubsectionI}{\sectionIIsubsectionItitle} \vspc %  section II subsection I
-				\item \hyperlink{sectionIIsubsectionII}{\sectionIIsubsectionIItitle} \vspc % section II subsection II
-				\item \hyperlink{sectionIIsubsectionIII}{\sectionIIsubsectionIIItitle} \vspc % section II subsection III
-				\item \hyperlink{sectionIIsubsectionIV}{\sectionIIsubsectionIVtitle} \vspc % section II subsection IV
+				\item \hyperref[sectionIIsubsectionI]{\sectionIIsubsectionItitle} \vspc %  section II subsection I
+				\item \hyperref[sectionIIsubsectionII]{\sectionIIsubsectionIItitle} \vspc % section II subsection II
+				\item \hyperref[sectionIIsubsectionIII]{\sectionIIsubsectionIIItitle} \vspc % section II subsection III
+				\item \hyperref[sectionIIsubsectionIV]{\sectionIIsubsectionIVtitle} \vspc % section II subsection IV
 			\end{itemize}
 
 		\end{frame}
@@ -235,18 +250,18 @@
 		% section II subsection I
 		\subsection{\sectionIIsubsectionItitle}\label{sectionIIsubsectionI}
 
-			\begin{frame}[label=sectionIIsubsectionI]
+			\begin{frame}
 				\frametitle{\sectionIIsubsectionItitle}
 
 				\begin{multicols}{3}
 
-					{\bf James Maxwell}
+					{\bfseries James Maxwell}
 					\includegraphics[scale=.30]{images/James_Clerk_Maxwell.png} \hspace{3mm}	
 
-					{\bf George Ohm} 
+					{\bfseries George Ohm} 
 					\includegraphics[scale=.30]{images/George_Ohm.png}	
 
-					{\bf Ohm's Notebook}
+					{\bfseries Ohm's Notebook}
 					\includegraphics[scale=.07]{images/Ohms_Laborbuch.jpg}	
 
 				\end{multicols}
@@ -254,7 +269,7 @@
 
 			\end{frame}
 
-		    \begin{frame}[label=sectionIIsubsectionI]
+		    \begin{frame}
 				\frametitle{\sectionIIsubsectionItitle}
 
 
@@ -262,7 +277,7 @@
 
 				\begin{multicols}{2}
 
-					\[ I=\frac{V}{R}  \] \vspace{1mm}\\
+					\[ I=\frac{V}{R}  \] % \vspace{1mm}\\
 					It is more commonly shown in the following form.
 					\[ V=IR \]
 
@@ -285,14 +300,14 @@
 					\includegraphics[scale=.2]{images/series_resistors.png} 
 					\end{center}
 					\[R_{eq}=R_1+R_2 \]
-					\vspace{15mm}\\
+					%\vspace{15mm}\\
 
 					\begin{center}
 					Resistors in Parallel \vspcc
 					\includegraphics[scale=.2]{images/parallel_resistors.png}
 					\end{center}
 					\[R_{eq}=\frac{1}{\frac{1}{R_1}+\frac{1}{R_2}} \]
-					\vspace{10mm}\\
+					%\vspace{10mm}\\
 
 				\end{multicols}
 
@@ -317,10 +332,10 @@
 				\frametitle{\sectionIIsubsectionIIItitle}
 
 				\begin{multicols}{2}
-					{\bf Kichhoff's Voltage Law (KVL)} - The sum of the voltages around a loop (aka mesh) equals zero.\\ $ \sum\limits_{k=1}^{n} v_k = 0 $ \\
+					{\bfseries Kichhoff's Voltage Law (KVL)} - The sum of the voltages around a loop (aka mesh) equals zero.\\ $ \sum\limits_{k=1}^{n} v_k = 0 $ \\
 					\includegraphics[scale=.20]{images/Kirchhoffs_voltage_law.png} 
 
-					{\bf Kichhoff's Current  Law (KCL)} - The sum of the current flowing in and out of  node (aka junction) equals zero. \\ $ \sum\limits_{k=1}^{n} i_k = 0 $ \vspace{2mm}\\
+					{\bfseries Kichhoff's Current  Law (KCL)} - The sum of the current flowing in and out of  node (aka junction) equals zero. \\ $ \sum\limits_{k=1}^{n} i_k = 0 $ \vspace{2mm}\\
 					\includegraphics[scale=.4]{images/Kirchhoffs_current_law.png} 
 				\end{multicols}
 
@@ -361,10 +376,10 @@
 			\large \textbf{Topic 3 - \sectionIIItitle} \vspace{3mm}\\
 
 			\begin{itemize}
-				\item \hyperlink{sectionIIIsubsectionI}{\sectionIIIsubsectionItitle} \vspc %  section III subsection I
-				\item \hyperlink{sectionIIIsubsectionII}{\sectionIIIsubsectionIItitle} \vspc % section III subsection II
-				\item \hyperlink{sectionIIIsubsectionIII}{\sectionIIIsubsectionIIItitle} \vspc % section III subsection III
-				\item \hyperlink{sectionIIIsubsectionIV}{\sectionIIIsubsectionIVtitle} \vspc % section III subsection IV
+				\item \hyperref[sectionIIIsubsectionI]{\sectionIIIsubsectionItitle} \vspc %  section III subsection I
+				\item \hyperref[sectionIIIsubsectionII]{\sectionIIIsubsectionIItitle} \vspc % section III subsection II
+				\item \hyperref[sectionIIIsubsectionIII]{\sectionIIIsubsectionIIItitle} \vspc % section III subsection III
+				\item \hyperref[sectionIIIsubsectionIV]{\sectionIIIsubsectionIVtitle} \vspc % section III subsection IV
 			\end{itemize}
 
 		\end{frame}
@@ -391,7 +406,7 @@
 			\begin{frame}
 				\frametitle{\sectionIIIsubsectionItitle}
 				
-				{\bf Mechatronics} \\
+				{\bfseries Mechatronics} \\
 				Many devices or designs combine mechanical and electrical systems. This is known as Mechatronics and if you are interested in this area you are in a great place to learn. TnTech Mechanical Engineering offers a concentration in Mechatronics Engineering. In this degree you will study both mechanical engineering and electrical engineering topic to give you the foundation to design truly integrated systems! Ask me or Dr. Canfield if you have any questions about this. 
 
 			\end{frame}
@@ -402,11 +417,11 @@
 			\begin{frame}
 				\frametitle{\sectionIIIsubsectionIItitle}
 
-				{\bf Fluid Flow - Hydraulic Analogy} \vspc
+				{\bfseries Fluid Flow - Hydraulic Analogy} \vspc
 	
-				Traditionally engineers have used an analogy relating the movement of electrons to the flow of water through a pipe (\href{https://en.wikipedia.org/wiki/Hydraulic_analogy}{\BL hydraulic analogy}) known as {\it drain-pipe theory}. \vspace{5mm}
+				Traditionally engineers have used an analogy relating the movement of electrons to the flow of water through a pipe (\href{https://en.wikipedia.org/wiki/Hydraulic_analogy}{\BL hydraulic analogy}) known as {\itshape drain-pipe theory}. \vspace{5mm}
 				
-				This may provide a sense of intuition {\it however} this comparison is not accurate do to the non-Newtonian nature of electricity and magnetism (\href{https://www.slideshare.net/PDiCEOThaneHeins3240/georgia-state-university-hyperphysics-how-newtonian-mechanics-is-incorrectly-being-applied-to-explain-the-laws-of-electricity-and-magnetism}{\GR more on this}). It can  be used to visualize some basic circuits principles, but it should not be used for analysis of complex electrical systems. 
+				This may provide a sense of intuition {\itshape however} this comparison is not accurate do to the non-Newtonian nature of electricity and magnetism (\href{https://www.slideshare.net/PDiCEOThaneHeins3240/georgia-state-university-hyperphysics-how-newtonian-mechanics-is-incorrectly-being-applied-to-explain-the-laws-of-electricity-and-magnetism}{\GR more on this}). It can  be used to visualize some basic circuits principles, but it should not be used for analysis of complex electrical systems. 
 
 			\end{frame}
 
@@ -416,7 +431,7 @@
 			\begin{frame}
 				\frametitle{\sectionIIIsubsectionIIItitle}
 
-				LEDs or Light Emitting Diodes are used more and more everyday and traditional {\it incandescent} lights are used rarely in new deigns.\\
+				LEDs or Light Emitting Diodes are used more and more everyday and traditional {\itshape incandescent} lights are used rarely in new deigns.\\
 				Why are LEDs better? Can you think of any trade-offs? \\
 
 				\begin{multicols}{2}
@@ -477,8 +492,4 @@
 			\end{frame}
 
 \end{document}
-
-
-
-
 

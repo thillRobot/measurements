@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.1.31)  16 FEB 2026 15:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.3)  17 FEB 2026 20:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**calibration_handout
+**calibration_handout.tex
 (./calibration_handout.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -14,7 +14,7 @@ ment-testphase.sty
 Package: pdfmanagement-testphase 2026-01-23 v0.96y LaTeX PDF management bundle
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tagpdf/tagpdf-base.sty
-Package: tagpdf-base 2026-01-12 v0.99x part of tagpdf - provide base, no-op ver
+Package: tagpdf-base 2026-01-29 v0.99y part of tagpdf - provide base, no-op ver
 sions of the user commands 
 \c@g__tag_MCID_abs_int=\count275
 \c@g__tag_struct_abs_int=\count276
@@ -45,7 +45,7 @@ dle backend support:PDFoutput(pdfTeX)
 est.sty
 Package: latex-lab-testphase-latest 2025-09-13 v0.1d latex-lab modules
  (/usr/local/texlive/2025/texmf-dist/tex/latex/tagpdf/tagpdf.sty
-Package: tagpdf 2026-01-12 v0.99x  LaTeX kernel code for PDF tagging 
+Package: tagpdf 2026-01-29 v0.99y  LaTeX kernel code for PDF tagging 
 \l__tag_tmpa_int=\count285
 \l__tag_tmpa_box=\box55
 \l__tag_tmpb_box=\box56
@@ -54,7 +54,7 @@ Package: tagpdf 2026-01-12 v0.99x  LaTeX kernel code for PDF tagging
 \l__tag_tag_stop_int=\count288
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tagpdf/tagpdf-mc-code-generic.sty
-Package: tagpdf-mc-code-generic 2026-01-12 v0.99x part of tagpdf - code related
+Package: tagpdf-mc-code-generic 2026-01-29 v0.99y part of tagpdf - code related
  to marking chunks - generic mode
 \g__tag_mc_marks=\marks4
 )
@@ -272,8 +272,8 @@ Package pdfmanagement Info: loading pdfmanagement firstaid code for pgf
 
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/ltx-talk/ltx-talk.cls
-Document Class: ltx-talk 2026-01-26 v0.3.13 A class for typesetting presentatio
-ns
+Document Class: ltx-talk 2026-01-30 v0.4.0 A class for typesetting presentation
+s
 \l__talk_tmp_box=\box62
 \l__talk_fontsize_dim=\dimen152
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/size11.clo
@@ -608,27 +608,27 @@ Package: xcolor-patches-tmp-ltx 2026-01-23 v0.96y patch xcolor for l3color
 \g__talk_saved_parentequation_int=\count346
 
 LaTeX template Info: Declaring template type 'footer-element' taking 1
-(template)           argument(s) on line 720.
+(template)           argument(s) on line 722.
 
 \l__talk_footelem_left_skip=\dimen176
 \l__talk_footelem_right_skip=\dimen177
 
 LaTeX template Info: Declaring template type 'header' taking 0 argument(s) on
-(template)           line 755.
+(template)           line 757.
 
 \l__talk_header_ht_dim=\dimen178
 \l__talk_header_left_skip=\skip62
 \l__talk_header_right_skip=\skip63
 
 LaTeX template Info: Declaring template type 'footer' taking 0 argument(s) on
-(template)           line 802.
+(template)           line 804.
 
 \l__talk_footer_left_skip=\dimen179
 \l__talk_footer_right_skip=\dimen180
 \g__talk_frame_int=\count347
 
 LaTeX template Info: Declaring template type 'floatenv' taking 2 argument(s)
-(template)           on line 1088.
+(template)           on line 1090.
 
 \c@figure=\count348
 \g__talk_saved_figure_int=\count349
@@ -636,10 +636,11 @@ LaTeX template Info: Declaring template type 'floatenv' taking 2 argument(s)
 \g__talk_saved_table_int=\count351
 \abovecaptionskip=\skip64
 \belowcaptionskip=\skip65
+\g__talk_footnote_box=\box68
 \l__talk_shuffle_skip=\skip66
 
 LaTeX template Info: Declaring template type 'hidden' taking 0 argument(s) on
-(template)           line 1239.
+(template)           line 1265.
 
 \l__talk_overprint_int=\count352
 
@@ -662,7 +663,7 @@ Package graphics Info: Driver file: pdftex.def on input line 106.
 )
 
 LaTeX template Info: Declaring template type 'frametitle' taking 1 argument(s)
-(template)           on line 1639.
+(template)           on line 1665.
 
 \l__talk_frametitle_after_skip=\skip67
 \l__talk_frametitle_before_skip=\skip68
@@ -674,13 +675,13 @@ LaTeX template Info: Declaring template type 'frametitle' taking 1 argument(s)
 \g__talk_saved_subsubsection_int=\count358
 
 LaTeX template Info: Declaring template type 'titlepage-element' taking 1
-(template)           argument(s) on line 2102.
+(template)           argument(s) on line 2128.
 
 \l__talk_titlelem_after_skip=\dimen183
 \l__talk_titlelem_before_skip=\dimen184
 
 LaTeX template Info: Declaring template type 'titlepage' taking 0 argument(s)
-(template)           on line 2152.
+(template)           on line 2178.
 
 )
 (../measurements_lectures.sty
@@ -702,7 +703,7 @@ Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
 \c@tracingmulticols=\count360
-\mult@box=\box68
+\mult@box=\box69
 \multicol@leftmargin=\dimen186
 \c@unbalance=\count361
 \c@collectmore=\count362
@@ -715,15 +716,14 @@ Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
 \postmulticols=\dimen190
 \multicolsep=\skip71
 \multicolbaselineskip=\skip72
-\partial@page=\box69
-\last@line=\box70
-\mc@boxedresult=\box71
+\partial@page=\box70
+\last@line=\box71
+\mc@boxedresult=\box72
 \maxbalancingoverflow=\dimen191
-\mult@rightbox=\box72
-\mult@grightbox=\box73
-\mult@firstbox=\box74
-\mult@gfirstbox=\box75
-\@tempa=\box76
+\mult@rightbox=\box73
+\mult@grightbox=\box74
+\mult@firstbox=\box75
+\mult@gfirstbox=\box76
 \@tempa=\box77
 \@tempa=\box78
 \@tempa=\box79
@@ -759,14 +759,15 @@ Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
 \@tempa=\box109
 \@tempa=\box110
 \@tempa=\box111
+\@tempa=\box112
 \c@minrows=\count366
 \c@columnbadness=\count367
 \c@finalcolumnbadness=\count368
 \last@try=\dimen192
 \multicolovershoot=\dimen193
 \multicolundershoot=\dimen194
-\mult@nat@firstbox=\box112
-\colbreak@box=\box113
+\mult@nat@firstbox=\box113
+\colbreak@box=\box114
 \mc@col@check@num=\count369
 \g__mc_curr_col_int=\count370
 )
@@ -803,7 +804,7 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 Package: fancyvrb 2025/07/28 4.6 verbatim text (tvz,hv)
 \FV@CodeLineNo=\count375
 \FV@InFile=\read2
-\FV@TabBox=\box114
+\FV@TabBox=\box115
 \c@FancyVerbLine=\count376
 \g__talk_saved_FancyVerbLine_int=\count377
 \FV@StepNumber=\count378
@@ -823,10 +824,10 @@ Package: nccmath 2006/01/20 v1.3 Additional Math Commands (NCC)
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/keystroke/keystroke.sty
 Package: keystroke 2010/04/23 v1.6 3D keystrokes (SuSE GmbH/RN)
-\suse@key=\box115
-\keystroke@left=\box116
-\keystroke@right=\box117
-\keystroke@middle=\box118
+\suse@key=\box116
+\keystroke@left=\box117
+\keystroke@right=\box118
+\keystroke@middle=\box119
 <keystroke_left.pdf, id=22, 42.1575pt x 195.73125pt>
 
 
@@ -872,7 +873,7 @@ Package pdftex.def Info: keystroke_right.pdf  used on input line 173.
 (pdftex.def)             Requested size: 42.15738pt x 195.73076pt.
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box119
+\@vwid@box=\box120
 \sift@deathcycles=\count379
 \@vwid@loff=\dimen265
 \@vwid@roff=\dimen266
@@ -912,14 +913,14 @@ Package: tasks 2022/01/08 v1.4a lists with columns filled horizontally
 \l__tasks_custom_after_item_skip=\skip76
 \l__tasks_before_list_skip=\skip77
 \l__tasks_after_list_skip=\skip78
-\l__tasks_item_coffin=\box120
-\l__tasks_label_coffin=\box121
+\l__tasks_item_coffin=\box121
+\l__tasks_label_coffin=\box122
 \c@task=\count388
 \g__talk_saved_task_int=\count389
 \l__tasks_tmpa_int=\count390
 \l__tasks_tmpb_int=\count391
-\l__tasks_tmpa_coffin=\box122
-\l__tasks_tmpa_box=\box123
+\l__tasks_tmpa_coffin=\box123
+\l__tasks_tmpa_box=\box124
 
 LaTeX template Info: Declaring template type 'tasks' taking 3 argument(s) on
 (template)           line 450.
@@ -945,7 +946,7 @@ x
 \pgfutil@tempdimb=\dimen278
 )
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box124
+\pgfutil@abb=\box125
 ) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
@@ -1015,7 +1016,7 @@ Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen289
 \pgfmath@count=\count399
-\pgfmath@box=\box125
+\pgfmath@box=\box126
 \pgfmath@toks=\toks38
 \pgfmath@stack@operand=\toks39
 \pgfmath@stack@operation=\toks40
@@ -1075,9 +1076,9 @@ File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
 de.tex
 File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfpic=\box126
-\pgf@hbox=\box127
-\pgf@layerbox@main=\box128
+\pgfpic=\box127
+\pgf@hbox=\box128
+\pgf@layerbox@main=\box129
 \pgf@picture@serial@count=\count401
 )
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
@@ -1123,7 +1124,7 @@ File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
 code.tex
 File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfexternal@startupbox=\box129
+\pgfexternal@startupbox=\box130
 )
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
 de.tex
@@ -1144,7 +1145,7 @@ File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
 e.tex
 File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfnodeparttextbox=\box130
+\pgfnodeparttextbox=\box131
 )
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
 tex
@@ -1190,10 +1191,10 @@ File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \tikz@lastmovetoy=\dimen324
 \tikzleveldistance=\dimen325
 \tikzsiblingdistance=\dimen326
-\tikz@figbox=\box131
-\tikz@figbox@bg=\box132
-\tikz@tempbox=\box133
-\tikz@tempbox@bg=\box134
+\tikz@figbox=\box132
+\tikz@figbox@bg=\box133
+\tikz@tempbox=\box134
+\tikz@tempbox@bg=\box135
 \tikztreelevel=\count405
 \tikznumberofchildren=\count406
 \tikznumberofcurrentchild=\count407
@@ -1242,7 +1243,7 @@ s.code.tex
 \pgfdecorationsegmentamplitude=\dimen333
 \pgfdecorationsegmentlength=\dimen334
 )
-\tikz@lib@dec@box=\box135
+\tikz@lib@dec@box=\box136
 )
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
 brarydecorations.pathmorphing.code.tex))
@@ -1335,7 +1336,7 @@ File: tikzlibrarytrees.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count495
-\lst@gtempboxa=\box136
+\lst@gtempboxa=\box137
 \lst@token=\toks43
 \lst@length=\count496
 \lst@currlwidth=\dimen336
@@ -1355,7 +1356,7 @@ File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
 \c@lstnumber=\count501
 \g__talk_saved_lstnumber_int=\count502
 \lst@skipnumbers=\count503
-\lst@framebox=\box137
+\lst@framebox=\box138
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2025/11/14 1.11b listings configuration
@@ -1371,7 +1372,7 @@ Package: listings 2025/11/14 1.11b (Carsten Heinz)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
 ))
-\mybox=\box138
+\mybox=\box139
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
@@ -1382,62 +1383,62 @@ File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO
 \BKM@id=\count504
 ))
 
-LaTeX template Info: Declaring instance 'basic' of type item on line 63.
+LaTeX template Info: Declaring instance 'basic' of type item on line 64.
 
 
-LaTeX template Info: Declaring instance 'description' of type item on line 63.
+LaTeX template Info: Declaring instance 'description' of type item on line 64.
 
 
 (./calibration_handout.aux)
 \openout1 = `calibration_handout.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmssm/m/it on input line 63.
+LaTeX Font Info:    Checking defaults for OML/cmssm/m/it on input line 64.
 LaTeX Font Info:    Trying to load font information for OML+cmssm on input line
- 63.
+ 64.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/sansmathfonts/omlcmssm.fd
 File: omlcmssm.fd 2024/10/15
 )
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMS/cmsssy/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMS/cmsssy/m/n on input line 64.
 LaTeX Font Info:    Trying to load font information for OMS+cmsssy on input lin
-e 63.
+e 64.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/sansmathfonts/omscmsssy.fd
 File: omscmsssy.fd 2024/10/15
 )
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMX/cmssex/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMX/cmssex/m/n on input line 64.
 LaTeX Font Info:    Trying to load font information for OMX+cmssex on input lin
-e 63.
+e 64.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/sansmathfonts/omxcmssex.fd
 File: omxcmssex.fd 2024/10/15
 )
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for U/xcmss/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for U/xcmss/m/n on input line 64.
 LaTeX Font Info:    Trying to load font information for U+xcmss on input line 6
-3.
+4.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/sansmathfonts/uxcmss.fd
 File: uxcmss.fd 2024/10/15
 )
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
 
-LaTeX template Info: Declaring instance 'wallpaper' of type header on line 63.
+LaTeX template Info: Declaring instance 'wallpaper' of type header on line 64.
 
 
-LaTeX template Info: Declaring instance 'wallpaper' of type footer on line 63.
+LaTeX template Info: Declaring instance 'wallpaper' of type footer on line 64.
 
 
 *geometry* driver: auto-detecting
@@ -1474,12 +1475,12 @@ LaTeX template Info: Declaring instance 'wallpaper' of type footer on line 63.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 63.
+Package hyperref Info: Link coloring OFF on input line 64.
 (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count505
 \scratchdimen=\dimen340
-\scratchbox=\box139
+\scratchbox=\box140
 \nofMPsegments=\count506
 \nofMParguments=\count507
 \everyMPshowfont=\toks44
@@ -1501,12 +1502,12 @@ e
 \g__talk_saved_lstlisting_int=\count512
 <<sRGB.icc>>
 LaTeX Font Info:    Trying to load font information for OT1+cmsmf on input line
- 63.
+ 64.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/sansmathfonts/ot1cmsmf.fd
 File: ot1cmsmf.fd 2024/10/15
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 63
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 64
 .
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/wasysym/uwasy.fd
@@ -1517,7 +1518,7 @@ File: lstlang1.sty 2025/11/14 1.11b listings language file
 ) [1{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr
 /local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}]
 LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
-82.
+83.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmss.fd
 File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -1534,7 +1535,7 @@ Package tagpdf Warning: Alternative text for graphic is missing.
 
 File: images/bracket.jpg Graphic file (type jpg)
 <use images/bracket.jpg>
-Package pdftex.def Info: images/bracket.jpg  used on input line 121.
+Package pdftex.def Info: images/bracket.jpg  used on input line 122.
 (pdftex.def)             Requested size: 81.8858pt x 61.41435pt.
 [4
 
@@ -1565,7 +1566,7 @@ Package tagpdf Warning: Alternative text for graphic is missing.
 
 File: images/calibration_curve.png Graphic file (type png)
 <use images/calibration_curve.png>
-Package pdftex.def Info: images/calibration_curve.png  used on input line 315.
+Package pdftex.def Info: images/calibration_curve.png  used on input line 319.
 (pdftex.def)             Requested size: 181.3447pt x 141.43231pt.
 [14
 
@@ -1582,7 +1583,7 @@ Package tagpdf Warning: Alternative text for graphic is missing.
 
 File: images/sharp_ranger.jpg Graphic file (type jpg)
 <use images/sharp_ranger.jpg>
-Package pdftex.def Info: images/sharp_ranger.jpg  used on input line 356.
+Package pdftex.def Info: images/sharp_ranger.jpg  used on input line 360.
 (pdftex.def)             Requested size: 135.01486pt x 54.90024pt.
 <images/sharp_calibration_fig1.png, id=615, 954.56625pt x 742.775pt>
 
@@ -1592,7 +1593,7 @@ Package tagpdf Warning: Alternative text for graphic is missing.
 File: images/sharp_calibration_fig1.png Graphic file (type png)
 <use images/sharp_calibration_fig1.png>
 Package pdftex.def Info: images/sharp_calibration_fig1.png  used on input line 
-356.
+360.
 (pdftex.def)             Requested size: 143.17876pt x 111.41144pt.
 <images/sharp_calibration_fig2.png, id=618, 967.615pt x 754.82pt>
 
@@ -1602,7 +1603,7 @@ Package tagpdf Warning: Alternative text for graphic is missing.
 File: images/sharp_calibration_fig2.png Graphic file (type png)
 <use images/sharp_calibration_fig2.png>
 Package pdftex.def Info: images/sharp_calibration_fig2.png  used on input line 
-356.
+360.
 (pdftex.def)             Requested size: 145.13599pt x 113.21811pt.
 [17
 
@@ -1620,7 +1621,7 @@ Package tagpdf Warning: Alternative text for graphic is missing.
 
 File: images/lecture4_fig1.png Graphic file (type png)
 <use images/lecture4_fig1.png>
-Package pdftex.def Info: images/lecture4_fig1.png  used on input line 405.
+Package pdftex.def Info: images/lecture4_fig1.png  used on input line 409.
 (pdftex.def)             Requested size: 320.39133pt x 154.97624pt.
 [20
 
@@ -1628,7 +1629,7 @@ Package pdftex.def Info: images/lecture4_fig1.png  used on input line 405.
 
 ]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 450.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 454.
  [22
 
 ] [23
@@ -1640,7 +1641,7 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 6
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Overfull \vbox (39.64708pt too high) detected at line 513
+Overfull \vbox (39.64708pt too high) detected at line 517
  []
 
 [24
@@ -1656,7 +1657,7 @@ Package tagpdf Warning: Alternative text for graphic is missing.
 
 File: images/calibration_fig2.png Graphic file (type png)
 <use images/calibration_fig2.png>
-Package pdftex.def Info: images/calibration_fig2.png  used on input line 552.
+Package pdftex.def Info: images/calibration_fig2.png  used on input line 556.
 (pdftex.def)             Requested size: 205.56435pt x 165.41505pt.
 [26
 
@@ -1669,7 +1670,7 @@ Package tagpdf Warning: Alternative text for graphic is missing.
 
 File: images/calibration_fig1.png Graphic file (type png)
 <use images/calibration_fig1.png>
-Package pdftex.def Info: images/calibration_fig1.png  used on input line 562.
+Package pdftex.def Info: images/calibration_fig1.png  used on input line 566.
 (pdftex.def)             Requested size: 151.36162pt x 121.67145pt.
 
 Package tagpdf Warning: Alternative text for graphic is missing.
@@ -1678,7 +1679,7 @@ Package tagpdf Warning: Alternative text for graphic is missing.
 File: images/sharp_calibration_fig1.png Graphic file (type png)
 <use images/sharp_calibration_fig1.png>
 Package pdftex.def Info: images/sharp_calibration_fig1.png  used on input line 
-562.
+566.
 (pdftex.def)             Requested size: 143.17876pt x 111.41144pt.
 [27
 
@@ -1689,9 +1690,6 @@ Package pdftex.def Info: images/sharp_calibration_fig1.png  used on input line
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package tagpdf Info: Finalizing the tagging structure:
@@ -1708,13 +1706,13 @@ Package tagpdf Info: writing StructElems
 Package tagpdf Info: writing Root
  ) 
 Here is how much of TeX's memory you used:
- 36662 strings out of 467533
- 806023 string characters out of 5419495
- 1574458 words of memory out of 5000000
- 64813 multiletter control sequences out of 15000+600000
+ 36632 strings out of 467533
+ 805191 string characters out of 5419496
+ 1574703 words of memory out of 5000000
+ 64783 multiletter control sequences out of 15000+600000
  681230 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 118i,10n,122p,518b,1914s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 118i,10n,122p,522b,1886s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><
 /usr/local/texlive/2025/texmf-dist/fonts/type1/public/sansmathfonts/cmssmi10.pf
@@ -1729,7 +1727,7 @@ al/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/
 mf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2025/texmf-dist/f
 onts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1
 /public/pdftex/pdftexspace.pfb>
-Output written on calibration_handout.pdf (28 pages, 2146627 bytes).
+Output written on calibration_handout.pdf (28 pages, 2146706 bytes).
 PDF statistics:
  1196 PDF objects out of 1200 (max. 8388607)
  1099 compressed objects within 11 object streams
